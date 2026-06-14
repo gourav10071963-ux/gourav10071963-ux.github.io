@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>upscIAS | Daily PIB Notes</title>
+  <meta name="description" content="Upload, save, and revise daily PIB current affairs notes for UPSC preparation.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <span>UPSC CSE 2026 preparation hub</span>
+      <nav aria-label="Quick links">
+        <a href="index.html#quiz-archive">Quiz Archive</a>
+        <a href="#notesLibrary">Notes Library</a>
+        <a href="#uploadPanel">Upload PIB Notes</a>
+      </nav>
+    </div>
+    <div class="brand-row">
+      <a class="brand" href="index.html" aria-label="upscIAS home">
+        <span class="brand-mark">uI</span>
+        <span><strong>upscIAS</strong><small>Current Affairs Practice</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="pib-notes.html" aria-current="page">PIB Notes</a>
+        <a href="index.html#quiz-lab">Daily Quiz</a>
+        <a href="#">Mains</a>
+        <a href="#">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="notes-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Daily PIB current affairs</p>
+        <h1>PIB Notes Upload</h1>
+        <p>Keep PIB releases, exam-relevant summaries, tags, and revision status in one local upscIAS workspace.</p>
+      </div>
+    </section>
+
+    <section class="notes-shell" id="uploadPanel">
+      <form class="notes-form" id="notesForm">
+        <div class="section-heading">
+          <p class="eyebrow">Upload</p>
+          <h2>Daily PIB Current Affairs Notes</h2>
+          <p>Add a written summary or import a text file. Saved notes stay in this browser on your machine.</p>
+        </div>
+
+        <div class="form-grid">
+          <div>
+            <label for="noteDate">Date</label>
+            <input id="noteDate" name="noteDate" type="date" required>
+          </div>
+          <div>
+            <label for="noteTitle">Title</label>
+            <input id="noteTitle" name="noteTitle" type="text" placeholder="PIB summary headline" required>
+          </div>
+        </div>
+
+        <div class="form-grid">
+          <div>
+            <label for="noteTags">Tags</label>
+            <input id="noteTags" name="noteTags" type="text" placeholder="Polity, Economy, Science">
+          </div>
+          <div>
+            <label for="sourceUrl">Source URL</label>
+            <input id="sourceUrl" name="sourceUrl" type="url" placeholder="https://pib.gov.in/...">
+          </div>
+        </div>
+
+        <div>
+          <label for="noteFile">Upload notes file</label>
+          <input id="noteFile" name="noteFile" type="file" accept=".txt,.md,.markdown,.csv">
+        </div>
+
+        <div>
+          <label for="noteBody">Notes</label>
+          <textarea id="noteBody" name="noteBody" rows="12" placeholder="Paste PIB points, facts, schemes, ministries, prelims triggers, and mains angles here." required></textarea>
+        </div>
+
+        <div class="notes-actions">
+          <button class="primary-action" type="submit">Save Note</button>
+          <button class="secondary-action dark" type="button" id="clearForm">Clear</button>
+          <output class="quiz-score" id="notesStatus" aria-live="polite"></output>
+        </div>
+      </form>
+
+      <aside class="notes-side">
+        <section class="widget highlight">
+          <h2>PIB Checklist</h2>
+          <ul class="check-list">
+            <li>Ministry or institution</li>
+            <li>Scheme objective and target group</li>
+            <li>Data, report, index, or location</li>
+            <li>Prelims fact and mains angle</li>
+          </ul>
+        </section>
+        <section class="widget">
+          <h2>Quick Tags</h2>
+          <div class="tags" id="quickTags">
+            <button type="button">Polity</button>
+            <button type="button">Economy</button>
+            <button type="button">Environment</button>
+            <button type="button">Science</button>
+            <button type="button">IR</button>
+            <button type="button">Schemes</button>
+          </div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="notes-library" id="notesLibrary">
+      <div class="section-heading">
+        <p class="eyebrow">Library</p>
+        <h2>Saved PIB Notes</h2>
+        <p>Search by date, title, tags, or note text.</p>
+      </div>
+      <div class="library-toolbar">
+        <input id="notesSearch" type="search" placeholder="Search saved PIB notes">
+        <button class="secondary-action dark" type="button" id="exportNotes">Export JSON</button>
+      </div>
+      <div class="notes-list" id="notesList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>upscIAS</strong>
+    <span>Daily PIB current affairs notes for civil services preparation.</span>
+  </footer>
+
+  <script src="pib-notes.js"></script>
+</body>
+</html>
