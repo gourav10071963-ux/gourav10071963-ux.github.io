@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>upscIAS | Current Affairs Quiz</title>
-  <meta name="description" content="Daily current affairs quiz archive for UPSC civil services preparation by upscIAS.">
+  <title>upscIAS | Daily PIB Notes</title>
+  <meta name="description" content="Read comprehensive date-wise PIB current affairs notes for UPSC preparation.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,9 +12,8 @@
     <div class="topline">
       <span>UPSC CSE 2026 preparation hub</span>
       <nav aria-label="Quick links">
-        <a href="#quiz-archive">Quiz Archive</a>
-        <a href="#daily-tools">Daily Tools</a>
-        <a href="#resources">Resources</a>
+        <a href="quiz.html#quiz-archive">Quiz Archive</a>
+        <a href="#dailyPib">Daily PIB Notes</a>
       </nav>
     </div>
     <div class="brand-row">
@@ -24,146 +23,79 @@
       </a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
       <nav class="main-nav" id="mainNav" aria-label="Main navigation">
-        <a href="index.html">Home</a>
+        <a href="index.html" aria-current="page">Home</a>
         <a href="pib-notes.html">PIB Notes</a>
-        <a href="#">Daily Current Affairs</a>
-        <a href="#">Prelims</a>
+        <a href="quiz.html#quiz-lab">Daily Quiz</a>
         <a href="#">Mains</a>
-        <a href="#">Secure Initiative</a>
         <a href="#">Downloads</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="notes-hero">
       <div class="hero-copy">
-        <p class="eyebrow">Daily MCQ practice for serious aspirants</p>
-        <h1>Current Affairs Quiz</h1>
-        <p>Build a steady revision habit with date-wise quizzes, monthly archives, and quick filters for recent practice sets.</p>
-        <div class="hero-actions">
-          <a class="primary-action" href="#quiz-archive">Start Practice</a>
-          <a class="secondary-action" href="#daily-tools">View Plan</a>
-        </div>
+        <p class="eyebrow">Daily PIB current affairs</p>
+        <h1>PIB Notes</h1>
+        <p>Read comprehensive daily PIB notes and switch dates to revise older PIB briefs.</p>
       </div>
     </section>
 
-    <section class="search-band" aria-label="Archive search">
-      <div>
-        <label for="quizSearch">Search quiz archive</label>
-        <input id="quizSearch" type="search" placeholder="Search by month, date, or topic">
-      </div>
-      <div class="stats">
-        <span><strong>120+</strong> curated quizzes</span>
-        <span><strong>10</strong> questions each</span>
-        <span><strong>Daily</strong> revision rhythm</span>
-      </div>
-    </section>
-
-    <section class="quiz-lab" id="quiz-lab" aria-labelledby="quizLabTitle">
-      <div class="quiz-lab-header">
+    <section class="daily-pib" id="dailyPib">
+      <div class="daily-pib-head">
         <div>
-          <p class="eyebrow">Last 5 available days</p>
-          <h2 id="quizLabTitle">Practice Recent Current Affairs Quizzes</h2>
-          <p>Choose a day, attempt the questions, then submit to see your score and explanations.</p>
+          <p class="eyebrow">Comprehensive brief</p>
+          <h2>Daily PIB Notes</h2>
+          <p id="dailyPibIntro">Select a date to load comprehensive PIB notes for that day.</p>
         </div>
-        <a class="source-link" id="activeSource" href="https://www.insightsonindia.com/2026/06/13/upsc-current-affairs-quiz-13-june-2026/" target="_blank" rel="noreferrer">View source quiz</a>
+        <div class="date-loader">
+          <label for="pibDateSelect">Load PIB notes by date</label>
+          <div class="date-loader-controls">
+            <select id="pibDateSelect">
+              <option value="2026-06-19">19 June 2026</option>
+              <option value="2026-06-18">18 June 2026</option>
+              <option value="2026-06-17">17 June 2026</option>
+            </select>
+            <button class="primary-action" type="button" id="loadPibDate">Load Notes</button>
+          </div>
+        </div>
       </div>
-      <div class="quiz-tabs" id="quizTabs" role="tablist" aria-label="Recent quiz dates"></div>
-      <form class="quiz-form" id="quizForm"></form>
-      <div class="quiz-actions">
-        <button class="primary-action" type="button" id="submitQuiz">Submit Quiz</button>
-        <button class="secondary-action dark" type="button" id="resetQuiz">Reset</button>
-        <output class="quiz-score" id="quizScore" aria-live="polite"></output>
+
+      <div class="daily-pib-grid">
+        <article class="one-pager" aria-labelledby="summaryDate">
+          <div class="summary-title-row">
+            <div>
+              <time id="summaryDate"></time>
+              <h3 id="summaryTitle"></h3>
+            </div>
+          </div>
+          <p class="summary-lead" id="summaryLead"></p>
+          <div class="summary-blocks" id="summaryBlocks"></div>
+        </article>
+
+        <aside class="summary-side">
+          <section class="widget highlight">
+            <h2>Prelims Triggers</h2>
+            <ul class="check-list" id="prelimsTriggers"></ul>
+          </section>
+          <section class="widget">
+            <h2>Mains Angles</h2>
+            <ul class="check-list" id="mainsAngles"></ul>
+          </section>
+          <section class="widget">
+            <h2>Sources</h2>
+            <div class="source-list" id="summarySources"></div>
+          </section>
+        </aside>
       </div>
     </section>
-
-    <div class="content-shell">
-      <section class="archive" id="quiz-archive">
-        <div class="section-heading">
-          <p class="eyebrow">Archive</p>
-          <h2>upscIAS Current Affairs Quiz</h2>
-          <p>Browse recent quizzes in a familiar date-wise format inspired by leading UPSC preparation portals.</p>
-        </div>
-
-        <div class="month-group" data-month="June 2026">
-          <h3>June 2026</h3>
-          <ul class="quiz-list">
-            <li><a href="#quiz-lab" data-quiz-id="2026-06-13">Current Affairs Quiz: 13 June 2026</a><span>Agriculture, ecology, security</span></li>
-            <li><a href="#quiz-lab" data-quiz-id="2026-06-12">Current Affairs Quiz: 12 June 2026</a><span>Science, IR, schemes</span></li>
-            <li><a href="#quiz-lab" data-quiz-id="2026-06-11">Current Affairs Quiz: 11 June 2026</a><span>Reports, agriculture, geography</span></li>
-            <li><a href="#quiz-lab" data-quiz-id="2026-06-10">Current Affairs Quiz: 10 June 2026</a><span>Culture, security, governance</span></li>
-            <li><a href="#quiz-lab" data-quiz-id="2026-06-09">Current Affairs Quiz: 9 June 2026</a><span>Budget, indices, biodiversity</span></li>
-            <li><a href="#">Current Affairs Quiz: 8 June 2026</a><span>Judiciary, health, technology</span></li>
-          </ul>
-        </div>
-
-        <div class="month-group" data-month="May 2026">
-          <h3>May 2026</h3>
-          <ul class="quiz-list">
-            <li><a href="#">Current Affairs Quiz: 31 May 2026</a><span>Weekly revision set</span></li>
-            <li><a href="#">Current Affairs Quiz: 30 May 2026</a><span>Economy and external sector</span></li>
-            <li><a href="#">Current Affairs Quiz: 29 May 2026</a><span>Climate, policy, institutions</span></li>
-            <li><a href="#">Current Affairs Quiz: 28 May 2026</a><span>Defence, space, heritage</span></li>
-            <li><a href="#">Current Affairs Quiz: 27 May 2026</a><span>Social justice, education</span></li>
-          </ul>
-        </div>
-
-        <div class="month-group" data-month="April 2026">
-          <h3>April 2026</h3>
-          <ul class="quiz-list">
-            <li><a href="#">Current Affairs Quiz: 30 April 2026</a><span>Monthly close revision</span></li>
-            <li><a href="#">Current Affairs Quiz: 29 April 2026</a><span>Environment and ecology</span></li>
-            <li><a href="#">Current Affairs Quiz: 28 April 2026</a><span>International relations</span></li>
-            <li><a href="#">Current Affairs Quiz: 27 April 2026</a><span>Government schemes</span></li>
-            <li><a href="#">Current Affairs Quiz: 26 April 2026</a><span>Prelims fact check</span></li>
-          </ul>
-        </div>
-
-        <div class="pagination" aria-label="Archive pages">
-          <a href="#" aria-current="page">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">Next</a>
-        </div>
-      </section>
-
-      <aside class="sidebar">
-        <section class="widget" id="daily-tools">
-          <h2>Daily Tools</h2>
-          <a href="#">Daily Quiz</a>
-          <a href="pib-notes.html">PIB Notes Upload</a>
-          <a href="#">Current Affairs Notes</a>
-          <a href="#">Editorial Summary</a>
-          <a href="#">Prelims Tracker</a>
-        </section>
-
-        <section class="widget highlight" id="resources">
-          <h2>upscIAS Plan</h2>
-          <p>Read, revise, test, and mark mistakes every day. Keep the loop small enough to repeat.</p>
-          <button type="button">Download Study Planner</button>
-        </section>
-
-        <section class="widget">
-          <h2>Popular Areas</h2>
-          <div class="tags">
-            <span>Polity</span>
-            <span>Economy</span>
-            <span>Environment</span>
-            <span>IR</span>
-            <span>Science</span>
-            <span>Governance</span>
-          </div>
-        </section>
-      </aside>
-    </div>
   </main>
 
   <footer>
     <strong>upscIAS</strong>
-    <span>Daily current affairs quiz archive for civil services preparation.</span>
+    <span>Daily PIB current affairs notes for civil services preparation.</span>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="pib-notes.js?v=20260619-7"></script>
 </body>
 </html>
