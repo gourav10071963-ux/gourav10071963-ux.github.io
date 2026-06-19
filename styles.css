@@ -466,13 +466,20 @@ textarea {
 
 .date-loader-controls {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   gap: 10px;
 }
 
-.date-loader-controls .primary-action {
+.date-loader-controls .primary-action,
+.date-loader-controls .quiz-jump {
   min-height: 48px;
   white-space: nowrap;
+}
+
+.date-loader-controls .quiz-jump {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .daily-pib-grid {
