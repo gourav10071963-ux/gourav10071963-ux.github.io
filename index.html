@@ -56,7 +56,7 @@
       <nav class="main-nav" id="mainNav" aria-label="Main navigation">
         <a href="index.html" aria-current="page">Home</a>
         <a href="pib-notes.html">PIB Notes</a>
-        <a href="quiz.html#quiz-lab">Daily Quiz</a>
+        <a href="#daily-notes-quiz">Daily Quiz</a>
         <a href="#">Mains</a>
         <a href="#">Downloads</a>
       </nav>
@@ -120,6 +120,20 @@
         </aside>
       </div>
     </section>
+
+    <section class="daily-note-quiz" id="daily-notes-quiz">
+      <div class="section-heading">
+        <p class="eyebrow">Daily Quiz</p>
+        <h2>Quiz From Daily PIB Notes</h2>
+        <p id="noteQuizIntro">Attempt MCQs from the selected PIB notes.</p>
+      </div>
+      <form class="quiz-form" id="noteQuizForm"></form>
+      <div class="quiz-actions">
+        <button class="primary-action" type="button" id="submitNoteQuiz">Submit Quiz</button>
+        <button class="secondary-action dark" type="button" id="resetNoteQuiz">Reset</button>
+        <output class="quiz-score" id="noteQuizScore" aria-live="polite"></output>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -131,6 +145,6 @@
     </span>
   </footer>
 
-  <script src="pib-notes.js?v=20260619-7"></script>
+  <script src="pib-notes.js?v=20260619-8"></script>
 </body>
 </html>

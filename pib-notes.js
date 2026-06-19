@@ -344,6 +344,93 @@ const dailySummaries = [
   }
 ];
 
+const dailyNoteQuizzes = {
+  "2026-06-19": [
+    {
+      question: "The 23rd PM-KISAN instalment mentioned in the notes is worth approximately:",
+      options: ["Rs 18,880 crore", "Rs 25,016 crore", "Rs 95,692 crore", "Rs 46,000 crore"],
+      answer: 0,
+      explanation: "The release says the 23rd PM-KISAN instalment is worth Rs 18,880 crore for more than 9.44 crore farmers."
+    },
+    {
+      question: "India's first commercial-scale coal-to-ammonium nitrate project is planned at:",
+      options: ["Haldia, West Bengal", "Lakhanpur, Jharsuguda, Odisha", "Devasthal, Uttarakhand", "Nagpur, Maharashtra"],
+      answer: 1,
+      explanation: "The project is planned at Lakhanpur in Jharsuguda district of Odisha."
+    },
+    {
+      question: "The Bharat Climate Observation Network station in the notes is linked with which institutions?",
+      options: ["ISRO and DRDO", "IITM and ARIES", "ICAR and NABARD", "CWC and FCI"],
+      answer: 1,
+      explanation: "IITM, Pune and ARIES, Nainital signed the MoU for a BCON station at ARIES Devasthal."
+    },
+    {
+      question: "The VB-G RAM G Act, 2025 is scheduled to come into force on:",
+      options: ["20 June 2026", "1 July 2026", "15 August 2026", "2 October 2026"],
+      answer: 1,
+      explanation: "The notes mention that the Act comes into force on 1 July 2026."
+    },
+    {
+      question: "SETU, mentioned under scholarship access reforms, was launched on which platform?",
+      options: ["UMANG", "DigiLocker", "GeM", "AgriStack"],
+      answer: 0,
+      explanation: "SETU was launched on UMANG as a scholarship interface for applicants and officials."
+    }
+  ],
+  "2026-06-18": [
+    {
+      question: "Which group of States is mentioned for Price Support Scheme procurement?",
+      options: ["Bihar, Punjab, Kerala and Assam", "Tamil Nadu, Gujarat, Uttar Pradesh and Haryana", "Maharashtra, Odisha, Karnataka and Rajasthan", "West Bengal, Sikkim, Goa and Delhi"],
+      answer: 1,
+      explanation: "The PSS procurement approvals covered Tamil Nadu, Gujarat, Uttar Pradesh and Haryana."
+    },
+    {
+      question: "Smart Seed Coating Technology was developed by:",
+      options: ["ICAR-IIOR, Hyderabad", "IITM, Pune", "NRAA, New Delhi", "ARIES, Nainital"],
+      answer: 0,
+      explanation: "ICAR-IIOR, Hyderabad developed the biodegradable Smart Seed Coating Technology."
+    },
+    {
+      question: "The Smart Warehousing System was implemented across 215 warehouses of which organisation?",
+      options: ["Food Corporation of India", "Central Warehousing Corporation", "NABARD", "Common Service Centres"],
+      answer: 1,
+      explanation: "The notes mention 215 bag-based warehouses of the Central Warehousing Corporation."
+    },
+    {
+      question: "The first indigenous Air Cushion Vehicle inducted by the Indian Coast Guard is being constructed by:",
+      options: ["Garden Reach Shipbuilders and Engineers", "Chowgule & Company Private Limited", "Bharat Heavy Electricals Limited", "Yantra India Limited"],
+      answer: 1,
+      explanation: "The ACVs are being constructed by Chowgule & Company Private Limited."
+    },
+    {
+      question: "The REWARD programme in the notes is mainly connected with:",
+      options: ["Urban metro planning", "Watershed management and rainfed areas", "Pharmacopoeia standards", "Documentary film restoration"],
+      answer: 1,
+      explanation: "REWARD is a World Bank-assisted programme connected with watershed management and rainfed area development."
+    }
+  ],
+  "2026-06-17": [
+    {
+      question: "For defence-related PIB releases, the notes suggest mapping:",
+      options: ["Only the minister's quote", "Platform, service, location and indigenous component", "Only the budget number", "Only the press conference venue"],
+      answer: 1,
+      explanation: "The revision method asks learners to capture the platform, service, location and indigenous component."
+    },
+    {
+      question: "Development and welfare releases should be classified under sectors such as:",
+      options: ["Agriculture, health, education, social justice, livelihoods or infrastructure", "Only culture and sports", "Only foreign policy", "Only taxation"],
+      answer: 0,
+      explanation: "The notes recommend classifying welfare releases under these development sectors."
+    },
+    {
+      question: "For culture-related PIB releases, the notes suggest capturing:",
+      options: ["Location, tradition, institution and conservation angle", "Only the chief guest's name", "Only the event duration", "Only the ticket price"],
+      answer: 0,
+      explanation: "The cultural revision hook is location, tradition, institution and conservation angle."
+    }
+  ]
+};
+
 const menuButton = document.querySelector(".menu-button");
 const mainNav = document.querySelector("#mainNav");
 const pibDateSelect = document.querySelector("#pibDateSelect");
@@ -356,6 +443,12 @@ const summaryBlocks = document.querySelector("#summaryBlocks");
 const prelimsTriggers = document.querySelector("#prelimsTriggers");
 const mainsAngles = document.querySelector("#mainsAngles");
 const summarySources = document.querySelector("#summarySources");
+const noteQuizIntro = document.querySelector("#noteQuizIntro");
+const noteQuizForm = document.querySelector("#noteQuizForm");
+const submitNoteQuiz = document.querySelector("#submitNoteQuiz");
+const resetNoteQuiz = document.querySelector("#resetNoteQuiz");
+const noteQuizScore = document.querySelector("#noteQuizScore");
+let activeSummary = dailySummaries[0];
 
 function today() {
   return new Date().toISOString().slice(0, 10);
@@ -416,7 +509,68 @@ function renderList(target, items) {
   target.innerHTML = items.map((item) => `<li>${formatText(item)}</li>`).join("");
 }
 
+function renderNoteQuiz(summary) {
+  if (!noteQuizForm) return;
+
+  const questions = dailyNoteQuizzes[summary.date] || [];
+  noteQuizIntro.textContent = questions.length
+    ? `Attempt ${questions.length} MCQs from ${summary.label} PIB notes.`
+    : "Quiz questions will be added for this PIB date soon.";
+  noteQuizScore.value = "";
+  noteQuizForm.innerHTML = questions.map((item, index) => `
+    <fieldset class="question-block" data-question-index="${index}">
+      <legend><span>${index + 1}</span>${escapeHtml(item.question)}</legend>
+      <div class="options">
+        ${item.options.map((option, optionIndex) => `
+          <label>
+            <input type="radio" name="note-q-${index}" value="${optionIndex}">
+            <span>${escapeHtml(option)}</span>
+          </label>
+        `).join("")}
+      </div>
+    </fieldset>
+  `).join("");
+}
+
+function gradeNoteQuiz() {
+  const questions = dailyNoteQuizzes[activeSummary.date] || [];
+  if (!questions.length) return;
+
+  let score = 0;
+  questions.forEach((item, index) => {
+    const block = noteQuizForm.querySelector(`[data-question-index="${index}"]`);
+    const selected = noteQuizForm.querySelector(`input[name="note-q-${index}"]:checked`);
+    const selectedAnswer = selected ? Number(selected.value) : -1;
+    const isCorrect = selectedAnswer === item.answer;
+
+    if (isCorrect) score += 1;
+    block.classList.toggle("is-correct", isCorrect);
+    block.classList.toggle("is-incorrect", !isCorrect);
+
+    let explanation = block.querySelector(".explanation");
+    if (!explanation) {
+      explanation = document.createElement("p");
+      explanation.className = "explanation";
+      block.appendChild(explanation);
+    }
+    explanation.textContent = `${isCorrect ? "Correct." : "Revise this."} ${item.explanation}`;
+  });
+
+  noteQuizScore.value = `Score: ${score}/${questions.length}`;
+}
+
+function resetNoteQuizAnswers() {
+  if (!noteQuizForm) return;
+  noteQuizForm.reset();
+  noteQuizForm.querySelectorAll(".question-block").forEach((block) => {
+    block.classList.remove("is-correct", "is-incorrect");
+  });
+  noteQuizForm.querySelectorAll(".explanation").forEach((item) => item.remove());
+  noteQuizScore.value = "";
+}
+
 function renderDailySummary(summary) {
+  activeSummary = summary;
   dailyPibIntro.textContent = summary.date === today()
     ? "Showing today's comprehensive PIB notes. Switch the date to revise earlier briefs."
     : "Showing comprehensive PIB notes for the selected date.";
@@ -441,6 +595,7 @@ function renderDailySummary(summary) {
       <small>${escapeHtml(source.note)}</small>
     </a>
   `).join("");
+  renderNoteQuiz(summary);
 }
 
 function setupDailySummaries() {
@@ -468,5 +623,7 @@ menuButton.addEventListener("click", () => {
 
 pibDateSelect.addEventListener("change", loadSelectedSummary);
 loadPibDate.addEventListener("click", loadSelectedSummary);
+submitNoteQuiz.addEventListener("click", gradeNoteQuiz);
+resetNoteQuiz.addEventListener("click", resetNoteQuizAnswers);
 
 setupDailySummaries();

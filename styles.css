@@ -420,6 +420,18 @@ textarea {
   font-weight: 800;
 }
 
+.daily-note-quiz {
+  max-width: 1180px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.daily-note-quiz .section-heading p:last-child {
+  margin-bottom: 20px;
+}
+
 .notes-shell,
 .daily-pib,
 .notes-library {
@@ -943,7 +955,8 @@ footer {
     margin-top: 22px;
   }
 
-  .quiz-lab {
+  .quiz-lab,
+  .daily-note-quiz {
     margin-top: 22px;
     padding: 22px;
   }
