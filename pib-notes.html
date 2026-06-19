@@ -38,7 +38,50 @@
       <div class="hero-copy">
         <p class="eyebrow">Daily PIB current affairs</p>
         <h1>PIB Notes Upload</h1>
-        <p>Keep PIB releases, exam-relevant summaries, tags, and revision status in one local upscIAS workspace.</p>
+        <p>Read the daily one-pager, switch dates for older briefs, and save your own PIB notes in one local upscIAS workspace.</p>
+      </div>
+    </section>
+
+    <section class="daily-pib" id="dailyPib">
+      <div class="daily-pib-head">
+        <div>
+          <p class="eyebrow">One-page brief</p>
+          <h2>Daily PIB Summary</h2>
+          <p id="dailyPibIntro">Select a date to load the prepared PIB notes for that day.</p>
+        </div>
+        <div class="date-loader">
+          <label for="pibDateSelect">Load PIB notes by date</label>
+          <select id="pibDateSelect"></select>
+        </div>
+      </div>
+
+      <div class="daily-pib-grid">
+        <article class="one-pager" aria-labelledby="summaryDate">
+          <div class="summary-title-row">
+            <div>
+              <time id="summaryDate"></time>
+              <h3 id="summaryTitle"></h3>
+            </div>
+            <button class="secondary-action dark" type="button" id="useSummaryNote">Use in My Notes</button>
+          </div>
+          <p class="summary-lead" id="summaryLead"></p>
+          <div class="summary-blocks" id="summaryBlocks"></div>
+        </article>
+
+        <aside class="summary-side">
+          <section class="widget highlight">
+            <h2>Prelims Triggers</h2>
+            <ul class="check-list" id="prelimsTriggers"></ul>
+          </section>
+          <section class="widget">
+            <h2>Mains Angles</h2>
+            <ul class="check-list" id="mainsAngles"></ul>
+          </section>
+          <section class="widget">
+            <h2>Sources</h2>
+            <div class="source-list" id="summarySources"></div>
+          </section>
+        </aside>
       </div>
     </section>
 
