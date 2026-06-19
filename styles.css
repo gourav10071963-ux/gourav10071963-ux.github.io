@@ -882,8 +882,23 @@ footer {
   color: #e7f2f7;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 14px;
   flex-wrap: wrap;
+}
+
+.visitor-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #d9edf5;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.visitor-count img {
+  display: block;
+  height: 20px;
 }
 
 @media (max-width: 900px) {
