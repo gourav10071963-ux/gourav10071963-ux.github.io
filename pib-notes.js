@@ -178,6 +178,7 @@ const dailySummaries = [
 const menuButton = document.querySelector(".menu-button");
 const mainNav = document.querySelector("#mainNav");
 const pibDateSelect = document.querySelector("#pibDateSelect");
+const loadPibDate = document.querySelector("#loadPibDate");
 const dailyPibIntro = document.querySelector("#dailyPibIntro");
 const summaryDate = document.querySelector("#summaryDate");
 const summaryTitle = document.querySelector("#summaryTitle");
@@ -236,13 +237,20 @@ function renderDailySummary(summary) {
 }
 
 function setupDailySummaries() {
-  pibDateSelect.innerHTML = dailySummaries.map((summary) => `
-    <option value="${summary.date}">${summary.label}</option>
-  `).join("");
+  if (pibDateSelect.options.length === 0) {
+    pibDateSelect.innerHTML = dailySummaries.map((summary) => `
+      <option value="${summary.date}">${summary.label}</option>
+    `).join("");
+  }
 
   const currentSummary = dailySummaries.find((summary) => summary.date === today()) || dailySummaries[0];
   pibDateSelect.value = currentSummary.date;
   renderDailySummary(currentSummary);
+}
+
+function loadSelectedSummary() {
+  const summary = dailySummaries.find((item) => item.date === pibDateSelect.value);
+  if (summary) renderDailySummary(summary);
 }
 
 menuButton.addEventListener("click", () => {
@@ -251,9 +259,7 @@ menuButton.addEventListener("click", () => {
   mainNav.classList.toggle("is-open", nextState);
 });
 
-pibDateSelect.addEventListener("change", () => {
-  const summary = dailySummaries.find((item) => item.date === pibDateSelect.value);
-  if (summary) renderDailySummary(summary);
-});
+pibDateSelect.addEventListener("change", loadSelectedSummary);
+loadPibDate.addEventListener("click", loadSelectedSummary);
 
 setupDailySummaries();

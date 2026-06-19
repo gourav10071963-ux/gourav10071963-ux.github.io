@@ -452,6 +452,17 @@ textarea {
   color: var(--muted);
 }
 
+.date-loader-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+
+.date-loader-controls .primary-action {
+  min-height: 48px;
+  white-space: nowrap;
+}
+
 .daily-pib-grid {
   margin-top: 18px;
   display: grid;
@@ -890,6 +901,10 @@ footer {
   .quiz-list li {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  .date-loader-controls {
+    grid-template-columns: 1fr;
   }
 }
 
