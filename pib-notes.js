@@ -135,51 +135,158 @@ const dailySummaries = [
     date: "2026-06-18",
     label: "18 June 2026",
     title: "Comprehensive PIB Notes: 18 June 2026",
-    lead: "Use this date-wise PIB brief for full-topic revision. The structure keeps notes exam-ready through scheme facts, institutional details, prelims triggers and mains-ready analysis points.",
+    lead: "The 18 June PIB set is heavy and wide-ranging: G7 diplomacy, trusted AI, farmer price support, smart seeds, smart warehousing, defence platforms, public health, renewable energy, rural roads, watershed management, GeM-CSC access, cultural heritage and sports administration.",
     blocks: [
       {
-        heading: "Government schemes",
+        heading: "1. Agriculture: MSP procurement, PM-KISAN and smart seed technology",
         points: [
-          "Mark the nodal ministry, target beneficiary, funding support and delivery channel.",
-          "Separate launch announcements from actual implementation progress.",
-          "Convert each scheme into one prelims fact and one mains argument."
+          "Centre approved large-scale procurement of pulses and oilseeds at MSP under the Price Support Scheme in Tamil Nadu, Gujarat, Uttar Pradesh and Haryana.",
+          "Uttar Pradesh package: 48,298 MT moong, 97,970 MT urad and 41,718 MT groundnut approved for Summer 2026, with MSP value above Rs 1,490 crore.",
+          "Gujarat: 18,250 MT moong approved with MSP value above Rs 160 crore. Haryana: 2,115 MT moong approved with MSP value above Rs 18 crore.",
+          "Tamil Nadu: moong procurement limit for RMS 2025-26 enhanced from 885 MT to 990 MT; total MSP value Rs 8.68 crore.",
+          "PM-KISAN release preparation: PM to release 23rd instalment from Tarakeswar, Hooghly, West Bengal on 20 June 2026.",
+          "ICAR-IIOR, Hyderabad developed Smart Seed Coating Technology using biodegradable biopolymeric materials.",
+          "Smart Seed coating acts as a carrier for beneficial microorganisms, nutrients, micronutrients, crop protection agents and growth-promoting compounds at the seed-soil interface.",
+          "Demonstrations in Telangana recorded nearly 30 percent higher yields in groundnut and soybean; AICRP-Seed trials showed productivity gains of 12-37 percent over untreated controls.",
+          "UPSC angle: price support, pulses/oilseeds self-reliance, climate-resilient agriculture, rainfed agriculture, seed systems, FPOs and public-private seed partnerships."
         ]
       },
       {
-        heading: "Economy and infrastructure",
+        heading: "2. Digital governance, procurement and food security",
         points: [
-          "Track project location, implementing agency, investment amount and expected benefit.",
-          "Connect infrastructure items with logistics, employment, regional development and inclusion.",
-          "Note whether the release is about approval, foundation stone, inauguration or review."
+          "GeM partnered with Common Service Centres to expand access to government procurement opportunities, especially for sellers and service providers needing assisted digital access.",
+          "Governance logic: CSCs can help bridge the digital divide for rural entrepreneurs, SHGs, artisans, MSMEs and local suppliers who may not independently navigate e-procurement portals.",
+          "Smart Warehousing System launched for foodgrain storage by the Department of Food and Public Distribution.",
+          "Scale: implemented across 215 bag-based warehouses of Central Warehousing Corporation, with Food Corporation of India deploying the system in 150 more warehouses.",
+          "Technology stack: FASTag and ANPR gate automation, geo-tagged smart locks, AI-enabled bag counting, face recognition, object detection, IoT monitoring, AI surveillance for fire, smoke and rodent detection, ERP integration and analytics.",
+          "Food security link: scientific storage improves preservation of foodgrains and benefits farmers, warehouse operators and over 80 crore PDS beneficiaries.",
+          "Digital targeting note: PIB mentions more than 2.43 crore ineligible ration cards identified and removed through digital reforms."
         ]
       },
       {
-        heading: "Science, environment and health",
+        heading: "3. Defence, maritime security and strategic materials",
         points: [
-          "Capture the institution, technology, application and affected sector.",
-          "For environment items, note geography, conservation status and legal framework.",
-          "For health items, track disease, intervention, surveillance and public delivery mechanism."
+          "Indian Army contingent set to depart for multilateral military exercise Khaan Quest. Track participating country, host and exercise type when revising defence exercises.",
+          "Indian Coast Guard inducted the first of six indigenous Air Cushion Vehicles in Goa.",
+          "The ACVs are being constructed by Chowgule & Company Private Limited and are meant to improve ICG effectiveness across maritime duties.",
+          "Air Cushion Vehicles are useful in shallow-water, marshy, coastal and amphibious response contexts, strengthening coastal surveillance and response.",
+          "Defence manufacturing link: ACV induction supports Aatmanirbhar Bharat and India's maritime industrial base.",
+          "Raksha Mantri scheduled Bhoomi Pujan for a 10,000-ton aluminium extrusion press at Yantra India Limited, Nagpur.",
+          "UPSC angle: strategic materials, defence manufacturing ecosystem, coastal security, Make in India, MSME/private-sector defence participation."
+        ]
+      },
+      {
+        heading: "4. Health, education and social justice",
+        points: [
+          "Union Health Minister reviewed dengue and malaria preparedness ahead of the monsoon season.",
+          "Exam linkage: vector-borne diseases, surveillance, source reduction, public health preparedness, inter-government coordination and urban local body role.",
+          "Indian Pharmacopoeia Commission represented India at the 16th International Meeting of World Pharmacopoeias in Brazil.",
+          "Pharmacopoeia relevance: drug standards, quality assurance, regulatory harmonisation and public health safety.",
+          "Education Ministry reviewed preparedness for NEET UG re-examination, useful for governance, exam integrity and institutional accountability.",
+          "Social Justice and Empowerment Department reported significant growth in scholarship coverage for SC students.",
+          "Minority Affairs reviewed Haj 2026 and roadmap for Haj 2027, linking welfare facilitation, international coordination and pilgrimage administration."
+        ]
+      },
+      {
+        heading: "5. Rural development, roads and watershed governance",
+        points: [
+          "Centre reviewed rural road progress with States and targeted completion of over 26,000 km of rural roads in FY 2026-27.",
+          "Roads note: rural connectivity affects market access, healthcare, education, emergency response and regional inclusion.",
+          "Second National Consultation on National Technical Guidelines for improved watershed management held under the World Bank-assisted REWARD programme.",
+          "Institutions: National Rainfed Area Authority as knowledge partner; Department of Land Resources; World Bank; REWARD States Karnataka and Odisha; NABARD, ICAR and other institutions.",
+          "Core themes: rainfed area development, productivity, cropping intensity, water security, groundwater recharge, climate resilience and maintenance of watershed assets.",
+          "Technology suggestions included drone imagery, Land Resource Inventory, Hydrology-Lite, Decision Support Systems, monitoring and evaluation, remote sensing and GIS-based web portals.",
+          "World Day to Combat Desertification and Drought context: short film Meri Mitti, Mera Farz launched."
+        ]
+      },
+      {
+        heading: "6. Diplomacy, AI, investment and energy transition",
+        points: [
+          "PM participated in VivaTech 2026 in Paris and addressed themes around youth, innovation, startups, trusted AI and international cooperation.",
+          "PM met/engaged with Mistral AI CEO Arthur Mensch on trusted AI, innovation and cooperation.",
+          "PM interactions with Alstom, Saint-Gobain and CMA CGM point to themes of manufacturing, infrastructure, maritime connectivity, investment and jobs.",
+          "G7 Summit in Evian: PM addressed sessions on safe, rapid and efficient AI rollout and balanced, shared, sustainable economic growth.",
+          "PM met the President of the United States on the sidelines of the G7 Summit.",
+          "Ministry of Petroleum and Natural Gas held an inter-ministerial briefing on recent West Asia developments; connect with energy security, diaspora safety and strategic autonomy.",
+          "Ministry of New and Renewable Energy release highlighted India as a global renewable energy leader backed by a strong policy ecosystem."
+        ]
+      },
+      {
+        heading: "7. Infrastructure, industry, communications and environment-linked logistics",
+        points: [
+          "Coal Ministry organised a roadshow on promotion of surface coal/lignite gasification projects in Mumbai.",
+          "Commerce and Industry: Bharat Buildcon 2026 inaugurated under One Nation, One Expo; useful for construction ecosystem, infrastructure and industry networking.",
+          "Telecommunication Engineering Centre held a workshop on advanced satellite communication technologies and service quality benchmarking.",
+          "Electronics and IT: NIXI Foundation Day and Jabil advanced manufacturing/export-centric data centre ecosystem in Pune point to digital infrastructure, electronics manufacturing and employment.",
+          "Railways: historic Qadian-Beas railway line revived after nearly 100 years.",
+          "Railways green initiative: fly ash transport by railways, linking waste utilisation, thermal power by-products and lower-emission logistics.",
+          "Road Transport: Tata Motors joined the government scheme to provide discounts for replacement of old trucks and buses in Delhi-NCR, linking scrappage, air pollution and cleaner transport."
+        ]
+      },
+      {
+        heading: "8. Culture, society, youth and sports",
+        points: [
+          "President attended a tribal society empowerment function at Betul, Madhya Pradesh; use for tribal welfare, social reform and cultural-spiritual mobilisation.",
+          "Vice President's Ladakh visit and comments on Nasha Mukt Parisar Abhiyaan link with border-region engagement and campus anti-drug initiatives.",
+          "PM articles covered youth in Viksit Bharat 2047, water management with public participation, India's cultural heritage, yoga's global journey and Sanskrit Subhashitam.",
+          "Lok Sabha Speaker release on Jain philosophy is useful for ethics, non-violence, pluralism and Indian philosophical traditions.",
+          "AYUSH releases: International Festival of Yoga and Meditation in Leh and Kolkata preparation for International Day of Yoga at Red Road.",
+          "MIFF 2026 releases covered documentary cinema, Waves Doc Bazaar, film editing, young filmmakers and film festivals; connect with soft power, creative economy and documentary archives.",
+          "Sports: preparations reviewed for Asian Senior Fencing Championships 2026 at Bharat Mandapam."
         ]
       }
     ],
     prelims: [
-      "Nodal ministry and implementing agency",
-      "Place in news",
-      "Scheme objective and beneficiary",
-      "Technology or institution name",
-      "Report, index or commemorative day"
+      "PSS procurement States: Tamil Nadu, Gujarat, Uttar Pradesh, Haryana",
+      "UP PSS approvals: moong 48,298 MT; urad 97,970 MT; groundnut 41,718 MT; MSP value above Rs 1,490 crore",
+      "ICAR-IIOR: Hyderabad; Smart Seed Coating Technology; biodegradable biopolymeric coating",
+      "CWC 215 warehouses and FCI 150 warehouses under Smart Warehousing System",
+      "Smart Warehousing technologies: FASTag, ANPR, geo-tagged smart locks, AI bag counting, IoT monitoring",
+      "ICG indigenous Air Cushion Vehicle inducted at Goa; first of six; Chowgule & Company",
+      "Khaan Quest: multilateral military exercise",
+      "REWARD programme: watershed management; World Bank-assisted; Karnataka and Odisha as REWARD States",
+      "NRAA and Department of Land Resources: watershed guidelines and rainfed area focus",
+      "Qadian-Beas railway line; NIXI Foundation Day; International Festival of Yoga and Meditation in Leh"
     ],
     mains: [
-      "Federal coordination in scheme delivery",
-      "Infrastructure as an enabler of inclusive growth",
-      "Science-policy linkages in public welfare",
-      "Administrative reforms and last-mile delivery"
+      "MSP procurement protects farmers from distress sales, but long-term reform requires crop diversification, storage, market access and predictable procurement systems.",
+      "Smart seed technologies can improve climate resilience in rainfed agriculture, but scaling needs affordable access, seed-system partnerships and farmer extension.",
+      "AI and IoT in foodgrain warehousing can improve food security by reducing losses, increasing transparency and improving PDS efficiency.",
+      "Digital procurement through GeM-CSC can democratise market access if rural entrepreneurs receive handholding, language support and payment reliability.",
+      "Defence indigenisation should be assessed through capability, domestic industrial depth, private-sector participation and lifecycle support.",
+      "Watershed management must combine scientific planning, community institutions, GIS/drone tools, asset maintenance and convergence with agriculture and rural livelihoods.",
+      "India's AI diplomacy should balance innovation, trusted AI, safety, international cooperation and domestic capacity building."
     ],
     sources: [
       {
-        label: "PIB all releases archive",
+        label: "PIB all releases for 18 June 2026",
         url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
-        note: "Select 18 June 2026 on PIB for source releases"
+        note: "Official release list filtered to 18 June 2026"
+      },
+      {
+        label: "PSS procurement of pulses and oilseeds",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274919",
+        note: "MSP procurement in four States"
+      },
+      {
+        label: "ICAR-IIOR Smart Seed Coating Technology",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274497",
+        note: "Climate-resilient seed technology"
+      },
+      {
+        label: "Smart Warehousing System",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274785",
+        note: "AI and IoT in foodgrain storage"
+      },
+      {
+        label: "ICG indigenous Air Cushion Vehicle",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274642",
+        note: "Coastal security and indigenous platform"
+      },
+      {
+        label: "REWARD watershed guidelines consultation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2274394",
+        note: "Rainfed areas and watershed governance"
       }
     ]
   },
