@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pibias.in/sitemap.xml
