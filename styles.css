@@ -531,6 +531,56 @@ textarea {
   margin-top: 6px;
 }
 
+.mind-map {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed var(--line);
+  display: grid;
+  grid-template-columns: minmax(150px, 0.36fr) minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+}
+
+.mind-map-core {
+  min-height: 74px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: 2px solid rgba(8, 123, 114, 0.28);
+  border-radius: 999px;
+  padding: 12px;
+  background: #eef8f5;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.mind-map-branches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mind-map-branches span {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 10px;
+  background: var(--paper);
+  color: #314251;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.mind-map-branches span::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  width: 8px;
+  border-top: 1px solid rgba(8, 123, 114, 0.42);
+}
+
 .summary-side {
   display: grid;
   gap: 18px;
@@ -905,6 +955,14 @@ footer {
 
   .date-loader-controls {
     grid-template-columns: 1fr;
+  }
+
+  .mind-map {
+    grid-template-columns: 1fr;
+  }
+
+  .mind-map-branches span::before {
+    display: none;
   }
 }
 

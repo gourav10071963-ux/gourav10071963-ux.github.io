@@ -379,6 +379,39 @@ function formatText(value) {
   return escapeHtml(value).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
 }
 
+function plainText(value) {
+  return value.replace(/\*\*/g, "");
+}
+
+function keyTerms(block) {
+  const markedTerms = block.points
+    .flatMap((point) => [...point.matchAll(/\*\*(.+?)\*\*/g)].map((match) => match[1]))
+    .filter((term) => term.length > 2);
+
+  const fallbackTerms = block.points
+    .flatMap((point) => plainText(point).split(/[.;:]/))
+    .map((term) => term.trim())
+    .filter((term) => term.length >= 14 && term.length <= 72)
+    .map((term) => term.replace(/^(The|A|An|UPSC angle|Exam linkage|Governance logic)\s*:?/i, "").trim())
+    .filter(Boolean);
+
+  return [...new Set([...markedTerms, ...fallbackTerms])].slice(0, 7);
+}
+
+function renderMindMap(block) {
+  const terms = keyTerms(block);
+  if (terms.length === 0) return "";
+
+  return `
+    <div class="mind-map" aria-label="Mind map for ${escapeAttribute(plainText(block.heading))}">
+      <div class="mind-map-core">${escapeHtml(plainText(block.heading).replace(/^\d+\.\s*/, ""))}</div>
+      <div class="mind-map-branches">
+        ${terms.map((term) => `<span>${escapeHtml(term)}</span>`).join("")}
+      </div>
+    </div>
+  `;
+}
+
 function renderList(target, items) {
   target.innerHTML = items.map((item) => `<li>${formatText(item)}</li>`).join("");
 }
@@ -397,6 +430,7 @@ function renderDailySummary(summary) {
       <ul>
         ${block.points.map((point) => `<li>${formatText(point)}</li>`).join("")}
       </ul>
+      ${renderMindMap(block)}
     </section>
   `).join("");
   renderList(prelimsTriggers, summary.prelims);
