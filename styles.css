@@ -432,6 +432,75 @@ textarea {
   margin-bottom: 20px;
 }
 
+.download-hub,
+.link-library {
+  max-width: 1180px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.download-grid,
+.link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.download-card,
+.resource-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  background: #fbfcfd;
+}
+
+.download-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.download-card h3,
+.resource-card h3 {
+  margin: 0;
+  color: var(--navy);
+}
+
+.download-card p,
+.resource-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.download-card .primary-action {
+  display: inline-flex;
+  justify-content: center;
+  width: fit-content;
+}
+
+.file-type {
+  width: fit-content;
+  border-radius: 999px;
+  padding: 5px 9px;
+  background: #eef8f5;
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.resource-card {
+  display: grid;
+  gap: 10px;
+  align-content: start;
+}
+
+.resource-card a {
+  color: var(--teal);
+  font-weight: 800;
+}
+
 .notes-shell,
 .daily-pib,
 .notes-library {
@@ -973,7 +1042,9 @@ footer {
   }
 
   .form-grid,
-  .note-card {
+  .note-card,
+  .download-grid,
+  .link-grid {
     grid-template-columns: 1fr;
   }
 
