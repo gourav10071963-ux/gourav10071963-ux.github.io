@@ -1,5 +1,123 @@
 const dailySummaries = [
   {
+    date: "2026-06-20",
+    label: "20 June 2026",
+    title: "Comprehensive PIB Notes: 20 June 2026",
+    lead: "Today's PIB releases are limited but useful for UPSC because they combine symbolic-national communication from PMO with a substantive backgrounder on North-East transformation, Act East connectivity, infrastructure, clean energy, welfare delivery and regional livelihoods.",
+    blocks: [
+      {
+        heading: "1. PMO greetings: constitutional office and regional identity",
+        points: [
+          "Prime Minister extended birthday greetings to the President of India, Smt. Droupadi Murmu.",
+          "UPSC hook: the President is the constitutional head of the Union and an important symbol of constitutional morality, inclusion and national unity.",
+          "Prime Minister also extended greetings on Paschimbanga Divas and recalled the contribution of Dr. Syama Prasad Mookerjee.",
+          "Paschimbanga Divas can be linked with regional identity, federal cultural recognition and the role of states in India's national movement and post-Independence politics.",
+          "Dr. Syama Prasad Mookerjee is relevant for prelims because of his association with Bengal, national politics and debates around integration and constitutional questions."
+        ]
+      },
+      {
+        heading: "2. Ashtalakshmi: North-East as a growth and integration region",
+        points: [
+          "PIB Backgrounder frames the eight North-Eastern states as Ashtalakshmi: Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Tripura and Sikkim.",
+          "Core argument: the North-East is being repositioned from a remote frontier to a connected, strategic and economically relevant gateway for Viksit Bharat and Act East.",
+          "Development pillars highlighted: policy support, infrastructure, water, sanitation, housing, healthcare, education, agriculture, energy and cross-border connectivity.",
+          "MDoNER support is delivered through five Central Sector Schemes. PIB states that 3,746 projects have been sanctioned and 2,730 completed at an approved cost of over Rs 27,963 crore.",
+          "PM-DevINE is a 100 percent centrally funded scheme with Rs 6,600 crore outlay for 2022-23 to 2025-26; 48 projects are under implementation and 3 projects have been completed.",
+          "NESIDS-Roads focuses on roads, bridges, market access and strategic connectivity; 70 road construction/widening projects have been completed and 57 are under implementation.",
+          "NESIDS-OTRI covers non-road infrastructure such as health, education, power and water supply; 1,234 projects have been completed and 376 are under implementation.",
+          "North Eastern Council schemes support regional priorities including livelihoods, tourism, higher education, healthcare, irrigation, flood control, science and technology."
+        ]
+      },
+      {
+        heading: "3. Connectivity revolution: roads, rail, air, waterways and digital",
+        points: [
+          "National Highways length in the North-East increased from 10,905 km in 2014 to 16,207 km as of 1 April 2025.",
+          "Under Bharatmala Pariyojana, over 2,100 km of roads have been awarded in the North-East and more than 1,800 km completed as of December 2025.",
+          "PMGSY has constructed 50,850 km of rural roads in the region in the last 12 years, improving access to schools, healthcare and markets.",
+          "Railway budget allocation rose from an annual average of Rs 2,122 crore during 2009-14 to Rs 11,486 crore in 2026-27.",
+          "Rail track commissioning rose from 333 km during 2009-14 to over 1,900 km during 2014-26; several hill states were connected to the broad gauge network in the last decade.",
+          "Arunachal Pradesh, Meghalaya, Nagaland, Tripura and Mizoram have achieved 100 percent railway track electrification; Assam is nearing full electrification.",
+          "Strategic engineering examples include Bogibeel Bridge, Dhola-Sadiya or Bhupen Hazarika Setu, Noney Bridge in Manipur and Sela Tunnel in Arunachal Pradesh.",
+          "Airports in the North-East increased from 9 in 2014 to 17 in 2026; UDAN supported 8 new airports and around 90 regional routes.",
+          "National Waterways in the North-East increased from 1 in 2014 to 20 in 2024, with focus on Brahmaputra NW-2, Barak NW-16 and Indo-Bangladesh Protocol routes.",
+          "Digital connectivity: as of December 2025, 6,355 Gram Panchayats were made service-ready for high-speed internet and 3,718 mobile towers commissioned across 5,366 villages/locations."
+        ]
+      },
+      {
+        heading: "4. Energy security and green growth in the North-East",
+        points: [
+          "North-East energy policy is presented as a move from deficit conditions to secure, cleaner and resilient energy systems.",
+          "Hydropower anchors: 2,880 MW Dibang Multipurpose Hydropower Project in Arunachal Pradesh and 2,000 MW Subansiri Lower Hydroelectric Project on the Assam-Arunachal border.",
+          "Small Hydro Power Development Scheme for FY 2026-27 to FY 2030-31 has an outlay of Rs 2,584.60 crore and aims to add around 1,500 MW capacity in the region.",
+          "North East Gas Grid began in 2020 and envisages about 1,656 km of pipeline to connect all eight states with the national gas grid.",
+          "A 24-inch natural gas pipeline crossing under the Brahmaputra using Horizontal Directional Drilling is cited as Asia's longest hydrocarbon pipeline river crossing and the second-longest globally.",
+          "Solar initiatives include a 20 MW solar park in Champhai district, Mizoram, rooftop solar under PM Surya Ghar and decentralised systems such as PM-KUSUM solar pumps.",
+          "A 25 MW green hydrogen plant is being developed in Assam, showing early movement toward emerging clean energy technologies."
+        ]
+      },
+      {
+        heading: "5. Welfare delivery: water, sanitation, health, education and housing",
+        points: [
+          "Jal Jeevan Mission tap water coverage in the North-East: Arunachal Pradesh and Mizoram have reached 100 percent coverage; Nagaland 95.08 percent and Sikkim 92.09 percent as on 17 June 2026.",
+          "JJM 2.0 was approved in March 2026 and extended to December 2028 with an enhanced outlay of Rs 8.69 lakh crore, shifting focus from infrastructure creation to reliable service delivery.",
+          "All eight North-Eastern states have been declared ODF under Swachh Bharat Mission (Gramin). About 57 lakh Individual Household Latrines were constructed during 2014-2026.",
+          "SBM(G) Phase II focuses on ODF Plus villages, solid and liquid waste management, plastic waste management and faecal sludge treatment.",
+          "Health infrastructure: AIIMS Guwahati is fully functional; 12 medical colleges have been approved in the region under the centrally sponsored scheme for new medical colleges.",
+          "Ayushman Bharat PM-JAY: more than 2.43 crore Ayushman cards and over 46 lakh hospital admissions in the region; more than 900 empanelled hospitals and over 8,200 Health and Wellness Centres.",
+          "Education: the region has 96,496 schools, 79 universities, 1,001 colleges, 11 Central Universities and 110 ITIs; 48 Eklavya Model Residential Schools are noted for tribal/remote districts.",
+          "PMAY-Gramin completed over 28 lakh houses in the North-East as of March 2026, while PMAY-Urban completed 3.24 lakh houses for EWS/LIG groups."
+        ]
+      },
+      {
+        heading: "6. Agriculture, allied sectors and livelihood diversification",
+        points: [
+          "North-East agriculture has high relevance for biodiversity, rainfed systems, horticulture, fisheries, animal husbandry, organic farming, bamboo and forest-based livelihoods.",
+          "Inland fish production in the region increased from 4.03 lakh tonnes in 2014-15 to 6.78 lakh tonnes in 2024-25, a growth of over 68 percent.",
+          "Assam contributes over 70 percent of regional inland fish production and increased output from 2.83 lakh tonnes to 5.29 lakh tonnes during the same period.",
+          "Fisheries support includes 3,823 Kisan Credit Cards for fishers, 70 recreational fisheries units, 501 Fish Farmers Producer Organizations and 644 ornamental fisheries units under PMMSY.",
+          "Livestock: the first IVF Laboratory in the North-East was established in Guwahati under Rashtriya Gokul Mission with Rs 28.93 crore investment.",
+          "Milk production increased from 1,293.5 thousand tonnes in 2014-15 to 1,739.9 thousand tonnes in 2024-25.",
+          "Agarwood economy: India has nearly 150 million agarwood trees as of January 2026, with about 90 percent located in North-Eastern states; Tripura's agarwood market has annual turnover potential of around Rs 2,000 crore.",
+          "PM-KISAN registered beneficiaries in the North-East stood at 26.98 lakh as of May 2026, including significant women farmer participation in the 19th instalment."
+        ]
+      }
+    ],
+    prelims: [
+      "Ashtalakshmi states: Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Tripura, Sikkim",
+      "PM-DevINE: 100 percent centrally funded; Rs 6,600 crore outlay for 2022-23 to 2025-26",
+      "NESIDS-Roads and NESIDS-OTRI; North Eastern Council",
+      "National Highways in North-East: 10,905 km in 2014 to 16,207 km as on 1 April 2025",
+      "Airports in North-East: 9 in 2014 to 17 in 2026; UDAN routes around 90",
+      "National Waterways in North-East: 1 in 2014 to 20 in 2024; Brahmaputra is NW-2; Barak is NW-16",
+      "Dibang Multipurpose Hydropower Project: 2,880 MW; Subansiri Lower: 2,000 MW",
+      "North East Gas Grid: around 1,656 km pipeline network",
+      "JJM 2.0 extended to December 2028 with Rs 8.69 lakh crore outlay",
+      "AIIMS Guwahati; PMAY-Gramin over 28 lakh houses completed in North-East",
+      "Agarwood: about 90 percent of India's nearly 150 million trees located in North-Eastern states",
+      "Paschimbanga Divas; Dr. Syama Prasad Mookerjee"
+    ],
+    mains: [
+      "North-East development should be analysed as a mix of connectivity, strategic location, livelihoods, welfare delivery and ecological sensitivity.",
+      "Act East Policy can convert the North-East into a gateway to Southeast Asia, but requires stable borders, trade infrastructure and inclusive local benefits.",
+      "Large infrastructure in hill and border regions improves integration and security, but must account for landslide risk, seismicity, biodiversity and community consent.",
+      "Clean energy in the North-East can support national transition goals if hydropower, gas, solar and green hydrogen are balanced with ecological safeguards.",
+      "Welfare saturation in water, sanitation, health, education and housing shows convergence, but service quality and maintenance are the next governance tests.",
+      "Livelihood diversification through fisheries, livestock, bamboo, agarwood and horticulture can reduce distress migration and strengthen regional value chains."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 20 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Ashtalakshmi - North-East growth backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275554",
+        note: "North-East policy, connectivity, welfare and livelihoods"
+      }
+    ]
+  },
+  {
     date: "2026-06-19",
     label: "19 June 2026",
     title: "Comprehensive PIB Notes: 19 June 2026",
@@ -345,6 +463,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-20": [
+    {
+      question: "The PIB backgrounder uses Ashtalakshmi to refer to:",
+      options: ["Eight North-Eastern states", "Eight coastal states", "Eight river interlinking projects", "Eight defence corridors"],
+      answer: 0,
+      explanation: "Ashtalakshmi refers to Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Tripura and Sikkim."
+    },
+    {
+      question: "PM-DevINE is described in the notes as:",
+      options: ["A 100 percent centrally funded scheme for North-East development", "A tax incentive for exporters", "A river-cleaning mission", "A state-funded urban transport scheme"],
+      answer: 0,
+      explanation: "PM-DevINE is a 100 percent centrally funded scheme with a Rs 6,600 crore outlay for 2022-23 to 2025-26."
+    },
+    {
+      question: "Which pair correctly matches the North-East waterways noted for revision?",
+      options: ["Brahmaputra - NW-2; Barak - NW-16", "Ganga - NW-2; Godavari - NW-16", "Narmada - NW-2; Tapi - NW-16", "Mahanadi - NW-2; Krishna - NW-16"],
+      answer: 0,
+      explanation: "The notes identify the Brahmaputra as NW-2 and the Barak as NW-16."
+    },
+    {
+      question: "The Dibang Multipurpose Hydropower Project mentioned in the notes is located in:",
+      options: ["Arunachal Pradesh", "Tripura", "Mizoram", "Nagaland"],
+      answer: 0,
+      explanation: "The 2,880 MW Dibang Multipurpose Hydropower Project is in Arunachal Pradesh."
+    },
+    {
+      question: "The 20 June notes link Act East Policy mainly with:",
+      options: ["North-East connectivity and gateway potential to Southeast Asia", "Only domestic tax reform", "Only central bank regulation", "Only urban municipal elections"],
+      answer: 0,
+      explanation: "The mains angle frames the North-East as a gateway to Southeast Asia through connectivity, trade infrastructure and inclusive local benefits."
+    }
+  ],
   "2026-06-19": [
     {
       question: "The 23rd PM-KISAN instalment mentioned in the notes is worth approximately:",
