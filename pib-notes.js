@@ -600,6 +600,54 @@ const resetNoteQuiz = document.querySelector("#resetNoteQuiz");
 const noteQuizScore = document.querySelector("#noteQuizScore");
 let activeSummary = dailySummaries[0];
 
+const importantKeywords = [
+  "Ashtalakshmi",
+  "North-East",
+  "Act East",
+  "Viksit Bharat",
+  "PM-DevINE",
+  "NESIDS-Roads",
+  "NESIDS-OTRI",
+  "North Eastern Council",
+  "Bharatmala Pariyojana",
+  "PMGSY",
+  "UDAN",
+  "National Waterways",
+  "Brahmaputra NW-2",
+  "Barak NW-16",
+  "Dibang Multipurpose Hydropower Project",
+  "Subansiri Lower Hydroelectric Project",
+  "North East Gas Grid",
+  "green hydrogen",
+  "Jal Jeevan Mission",
+  "JJM 2.0",
+  "Swachh Bharat Mission",
+  "ODF Plus",
+  "AIIMS Guwahati",
+  "Ayushman Bharat PM-JAY",
+  "Eklavya Model Residential Schools",
+  "PMAY-Gramin",
+  "PMAY-Urban",
+  "PM-KISAN",
+  "PMMSY",
+  "Kisan Credit Cards",
+  "Rashtriya Gokul Mission",
+  "agarwood",
+  "Paschimbanga Divas",
+  "Dr. Syama Prasad Mookerjee",
+  "Droupadi Murmu",
+  "MSP",
+  "PMDDKY",
+  "INS Dunagiri",
+  "INS Sanshodhak",
+  "INS Agray",
+  "coal gasification",
+  "BCON",
+  "Mission Mausam",
+  "VB-G RAM G",
+  "SETU"
+].sort((a, b) => b.length - a.length);
+
 function today() {
   return new Date().toISOString().slice(0, 10);
 }
@@ -618,8 +666,24 @@ function escapeAttribute(value) {
   return escapeHtml(value).replace(/`/g, "&#096;");
 }
 
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function highlightKeywords(html) {
+  return html.split(/(<strong>.*?<\/strong>)/g).map((part) => {
+    if (part.startsWith("<strong>")) return part;
+
+    return importantKeywords.reduce((output, keyword) => {
+      const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegExp(keyword)})(?=$|[^A-Za-z0-9])`, "gi");
+      return output.replace(pattern, "$1<strong>$2</strong>");
+    }, part);
+  }).join("");
+}
+
 function formatText(value) {
-  return escapeHtml(value).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  const formatted = escapeHtml(value).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  return highlightKeywords(formatted);
 }
 
 function plainText(value) {

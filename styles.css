@@ -518,7 +518,7 @@ textarea {
 .daily-pib-head {
   padding: 24px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 450px);
   gap: 22px;
   align-items: end;
 }
@@ -535,8 +535,13 @@ textarea {
 
 .date-loader-controls {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-columns: minmax(170px, 1fr) auto auto;
   gap: 10px;
+}
+
+.date-loader,
+.date-loader-controls select {
+  min-width: 0;
 }
 
 .date-loader-controls .primary-action,
@@ -549,6 +554,16 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.summary-lead strong,
+.summary-block li strong,
+.check-list strong {
+  color: var(--navy);
+  font-weight: 900;
+  background: #fff3d8;
+  border-radius: 4px;
+  padding: 0 3px;
 }
 
 .daily-pib-grid {
@@ -987,6 +1002,13 @@ footer {
 .visitor-count img {
   display: block;
   height: 20px;
+}
+
+@media (max-width: 1100px) {
+  .daily-pib-head {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
 }
 
 @media (max-width: 900px) {
