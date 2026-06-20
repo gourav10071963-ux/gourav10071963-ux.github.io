@@ -535,7 +535,7 @@ textarea {
 
 .date-loader-controls {
   display: grid;
-  grid-template-columns: minmax(170px, 1fr) auto auto;
+  grid-template-columns: 1fr;
   gap: 10px;
 }
 
@@ -544,16 +544,23 @@ textarea {
   min-width: 0;
 }
 
-.date-loader-controls .primary-action,
-.date-loader-controls .quiz-jump {
-  min-height: 48px;
-  white-space: nowrap;
+.date-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
 }
 
-.date-loader-controls .quiz-jump {
+.date-actions .primary-action,
+.date-actions .secondary-action {
+  min-height: 48px;
+  width: 100%;
+}
+
+.date-actions .quiz-jump {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .summary-lead strong,
@@ -1097,6 +1104,10 @@ footer {
 @media (max-width: 560px) {
   .brand strong {
     font-size: 23px;
+  }
+
+  .date-actions {
+    grid-template-columns: 1fr;
   }
 
   .hero {

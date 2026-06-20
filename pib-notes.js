@@ -585,6 +585,7 @@ const menuButton = document.querySelector(".menu-button");
 const mainNav = document.querySelector("#mainNav");
 const pibDateSelect = document.querySelector("#pibDateSelect");
 const loadPibDate = document.querySelector("#loadPibDate");
+const downloadPibPdf = document.querySelector("#downloadPibPdf");
 const dailyPibIntro = document.querySelector("#dailyPibIntro");
 const summaryDate = document.querySelector("#summaryDate");
 const summaryTitle = document.querySelector("#summaryTitle");
@@ -783,6 +784,137 @@ function resetNoteQuizAnswers() {
   noteQuizScore.value = "";
 }
 
+function pdfList(items) {
+  return `<ul>${items.map((item) => `<li>${formatText(item)}</li>`).join("")}</ul>`;
+}
+
+function buildPdfHtml(summary) {
+  const blocks = summary.blocks.map((block) => `
+    <section>
+      <h2>${escapeHtml(block.heading)}</h2>
+      ${pdfList(block.points)}
+    </section>
+  `).join("");
+
+  const sources = summary.sources.map((source) => `
+    <li>
+      <strong>${escapeHtml(source.label)}</strong><br>
+      <span>${escapeHtml(source.note)}</span><br>
+      <a href="${escapeAttribute(source.url)}">${escapeHtml(source.url)}</a>
+    </li>
+  `).join("");
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>${escapeHtml(summary.title)}</title>
+  <style>
+    @page { margin: 18mm; }
+    body {
+      color: #17212b;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      line-height: 1.5;
+      margin: 0;
+    }
+    header {
+      border-bottom: 2px solid #17212b;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+    }
+    .brand {
+      color: #b35b00;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 1.2;
+      margin: 5px 0;
+    }
+    time {
+      color: #6d7680;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .lead {
+      background: #fff3d8;
+      border-left: 4px solid #d98218;
+      margin: 14px 0 18px;
+      padding: 10px 12px;
+    }
+    section {
+      break-inside: avoid;
+      margin-bottom: 14px;
+    }
+    h2 {
+      color: #0f3557;
+      font-size: 16px;
+      margin: 0 0 7px;
+    }
+    h3 {
+      color: #0f3557;
+      font-size: 14px;
+      margin: 18px 0 7px;
+    }
+    ul {
+      margin: 0 0 0 18px;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    strong {
+      color: #0f3557;
+      font-weight: 800;
+    }
+    a {
+      color: #0f5f6d;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">PIBIAS Daily PIB Notes</div>
+    <h1>${escapeHtml(summary.title)}</h1>
+    <time datetime="${escapeAttribute(summary.date)}">${escapeHtml(summary.label)}</time>
+  </header>
+  <p class="lead">${formatText(summary.lead)}</p>
+  ${blocks}
+  <h3>Prelims Triggers</h3>
+  ${pdfList(summary.prelims)}
+  <h3>Mains Angles</h3>
+  ${pdfList(summary.mains)}
+  <h3>Sources</h3>
+  <ul>${sources}</ul>
+  <script>
+    window.addEventListener("load", () => {
+      document.title = ${JSON.stringify(`PIB Notes - ${summary.label}`)};
+      window.print();
+    });
+  <\/script>
+</body>
+</html>`;
+}
+
+function downloadCurrentNotesPdf() {
+  if (!activeSummary) return;
+
+  const printWindow = window.open("", "_blank");
+  if (!printWindow) {
+    window.print();
+    return;
+  }
+
+  printWindow.document.open();
+  printWindow.document.write(buildPdfHtml(activeSummary));
+  printWindow.document.close();
+}
+
 function renderDailySummary(summary) {
   activeSummary = summary;
   dailyPibIntro.textContent = summary.date === today()
@@ -837,6 +969,7 @@ menuButton.addEventListener("click", () => {
 
 pibDateSelect.addEventListener("change", loadSelectedSummary);
 loadPibDate.addEventListener("click", loadSelectedSummary);
+downloadPibPdf.addEventListener("click", downloadCurrentNotesPdf);
 submitNoteQuiz.addEventListener("click", gradeNoteQuiz);
 resetNoteQuiz.addEventListener("click", resetNoteQuizAnswers);
 
