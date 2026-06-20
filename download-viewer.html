@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download Viewer | PIBIAS</title>
+  <meta name="description" content="View UPSC downloadable files from PIBIAS before downloading them.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://pibias.in/download-viewer.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <span>UPSC CSE 2026 preparation hub</span>
+      <nav aria-label="Quick links">
+        <a href="downloads.html#download-files">Download Files</a>
+        <a href="downloads.html#official-links">Useful Links</a>
+      </nav>
+    </div>
+    <div class="brand-row">
+      <a class="brand" href="index.html" aria-label="PIBIAS home">
+        <span class="brand-mark">PI</span>
+        <span><strong>PIBIAS</strong><small>Current Affairs Practice</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="pib-notes.html">PIB Notes</a>
+        <a href="index.html#daily-notes-quiz">Daily Quiz</a>
+        <a href="#">Mains</a>
+        <a href="downloads.html">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="notes-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">File viewer</p>
+        <h1 id="viewerHeroTitle">Downloads</h1>
+        <p id="viewerHeroText">View the selected file or download it for offline use.</p>
+        <div class="hero-actions">
+          <a class="primary-action" id="viewerDownload" href="downloads.html">Download</a>
+          <a class="secondary-action" href="downloads.html">Back to Downloads</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pdf-viewer-shell" aria-labelledby="viewerTitle">
+      <div class="section-heading">
+        <p class="eyebrow" id="viewerType">Viewer</p>
+        <h2 id="viewerTitle">Loading file...</h2>
+        <p id="viewerDescription">Please wait while the file opens.</p>
+      </div>
+      <div id="viewerMount">
+        <div class="pdf-fallback">
+          <h3>Opening file</h3>
+          <p>The selected file will appear here.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>PIBIAS</strong>
+    <span>Daily PIB current affairs notes for civil services preparation.</span>
+    <span class="visitor-count">
+      <span>Visitors</span>
+      <img src="https://hits.sh/pibias.in.svg?style=flat-square&label=&color=087b72&labelColor=16324f" alt="Visitor count for PIBIAS">
+    </span>
+  </footer>
+
+  <script>
+    const files = {
+      "upsc-cse-2025-gs-1-official-answer-key": {
+        title: "UPSC CSE 2025 GS Paper I Answer Key",
+        description: "Official answer key for Civil Services Preliminary Examination 2025 General Studies Paper I.",
+        type: "PDF",
+        mime: "application/pdf",
+        path: "downloads/upsc-cse-2025-gs-1-official-answer-key.pdf"
+      },
+      "upsc-cse-2025-csat-official-answer-key": {
+        title: "UPSC CSE 2025 CSAT Answer Key",
+        description: "Official answer key for Civil Services Preliminary Examination 2025 General Studies Paper II/CSAT.",
+        type: "PDF",
+        mime: "application/pdf",
+        path: "downloads/upsc-cse-2025-csat-official-answer-key.pdf"
+      },
+      "civil-services-prelims-2026-general-studies-paper-1": {
+        title: "Civil Services Preliminary Examination 2026 GS Paper I",
+        description: "General Studies Paper I question paper for UPSC Civil Services Preliminary Examination, 2026.",
+        type: "PDF",
+        mime: "application/pdf",
+        path: "downloads/civil-services-prelims-2026-general-studies-paper-1.pdf"
+      },
+      "civil-services-prelims-2026-general-studies-paper-2": {
+        title: "Civil Services Preliminary Examination 2026 GS Paper II",
+        description: "General Studies Paper II question paper for UPSC Civil Services Preliminary Examination, 2026.",
+        type: "PDF",
+        mime: "application/pdf",
+        path: "downloads/civil-services-prelims-2026-general-studies-paper-2.pdf"
+      },
+      "presidents-of-india-upsc-notes": {
+        title: "Presidents of India UPSC Notes",
+        description: "Static polity notes on Presidents of India for quick UPSC prelims and mains revision.",
+        type: "PDF",
+        mime: "application/pdf",
+        path: "downloads/presidents-of-india-upsc-notes.pdf"
+      },
+      "pib-revision-tracker": {
+        title: "PIB Revision Tracker",
+        description: "Track date-wise releases, ministry, prelims facts, mains angles, and revision status.",
+        type: "CSV",
+        mime: "text/csv",
+        path: "downloads/pib-revision-tracker.csv"
+      },
+      "prelims-fact-tracker": {
+        title: "Prelims Fact Tracker",
+        description: "Maintain short factual anchors such as schemes, places, institutions and reports.",
+        type: "CSV",
+        mime: "text/csv",
+        path: "downloads/prelims-fact-tracker.csv"
+      },
+      "mains-answer-template": {
+        title: "Mains Answer Template",
+        description: "A compact answer-writing structure for introduction, body, examples and conclusion.",
+        type: "TXT",
+        mime: "text/plain",
+        path: "downloads/mains-answer-template.txt"
+      }
+    };
+
+    const menuButton = document.querySelector(".menu-button");
+    const mainNav = document.querySelector("#mainNav");
+    const viewerHeroTitle = document.querySelector("#viewerHeroTitle");
+    const viewerHeroText = document.querySelector("#viewerHeroText");
+    const viewerDownload = document.querySelector("#viewerDownload");
+    const viewerType = document.querySelector("#viewerType");
+    const viewerTitle = document.querySelector("#viewerTitle");
+    const viewerDescription = document.querySelector("#viewerDescription");
+    const viewerMount = document.querySelector("#viewerMount");
+
+    function escapeHtml(value) {
+      return value.replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[char]));
+    }
+
+    function selectedFile() {
+      const params = new URLSearchParams(window.location.search);
+      return files[params.get("file")] || files["upsc-cse-2025-gs-1-official-answer-key"];
+    }
+
+    async function renderTextFile(file) {
+      try {
+        const response = await fetch(file.path);
+        if (!response.ok) throw new Error("Unable to load file.");
+        const text = await response.text();
+        viewerMount.innerHTML = `<pre class="file-text-viewer">${escapeHtml(text)}</pre>`;
+      } catch (error) {
+        viewerMount.innerHTML = `
+          <div class="pdf-fallback">
+            <h3>Preview is not available.</h3>
+            <p>Please download the file to view it.</p>
+            <a class="primary-action" href="${file.path}" download>Download</a>
+          </div>
+        `;
+      }
+    }
+
+    function renderFile(file) {
+      document.title = `${file.title} | PIBIAS`;
+      viewerHeroTitle.textContent = file.title;
+      viewerHeroText.textContent = file.description;
+      viewerType.textContent = `${file.type} viewer`;
+      viewerTitle.textContent = file.title;
+      viewerDescription.textContent = file.description;
+      viewerDownload.href = file.path;
+      viewerDownload.setAttribute("download", "");
+
+      if (file.mime === "application/pdf") {
+        viewerMount.innerHTML = `
+          <object class="pdf-viewer" data="${file.path}" type="application/pdf">
+            <div class="pdf-fallback">
+              <h3>PDF preview is not available in this browser.</h3>
+              <p>Open or download the file using the button below.</p>
+              <a class="primary-action" href="${file.path}" download>Download</a>
+            </div>
+          </object>
+        `;
+        return;
+      }
+
+      renderTextFile(file);
+    }
+
+    menuButton.addEventListener("click", () => {
+      const nextState = menuButton.getAttribute("aria-expanded") !== "true";
+      menuButton.setAttribute("aria-expanded", String(nextState));
+      mainNav.classList.toggle("is-open", nextState);
+    });
+
+    renderFile(selectedFile());
+  </script>
+</body>
+</html>
