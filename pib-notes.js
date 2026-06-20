@@ -649,10 +649,6 @@ const importantKeywords = [
   "SETU"
 ].sort((a, b) => b.length - a.length);
 
-function today() {
-  return new Date().toISOString().slice(0, 10);
-}
-
 function escapeHtml(value) {
   return value.replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -917,8 +913,8 @@ function downloadCurrentNotesPdf() {
 
 function renderDailySummary(summary) {
   activeSummary = summary;
-  dailyPibIntro.textContent = summary.date === today()
-    ? "Showing today's comprehensive PIB notes. Switch the date to revise earlier briefs."
+  dailyPibIntro.textContent = summary.date === dailySummaries[0].date
+    ? "Showing the latest comprehensive PIB notes. Switch the date to revise earlier briefs."
     : "Showing comprehensive PIB notes for the selected date.";
   summaryDate.dateTime = summary.date;
   summaryDate.textContent = summary.label;
@@ -945,15 +941,17 @@ function renderDailySummary(summary) {
 }
 
 function setupDailySummaries() {
+  if (!pibDateSelect || !dailyPibIntro || !summaryDate || !summaryTitle || !summaryLead || !summaryBlocks) return;
+
   if (pibDateSelect.options.length === 0) {
     pibDateSelect.innerHTML = dailySummaries.map((summary) => `
       <option value="${summary.date}">${summary.label}</option>
     `).join("");
   }
 
-  const currentSummary = dailySummaries.find((summary) => summary.date === today()) || dailySummaries[0];
-  pibDateSelect.value = currentSummary.date;
-  renderDailySummary(currentSummary);
+  const latestSummary = dailySummaries[0];
+  pibDateSelect.value = latestSummary.date;
+  renderDailySummary(latestSummary);
 }
 
 function loadSelectedSummary() {
@@ -961,16 +959,24 @@ function loadSelectedSummary() {
   if (summary) renderDailySummary(summary);
 }
 
-menuButton.addEventListener("click", () => {
-  const nextState = menuButton.getAttribute("aria-expanded") !== "true";
-  menuButton.setAttribute("aria-expanded", String(nextState));
-  mainNav.classList.toggle("is-open", nextState);
-});
+function initializeDailyPibNotes() {
+  setupDailySummaries();
 
-pibDateSelect.addEventListener("change", loadSelectedSummary);
-loadPibDate.addEventListener("click", loadSelectedSummary);
-downloadPibPdf.addEventListener("click", downloadCurrentNotesPdf);
-submitNoteQuiz.addEventListener("click", gradeNoteQuiz);
-resetNoteQuiz.addEventListener("click", resetNoteQuizAnswers);
+  menuButton?.addEventListener("click", () => {
+    const nextState = menuButton.getAttribute("aria-expanded") !== "true";
+    menuButton.setAttribute("aria-expanded", String(nextState));
+    mainNav?.classList.toggle("is-open", nextState);
+  });
 
-setupDailySummaries();
+  pibDateSelect?.addEventListener("change", loadSelectedSummary);
+  loadPibDate?.addEventListener("click", loadSelectedSummary);
+  downloadPibPdf?.addEventListener("click", downloadCurrentNotesPdf);
+  submitNoteQuiz?.addEventListener("click", gradeNoteQuiz);
+  resetNoteQuiz?.addEventListener("click", resetNoteQuizAnswers);
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeDailyPibNotes);
+} else {
+  initializeDailyPibNotes();
+}
