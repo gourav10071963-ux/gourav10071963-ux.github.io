@@ -497,6 +497,50 @@ textarea {
   width: fit-content;
 }
 
+.download-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.download-card-actions .primary-action,
+.download-card-actions .secondary-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.pdf-viewer-shell {
+  max-width: 1180px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: min(78vh, 920px);
+  min-height: 620px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f7fafb;
+}
+
+.pdf-fallback {
+  padding: 28px;
+}
+
+.pdf-fallback h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+}
+
+.pdf-fallback p {
+  color: var(--muted);
+}
+
 .file-type {
   width: fit-content;
   border-radius: 999px;
