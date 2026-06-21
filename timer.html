@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Study Timer for UPSC Preparation | PIBIAS</title>
+  <meta name="description" content="Use the PIBIAS study timer to start, stop, and reset focused UPSC preparation sessions.">
+  <meta name="keywords" content="UPSC study timer, focus timer, study stopwatch, PIBIAS timer, current affairs revision timer">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pibias.in/timer.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PIBIAS">
+  <meta property="og:title" content="Study Timer for UPSC Preparation | PIBIAS">
+  <meta property="og:description" content="Start, stop, and reset focused study sessions with the PIBIAS timer.">
+  <meta property="og:url" content="https://pibias.in/timer.html">
+  <meta property="og:image" content="https://pibias.in/assets/study-hero.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xa2xj7osmy");
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <span>UPSC CSE 2026 preparation hub</span>
+      <nav aria-label="Quick links">
+        <a href="#studyTimer">Study Timer</a>
+        <a href="pib-notes.html">PIB Notes</a>
+      </nav>
+    </div>
+    <div class="brand-row">
+      <a class="brand" href="index.html" aria-label="PIBIAS home">
+        <span class="brand-mark">PI</span>
+        <span><strong>PIBIAS</strong><small>Current Affairs Practice</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="pib-notes.html">PIB Notes</a>
+        <a href="index.html#daily-notes-quiz">Daily Quiz</a>
+        <a href="timer.html" aria-current="page">Timer</a>
+        <a href="downloads.html">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="notes-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Focused study sessions</p>
+        <h1>Study Timer</h1>
+        <p>Start, stop, and reset your revision timer while working through PIB notes, quizzes, or syllabus topics.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#studyTimer">Open Timer</a>
+          <a class="secondary-action" href="pib-notes.html">Revise PIB Notes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="timer-shell" id="studyTimer" aria-labelledby="timerTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Timer tool</p>
+        <h2 id="timerTitle">Study Session Timer</h2>
+        <p>Choose a preset or type your own minutes, then control the timer whenever you need.</p>
+      </div>
+
+      <div class="timer-panel">
+        <div class="timer-display" id="timerDisplay" role="timer" aria-live="polite">25:00</div>
+        <p class="timer-status" id="timerStatus">Ready for a focused study session.</p>
+
+        <div class="timer-presets" aria-label="Timer presets">
+          <button type="button" data-minutes="15">15 min</button>
+          <button type="button" data-minutes="25" aria-pressed="true">25 min</button>
+          <button type="button" data-minutes="45">45 min</button>
+          <button type="button" data-minutes="60">60 min</button>
+        </div>
+
+        <label class="timer-custom" for="customMinutes">
+          Custom minutes
+          <input id="customMinutes" type="number" min="1" max="240" value="25">
+        </label>
+
+        <div class="timer-actions">
+          <button class="primary-action" type="button" id="startTimer">Start</button>
+          <button class="secondary-action dark" type="button" id="stopTimer">Stop</button>
+          <button class="secondary-action dark" type="button" id="resetTimer">Reset</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>PIBIAS</strong>
+    <span>Daily PIB current affairs notes for civil services preparation.</span>
+    <span class="visitor-count">
+      <span>Visitors</span>
+      <img src="https://hits.sh/pibias.in.svg?style=flat-square&label=&color=087b72&labelColor=16324f" alt="Visitor count for PIBIAS">
+    </span>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const mainNav = document.querySelector("#mainNav");
+    const timerDisplay = document.querySelector("#timerDisplay");
+    const timerStatus = document.querySelector("#timerStatus");
+    const customMinutes = document.querySelector("#customMinutes");
+    const startTimer = document.querySelector("#startTimer");
+    const stopTimer = document.querySelector("#stopTimer");
+    const resetTimer = document.querySelector("#resetTimer");
+    const presetButtons = document.querySelectorAll("[data-minutes]");
+
+    let selectedSeconds = 25 * 60;
+    let remainingSeconds = selectedSeconds;
+    let timerId = null;
+
+    function formatTime(totalSeconds) {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+    }
+
+    function renderTimer() {
+      timerDisplay.textContent = formatTime(remainingSeconds);
+    }
+
+    function stopCountdown(message = "Timer stopped.") {
+      if (timerId) {
+        clearInterval(timerId);
+        timerId = null;
+      }
+      timerStatus.textContent = message;
+    }
+
+    function setDuration(minutes) {
+      const safeMinutes = Math.min(Math.max(Number(minutes) || 25, 1), 240);
+      selectedSeconds = safeMinutes * 60;
+      remainingSeconds = selectedSeconds;
+      customMinutes.value = safeMinutes;
+      stopCountdown("Ready for a focused study session.");
+      renderTimer();
+    }
+
+    function startCountdown() {
+      if (timerId) return;
+      if (remainingSeconds <= 0) remainingSeconds = selectedSeconds;
+      timerStatus.textContent = "Timer running.";
+      timerId = setInterval(() => {
+        remainingSeconds -= 1;
+        renderTimer();
+        if (remainingSeconds <= 0) {
+          stopCountdown("Session complete. Take a short break.");
+          remainingSeconds = 0;
+          renderTimer();
+        }
+      }, 1000);
+    }
+
+    menuButton.addEventListener("click", () => {
+      const nextState = menuButton.getAttribute("aria-expanded") !== "true";
+      menuButton.setAttribute("aria-expanded", String(nextState));
+      mainNav.classList.toggle("is-open", nextState);
+    });
+
+    presetButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        presetButtons.forEach((item) => item.setAttribute("aria-pressed", "false"));
+        button.setAttribute("aria-pressed", "true");
+        setDuration(button.dataset.minutes);
+      });
+    });
+
+    customMinutes.addEventListener("change", () => {
+      presetButtons.forEach((item) => item.setAttribute("aria-pressed", "false"));
+      setDuration(customMinutes.value);
+    });
+    startTimer.addEventListener("click", startCountdown);
+    stopTimer.addEventListener("click", () => stopCountdown());
+    resetTimer.addEventListener("click", () => setDuration(customMinutes.value));
+
+    renderTimer();
+  </script>
+</body>
+</html>

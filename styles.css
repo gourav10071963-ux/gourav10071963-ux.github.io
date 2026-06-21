@@ -489,6 +489,82 @@ textarea {
   margin-bottom: 20px;
 }
 
+.timer-shell {
+  max-width: 880px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.timer-panel {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.timer-display {
+  width: min(100%, 420px);
+  padding: 22px;
+  border: 1px solid rgba(8, 123, 114, 0.2);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--navy);
+  font-size: clamp(58px, 10vw, 96px);
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.timer-status {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+  text-align: center;
+}
+
+.timer-presets,
+.timer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timer-presets button {
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0 16px;
+  background: var(--paper);
+  color: var(--navy);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.timer-presets button[aria-pressed="true"] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
+.timer-custom {
+  width: min(100%, 240px);
+  margin: 0;
+  color: var(--navy);
+  text-align: center;
+}
+
+.timer-actions .primary-action,
+.timer-actions .secondary-action {
+  min-width: 110px;
+}
+
 .faq-section {
   max-width: 1180px;
   margin: 34px auto 0;
