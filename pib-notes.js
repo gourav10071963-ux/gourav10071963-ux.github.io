@@ -1,5 +1,135 @@
 const dailySummaries = [
   {
+    date: "2026-06-21",
+    label: "21 June 2026",
+    title: "Comprehensive PIB Notes: 21 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for two themes: India's civilisational soft power through the **12th International Day of Yoga** and maritime self-reliance through the tri-commissioning of **INS Agray**, **INS Dunagiri** and **INS Sanshodhak**.",
+    blocks: [
+      {
+        heading: "1. 12th International Day of Yoga: national observance and theme",
+        points: [
+          "Prime Minister led the national observance of the **12th International Day of Yoga** from **Red Road, Kolkata, West Bengal**.",
+          "The 2026 theme is **Yoga for Healthy Ageing**, linking yoga with active ageing, lifestyle-disease prevention, flexibility, stress reduction and mental well-being.",
+          "The programme included the **Common Yoga Protocol** with thousands of participants at Kolkata and wider participation across India and abroad.",
+          "**21 June** is significant because it is the longest day of the year in several parts of the world and has become one of the world's largest collective wellness observances.",
+          "UPSC angle: Yoga is useful for culture, soft power, preventive health, public health behaviour change, mental health, healthy ageing and India's role in global norm-setting.",
+          "PM also praised Kolkata's **Swachhta Se Swagat** initiative, linking civic responsibility with public events and urban cleanliness."
+        ]
+      },
+      {
+        heading: "2. Yoga as soft power and global public-health movement",
+        points: [
+          "PIB highlighted that since the **UN resolution in 2014**, Yoga is celebrated in more than **180 countries**.",
+          "**Yoga 365** seeks to make yoga a year-round practice rather than a one-day event; a **100-day online yoga programme** saw participation of more than **30 lakh people** from **130 countries**.",
+          "The **Yoga Sangam Portal** crossed registrations by more than **6 lakh organisations**, showing institutional and community-level participation.",
+          "Through **ICCR**, more than **210 Indian Missions** organised Yoga celebrations at nearly **2,500 locations** worldwide.",
+          "The **Ministry of Culture** with the **Archaeological Survey of India (ASI)** organised Yoga events at **100 iconic locations**, connecting heritage sites with living cultural practices.",
+          "Mains hook: Yoga diplomacy combines culture, health, diaspora outreach, India's civilisational identity and low-cost preventive wellness."
+        ]
+      },
+      {
+        heading: "3. Institutions and mass participation: Parliament, NCC, ICG and ministries",
+        points: [
+          "**Lok Sabha Speaker Om Birla** led Yoga with Members of Parliament in the **Parliament House Complex**, framing Yoga as mental balance, dialogue, self-restraint and a **365-day commitment**.",
+          "**NCC** celebrated International Day of Yoga 2026 with more than **8.30 lakh cadets**, Associate NCC Officers, Permanent Instructors and staff at over **5,000 locations**.",
+          "NCC events were held at prominent places such as **Sabarmati Riverfront**, **Golconda Fort**, **Bodh Gaya**, **Wankhede Stadium**, banks of the **Brahmaputra**, **Namo Ghat**, **Sukhna Lake**, **Marina Beach** and **Konark Sun Temple**.",
+          "**Indian Coast Guard (ICG)** observed Yoga through **Yoga Sangam 2026** across ships and establishments, focusing on physical fitness, mental clarity, emotional balance and operational resilience.",
+          "ICG's central event was at **Indian Coast Guard Complex, Noida** with **Morarji Desai National Institute of Yoga** and over **1,000** Coast Guard personnel and family members.",
+          "**Ministry of Education** event at **University of Delhi South Campus** linked Yoga with holistic education, campus well-being and the **Viksit Bharat** vision."
+        ]
+      },
+      {
+        heading: "4. Tri-commissioning: INS Agray, INS Dunagiri and INS Sanshodhak",
+        points: [
+          "Prime Minister addressed the tri-commissioning ceremony of **INS Agray**, **INS Dunagiri** and **INS Sanshodhak** in Kolkata.",
+          "The event is important for **Atmanirbhar Bharat**, maritime security, indigenous ship design, shipbuilding capacity and India's goal of becoming a net security provider in the Indian Ocean Region.",
+          "**INS Sanshodhak** is described as India's most advanced hydrographic ship; its commissioning coincided with **World Hydrography Day** on **21 June**.",
+          "**INS Dunagiri** is an advanced stealth frigate, relevant to blue-water naval capability, anti-surface and anti-submarine operations, and indigenous warship design.",
+          "**INS Agray** strengthens anti-submarine warfare in shallow waters, a key capability for coastal security and littoral operations.",
+          "The ships were built in India and involved Indian design, Indian industry, engineers, workers and more than **200 MSMEs**, reinforcing the defence-industrial ecosystem."
+        ]
+      },
+      {
+        heading: "5. Maritime economy, shipbuilding and strategic autonomy",
+        points: [
+          "PM linked maritime capability with economic growth, security and strategic influence because global trade, undersea data networks, critical minerals, deep-sea resources and new energy sources are connected with oceans.",
+          "PIB noted that more than **40 Made-in-India warships and submarines** have joined the Navy in recent years, and **45 major naval platforms** are under construction.",
+          "The government is treating **shipbuilding**, **ship repair**, **ship recycling** and **MRO** as a large national mission for industrial growth and employment.",
+          "A **Rs 70,000 crore** incentive package for the shipping sector is presented as an investment in India's maritime future and industrial expansion.",
+          "Mains hook: Indigenous naval platforms reduce import dependence, create skilled jobs, deepen MSME supply chains and support strategic autonomy.",
+          "Governance challenge: maritime growth must be aligned with coastal ecology, port-led development, skill formation, technology absorption and timely project delivery."
+        ]
+      },
+      {
+        heading: "6. Exam synthesis: health, culture and security",
+        points: [
+          "For prelims, revise **International Day of Yoga**, **Common Yoga Protocol**, **Yoga for Healthy Ageing**, **Yoga 365**, **ICCR**, **ASI**, **NCC**, **ICG** and the three naval platforms.",
+          "For mains, link Yoga with preventive healthcare, mental health, ageing society, behaviour change, cultural diplomacy and inclusive public participation.",
+          "Use the Parliament Yoga release to connect wellness with democratic culture: dialogue, patience, emotional balance and public representatives as behaviour-change messengers.",
+          "Use the NCC and ICG releases to show how public health campaigns can reach youth and uniformed services through institutions.",
+          "Use the commissioning release to connect security and economy: warship design, MSMEs, maritime trade, hydrography, anti-submarine warfare, MRO and employment.",
+          "A balanced answer should avoid treating Yoga only as culture; it is also health policy, international outreach and community mobilisation."
+        ]
+      }
+    ],
+    prelims: [
+      "12th International Day of Yoga 2026; theme: Yoga for Healthy Ageing",
+      "National observance: Red Road, Kolkata, West Bengal",
+      "21 June: International Day of Yoga; also World Hydrography Day",
+      "Yoga 365: 100-day online programme; more than 30 lakh participants from 130 countries",
+      "Yoga Sangam Portal: registrations crossed more than 6 lakh organisations",
+      "ICCR: more than 210 Indian Missions; nearly 2,500 global locations",
+      "Ministry of Culture and ASI: Yoga at 100 iconic locations",
+      "NCC Yoga 2026: more than 8.30 lakh participants at over 5,000 locations",
+      "ICG Yoga Sangam 2026; central event at ICG Complex, Noida with Morarji Desai National Institute of Yoga",
+      "INS Agray: anti-submarine warfare shallow water craft",
+      "INS Dunagiri: advanced stealth frigate",
+      "INS Sanshodhak: advanced hydrographic ship",
+      "More than 40 Made-in-India warships/submarines inducted in recent years; 45 major naval platforms under construction",
+      "Shipping sector incentive package: Rs 70,000 crore"
+    ],
+    mains: [
+      "Yoga should be analysed as preventive health, mental well-being, healthy ageing, soft power and public mobilisation.",
+      "International Day of Yoga shows how cultural heritage can become a global public-good narrative when supported by institutions and diplomacy.",
+      "Mass participation through NCC, ICG, Parliament and universities demonstrates the role of institutions in behaviour-change campaigns.",
+      "Maritime power is central to India's economic security because trade, energy, data cables, critical minerals and deep-sea resources depend on ocean governance.",
+      "Indigenous shipbuilding strengthens strategic autonomy while generating MSME linkages, skilled employment and technology absorption.",
+      "Maritime expansion must be balanced with coastal ecology, port governance, safety standards and long-term maintenance capacity."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 21 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "PM leads 12th International Day of Yoga from Kolkata",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275924",
+        note: "National observance, theme and Yoga 365"
+      },
+      {
+        label: "AYUSH release on International Day of Yoga 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275921",
+        note: "Global participation, ICCR, ASI and institutional details"
+      },
+      {
+        label: "Tri-commissioning of INS Agray, INS Dunagiri and INS Sanshodhak",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275975",
+        note: "Maritime security, shipbuilding and indigenous defence"
+      },
+      {
+        label: "NCC International Day of Yoga 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275951",
+        note: "Youth participation and nationwide locations"
+      },
+      {
+        label: "Indian Coast Guard Yoga Sangam 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2275961",
+        note: "Uniformed services, wellness and operational resilience"
+      }
+    ]
+  },
+  {
     date: "2026-06-20",
     label: "20 June 2026",
     title: "Comprehensive PIB Notes: 20 June 2026",
@@ -463,6 +593,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-21": [
+    {
+      question: "The theme of the 12th International Day of Yoga 2026 was:",
+      options: ["Yoga for Healthy Ageing", "Yoga for Climate Action", "Yoga for Digital Wellness", "Yoga for Maritime Security"],
+      answer: 0,
+      explanation: "PIB identifies the 2026 theme as Yoga for Healthy Ageing."
+    },
+    {
+      question: "The national observance of International Day of Yoga 2026 was led from:",
+      options: ["Red Road, Kolkata", "Kartavya Path, New Delhi", "Sabarmati Riverfront, Ahmedabad", "Marina Beach, Chennai"],
+      answer: 0,
+      explanation: "The Prime Minister led the national observance from Red Road in Kolkata, West Bengal."
+    },
+    {
+      question: "Which vessel is described in the notes as India's advanced hydrographic ship?",
+      options: ["INS Agray", "INS Dunagiri", "INS Sanshodhak", "INS Vikrant"],
+      answer: 2,
+      explanation: "INS Sanshodhak is the hydrographic ship commissioned on World Hydrography Day."
+    },
+    {
+      question: "NCC's International Day of Yoga 2026 participation was approximately:",
+      options: ["8.30 lakh participants at over 5,000 locations", "30 lakh participants from 130 countries", "6 lakh organisations on one portal", "1,000 personnel at Noida only"],
+      answer: 0,
+      explanation: "The NCC release says more than 8.30 lakh cadets and staff participated at over 5,000 locations."
+    },
+    {
+      question: "The Yoga 365 online programme mentioned by PIB saw participation from:",
+      options: ["More than 30 lakh people from 130 countries", "More than 8.30 lakh cadets from 5,000 locations", "More than 210 missions from 100 countries", "More than 45 naval platforms"],
+      answer: 0,
+      explanation: "The Yoga 365 initiative's 100-day online programme had more than 30 lakh participants from 130 countries."
+    }
+  ],
   "2026-06-20": [
     {
       question: "The PIB backgrounder uses Ashtalakshmi to refer to:",

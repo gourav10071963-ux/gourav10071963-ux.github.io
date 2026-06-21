@@ -489,6 +489,42 @@ textarea {
   margin-bottom: 20px;
 }
 
+.faq-section {
+  max-width: 1180px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.faq-grid details {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+  padding: 16px;
+}
+
+.faq-grid summary {
+  color: var(--navy);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.faq-grid p {
+  margin: 10px 0 0;
+  color: var(--muted);
+}
+
+.faq-grid strong {
+  color: var(--teal);
+}
+
 .download-hub,
 .link-library {
   max-width: 1180px;
@@ -1204,7 +1240,8 @@ footer {
   .form-grid,
   .note-card,
   .download-grid,
-  .link-grid {
+  .link-grid,
+  .faq-grid {
     grid-template-columns: 1fr;
   }
 
