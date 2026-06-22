@@ -1,5 +1,172 @@
 const dailySummaries = [
   {
+    date: "2026-06-22",
+    label: "22 June 2026",
+    title: "Comprehensive PIB Notes: 22 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for five connected themes: **industrial growth**, **digital public infrastructure**, **access to justice**, **strategic supply-chain resilience**, and **maritime circular economy**.",
+    blocks: [
+      {
+        heading: "1. Eight Core Industries: May 2026 signals mixed industrial momentum",
+        points: [
+          "The **Index of Eight Core Industries (ICI)** increased by **0.5 percent** in **May 2026** over May 2025; the final growth rate for April 2026 was **1.8 percent**.",
+          "**ICI** tracks **Coal**, **Crude Oil**, **Natural Gas**, **Refinery Products**, **Fertilizers**, **Steel**, **Cement** and **Electricity**; these sectors carry **40.27 percent** weight in the **Index of Industrial Production (IIP)**.",
+          "Positive growth came from **Steel** at **5 percent**, **Cement** at **8.4 percent** and **Electricity** at **8.7 percent**.",
+          "Contractions were recorded in **Coal** (-9.3 percent), **Crude Oil** (-4.6 percent), **Natural Gas** (-4.9 percent), **Refinery Products** (-8.7 percent) and **Fertilizers** (-0.9 percent).",
+          "The cumulative ICI growth for **April-May 2026-27** stood at **1.1 percent**, showing modest early-year momentum with sectoral divergence.",
+          "UPSC angle: ICI is a high-frequency macro indicator useful for questions on industrial recovery, infrastructure demand, energy security, inflation risks and IIP trends."
+        ]
+      },
+      {
+        heading: "2. Fertilizer security and agricultural supply-chain resilience",
+        points: [
+          "Four cargo ships carrying **Urea**, **Di-Ammonium Phosphate (DAP)** and **Sulphur** crossed the **Strait of Hormuz** and are headed to **Krishnapatnam**, **Kakinada**, **Paradeep** and **Mundra** ports.",
+          "The release links maritime chokepoint stability with India's **Kharif 2026** fertilizer availability and farmer input security.",
+          "India's cumulative fertilizer stock as on **22 June 2026** was **196.08 lakh tonnes**, higher than **168.67 lakh tonnes** in the corresponding period last year.",
+          "Stocks included **Urea** at **81.44 lakh tonnes**, **DAP** at **20.92 lakh tonnes**, **NPKs** at **55.91 lakh tonnes**, **MOP** at **12.68 lakh tonnes** and **SSP** at **25.13 lakh tonnes**.",
+          "Post-crisis sales from **1 March to 21 June 2026** reached **153.4 lakh tonnes**, while domestic production scaled to **133.12 LMT** and imports reached **43.69 LMT**.",
+          "India contracted **17.70 LMT** of Urea in the latest global tender and tied up more than **90 LMT** of **Urea** and **P&K fertilizers** for the Kharif season through coordination with **28 Indian Missions**."
+        ]
+      },
+      {
+        heading: "3. Digital public infrastructure: Aadhaar App, BHASHINI and emerging technologies",
+        points: [
+          "The **Aadhaar App** crossed **31 million downloads** within less than five months of launch, showing wider acceptance of mobile identity services.",
+          "Nearly **40 lakh** residents updated mobile numbers and almost **8.5 lakh** updated addresses through the new Aadhaar App.",
+          "Important features include **biometric lock/unlock**, **face verification**, **authentication history**, **e-Aadhaar download**, appointment booking at **Aadhaar Seva Kendras (ASKs)** and **QR-based offline verification**.",
+          "**Digital India BHASHINI Division (DIBD)** and **Assam Innovation & Startup Foundation (AISF)** signed an MoU under **BHASHINI Rajyam** to promote language technology, Generative AI solutions and vernacular governance in Assam.",
+          "**BHASHINI** powers over **800 government websites**, processes more than **15 million inferences daily**, and supports **36 Indian text languages**, **23 Indian voice languages** and **35 international languages**.",
+          "The technology backgrounder highlighted **Digital India**, **National Supercomputing Mission**, **Semicon India Programme**, **Anusandhan National Research Foundation (ANRF)**, AI Centres of Excellence, quantum technologies, cybersecurity and cloud computing as pillars of future readiness."
+        ]
+      },
+      {
+        heading: "4. DISHA 2.0 and technology-enabled access to justice",
+        points: [
+          "**DISHA 2.0** stands for **Designing Innovative Solutions for Holistic Access to Justice** and has been approved for **2026-27 to 2030-31**.",
+          "The Central Sector Scheme has an approved financial outlay of **Rs 255 crore**, funded through **100 percent Gross Budgetary Support**.",
+          "It supports the constitutional mandate of access to justice under the **Preamble**, **Article 14**, **Article 21** and **Article 39A**, and aligns with **SDG-16** on peace, justice and strong institutions.",
+          "The four components are **Tele-Law**, **Nyaya Bandhu**, **Legal Literacy and Legal Awareness Programme (LLLAP)** and **VIDHI-Sanjeevani**.",
+          "**Tele-Law** will provide free pre-litigation legal advice through **2,50,000 Common Service Centres**, covering **784 districts**, **36 States/UTs**, **112 Aspirational Districts** and **500 Aspirational Blocks**.",
+          "**VIDHI-Sanjeevani** adds a centralised digital platform, integrated dashboard and AI-powered multilingual **Nyaya Setu Chatbot** developed with **BHASHINI**; the scheme targets **3 crore beneficiaries**."
+        ]
+      },
+      {
+        heading: "5. Infrastructure, telecom and safety systems",
+        points: [
+          "**TRAI** released the **Indian Telecom Services Performance Indicator Report** for **January-March 2026**.",
+          "Internet subscribers rose from **1028.61 million** at end-December 2025 to **1092.79 million** at end-March 2026, a quarterly growth of **6.24 percent**.",
+          "Broadband subscribers rose to **1065.88 million**, while total telecom subscribers stood at **1,330.58 million** as on 31 March 2026.",
+          "Average wireless data usage was **26.70 GB** per wireless data subscriber per month and average revenue realisation for wireless data was **Rs 7.51 per GB**.",
+          "**Indian Railways** approved **Kavach** deployment worth **Rs 270 crore** over **631 route km** on **East Coast Railway** sections.",
+          "**Kavach** is India's indigenous **Automatic Train Protection (ATP)** system, designed to prevent **signal passing at danger (SPAD)**, over-speeding and train collisions through automatic braking."
+        ]
+      },
+      {
+        heading: "6. Cooperative agriculture, heritage research and maritime circular economy",
+        points: [
+          "**NAFED** will launch **NAFEX.in**, an auction portal to improve transparency, efficiency and digital processes in agricultural produce auctions.",
+          "Other NAFED initiatives include **NAFED-KALYAN** scholarship for farmers' children, **DRISHTI** portal for inventory management of pulses and oilseeds, and an **ERP** portal.",
+          "Human skeletal remains from **Rakhigarhi**, Haryana were transferred by **Archaeological Survey of India (ASI)** to **Anthropological Survey of India (AnSI)** for advanced research.",
+          "**Rakhigarhi** covers about **550 hectares** and is widely recognised as the largest known settlement of the **Indus-Saraswati Civilization**; the 2025-26 excavation found **eight burials** at **Mound No. 7**.",
+          "India became the world's top ship recycling nation in **2025**, with global share rising to **35.4 percent** from **30.1 percent** in 2024, as per **UNCTAD**.",
+          "Ship recycling rose to **2.99 million gross tons** from **1.86 million GT**; India also achieved the **Maritime India Vision 2030** ship recycling target ahead of schedule and is expanding **Alang Ship Recycling Yard** capacity toward about **9 million LDT**."
+        ]
+      },
+      {
+        heading: "7. Exam synthesis: how to connect today's releases",
+        points: [
+          "For prelims, revise **ICI**, **IIP weight**, **Strait of Hormuz**, **DAP**, **P&K fertilizers**, **BHASHINI**, **Aadhaar App**, **DISHA 2.0**, **Kavach**, **Rakhigarhi**, **UNCTAD** and **Maritime India Vision 2030**.",
+          "For mains, link fertilizer imports and ship recycling with maritime security, global chokepoints, ports, industrial policy and circular economy.",
+          "Use **DISHA 2.0** as an example of rights-based service delivery using digital platforms, AI chatbots, multilingual access and last-mile CSC networks.",
+          "Use **BHASHINI** and the **Aadhaar App** to show how DPI moves beyond payments into identity, language access, governance and inclusion.",
+          "Use the telecom report and Kavach release to connect infrastructure expansion with service quality, safety, reliability and indigenous technology.",
+          "A balanced answer should note that digital governance needs privacy safeguards, cybersecurity, auditability, grievance redressal and inclusion for citizens without easy digital access."
+        ]
+      }
+    ],
+    prelims: [
+      "ICI May 2026 growth: 0.5 percent; ICI sectors carry 40.27 percent weight in IIP",
+      "Eight Core Industries: Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, Electricity",
+      "May 2026 positive sectors: Steel 5 percent, Cement 8.4 percent, Electricity 8.7 percent",
+      "Fertilizer stock as on 22 June 2026: 196.08 lakh tonnes",
+      "Four fertilizer ships crossed the Strait of Hormuz; destination ports include Krishnapatnam, Kakinada, Paradeep and Mundra",
+      "Aadhaar App: over 31 million downloads; nearly 40 lakh mobile-number updates; almost 8.5 lakh address updates",
+      "BHASHINI: 800+ government websites, 15 million+ daily inferences, 36 Indian text languages and 23 Indian voice languages",
+      "DISHA 2.0: Rs 255 crore outlay for 2026-27 to 2030-31; components include Tele-Law, Nyaya Bandhu, LLLAP and VIDHI-Sanjeevani",
+      "Tele-Law network: 2,50,000 CSCs, 784 districts, 36 States/UTs, 112 Aspirational Districts and 500 Aspirational Blocks",
+      "TRAI telecom report QE March 2026: 1092.79 million internet subscribers; 1065.88 million broadband subscribers",
+      "Kavach deployment: Rs 270 crore over 631 route km on East Coast Railway",
+      "Rakhigarhi: about 550 hectares; largest known Indus-Saraswati Civilization settlement; eight burials at Mound No. 7",
+      "India's ship recycling share in 2025: 35.4 percent; ship recycling volume: 2.99 million GT",
+      "Recycling of Ships Act, 2019 aligns Indian ship recycling with the Hong Kong Convention"
+    ],
+    mains: [
+      "ICI shows why high-frequency industrial indicators must be read sector-wise rather than only through headline growth.",
+      "Fertilizer supply security depends on domestic production, imports, maritime chokepoints, diplomacy and last-mile distribution.",
+      "Digital public infrastructure is expanding into identity, language technology, legal aid, service delivery and real-time dashboards.",
+      "DISHA 2.0 links constitutional rights, Article 39A, SDG-16 and technology-enabled access to justice.",
+      "Kavach illustrates the role of indigenous technology in public safety, railway modernisation and operational reliability.",
+      "Rakhigarhi research can enrich evidence-based study of ancient urbanisation, bioarchaeology, genetics and cultural history.",
+      "Ship recycling strengthens circular economy and maritime industry, but needs environmental safeguards, worker safety and compliance with global standards."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 22 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Index of Eight Core Industries for May 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276691",
+        note: "Industrial output, sector weights and growth rates"
+      },
+      {
+        label: "Fertilizer ships cross Strait of Hormuz",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276792",
+        note: "Fertilizer security, inventories and Kharif procurement"
+      },
+      {
+        label: "Aadhaar App crosses 31 million downloads",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276583",
+        note: "Digital identity services and resident updates"
+      },
+      {
+        label: "BHASHINI-AISF MoU for Assam",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276627",
+        note: "Language technology, multilingual AI and digital inclusion"
+      },
+      {
+        label: "DISHA 2.0 access to justice scheme",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276525",
+        note: "Legal aid, Tele-Law, VIDHI-Sanjeevani and Nyaya Setu"
+      },
+      {
+        label: "TRAI telecom performance indicators January-March 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276780",
+        note: "Internet, broadband, telecom and broadcasting indicators"
+      },
+      {
+        label: "Kavach deployment on East Coast Railway",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276561",
+        note: "Indigenous Automatic Train Protection system"
+      },
+      {
+        label: "Rakhigarhi remains transferred to AnSI",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276489",
+        note: "Indus-Saraswati Civilization and bioarchaeology"
+      },
+      {
+        label: "India becomes world's top ship recycling nation in 2025",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276739",
+        note: "UNCTAD data, MIV 2030 target and circular economy"
+      },
+      {
+        label: "India's emerging technology ecosystem",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276447",
+        note: "Digital India, AI, semiconductors, supercomputing and ANRF"
+      }
+    ]
+  },
+  {
     date: "2026-06-21",
     label: "21 June 2026",
     title: "Comprehensive PIB Notes: 21 June 2026",
