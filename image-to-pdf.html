@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image to PDF Converter for UPSC Notes | PIBIAS</title>
+  <meta name="description" content="Convert JPG, PNG, and WebP images into a single PDF directly in your browser with the PIBIAS image to PDF tool.">
+  <meta name="keywords" content="image to pdf, jpg to pdf, png to pdf, convert notes to pdf, UPSC notes PDF, PIBIAS tools">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pibias.in/image-to-pdf.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="PIBIAS">
+  <meta property="og:title" content="Image to PDF Converter for UPSC Notes | PIBIAS">
+  <meta property="og:description" content="Upload images and download one clean PDF for notes, answer sheets, or study material.">
+  <meta property="og:url" content="https://pibias.in/image-to-pdf.html">
+  <meta property="og:image" content="https://pibias.in/assets/study-hero.png">
+  <meta property="og:image:alt" content="PIBIAS image to PDF converter for study notes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Image to PDF Converter | PIBIAS">
+  <meta name="twitter:description" content="Convert JPG, PNG, and WebP images into a single PDF in your browser.">
+  <meta name="twitter:image" content="https://pibias.in/assets/study-hero.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "PIBIAS Image to PDF Converter",
+      "url": "https://pibias.in/image-to-pdf.html",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "description": "A browser-based image to PDF converter for combining JPG, PNG and WebP images into a single PDF file.",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@type": "Organization",
+        "name": "PIBIAS",
+        "url": "https://pibias.in/"
+      }
+    }
+  </script>
+  <script>
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xa2xj7osmy");
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <span>UPSC CSE 2026 preparation hub</span>
+      <nav aria-label="Quick links">
+        <a href="#imagePdfTool">Image to PDF</a>
+        <a href="pib-notes.html">PIB Notes</a>
+      </nav>
+    </div>
+    <div class="brand-row">
+      <a class="brand" href="index.html" aria-label="PIBIAS home">
+        <span class="brand-mark">PI</span>
+        <span><strong>PIBIAS</strong><small>Current Affairs Practice</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="pib-notes.html">PIB Notes</a>
+        <a href="index.html#daily-notes-quiz">Daily Quiz</a>
+        <a href="timer.html">Timer</a>
+        <a href="image-to-pdf.html" aria-current="page">Image PDF</a>
+        <a href="downloads.html">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="notes-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Study tools</p>
+        <h1>Image to PDF</h1>
+        <p>Convert screenshots, handwritten notes, answer pages, and scanned images into one clean PDF for revision or sharing.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#imagePdfTool">Convert Images</a>
+          <a class="secondary-action" href="downloads.html">Open Downloads</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="converter-shell" id="imagePdfTool" aria-labelledby="converterTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Browser converter</p>
+        <h2 id="converterTitle">Create PDF from Images</h2>
+        <p>Select JPG, PNG, or WebP images. The conversion happens in your browser, so files are not uploaded to a server.</p>
+      </div>
+
+      <div class="converter-panel">
+        <label class="upload-zone" for="imageFiles" id="dropZone">
+          <span class="upload-zone-title">Choose images or drop them here</span>
+          <span class="upload-zone-hint">Multiple images will become PDF pages in the same order selected.</span>
+          <input id="imageFiles" type="file" accept="image/png,image/jpeg,image/webp" multiple>
+        </label>
+
+        <div class="converter-controls" aria-label="PDF options">
+          <label for="pageSize">
+            Page size
+            <select id="pageSize">
+              <option value="a4">A4</option>
+              <option value="letter">Letter</option>
+            </select>
+          </label>
+          <label for="pageOrientation">
+            Orientation
+            <select id="pageOrientation">
+              <option value="auto">Auto</option>
+              <option value="portrait">Portrait</option>
+              <option value="landscape">Landscape</option>
+            </select>
+          </label>
+          <label for="pageMargin">
+            Margin
+            <select id="pageMargin">
+              <option value="12">Comfortable</option>
+              <option value="6">Small</option>
+              <option value="0">No margin</option>
+            </select>
+          </label>
+          <label for="pdfName">
+            PDF name
+            <input id="pdfName" type="text" value="pibias-images.pdf" autocomplete="off">
+          </label>
+        </div>
+
+        <div class="converter-actions">
+          <button class="primary-action" type="button" id="convertPdf">Download PDF</button>
+          <button class="secondary-action dark" type="button" id="clearImages">Clear</button>
+          <span class="converter-status" id="converterStatus" role="status">No images selected.</span>
+        </div>
+
+        <div class="image-preview-grid" id="imagePreview" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>PIBIAS</strong>
+    <span>Daily PIB current affairs notes for civil services preparation.</span>
+    <span class="visitor-count">
+      <span>Visitors</span>
+      <img src="https://hits.sh/pibias.in.svg?style=flat-square&label=&color=087b72&labelColor=16324f" alt="Visitor count for PIBIAS">
+    </span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script>
+    const menuButton = document.querySelector(".menu-button");
+    const mainNav = document.querySelector("#mainNav");
+    const imageFiles = document.querySelector("#imageFiles");
+    const dropZone = document.querySelector("#dropZone");
+    const imagePreview = document.querySelector("#imagePreview");
+    const convertPdf = document.querySelector("#convertPdf");
+    const clearImages = document.querySelector("#clearImages");
+    const converterStatus = document.querySelector("#converterStatus");
+    const pageSize = document.querySelector("#pageSize");
+    const pageOrientation = document.querySelector("#pageOrientation");
+    const pageMargin = document.querySelector("#pageMargin");
+    const pdfName = document.querySelector("#pdfName");
+
+    let selectedImages = [];
+
+    function setStatus(message) {
+      converterStatus.textContent = message;
+    }
+
+    function normalizeFileName(name) {
+      const cleanName = name.trim() || "pibias-images.pdf";
+      return cleanName.toLowerCase().endsWith(".pdf") ? cleanName : `${cleanName}.pdf`;
+    }
+
+    function readImageFile(file) {
+      return new Promise((resolve, reject) => {
+        if (!file.type.startsWith("image/")) {
+          reject(new Error(`${file.name} is not an image file.`));
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = () => {
+          const image = new Image();
+          image.onload = () => {
+            const canvas = document.createElement("canvas");
+            canvas.width = image.naturalWidth;
+            canvas.height = image.naturalHeight;
+            const context = canvas.getContext("2d");
+            context.fillStyle = "#ffffff";
+            context.fillRect(0, 0, canvas.width, canvas.height);
+            context.drawImage(image, 0, 0);
+            resolve({
+              file,
+              name: file.name,
+              size: file.size,
+              dataUrl: reader.result,
+              pdfDataUrl: canvas.toDataURL("image/jpeg", 0.92),
+              width: image.naturalWidth,
+              height: image.naturalHeight
+            });
+          };
+          image.onerror = () => reject(new Error(`${file.name} could not be loaded.`));
+          image.src = reader.result;
+        };
+        reader.onerror = () => reject(new Error(`${file.name} could not be read.`));
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function renderPreview() {
+      imagePreview.innerHTML = "";
+
+      selectedImages.forEach((item, index) => {
+        const card = document.createElement("article");
+        card.className = "image-preview-card";
+        const previewImage = document.createElement("img");
+        const previewText = document.createElement("div");
+        const title = document.createElement("strong");
+        const dimensions = document.createElement("span");
+
+        previewImage.src = item.dataUrl;
+        previewImage.alt = `Preview of ${item.name}`;
+        title.textContent = `${index + 1}. ${item.name}`;
+        dimensions.textContent = `${item.width} x ${item.height}px`;
+        previewText.append(title, dimensions);
+        card.append(previewImage, previewText);
+        imagePreview.appendChild(card);
+      });
+
+      setStatus(selectedImages.length ? `${selectedImages.length} image${selectedImages.length === 1 ? "" : "s"} ready.` : "No images selected.");
+    }
+
+    async function addFiles(fileList) {
+      const files = Array.from(fileList);
+      if (!files.length) return;
+
+      setStatus("Reading selected images...");
+      try {
+        const images = await Promise.all(files.map(readImageFile));
+        selectedImages = selectedImages.concat(images);
+        renderPreview();
+      } catch (error) {
+        setStatus(error.message);
+      }
+    }
+
+    function getOrientation(image) {
+      if (pageOrientation.value !== "auto") return pageOrientation.value;
+      return image.width > image.height ? "landscape" : "portrait";
+    }
+
+    async function createPdf() {
+      if (!selectedImages.length) {
+        setStatus("Please select at least one image.");
+        return;
+      }
+
+      if (!window.jspdf || !window.jspdf.jsPDF) {
+        setStatus("PDF converter could not load. Please check the internet connection and try again.");
+        return;
+      }
+
+      setStatus("Creating PDF...");
+      convertPdf.disabled = true;
+
+      try {
+        const { jsPDF } = window.jspdf;
+        let pdf = null;
+
+        selectedImages.forEach((image, index) => {
+          const orientation = getOrientation(image);
+          const options = { orientation, unit: "mm", format: pageSize.value };
+
+          if (!pdf) {
+            pdf = new jsPDF(options);
+          } else {
+            pdf.addPage(pageSize.value, orientation);
+          }
+
+          const pageWidth = pdf.internal.pageSize.getWidth();
+          const pageHeight = pdf.internal.pageSize.getHeight();
+          const margin = Number(pageMargin.value);
+          const maxWidth = pageWidth - margin * 2;
+          const maxHeight = pageHeight - margin * 2;
+          const imageRatio = image.width / image.height;
+          const pageRatio = maxWidth / maxHeight;
+
+          let renderWidth = maxWidth;
+          let renderHeight = maxHeight;
+
+          if (imageRatio > pageRatio) {
+            renderHeight = renderWidth / imageRatio;
+          } else {
+            renderWidth = renderHeight * imageRatio;
+          }
+
+          const x = (pageWidth - renderWidth) / 2;
+          const y = (pageHeight - renderHeight) / 2;
+          pdf.addImage(image.pdfDataUrl, "JPEG", x, y, renderWidth, renderHeight);
+        });
+
+        pdf.save(normalizeFileName(pdfName.value));
+        setStatus("PDF downloaded.");
+      } catch (error) {
+        setStatus("Could not create PDF. Try fewer or smaller images.");
+      } finally {
+        convertPdf.disabled = false;
+      }
+    }
+
+    menuButton.addEventListener("click", () => {
+      const nextState = menuButton.getAttribute("aria-expanded") !== "true";
+      menuButton.setAttribute("aria-expanded", String(nextState));
+      mainNav.classList.toggle("is-open", nextState);
+    });
+
+    imageFiles.addEventListener("change", () => addFiles(imageFiles.files));
+    convertPdf.addEventListener("click", createPdf);
+    clearImages.addEventListener("click", () => {
+      selectedImages = [];
+      imageFiles.value = "";
+      renderPreview();
+    });
+
+    dropZone.addEventListener("dragover", (event) => {
+      event.preventDefault();
+      dropZone.classList.add("is-dragging");
+    });
+
+    dropZone.addEventListener("dragleave", () => {
+      dropZone.classList.remove("is-dragging");
+    });
+
+    dropZone.addEventListener("drop", (event) => {
+      event.preventDefault();
+      dropZone.classList.remove("is-dragging");
+      addFiles(event.dataTransfer.files);
+    });
+  </script>
+</body>
+</html>

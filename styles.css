@@ -565,6 +565,129 @@ textarea {
   min-width: 110px;
 }
 
+.converter-shell {
+  max-width: 980px;
+  margin: 34px auto 0;
+  padding: 28px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+}
+
+.converter-panel {
+  display: grid;
+  gap: 18px;
+}
+
+.upload-zone {
+  display: grid;
+  place-items: center;
+  min-height: 190px;
+  margin: 0;
+  padding: 26px;
+  border: 2px dashed rgba(8, 123, 114, 0.42);
+  border-radius: 8px;
+  background: #fbfcfd;
+  color: var(--navy);
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.upload-zone.is-dragging {
+  border-color: var(--teal);
+  background: #eef8f5;
+}
+
+.upload-zone input {
+  width: 1px;
+  min-height: 1px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.upload-zone-title {
+  display: block;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.upload-zone-hint {
+  display: block;
+  max-width: 520px;
+  margin-top: 6px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.converter-controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.converter-controls label {
+  margin: 0;
+  color: var(--navy);
+}
+
+.converter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.converter-actions button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.converter-status {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.image-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.image-preview-card {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fbfcfd;
+}
+
+.image-preview-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+}
+
+.image-preview-card strong,
+.image-preview-card span {
+  display: block;
+  overflow-wrap: anywhere;
+}
+
+.image-preview-card strong {
+  color: var(--navy);
+  line-height: 1.25;
+}
+
+.image-preview-card span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .faq-section {
   max-width: 1180px;
   margin: 34px auto 0;
@@ -1242,6 +1365,11 @@ footer {
     grid-template-columns: 1fr;
     align-items: start;
   }
+
+  .converter-controls,
+  .image-preview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 900px) {
@@ -1315,6 +1443,8 @@ footer {
 
   .form-grid,
   .note-card,
+  .converter-controls,
+  .image-preview-grid,
   .download-grid,
   .link-grid,
   .faq-grid {
