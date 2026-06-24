@@ -1,5 +1,188 @@
 const dailySummaries = [
   {
+    date: "2026-06-24",
+    label: "24 June 2026",
+    title: "Comprehensive PIB Notes: 24 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for six connected themes: **high-frequency services data**, **river-sensitive urban planning**, **narcotics control**, **rural connectivity**, **trade diplomacy**, and **regulatory capacity for public health and industry**.",
+    blocks: [
+      {
+        heading: "1. Index of Services Production: new high-frequency macro indicator",
+        points: [
+          "**MoSPI** is preparing to launch the **Index of Services Production (ISP)** in **July 2026** as a monthly short-term indicator for the formal services sector.",
+          "**ISP** will complement the **Index of Industrial Production (IIP)** by tracking real output changes in services such as **wholesale and retail trade**, **transport**, **banking**, **insurance**, **telecommunications**, **hotels and restaurants**, **real estate**, **professional services** and **arts and entertainment**.",
+          "The selected base year is **2024-25**; trial indices for **2025-26** and **April 2026** are scheduled for release on **14 July 2026**.",
+          "Regular trial releases will follow a monthly schedule with a lag of about **60 days**, on the **29th day** or next working day.",
+          "Major data sources are administrative data, **GST** outward-supply data and **Annual Survey of Incorporated Services Sector Enterprises (ASISSE)** data; health and education services are proposed to be added later through ASISSE.",
+          "UPSC angle: ISP strengthens evidence-based policymaking, business-cycle analysis and GDP-side assessment for an economy where services have contributed over **50 percent** of **GVA** since **2013-14**."
+        ]
+      },
+      {
+        heading: "2. Ganga-basin urban river management and Namami Gange",
+        points: [
+          "**National Mission for Clean Ganga (NMCG)** and **National Institute of Urban Affairs (NIUA)** have completed **13 Urban River Management Plans (URMPs)** and are scaling the framework across Ganga-basin cities.",
+          "The release links URMPs with the **Namami Gange Programme** and river-centric urban planning, moving beyond city-centric development.",
+          "URMPs are being prepared for **27 cities** under Phase-I and **33 additional cities** under Phase-II; the long-term vision is to cover all **97 cities** along the main stem of the **Ganga**.",
+          "The ten-point URMP agenda includes **floodplain regulation**, **pollution abatement**, wetland rejuvenation, riparian buffers, treated-water reuse, eco-sensitive riverfronts, quality return flows and citizen engagement.",
+          "Examples include **Rishikesh**, **Gorakhpur**, **Prayagraj**, **Buxar**, **Chapra** and **Gaya**, with tools such as constructed wetlands, sponge landscapes, bioswales, phytoremediation, groundwater recharge and GIS-based waterbody monitoring.",
+          "UPSC angle: use URMPs to connect urban governance, river rejuvenation, climate resilience, nature-based solutions, flood management, cultural heritage and cooperative federalism."
+        ]
+      },
+      {
+        heading: "3. NCORD, narcotics-control roadmap and internal security",
+        points: [
+          "The **10th Apex-Level Meeting of NCORD** is scheduled on **26 June 2026** at **Vigyan Bhawan, New Delhi**, chaired by the Union Home Minister.",
+          "The meeting will involve stakeholders from **44 Central Ministries and Departments** and **108 representatives** from State Governments and Drug Law Enforcement Agencies in hybrid mode.",
+          "The **Vision Document on Narcotics Control (2026-2029)** will provide a roadmap covering demand reduction, supply reduction, harm reduction, rehabilitation, public awareness, capacity building and inter-agency coordination.",
+          "The roadmap emphasises network-centric enforcement, synthetic drugs, darknet-enabled trafficking, youth protection and expanded treatment and rehabilitation centres.",
+          "**NCB** zonal offices in **Jammu** and **Guwahati** will be inaugurated, improving institutional reach in strategically sensitive regions.",
+          "The **Online Drug Disposal Fortnight Campaign** is expected to destroy about **2,09,500 kg** of drugs worth around **Rs 6,000 crore**, under legal procedures by Central and State enforcement agencies."
+        ]
+      },
+      {
+        heading: "4. Connectivity, digital infrastructure and service quality",
+        points: [
+          "The Ministry of Rural Development approved **96 road works** covering **163.872 km** in **Tripura** under **PMGSY-IV**, Batch-I for **FY 2026-27**, at an estimated cost of **Rs 211.71 crore**.",
+          "These projects will provide first-time all-weather road connectivity to **96 habitations**, improving access to schools, healthcare facilities and rural markets.",
+          "Tripura has cumulatively received sanctions for **1,594 road works**, **6,284 km** and **66 bridges** under **PMGSY**, involving around **Rs 4,479 crore**.",
+          "**DMRC** began work at **Central Secretariat Metro Station** for the **Central Vista Corridor** under Phase V(A), extending the Magenta Line from **Janakpuri West** to **RK Ashram Marg**.",
+          "The new Central Secretariat facility will become a triple interchange connecting **Magenta Line**, **Yellow Line** and **Violet Line**; the corridor spans **9.913 km** with **nine underground stations**.",
+          "**TRAI** published an Independent Drive Test on **NH-148** between **Manoharpur and Dausa** in Rajasthan, covering **62.2 km** and measuring coverage gaps, call drops, call setup, throughput, latency, jitter and packet drop rate."
+        ]
+      },
+      {
+        heading: "5. Trade diplomacy, maritime outreach and strategic partnerships",
+        points: [
+          "The Commerce Minister will visit the **United Kingdom** from **25-27 June 2026** ahead of the entry into force of the **India-UK Comprehensive Economic and Trade Agreement (CETA)** and **Double Contribution Convention (DCC)** on **15 July 2026**.",
+          "India-UK discussions will cover regulatory roadmaps, customs coordination, tariff liberalisation, services market access, investment and a bilateral trade target of **USD 120 billion by 2030**.",
+          "The **DCC** is relevant for temporary workers because it is expected to address dual social-security contribution requirements for eligible professionals.",
+          "The **United States Trade Representative** delegation visited New Delhi from **22-24 June 2026** for **India-US Bilateral Trade Agreement (BTA)** talks and an interim deal aligned with the joint statement of **7 February 2026**.",
+          "India-US discussions covered market access, digital trade, supply-chain resilience, non-tariff barriers and strategic sectors, linking trade policy with the **Comprehensive Global Strategic Partnership**.",
+          "**INS Udaygiri** and **INS Kavaratti** completed a port call at **Ho Chi Minh City, Vietnam**, reaffirming **Act East Policy**, **MAHASAGAR** and the India-Vietnam **Enhanced Comprehensive Strategic Partnership**."
+        ]
+      },
+      {
+        heading: "6. Public health regulation, natural capital and industry modernisation",
+        points: [
+          "**Indian Pharmacopoeia Commission (IPC)** conducted the second hands-on training on **Ethylene Glycol (EG)** and **Diethylene Glycol (DEG)** determination in oral liquid preparations by **Gas Chromatography** at **Ghaziabad**.",
+          "**EG** and **DEG** are highly toxic contaminants not permitted in pharmaceutical formulations; even trace quantities can cause acute kidney injury, central nervous system depression and death.",
+          "**Amendment List 09 to IP-2022**, effective from **10 October 2025**, mandates EG and DEG testing in all oral liquid formulations, strengthening State Drug Testing Laboratory capacity.",
+          "**MoSPI** released a discussion paper on monetary asset accounts of coal aligned with the **System of Environmental-Economic Accounting (SEEA)** Central Framework; India produced **1,047.523 million tonnes** of raw coal and **45.133 million tonnes** of lignite in **2024-25**.",
+          "The paper recommends the **OECD 2025** methodology, using the **Net Present Value (NPV)** approach and **Residual Value Method**, for natural-capital accounting in India's national accounts framework.",
+          "The Ministry of Steel's Chintan Shivir highlighted AI, machine learning, **Industrial Internet of Things**, digital twins, robotics and analytics for a sector where India remains the world's **second-largest steel producer** and targets **300 million tonnes** capacity by **2030** and **400 million tonnes** by **2035**."
+        ]
+      },
+      {
+        heading: "7. Youth innovation and exam synthesis",
+        points: [
+          "Six youth-led startups won the **Youth Co:Lab National Innovation Challenge 2026**, co-led by **UNDP India**, **Citi Foundation** and **Atal Innovation Mission (AIM)**, and implemented by **T-Hub Foundation**.",
+          "The challenge received more than **350 applications** from **28 states**; **50 startups** entered a three-month National Springboard Programme and the top **20** joined the Hyderabad bootcamp.",
+          "Themes were sustainable textiles and fashion, circular economy innovations, and sustainable food systems and water conservation; winners included **NavaPrayoga Labs LLP (Grassip)**, **UnBubble** and **Ecorenowa Solutions Pvt. Ltd.**",
+          "For prelims, revise **ISP**, **ASISSE**, **URMP**, **NMCG**, **NCORD**, **PMGSY-IV**, **CETA**, **DCC**, **BTA**, **EG/DEG**, **SEEA**, **NPV**, **MAHASAGAR** and **Youth Co:Lab**.",
+          "For mains, connect today's releases through state capacity: statistics for services, river-sensitive urban planning, narcotics enforcement, rural roads, drug safety, trade negotiations and industrial digitalisation.",
+          "A balanced answer should also flag implementation issues: data quality, GST-based formal-sector bias in ISP, coordination across urban local bodies, rehabilitation in drug control, road maintenance, privacy and regulatory capacity."
+        ]
+      }
+    ],
+    prelims: [
+      "ISP launch preparation: July 2026; base year 2024-25; trial indices for 2025-26 and April 2026 due on 14 July 2026",
+      "ISP data sources: administrative data, GST outward supplies and ASISSE",
+      "Services sector has contributed over 50 percent of GVA since 2013-14",
+      "NMCG-NIUA URMPs: 13 completed; 27 Phase-I cities and 33 Phase-II cities mentioned; long-term vision covers 97 Ganga main-stem cities",
+      "URMP tools: floodplain regulation, pollution abatement, wetlands, riparian buffers, treated-water reuse and nature-based solutions",
+      "10th Apex-Level NCORD meeting: 26 June 2026, Vigyan Bhawan, New Delhi",
+      "Narcotics Vision Document: 2026-2029; Online Drug Disposal Fortnight target about 2,09,500 kg worth Rs 6,000 crore",
+      "PMGSY-IV Tripura: 96 road works, 163.872 km, Rs 211.71 crore, 96 habitations",
+      "Central Vista Corridor metro work: 9.913 km and nine underground stations; Central Secretariat to become triple interchange",
+      "India-UK CETA and DCC entry into force: 15 July 2026; bilateral trade target USD 120 billion by 2030",
+      "India-US BTA talks: USTR delegation in New Delhi from 22-24 June 2026",
+      "IPC training: EG and DEG testing in oral liquids by Gas Chromatography; IP-2022 Amendment List 09 effective 10 October 2025",
+      "Coal natural-capital paper: SEEA Central Framework, OECD 2025 methodology, NPV and Residual Value Method",
+      "Steel capacity targets: 300 million tonnes by 2030 and 400 million tonnes by 2035"
+    ],
+    mains: [
+      "ISP can improve macroeconomic monitoring, but GST-based data may under-represent informal services.",
+      "URMPs show how river rejuvenation can be embedded in city planning, flood resilience, wastewater management and cultural heritage.",
+      "NCORD illustrates whole-of-government internal security, but supply control must be balanced with treatment, rehabilitation and youth prevention.",
+      "PMGSY-IV connects rural roads with health, education, market access, border-state development and inclusive growth.",
+      "CETA, DCC and BTA talks show India's shift toward trade agreements that combine tariffs, services, mobility, digital trade and supply-chain resilience.",
+      "IPC's EG/DEG testing push is a public-health regulation case study linking standards, state laboratory capacity and pharmaceutical quality.",
+      "Natural-capital accounting can support sustainable mining and energy-security policy, but valuation choices require transparent methodology.",
+      "Steel-sector digitalisation links industrial competitiveness with decarbonisation, energy efficiency, workplace safety and Industry 4.0."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 24 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "FAQs on Index of Services Production",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277392",
+        note: "ISP base year, data sources, coverage and release schedule"
+      },
+      {
+        label: "NMCG scales up Urban River Management Plans",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277477",
+        note: "URMPs, Namami Gange and river-sensitive city planning"
+      },
+      {
+        label: "10th Apex-Level NCORD meeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277393",
+        note: "Narcotics-control roadmap, NCB and drug disposal campaign"
+      },
+      {
+        label: "PMGSY-IV road works for Tripura",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277437",
+        note: "Rural roads, habitations and all-weather connectivity"
+      },
+      {
+        label: "DMRC work at Central Secretariat Station",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277337",
+        note: "Central Vista Corridor and metro connectivity"
+      },
+      {
+        label: "India-UK CETA and DCC implementation visit",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277503",
+        note: "Trade agreement, mobility and investment agenda"
+      },
+      {
+        label: "India-US Bilateral Trade Agreement talks",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277411",
+        note: "Market access, digital trade and supply-chain resilience"
+      },
+      {
+        label: "INS Udaygiri and INS Kavaratti in Vietnam",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277478",
+        note: "Maritime diplomacy, Act East Policy and MAHASAGAR"
+      },
+      {
+        label: "IPC training on EG and DEG testing",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277455",
+        note: "Drug-quality standards and State laboratory capacity"
+      },
+      {
+        label: "Monetary asset accounts of coal",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277379",
+        note: "SEEA, natural-capital accounting and coal valuation"
+      },
+      {
+        label: "Digital transformation of steel sector",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277384",
+        note: "Industry 4.0, AI and steel capacity targets"
+      },
+      {
+        label: "Youth Co:Lab National Innovation Challenge 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277333",
+        note: "Youth-led sustainability startups and SDG innovation"
+      },
+      {
+        label: "TRAI Independent Drive Test on NH-148",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277372",
+        note: "Mobile network quality, coverage gaps and throughput"
+      }
+    ]
+  },
+  {
     date: "2026-06-22",
     label: "22 June 2026",
     title: "Comprehensive PIB Notes: 22 June 2026",
@@ -760,6 +943,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-24": [
+    {
+      question: "The Index of Services Production is being prepared by MoSPI as a counterpart to which indicator?",
+      options: ["Index of Industrial Production", "Consumer Price Index", "Wholesale Price Index", "Human Development Index"],
+      answer: 0,
+      explanation: "PIB says ISP will complement IIP by measuring short-term changes in services-sector output."
+    },
+    {
+      question: "The base year selected for the trial Index of Services Production is:",
+      options: ["2024-25", "2011-12", "2022-23", "2025-26"],
+      answer: 0,
+      explanation: "The ISP FAQ release identifies 2024-25 as the base year."
+    },
+    {
+      question: "URMPs under NMCG-NIUA are mainly linked with:",
+      options: ["River-sensitive urban planning in the Ganga basin", "Only highway toll collection", "Only coastal shipping regulation", "Only wildlife census methods"],
+      answer: 0,
+      explanation: "The URMP framework integrates river health with urban planning, flood resilience and pollution abatement."
+    },
+    {
+      question: "The Online Drug Disposal Fortnight Campaign is expected to destroy drugs worth approximately:",
+      options: ["Rs 6,000 crore", "Rs 211.71 crore", "USD 120 billion", "Rs 4,479 crore"],
+      answer: 0,
+      explanation: "The NCORD release states about 2,09,500 kg of drugs worth Rs 6,000 crore are expected to be destroyed."
+    },
+    {
+      question: "The India-UK CETA and DCC are scheduled to enter into force on:",
+      options: ["15 July 2026", "14 July 2026", "26 June 2026", "10 October 2025"],
+      answer: 0,
+      explanation: "The Commerce Ministry release says CETA and DCC will enter into force on 15 July 2026."
+    }
+  ],
   "2026-06-21": [
     {
       question: "The theme of the 12th International Day of Yoga 2026 was:",
