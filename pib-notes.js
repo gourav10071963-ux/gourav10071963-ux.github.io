@@ -1,5 +1,450 @@
 const dailySummaries = [
   {
+    date: "2026-06-26",
+    label: "26 June 2026",
+    title: "Comprehensive PIB Notes: 26 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for ten connected themes: **nuclear-assisted clean hydrogen**, **narcotics control**, **biodiversity regulation**, **green urea**, **civil aviation connectivity**, **India-UK trade diplomacy**, **medical-device regulation**, **rural livelihoods**, **frontier technology**, and **women-led development**.",
+    blocks: [
+      {
+        heading: "1. Nuclear-assisted hydrogen and strategic clean energy",
+        points: [
+          "**CSIR** and the **Homi Bhabha National Institute (HBNI)** organised the **Raja Ramanna Lecture 2026** at **CSIR-National Chemical Laboratory (CSIR-NCL), Pune** on **26 June 2026**.",
+          "The lecture focused on the **nuclear-assisted hydrogen economy**, linking nuclear heat and electricity with **green hydrogen**, **decarbonisation**, and long-duration clean energy.",
+          "**NITI Aayog** highlighted that nuclear energy can support India's **Net Zero 2070** commitment, energy security and future industrial hydrogen demand.",
+          "India's nuclear target mentioned in the release is **100 GW by 2047**, making nuclear energy a high-value prelims and mains anchor.",
+          "The release connects **Energy Technology Policy**, **Energy Security** and **National Security**, especially for hard-to-abate sectors and strategic technology autonomy.",
+          "UPSC angle: use this with **National Green Hydrogen Mission**, small modular reactors, baseload clean power, hydrogen storage, safety regulation and public acceptance."
+        ]
+      },
+      {
+        heading: "2. Narcotics control: NCORD, darknet monitoring and drug disposal",
+        points: [
+          "The Union Home Minister chaired the **10th Apex-Level Meeting of Narco-Coordination Centre (NCORD)** at **Vigyan Bhawan, New Delhi** on **26 June 2026**.",
+          "A **National Narcotics Helpline - MANAS 1933** and the **MANAS portal** were emphasised as public reporting and grievance channels against drug trafficking.",
+          "The meeting reviewed the **National Drug Disposal Fortnight**, targeting destruction of about **2,09,500 kg** of seized narcotics worth nearly **Rs 6,000 crore**.",
+          "The Home Minister released the **Annual Report of NCB 2025** and the **Narcotics Control Bureau (NCB)** report on **Darknet and Cryptocurrency**.",
+          "A **NCORD Dashboard** was launched to improve coordination between Central and State agencies in anti-narcotics enforcement.",
+          "UPSC angle: connect narcotics control with **NDPS Act**, border management, organised crime, cryptocurrency-enabled illicit finance, public health and federal coordination."
+        ]
+      },
+      {
+        heading: "3. Wildlife governance: threatened species database and recovery SOP",
+        points: [
+          "The **Ministry of Environment, Forest and Climate Change (MoEFCC)** released a **National Database on Threatened Species** prepared by the **Zoological Survey of India (ZSI)**.",
+          "The database covers **73 faunal species** identified under the **Recovery Programme** for **critically endangered** and threatened species.",
+          "A new **Standard Operating Procedure (SOP)** was released for preparing, implementing and monitoring recovery plans for these species.",
+          "The SOP aligns with the **Wildlife (Protection) Act, 1972**, **National Wildlife Action Plan**, and evidence-based conservation planning.",
+          "The release is useful for prelims because it links institutions, legal framework, threatened species, habitat protection and conservation monitoring.",
+          "UPSC angle: use it in mains answers on biodiversity governance, species recovery, fragmented habitats, climate stress, community participation and ecological data systems."
+        ]
+      },
+      {
+        heading: "4. Green urea, bio-stimulants and sustainable agriculture",
+        points: [
+          "The Ministry of Chemicals and Fertilizers announced expansion of **green urea** production using **green hydrogen** as feedstock for ammonia and urea.",
+          "The release links fertiliser-sector decarbonisation with the **National Green Hydrogen Mission**, cleaner ammonia, import substitution and energy transition.",
+          "The Government also notified **20 bio-stimulants** under the **Fertilizer (Inorganic, Organic or Mixed) Control Order, 1985**.",
+          "Bio-stimulants are intended to improve nutrient-use efficiency, crop quality, stress tolerance and sustainable farming outcomes, without being conventional fertilisers or pesticides.",
+          "UPSC angle: connect green urea with **urea subsidy**, natural gas dependence, **nano urea**, soil health, carbon intensity and farmer affordability.",
+          "Implementation concerns include production cost, assured green hydrogen supply, quality control, farmer awareness, field efficacy and regulatory monitoring."
+        ]
+      },
+      {
+        heading: "5. Civil aviation: hub-and-spoke connectivity and regional access",
+        points: [
+          "**Deoghar Airport** in **Jharkhand** joined India's **hub-and-spoke aviation model**, strengthening regional air connectivity in eastern India.",
+          "The release links Deoghar with **UDAN/RCS**, tourism, medical access, pilgrimage circuits and economic activity around **Baba Baidyanath Dham**.",
+          "A hub-and-spoke model concentrates long-haul or high-frequency routes at major hubs while smaller airports feed traffic into the network.",
+          "The aviation angle is important for prelims because it combines a place, infrastructure model, regional development and civil aviation policy.",
+          "UPSC angle: use it for regional inequality, multimodal connectivity, airport viability, tourism-led livelihoods and last-mile public service access.",
+          "Limitations to flag include route sustainability, airline economics, airport maintenance, environmental clearance and integration with rail-road networks."
+        ]
+      },
+      {
+        heading: "6. India-UK CETA and trade diplomacy",
+        points: [
+          "The Commerce and Industry Minister concluded a **three-day visit to the United Kingdom** with meetings in **London** and **Birmingham**.",
+          "The visit advanced implementation of the **India-UK Comprehensive Economic and Trade Agreement (CETA)** and the **Double Contribution Convention (DCC)**.",
+          "PIB states that **CETA** and **DCC** are scheduled to come into force on **15 July 2026**.",
+          "India and the UK are working towards a bilateral trade target of **USD 120 billion by 2030**.",
+          "The release frames trade policy around exports, investment, MSMEs, services mobility, supply-chain resilience and rules-based economic partnership.",
+          "UPSC angle: connect with free trade agreements, labour mobility, social security coordination, standards, market access, diaspora linkages and Global South diplomacy."
+        ]
+      },
+      {
+        heading: "7. Health regulation: medical-device quality and enforcement capacity",
+        points: [
+          "The Health Ministry held **REGULCON 2026**, the **International Medical Device Regulators Conference**, at **New Delhi**.",
+          "The release emphasised patient safety, quality assurance, regulatory convergence and a stronger medical-device ecosystem.",
+          "India also highlighted training and capacity-building needs for regulators as the medical-device sector expands under domestic manufacturing and innovation programmes.",
+          "This complements recent health-regulation releases on drug traceability, clinical establishment reforms and proportional enforcement.",
+          "UPSC angle: use it for regulatory capacity, medical-device standards, **Make in India**, public procurement, patient rights and innovation-safety balance.",
+          "Risks to mention are fragmented regulation, post-market surveillance, import dependence, clinical validation, affordability and skilled regulatory manpower."
+        ]
+      },
+      {
+        heading: "8. Rural development: SARAS Aajeevika and cooperative mobility",
+        points: [
+          "The Rural Development Ministry organised **SARAS Aajeevika Mela** in **New Delhi**, showcasing products made by women **Self-Help Groups (SHGs)**.",
+          "**SARAS** supports market access for rural women entrepreneurs under the **Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)**.",
+          "The release is useful for linking SHG-led livelihoods with financial inclusion, rural non-farm economy, value addition, e-commerce and women-led development.",
+          "**Sahakar Taxi Cooperative Limited** launched **Bharat Taxi**, described as a cooperative, driver-owned national mobility platform.",
+          "The cooperative model is relevant for **Sahakar se Samriddhi**, platform economy regulation, fair earnings, worker ownership and urban mobility.",
+          "UPSC angle: compare SHG collectives and taxi cooperatives as institutional forms for inclusive growth, market access and bargaining power."
+        ]
+      },
+      {
+        heading: "9. Frontier technology: quantum materials and technology leadership",
+        points: [
+          "The Science and Technology release highlighted **topological insulators** as a frontier area in quantum materials and next-generation electronics.",
+          "Topological insulators conduct electricity on their surface while remaining insulating in the bulk, making them relevant for **quantum computing**, spintronics and low-energy devices.",
+          "The release points to India's need to build talent, research infrastructure and industry linkages in advanced materials.",
+          "It fits the UPSC science-and-tech syllabus because it connects basic research with semiconductor strategy, deep-tech innovation and strategic autonomy.",
+          "UPSC angle: revise **National Quantum Mission**, materials science, critical technologies, academia-industry translation and research funding.",
+          "Use the issue carefully in mains: potential is high, but commercial deployment depends on fabrication, reproducibility, skilled manpower and IP ecosystems."
+        ]
+      },
+      {
+        heading: "10. Exam synthesis: how to use today's releases",
+        points: [
+          "For prelims, revise **CSIR**, **HBNI**, **Raja Ramanna Lecture**, **100 GW nuclear target by 2047**, **NCORD**, **MANAS 1933**, **NCB**, **ZSI**, **Wildlife (Protection) Act, 1972**, **Fertilizer Control Order, 1985**, **UDAN**, **CETA**, **DCC**, **REGULCON 2026**, **DAY-NRLM**, **SARAS**, **Bharat Taxi**, **topological insulators** and **National Quantum Mission**.",
+          "For mains, the common theme is institutional capacity: energy transition institutions, anti-narcotics coordination, conservation databases, fertiliser regulation, aviation networks, trade diplomacy and health regulators.",
+          "Use the nuclear-hydrogen and green-urea releases to write balanced energy answers covering clean power, industrial decarbonisation, affordability and safety.",
+          "Use NCORD, MANAS and darknet monitoring for internal security answers on drug trafficking, cyber-enabled crime, money laundering and cooperative federalism.",
+          "Use the threatened-species database to discuss data-backed conservation, standardised recovery planning and accountability under wildlife law.",
+          "Use SARAS and Bharat Taxi to show how collective institutions can improve market access and reduce power imbalance in rural and platform economies."
+        ]
+      }
+    ],
+    prelims: [
+      "Raja Ramanna Lecture 2026: held at CSIR-NCL, Pune; focused on nuclear-assisted hydrogen economy",
+      "India's nuclear target cited by PIB: 100 GW nuclear power capacity by 2047",
+      "NCORD: 10th Apex-Level meeting at Vigyan Bhawan, New Delhi on 26 June 2026",
+      "MANAS 1933: National Narcotics Helpline; linked with public reporting against drug trafficking",
+      "National Drug Disposal Fortnight target: about 2,09,500 kg seized narcotics worth nearly Rs 6,000 crore",
+      "NCB reports released: Annual Report 2025 and report on Darknet and Cryptocurrency",
+      "ZSI database: National Database on Threatened Species covering 73 faunal species under Recovery Programme",
+      "Wildlife law anchor: Wildlife (Protection) Act, 1972 and National Wildlife Action Plan",
+      "Green urea: urea production using green hydrogen feedstock for ammonia",
+      "Bio-stimulants: 20 notified under Fertilizer (Inorganic, Organic or Mixed) Control Order, 1985",
+      "Deoghar Airport: Jharkhand; hub-and-spoke aviation model; links with UDAN and Baba Baidyanath Dham",
+      "India-UK CETA and DCC: scheduled to come into force on 15 July 2026; trade target USD 120 billion by 2030",
+      "REGULCON 2026: International Medical Device Regulators Conference in New Delhi",
+      "SARAS Aajeevika Mela: women SHG market access under DAY-NRLM",
+      "Bharat Taxi: cooperative, driver-owned national mobility platform under Sahakar Taxi Cooperative Limited",
+      "Topological insulators: conducting surface, insulating bulk; relevant for quantum technologies and spintronics"
+    ],
+    mains: [
+      "Nuclear-assisted hydrogen can support industrial decarbonisation, but safety, cost, waste management and public trust remain central.",
+      "NCORD, MANAS and darknet monitoring show how drug enforcement needs public reporting, cyber capacity and Centre-State coordination.",
+      "The threatened-species database improves conservation governance by converting species recovery into a measurable planning and monitoring exercise.",
+      "Green urea can reduce fertiliser-sector emissions and import dependence, but farmer affordability and green hydrogen availability are constraints.",
+      "Deoghar Airport illustrates how regional aviation can support pilgrimage tourism, health access and local economies if route viability is maintained.",
+      "India-UK CETA and DCC can be used to discuss trade diversification, services mobility, MSME opportunities and standards-linked market access.",
+      "Medical-device regulation needs a balance between innovation, patient safety, affordability, domestic manufacturing and post-market surveillance.",
+      "SARAS and Bharat Taxi show collective enterprise models for livelihoods, bargaining power and inclusive platform-economy design.",
+      "Frontier technologies such as topological insulators require long-term research funding, talent pipelines and industry translation.",
+      "Across today's releases, institutional design matters as much as policy announcement: dashboards, SOPs, helplines, regulators and cooperatives decide outcomes."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 26 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Raja Ramanna Lecture 2026 on nuclear-assisted hydrogen",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278355",
+        note: "CSIR-HBNI clean energy and nuclear-hydrogen lecture"
+      },
+      {
+        label: "10th Apex-Level NCORD meeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278346",
+        note: "Narcotics control, MANAS, darknet monitoring and drug disposal"
+      },
+      {
+        label: "National Database on Threatened Species",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278336",
+        note: "ZSI database and threatened-species recovery SOP"
+      },
+      {
+        label: "Green urea and green hydrogen",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278279",
+        note: "Fertiliser-sector decarbonisation"
+      },
+      {
+        label: "Twenty bio-stimulants notified under FCO",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278262",
+        note: "Fertilizer Control Order and sustainable agriculture inputs"
+      },
+      {
+        label: "Deoghar Airport joins hub-and-spoke aviation model",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278293",
+        note: "Regional connectivity and UDAN-linked development"
+      },
+      {
+        label: "Commerce Minister concludes UK visit",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278278",
+        note: "India-UK CETA, DCC and trade target"
+      },
+      {
+        label: "REGULCON 2026 medical device regulators conference",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278280",
+        note: "Medical-device regulation and patient safety"
+      },
+      {
+        label: "SARAS Aajeevika Mela",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278161",
+        note: "SHG products, rural livelihoods and DAY-NRLM"
+      },
+      {
+        label: "Bharat Taxi cooperative platform",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278302",
+        note: "Driver-owned cooperative mobility platform"
+      },
+      {
+        label: "Topological insulators and quantum materials",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278255",
+        note: "Frontier science and technology"
+      }
+    ]
+  },
+  {
+    date: "2026-06-25",
+    label: "25 June 2026",
+    title: "Comprehensive PIB Notes: 25 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for ten connected themes: **indigenous defence capability**, **telecom disaster resilience**, **health and pharma regulation**, **energy diplomacy**, **infrastructure monitoring**, **barrier-less tolling**, **agri-export logistics**, **steel-sector indicators**, **senior-citizen care**, and **tourism-led inclusive growth**.",
+    blocks: [
+      {
+        heading: "1. Defence indigenisation: Netra AEW&C and Coast Guard OPVs",
+        points: [
+          "**DRDO** handed over the **Final Operational Clearance (FOC)** certificate of the indigenous **Netra Airborne Early Warning and Control (AEW&C)** system to the **Indian Air Force (IAF)**.",
+          "**Netra AEW&C** has been developed through collaboration among the **IAF**, **DRDO** and associated industries to enhance airborne surveillance, situational awareness and battle-management capability.",
+          "The system had received **Initial Operational Clearance (IOC)** in **2017**; its operational use and reliability were highlighted in the context of **Operation Sindoor** and **Balakot strikes**.",
+          "The ceremony was held in **Bengaluru, Karnataka** on **25 June 2026**, making the location and institutional ecosystem prelims-relevant.",
+          "**Mazagon Dock Shipbuilders Ltd (MDL)** held the keel-laying ceremony for the **fourth** of **six Next Generation Offshore Patrol Vessels (NGOPVs)** being built for the **Indian Coast Guard (ICG)**.",
+          "UPSC angle: connect both releases with **Aatmanirbhar Bharat**, defence-industrial capacity, coastal security, command-and-control, surveillance technology and civil-military-scientific collaboration."
+        ]
+      },
+      {
+        heading: "2. Telecom resilience, authorisation reforms and May 2026 subscriber data",
+        points: [
+          "**DoT** activated **Intra-Circle Roaming (ICR)** in four **Arunachal Pradesh** districts: **Keyi Panyor**, **Lower Subansiri**, **Upper Subansiri** and **West Siang**, initially till **28 June 2026**.",
+          "ICR allows subscribers to connect to another operator's network within the same telecom circle when their home network is unavailable, making it a disaster-management tool.",
+          "The activation followed heavy rainfall, cloudburst and landslides that damaged telecom infrastructure, including about **12 km of Optical Fibre Cable (OFC)** between **Potin** and **Yazali**.",
+          "**DoT** opened the online **Telecom eServices Portal** for fresh service authorisations and migration of existing licences under the **Telecommunications Act, 2023**.",
+          "The authorisation and migration rules under **Section 3** of the Act were notified on **23 June 2026**, and the implementation principle is **digital by design**.",
+          "**TRAI** data for end-May 2026 showed **1,343.10 million** total telephone subscribers, **1,080.15 million** broadband subscribers, **94.02 percent** overall tele-density including M2M, and **14.46 million** MNP requests during May."
+        ]
+      },
+      {
+        heading: "3. Public health surveillance and drug-safety regulation",
+        points: [
+          "The Ministry of Civil Aviation and **Delhi International Airport Limited (DIAL)** launched **AIR SUVIDHA 2.0**, a contactless Passenger Health Self-Declaration Portal for **Ebola** screening at Indian **Points of Entry (PoEs)**.",
+          "The portal responds to the **WHO** declaration of the Ebola/Bundibugyo virus disease outbreak in **DRC** and **Uganda** as a **Public Health Emergency of International Concern (PHEIC)** on **17 May 2026** under **IHR 2005**.",
+          "International arriving passengers must submit online declarations covering **21-day travel history**, exposure history and symptoms before immigration clearance; data is shared with airport health, immigration, **IDSP** and State surveillance officials.",
+          "The Health Ministry expanded **Schedule H2** of the **Drugs Rules, 1945** to cover all **vaccines**, **antimicrobials**, **NDPS Act, 1985** narcotic and psychotropic drugs, and **anti-cancer drugs** under QR-code traceability.",
+          "The QR code must carry **nine data elements**, including product identification, drug names, manufacturer, batch number, manufacturing and expiry dates, licence number and excipients.",
+          "Implementation timelines: vaccines, narcotic and psychotropic drugs and anti-cancer medicines from **1 July 2027**; antimicrobials from **1 July 2028**, strengthening anti-counterfeit action and the fight against **AMR**."
+        ]
+      },
+      {
+        heading: "4. Jan Vishwas health reforms and affordable-medicine governance",
+        points: [
+          "The Health Ministry notified amendments to the **Clinical Establishments (Registration and Regulation) Act, 2010** on **22 June 2026** under the **Jan Vishwas (Amendment of Provisions) Act, 2026**.",
+          "**Jan Vishwas 2026** rationalises provisions across **79 Central Acts** administered by **23 Ministries and Departments**.",
+          "In the health sector, **35 provisions** across **five Acts** under the Ministry of Health and Family Welfare have been amended to decriminalise minor procedural non-compliances.",
+          "Under the Clinical Establishments Act, the term **fine** has been replaced with **penalty** in Sections **40**, **43** and **46**, shifting minor enforcement from criminal prosecution to administrative adjudication.",
+          "**NPPA** integrated the **Pharma Jan Samadhan Portal** with the **Pharma Sahi Daam Portal**, combining medicine-price verification and grievance redressal in one digital interface.",
+          "UPSC angle: this cluster links ease of doing business, patient safety, proportional regulation, drug-price control under **DPCO 2013**, public grievance redressal and regulatory trust."
+        ]
+      },
+      {
+        heading: "5. BRICS energy cooperation and India's energy transition numbers",
+        points: [
+          "India hosted the **11th BRICS Energy Ministers' Meeting** in **Gurugram, Haryana** under **India's BRICS Chairship 2026**.",
+          "The overarching theme was **Building for Resilience, Innovation, Cooperation and Sustainability**, while the Energy Track theme was **Sarvesham Urjam - Energy for All**.",
+          "Three priority areas were energy security and sustainability, energy access and equity, and technology and innovation, covering **critical minerals**, smart grids, storage, hydrogen, AI, biofuels and carbon capture.",
+          "The meeting adopted the **11th BRICS Energy Ministers' Joint Communique** and launched the **BRICS Digital Centre of Excellence for Smart Grids and Energy Storage** under the **BRICS Energy Research Cooperation Platform (ERCP)**.",
+          "India highlighted installed power capacity of nearly **540 GW**, non-fossil sources exceeding half of installed capacity, solar capacity rising from about **3 GW in 2014** to more than **154 GW**, and **20 percent ethanol blending** achieved ahead of schedule.",
+          "Long-term targets mentioned include over **400 GWh** of energy-storage capacity by **2032** and **100 GW** of nuclear power capacity by **2047**."
+        ]
+      },
+      {
+        heading: "6. Infrastructure monitoring, tolling reform and logistics efficiency",
+        points: [
+          "**MoSPI's PAIMANA** platform tracked **1,987** Central Sector infrastructure projects worth **Rs 42.50 lakh crore** as of **May 2026**.",
+          "Cumulative expenditure was **Rs 21.82 lakh crore**, about **51.34 percent** of revised project cost; **817 projects** had crossed **80 percent** physical progress and **280** had crossed **80 percent** financial completion.",
+          "The **Transport and Logistics** sector had the largest pipeline: **1,476 projects** with revised estimates of **Rs 23.50 lakh crore**.",
+          "**PAIMANA** is a centralised web-based portal for projects worth **Rs 150 crore and above**, operating on the **one data, one entry** principle and integrating with **DPIIT's IPMP** portal through APIs.",
+          "**NHAI** rolled out **Multi-Lane Free Flow (MLFF)** tolling at **Gharaunda Toll Plaza** on the **Panipat-Jalandhar** section of **NH-44**.",
+          "**MLFF** uses gantries, high-performance sensors, cameras and **FASTag** for barrier-less toll collection; unsuccessful payments trigger e-notices, with **1x** toll if paid within **72 hours** and **2x** toll after that."
+        ]
+      },
+      {
+        heading: "7. Agriculture exports and horticulture value chains",
+        points: [
+          "**ICAR-CISH**, Lucknow and **APEDA** developed a scientific sea-shipment protocol for mango exports, enabling a **4.3-tonne** consignment of **Banganappalli mangoes** from **Andhra Pradesh** to reach **Singapore** by reefer container.",
+          "Sea shipment can cut logistics cost to about **Rs 13-20 per kg**, compared with **Rs 150-250 per kg** by air shipment.",
+          "The protocol covers residue-free production, **Good Agricultural Practices (GAP)**, scientific harvesting, grading, packing and post-harvest management.",
+          "The exported fruit underwent **Hot Water Treatment (HWT)** and **CISH-Met Wash**; orchards used **FUSICONT** biocontrol technology and fruit was tested for **Maximum Residue Limits (MRLs)**.",
+          "**ICAR-CISH** has extended mango shelf life up to **30 days** under sea-shipment conditions; the Singapore consignment completed a **16-day** journey with **20.1 degree Brix TSS** and nil disease incidence.",
+          "UPSC angle: link this release with horticulture exports, cold-chain logistics, residue standards, farm incomes, APEDA's export-promotion role and sustainable logistics."
+        ]
+      },
+      {
+        heading: "8. Steel-sector indicators and raw-material security",
+        points: [
+          "The Ministry of Steel reported that **crude steel** production in **May 2026** was **14.1 Mt**, up **1.9 percent** year-on-year, while **finished steel** production was **13.8 Mt**, up **6.8 percent** year-on-year.",
+          "During **April-May 2026**, crude steel production was **28.0 Mt** and finished steel production was **27.2 Mt**.",
+          "Finished steel consumption in **May 2026** was **14.4 Mt**, up **9.3 percent** year-on-year; India was a net importer of finished steel by quantity during **April-May 2026**.",
+          "Finished steel imports in May were **689.4 thousand tonnes**, up **62.5 percent** year-on-year, while exports were **507.8 thousand tonnes**, up **29.9 percent**.",
+          "The release notes raw-material security efforts: **SAIL** and **NMDC** are exploring coking-coal assets and nickel supplies in **Russia** after a **May 2026** delegation visit.",
+          "Green steel angle: **SAIL's Bhilai Steel Plant** received **Environmental Product Declaration (EPD)** certification for TMT bars, and its **15 MW floating solar project** generates about **34.25 million units** annually."
+        ]
+      },
+      {
+        heading: "9. Social justice, senior citizens and tourism-led growth",
+        points: [
+          "The Department of Social Justice and Empowerment launched the **SHATAYU Dashboard** on **22 May 2026** to let trained geriatric caregivers register services for senior citizens.",
+          "**SHATAYU** stands for **Senior Holistic Care Assistance and Training for Your Utility** and is managed by the **National Institute of Social Defence (NISD)**.",
+          "Caregivers trained during **2023-24** and earlier years were also allowed to self-register, expanding the database for an age-responsive care ecosystem.",
+          "The PIB backgrounder **India on the Move** framed tourism as a driver of economic growth, employment, cultural exchange, regional development and soft power.",
+          "From **2014 to 2025**, India recorded **181.25 million** international arrivals and **93.35 million** foreign tourist arrivals.",
+          "**Swadesh Darshan** and **PRASHAD** were introduced in **2014**; under the first phase of Swadesh Darshan, **76 projects** worth over **Rs 5,000 crore** were sanctioned across **15 tourist circuits**, with **75** physically completed."
+        ]
+      },
+      {
+        heading: "10. Exam synthesis: how to use today's releases",
+        points: [
+          "For prelims, revise **Netra AEW&C**, **FOC/IOC**, **NGOPV**, **ICR**, **Telecommunications Act, 2023**, **AIR SUVIDHA 2.0**, **Schedule H2**, **Jan Vishwas 2026**, **BRICS ERCP**, **PAIMANA**, **MLFF**, **ICAR-CISH**, **APEDA**, **EPD**, **SHATAYU**, **NISD**, **Swadesh Darshan** and **PRASHAD**.",
+          "For mains, connect state capacity across sectors: indigenous defence, resilient communication networks, public-health surveillance, proportionate regulation, infrastructure data platforms, export logistics and elderly care.",
+          "A strong governance answer can compare **digital by design** reforms in telecom authorisation, **QR-code** drug traceability, **PAIMANA** infrastructure monitoring, **Pharma Sahi Daam** integration and **MLFF** tolling.",
+          "Use the health releases to discuss risk-based regulation: decriminalising minor procedural lapses while tightening traceability for high-risk medicines.",
+          "Use energy and steel releases to balance growth, security and sustainability: critical minerals, coking coal, storage, non-fossil capacity, green steel, carbon capture and affordable financing.",
+          "Implementation concerns to flag: data quality, cybersecurity, privacy, digital exclusion, grievance redressal, inter-agency coordination, enforcement capacity, disaster preparedness and independent monitoring."
+        ]
+      }
+    ],
+    prelims: [
+      "Netra AEW&C: DRDO-developed indigenous system; FOC handed to IAF on 25 June 2026; IOC was in 2017",
+      "NGOPV: fourth of six vessels being built by MDL for Indian Coast Guard; contract concluded on 20 December 2023",
+      "ICR in Arunachal Pradesh: Keyi Panyor, Lower Subansiri, Upper Subansiri and West Siang till 28 June 2026",
+      "Telecom May 2026: 1,343.10 million total telephone subscribers; 1,080.15 million broadband subscribers; 94.02 percent tele-density including M2M",
+      "AIR SUVIDHA 2.0: Ebola health self-declaration portal for international arrivals; 21-day travel history; linked to PHEIC under IHR 2005",
+      "Schedule H2 expansion: vaccines, antimicrobials, NDPS drugs and anti-cancer drugs under QR-code traceability",
+      "Drug traceability timelines: 1 July 2027 for vaccines, NDPS and anti-cancer drugs; 1 July 2028 for antimicrobials",
+      "Jan Vishwas 2026: 79 Central Acts across 23 Ministries/Departments; 35 health-sector provisions across five Acts",
+      "BRICS Energy Ministers' Meeting: 11th meeting in Gurugram; Digital Centre of Excellence for Smart Grids and Energy Storage launched",
+      "India energy numbers: nearly 540 GW installed capacity; solar above 154 GW; over 400 GWh storage by 2032; 100 GW nuclear by 2047",
+      "PAIMANA: 1,987 projects worth Rs 42.50 lakh crore; projects worth Rs 150 crore and above; one data, one entry principle",
+      "MLFF tolling: Gharaunda Toll Plaza on NH-44; 1x toll within 72 hours of e-notice and 2x after 72 hours",
+      "ICAR-CISH/APEDA mango protocol: 4.3 tonnes Banganappalli to Singapore; shelf life up to 30 days; logistics cost Rs 13-20 per kg by sea",
+      "Steel May 2026: crude steel 14.1 Mt; finished steel 13.8 Mt; finished steel consumption 14.4 Mt",
+      "SHATAYU Dashboard: Senior Holistic Care Assistance and Training for Your Utility; managed by NISD",
+      "Tourism: 181.25 million international arrivals and 93.35 million foreign tourist arrivals during 2014-2025"
+    ],
+    mains: [
+      "Netra AEW&C and NGOPVs show how indigenisation strengthens strategic autonomy, surveillance and coastal security.",
+      "ICR in disaster-hit Arunachal Pradesh is a telecom-resilience case study for disaster management and last-mile connectivity.",
+      "AIR SUVIDHA 2.0 links aviation, digital public health surveillance, IHR 2005 obligations and state-level disease monitoring.",
+      "QR-code drug traceability can reduce counterfeit medicines and support AMR control, but implementation needs industry readiness and regulatory capacity.",
+      "Jan Vishwas reforms show proportional regulation: decriminalise minor procedural lapses without weakening patient-safety oversight.",
+      "BRICS energy cooperation lets India project leadership on energy access, storage, smart grids, hydrogen, biofuels and critical minerals.",
+      "PAIMANA and MLFF demonstrate data-driven infrastructure governance, but accuracy, interoperability, grievance redressal and inclusion remain key.",
+      "Sea-shipment protocols for mangoes can reduce logistics cost, improve farm incomes and strengthen horticulture export competitiveness.",
+      "Steel indicators should be read with raw-material security, import dependence, green steel and industrial decarbonisation.",
+      "SHATAYU and tourism-led growth can be used in social-sector answers on ageing, livelihoods, soft power and inclusive regional development."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 25 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Netra AEW&C gets Final Operational Clearance",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277899",
+        note: "Indigenous airborne surveillance and battle-management system"
+      },
+      {
+        label: "Keel-laying of MDL Next-Gen OPV for ICG",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277783",
+        note: "Fourth of six NGOPVs for coastal security"
+      },
+      {
+        label: "DoT activates ICR in Arunachal Pradesh",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277997",
+        note: "Telecom continuity during cloudburst, landslides and OFC damage"
+      },
+      {
+        label: "DoT authorisation portal under Telecommunications Act, 2023",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277786",
+        note: "Fresh authorisations and licence migration through Telecom eServices"
+      },
+      {
+        label: "TRAI telecom subscription data for May 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277922",
+        note: "Broadband, tele-density, MNP and M2M indicators"
+      },
+      {
+        label: "AIR SUVIDHA 2.0 for Ebola health screening",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277639",
+        note: "Passenger self-declaration and public health surveillance at PoEs"
+      },
+      {
+        label: "QR-code drug traceability expanded",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277691",
+        note: "Schedule H2 coverage for vaccines, antimicrobials, NDPS and anti-cancer drugs"
+      },
+      {
+        label: "Jan Vishwas reforms in Clinical Establishments Act",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277693",
+        note: "Decriminalisation and administrative penalties in health regulation"
+      },
+      {
+        label: "NPPA integrates Pharma Jan Samadhan with Pharma Sahi Daam",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277731",
+        note: "Medicine-price verification and grievance redressal"
+      },
+      {
+        label: "11th BRICS Energy Ministers' Meeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277751",
+        note: "BRICS energy cooperation, smart grids, storage and India's energy numbers"
+      },
+      {
+        label: "MoSPI PAIMANA infrastructure project report",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277758",
+        note: "Central Sector projects worth Rs 150 crore and above"
+      },
+      {
+        label: "NHAI rolls out MLFF tolling at Gharaunda",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277765",
+        note: "Barrier-less tolling on NH-44 using FASTag and gantries"
+      },
+      {
+        label: "ICAR and APEDA sea protocol for mango exports",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277828",
+        note: "Banganappalli mango sea shipment to Singapore"
+      },
+      {
+        label: "India's steel sector in May 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277931",
+        note: "Production, consumption, trade and green steel indicators"
+      },
+      {
+        label: "SHATAYU Dashboard for senior citizens",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277755",
+        note: "Geriatric caregiver network and NISD"
+      },
+      {
+        label: "India on the Move",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277629",
+        note: "Tourism-led growth, Swadesh Darshan and PRASHAD"
+      }
+    ]
+  },
+  {
     date: "2026-06-24",
     label: "24 June 2026",
     title: "Comprehensive PIB Notes: 24 June 2026",
@@ -943,6 +1388,70 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-26": [
+    {
+      question: "The Raja Ramanna Lecture 2026 highlighted which clean-energy theme?",
+      options: ["Nuclear-assisted hydrogen economy", "Only rooftop solar subsidies", "Only offshore wind zoning", "Only coal gasification"],
+      answer: 0,
+      explanation: "PIB says the lecture focused on nuclear-assisted hydrogen and its role in clean energy."
+    },
+    {
+      question: "MANAS 1933 is associated with:",
+      options: ["National narcotics reporting and helpline system", "Medical device import licensing", "Biodiversity census mapping only", "Airport slot allocation"],
+      answer: 0,
+      explanation: "MANAS 1933 is the National Narcotics Helpline highlighted during the NCORD meeting."
+    },
+    {
+      question: "The National Database on Threatened Species was prepared by:",
+      options: ["Zoological Survey of India", "Bureau of Indian Standards", "Indian Council of Medical Research", "Airports Authority of India"],
+      answer: 0,
+      explanation: "The MoEFCC release identifies ZSI as the institution behind the threatened-species database."
+    },
+    {
+      question: "India-UK CETA and DCC are scheduled to come into force on:",
+      options: ["15 July 2026", "26 June 2026", "1 April 2027", "31 December 2030"],
+      answer: 0,
+      explanation: "The Commerce Ministry release states that CETA and DCC are scheduled for 15 July 2026."
+    },
+    {
+      question: "Topological insulators are prelims-relevant because they:",
+      options: ["Conduct on the surface while remaining insulating in the bulk", "Are a new variety of green urea", "Are exclusively used for toll collection", "Replace the Wildlife Protection Act"],
+      answer: 0,
+      explanation: "The science release highlights surface conduction and bulk insulation as their key property."
+    }
+  ],
+  "2026-06-25": [
+    {
+      question: "Netra, mentioned in the 25 June PIB notes, is an indigenous system for:",
+      options: ["Airborne early warning and control", "River water-quality monitoring", "Mango cold-chain logistics", "Barrier-less highway tolling"],
+      answer: 0,
+      explanation: "Netra is DRDO's indigenous Airborne Early Warning and Control system for the IAF."
+    },
+    {
+      question: "Intra-Circle Roaming was activated in four districts of which State?",
+      options: ["Arunachal Pradesh", "Haryana", "Andhra Pradesh", "Karnataka"],
+      answer: 0,
+      explanation: "DoT activated ICR in Keyi Panyor, Lower Subansiri, Upper Subansiri and West Siang in Arunachal Pradesh."
+    },
+    {
+      question: "Schedule H2 drug traceability was expanded to include which category?",
+      options: ["Vaccines, antimicrobials, NDPS drugs and anti-cancer drugs", "Only over-the-counter painkillers", "Only Ayurvedic cosmetics", "Only medical devices"],
+      answer: 0,
+      explanation: "The Health Ministry expanded QR-code traceability to vaccines, antimicrobials, NDPS drugs and anti-cancer medicines."
+    },
+    {
+      question: "PAIMANA is linked with monitoring:",
+      options: ["Central Sector infrastructure projects worth Rs 150 crore and above", "Only district-level school attendance", "Only foreign tourist visas", "Only public-sector bank branches"],
+      answer: 0,
+      explanation: "MoSPI describes PAIMANA as a portal for monitoring Central Sector infrastructure projects worth Rs 150 crore and above."
+    },
+    {
+      question: "The ICAR-CISH and APEDA sea-shipment protocol in the notes relates to:",
+      options: ["Banganappalli mango exports to Singapore", "Coking coal imports from Russia", "Steel TMT bar certification", "Geriatric caregiver registration"],
+      answer: 0,
+      explanation: "The protocol enabled a 4.3-tonne Banganappalli mango shipment from Andhra Pradesh to Singapore by sea."
+    }
+  ],
   "2026-06-24": [
     {
       question: "The Index of Services Production is being prepared by MoSPI as a counterpart to which indicator?",
