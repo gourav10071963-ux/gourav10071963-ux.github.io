@@ -628,6 +628,213 @@ const dailySummaries = [
     ]
   },
   {
+    date: "2026-06-23",
+    label: "23 June 2026",
+    title: "Comprehensive PIB Notes: 23 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for eight connected themes: **El Nino and Kharif preparedness**, **ocean advisories**, **critical minerals**, **digital markets for farmers and traders**, **grievance redress**, **maritime security**, **green logistics**, and **trade-health-cultural governance**.",
+    blocks: [
+      {
+        heading: "1. Kharif preparedness amid El Nino and weak monsoon risk",
+        points: [
+          "The Agriculture Ministry reviewed **Kharif 2026** preparedness with States, **ICAR**, **ICAR-CRIDA**, District Collectors and the **India Meteorological Department (IMD)** amid **El Nino** concerns.",
+          "PIB reported that the **southwest monsoon** was delayed and rainfall so far was around **43 percent below normal**, with weak rainfall likely during the week ending **2 July 2026**.",
+          "The Centre rolled out a special contingency plan for **315 vulnerable districts**, with focus on water conservation, ponds, check dams, farm reservoirs and local crop planning.",
+          "The release emphasised short-duration and low-water crops, with **pulses**, **millets** and **oilseeds** getting priority under stress conditions.",
+          "Inputs such as seeds, fertilisers and fodder stocks were reviewed, while **PMFBY**, **KCC** and **PM-KISAN** were presented as three safety nets for farmers.",
+          "UPSC angle: connect this with climate-resilient agriculture, rainfed regions, food security, crop diversification, extension services and Centre-State coordination."
+        ]
+      },
+      {
+        heading: "2. INCOIS El Nino bulletins and maritime-sector climate risk",
+        points: [
+          "**INCOIS** launched specialised **El Nino Bulletins** to warn maritime operators about impacts on India's marine and coastal sectors.",
+          "The first bulletin said the ongoing **El Nino** is expected to peak during **November 2026-January 2027**, while **Indian Ocean** sea-surface temperatures may remain above normal until **April/May 2027**.",
+          "The northern **Indian Ocean**, covering both the **Arabian Sea** and the **Bay of Bengal**, may face thermal stress, especially during **March-May 2027**.",
+          "Likely impacts include coral bleaching, marine heatwaves, lower fish catch, migration of fish stock, and reduced size of species such as **sardine** and **mackerel**.",
+          "The **Bay of Bengal** may remain rough during the monsoon, with higher chances of east-coast erosion and flooding; the west coast may see calmer-than-usual conditions.",
+          "UPSC angle: use this for climate services, blue economy, disaster preparedness, fisheries livelihoods, coastal erosion, marine biodiversity and early-warning systems."
+        ]
+      },
+      {
+        heading: "3. Critical minerals and strategic resource security",
+        points: [
+          "The Mines Ministry release said India's **Critical Mineral Mission** gained momentum with **56 critical mineral blocks** and **11 exploration licence blocks** successfully auctioned.",
+          "Critical minerals are exam-relevant because they support batteries, solar modules, wind turbines, semiconductors, defence systems, electronics and electric mobility.",
+          "Auctioning mineral blocks links resource security with domestic exploration, private investment, supply-chain resilience and reduction of import dependence.",
+          "The issue should be connected with the **National Critical Mineral Mission**, clean-energy transition, strategic autonomy and global competition for lithium, cobalt, nickel, rare earths and graphite.",
+          "UPSC angle: mention the environmental and social safeguards required in mining, including forest diversion, groundwater stress, tribal rights, rehabilitation and mine closure.",
+          "A balanced answer should show that mineral security is both an industrial policy issue and an ecological governance challenge."
+        ]
+      },
+      {
+        heading: "4. Digital markets: NAFEX, DigiDukaan and trader welfare",
+        points: [
+          "The Cooperation Ministry launched **NAFED's e-auction portal NAFEX.in** along with initiatives such as **DRISHTI**, **ERP** and **NAFED Kalyan**.",
+          "PIB stated that **NAFED** serves more than **74 lakh farmers**, has a turnover of **Rs 30,000 crore** and a profit of **Rs 500 crore**.",
+          "The release said **NAFEX.in** aims to remove middlemen and enable farmers' income to reach bank accounts directly within **48 hours**.",
+          "The **National Traders' Welfare Board (NTWB)** held its **10th meeting** and discussed trade facilitation, stakeholder participation and expansion of **DigiDukaan**.",
+          "**DigiDukaan** is a digital-commerce initiative to help small retailers and kirana stores join the digital economy; expansion to **Mumbai**, **Bengaluru** and later nationwide rollout was discussed.",
+          "UPSC angle: compare cooperative e-auctions and trader digitalisation as tools for market access, price discovery, digital inclusion and small-enterprise formalisation."
+        ]
+      },
+      {
+        heading: "5. CPGRAMS, Sevottam and citizen-centric service delivery",
+        points: [
+          "**DARPG** released the **49th CPGRAMS monthly report** for Central Ministries/Departments and the **46th CPGRAMS report** for States/UTs for **May 2026**.",
+          "Central Ministries/Departments redressed **1,78,423 grievances** in May 2026, with monthly disposal crossing **1 lakh cases** for the **47th month in a row**.",
+          "The average grievance disposal time for Central Ministries/Departments in **2026** was reported as **13 days**.",
+          "For States/UTs, **85,900** public grievance cases were received and **84,365** were redressed in May 2026; total pendency stood at **2,13,190** as of **31 May 2026**.",
+          "Under the **Sevottam Scheme**, **1,175 training courses** were completed in the last five financial years, training about **38,693 officers**.",
+          "UPSC angle: use CPGRAMS for e-governance, administrative reforms, accountability, feedback systems, capacity building and outcome-oriented public service delivery."
+        ]
+      },
+      {
+        heading: "6. Maritime security, Act East and MAHASAGAR",
+        points: [
+          "**INS Tarkash**, a stealth frigate, departed **Port Louis, Mauritius** after a port call and further deployment in the **South West Indian Ocean Region**.",
+          "The visit included training for **Mauritius National Coast Guard** personnel, public outreach and a yoga session linked to **International Day of Yoga 2026**.",
+          "PIB explicitly linked the visit with maritime cooperation, regional security and **MAHASAGAR**: **Mutual and Holistic Advancement for Security and Growth Across Regions**.",
+          "The all-release list also recorded **INS Udaygiri** and **INS Kavaratti** arriving at **Ho Chi Minh City, Vietnam**, relevant for **Act East Policy** and India-Vietnam maritime ties.",
+          "The Defence IT Consultative Committee meeting on the same day adds a digital-governance angle to defence administration and secure technology systems.",
+          "UPSC angle: connect naval port calls with SAGAR/MAHASAGAR, Indian Ocean security, diaspora diplomacy, capacity building, HADR and rules-based maritime order."
+        ]
+      },
+      {
+        heading: "7. Infrastructure research, green ports and ethanol blending",
+        points: [
+          "**NHAI** signed an MoU with **NCAER** to establish the **NHAI Centre for Economics of Transportation, Mobility and Logistics** at NCAER.",
+          "PIB described it as India's first permanent and independent research centre dedicated to the economics of transportation, mobility and logistics.",
+          "**V.O. Chidambaranar Port Authority (VOCPA)** was highlighted for green maritime growth: renewable energy offsets nearly **94 percent** of the port's energy-consumption equivalent and net carbon emissions fell by about **45 percent**.",
+          "The Petroleum Ministry reiterated that the **Ethanol Blending Programme (EBP)**, launched in **2003**, is scientifically validated and continuously monitored.",
+          "PIB stated that **E20** rollout began from **2023** and that no widespread engine failure or breakdown attributable to ethanol blending had been reported since its introduction.",
+          "UPSC angle: use these releases for evidence-based logistics policy, port decarbonisation, biofuel policy, energy security, circular economy and misinformation management."
+        ]
+      },
+      {
+        heading: "8. Awards, trade indicators and rights-based governance",
+        points: [
+          "The President presented **Padma Vibhushan**, **Padma Bhushan** and **Padma Shri** awards for **2026** at the **Civil Investiture Ceremony-II** in **Rashtrapati Bhavan**.",
+          "**NITI Aayog** launched the eighth edition of **Trade Watch Quarterly** for **Q4 FY 2025-26**, with a thematic focus on the **pharmaceutical sector**.",
+          "PIB said India's total merchandise and services trade grew by **5.4 percent year-on-year** in **FY 2025-26** to reach **USD 1.84 trillion**.",
+          "**IEPFA** launched the publication **Claiming the Unclaimed: Unlocking the Potential of Idle Financial Assets in India** under the investor-awareness theme **Aapki Poonji Aapka Adhikaar**.",
+          "**MoPR** held the **Seva Se Samriddhi** regional workshop at **SKICC, Srinagar**, covering panchayat-led citizen service delivery and participation from seven States.",
+          "UPSC angle: combine these for prelims facts on awards and institutions, and mains themes on financial inclusion, local governance, export competitiveness and service delivery."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 23 June 2026: 37 releases",
+      "Kharif preparedness review: El Nino concerns, weak monsoon risk and contingency plan for 315 vulnerable districts",
+      "Rainfall status cited by PIB: about 43 percent below normal at the time of the Kharif review",
+      "Kharif safety nets highlighted: PMFBY, KCC and PM-KISAN",
+      "INCOIS El Nino bulletin: expected peak during November 2026-January 2027; Indian Ocean SST above normal until April/May 2027",
+      "Marine risks: coral bleaching, marine heatwaves, lower sardine and mackerel catch, east-coast erosion and flooding",
+      "Critical Mineral Mission: 56 critical mineral blocks and 11 exploration licence blocks successfully auctioned",
+      "NAFEX.in: NAFED e-auction portal; farmer payments within 48 hours highlighted",
+      "NAFED figures cited: more than 74 lakh farmers, Rs 30,000 crore turnover and Rs 500 crore profit",
+      "CPGRAMS May 2026: 1,78,423 Central grievances redressed; average central disposal time 13 days in 2026",
+      "States/UTs CPGRAMS May 2026: 85,900 cases received, 84,365 redressed, pendency 2,13,190 as of 31 May",
+      "INS Tarkash: stealth frigate; Port Louis, Mauritius; South West Indian Ocean Region; MAHASAGAR",
+      "NHAI-NCAER Centre: transportation, mobility and logistics economics research",
+      "VOC Port: renewable energy offsets nearly 94 percent of energy-consumption equivalent; net carbon emissions down about 45 percent",
+      "Trade Watch Quarterly: Q4 FY 2025-26; India's total merchandise and services trade at USD 1.84 trillion, up 5.4 percent y-o-y"
+    ],
+    mains: [
+      "Kharif preparedness shows climate adaptation in agriculture: contingency crops, water harvesting, input planning, insurance and income support must work together.",
+      "INCOIS bulletins show how ocean science can protect fisheries, ports, coastal communities and disaster-management systems.",
+      "Critical-mineral auctions strengthen strategic autonomy, but mining governance must address environmental safeguards and community rights.",
+      "NAFEX and DigiDukaan illustrate digital market access for farmers, cooperatives, small traders and kirana stores.",
+      "CPGRAMS is a useful case study in administrative reform, but disposal numbers must be matched with quality of redress and citizen satisfaction.",
+      "Naval port calls in Mauritius and Vietnam show India's maritime diplomacy through MAHASAGAR, Act East and capacity building.",
+      "Transport research and green ports can improve logistics efficiency while lowering emissions and supporting evidence-based infrastructure policy.",
+      "Ethanol blending needs science communication, vehicle compatibility monitoring, feedstock sustainability and transparent grievance handling.",
+      "IEPFA and panchayat-led workshops connect rights awareness, financial inclusion and last-mile citizen service delivery.",
+      "Trade Watch can be used for external-sector answers linking services strength, pharmaceutical competitiveness and export diversification."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 23 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list; select 23 June 2026"
+      },
+      {
+        label: "Kharif preparedness amid El Nino concerns",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277178",
+        note: "Agriculture Ministry review, vulnerable districts and farmer safety nets"
+      },
+      {
+        label: "INCOIS specialised El Nino bulletins",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277120",
+        note: "Ocean advisories, marine heat stress and coastal risks"
+      },
+      {
+        label: "Critical Mineral Mission auctions",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277041",
+        note: "Critical mineral blocks and exploration licence blocks"
+      },
+      {
+        label: "NAFED launches NAFEX.in",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277046",
+        note: "Cooperative e-auction, farmer payments and NAFED reforms"
+      },
+      {
+        label: "National Traders' Welfare Board meeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277207",
+        note: "DigiDukaan and trader welfare initiatives"
+      },
+      {
+        label: "CPGRAMS central ministries May 2026 report",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277163",
+        note: "Central grievance redress numbers and GRAI rankings"
+      },
+      {
+        label: "CPGRAMS States/UTs May 2026 report",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277161",
+        note: "State grievance receipts, redress and pendency"
+      },
+      {
+        label: "INS Tarkash at Port Louis, Mauritius",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277144",
+        note: "Maritime cooperation, Mauritius and MAHASAGAR"
+      },
+      {
+        label: "NHAI-NCAER transportation economics centre",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2276991",
+        note: "Evidence-based logistics and mobility research"
+      },
+      {
+        label: "VOC Port green maritime growth",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277098",
+        note: "Renewable energy and carbon-emission reduction at VOCPA"
+      },
+      {
+        label: "Ethanol Blending Programme clarification",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277210",
+        note: "E20 rollout, monitoring and misinformation response"
+      },
+      {
+        label: "NITI Aayog Trade Watch Quarterly",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277232",
+        note: "Trade trends, services strength and pharmaceutical sector focus"
+      },
+      {
+        label: "Padma Awards 2026 Civil Investiture Ceremony-II",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277220",
+        note: "Padma Vibhushan, Padma Bhushan and Padma Shri awards"
+      },
+      {
+        label: "IEPFA on unclaimed financial assets",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277114",
+        note: "Investor awareness and financial inclusion"
+      },
+      {
+        label: "Panchayat-led service delivery workshop",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2277055",
+        note: "Seva Se Samriddhi workshop at SKICC, Srinagar"
+      }
+    ]
+  },
+  {
     date: "2026-06-22",
     label: "22 June 2026",
     title: "Comprehensive PIB Notes: 22 June 2026",
@@ -1482,6 +1689,38 @@ const dailyNoteQuizzes = {
       options: ["15 July 2026", "14 July 2026", "26 June 2026", "10 October 2025"],
       answer: 0,
       explanation: "The Commerce Ministry release says CETA and DCC will enter into force on 15 July 2026."
+    }
+  ],
+  "2026-06-23": [
+    {
+      question: "The Kharif preparedness review on 23 June 2026 was mainly linked with which climate concern?",
+      options: ["El Nino and weak monsoon risk", "Cyclone landfall in Gujarat only", "Heatwave in the Himalayas only", "Urban air pollution only"],
+      answer: 0,
+      explanation: "PIB linked the review to El Nino, delayed monsoon conditions and a contingency plan for vulnerable districts."
+    },
+    {
+      question: "INCOIS launched specialised bulletins on 23 June 2026 for:",
+      options: ["El Nino impacts on maritime sectors", "Only highway toll exemptions", "Only textile export rebates", "Only Padma award nominations"],
+      answer: 0,
+      explanation: "INCOIS launched specialised El Nino bulletins for maritime operators, fisheries and coastal-sector risks."
+    },
+    {
+      question: "NAFEX.in is associated with which institution?",
+      options: ["NAFED", "NHAI", "NITI Aayog", "NHRC"],
+      answer: 0,
+      explanation: "The Cooperation Ministry release says NAFEX.in is NAFED's e-auction portal."
+    },
+    {
+      question: "CPGRAMS is primarily related to:",
+      options: ["Public grievance redress and monitoring", "Critical mineral exploration only", "Naval port-call scheduling", "Coral reef census only"],
+      answer: 0,
+      explanation: "DARPG's CPGRAMS reports cover public grievance receipts, redress, pendency and disposal performance."
+    },
+    {
+      question: "VOC Port was highlighted in the notes for:",
+      options: ["Green maritime growth and carbon-emission reduction", "Launching E20 petrol nationwide in 2003", "Issuing Padma Awards", "Hosting BRICS security officials"],
+      answer: 0,
+      explanation: "PIB highlighted VOCPA's renewable-energy use and about 45 percent reduction in net carbon emissions."
     }
   ],
   "2026-06-21": [
