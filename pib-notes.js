@@ -1,5 +1,114 @@
 const dailySummaries = [
   {
+    date: "2026-06-27",
+    label: "27 June 2026",
+    title: "Comprehensive PIB Notes: 27 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for two connected themes: **India-Seychelles maritime partnership** under **Vision MAHASAGAR** and **GI-tagged agri-export value chains** through **APEDA**, **FPOs**, quality compliance and export market linkages.",
+    blocks: [
+      {
+        heading: "1. India-Seychelles relations: maritime neighbour and Indian Ocean partner",
+        points: [
+          "The Prime Minister announced a **State Visit to Seychelles from 27-29 June 2026** at the invitation of **H.E. Dr. Patrick Herminie**, President of the **Republic of Seychelles**.",
+          "The visit coincides with the **Golden Jubilee celebrations of the National Day of Seychelles**, where the Indian Prime Minister is the **Guest of Honour**.",
+          "PIB describes **Seychelles** as a valued **maritime neighbour** and a key partner in India's **Vision MAHASAGAR** and shared commitment to the **Global South**.",
+          "India and Seychelles are marking the **50th anniversary of diplomatic relations** in 2026, with ties anchored in democratic values, diversity, people-to-people links and maritime cooperation.",
+          "The statement builds on President Herminie's **State visit to India in February 2026**, showing continuity in high-level political engagement.",
+          "UPSC angle: connect the visit with India's **Indian Ocean Region (IOR)** policy, **SAGAR/MAHASAGAR**, maritime domain awareness, small-island diplomacy, diaspora links and Global South partnership."
+        ]
+      },
+      {
+        heading: "2. Parliamentary diplomacy and Indian diaspora",
+        points: [
+          "During the visit, the Prime Minister is to become the **first Indian Prime Minister to address the National Assembly of Seychelles**.",
+          "This is useful for mains because parliamentary addresses often signal trust, democratic partnership and long-term strategic alignment.",
+          "The release highlights the **Indian community in Seychelles** as a living bridge between the two countries, adding a diaspora and soft-power dimension.",
+          "For prelims, remember the institutional anchor: **National Assembly of Seychelles** and the diplomatic milestone of **50 years of India-Seychelles relations**.",
+          "UPSC angle: use this example in answers on parliamentary diplomacy, diaspora diplomacy, cultural affinity and India's engagement with small island developing states.",
+          "The broader goal stated by PIB is a **secure, peaceful and prosperous Indian Ocean region**, linking diplomacy with regional security and economic development."
+        ]
+      },
+      {
+        heading: "3. APEDA and first commercial export of GI-tagged Rewa Sundarja mangoes",
+        points: [
+          "**APEDA** under the **Ministry of Commerce and Industry** facilitated the first commercial export of **GI-tagged Rewa Sundarja Mangoes** from **Madhya Pradesh** to the **United Arab Emirates (UAE)**.",
+          "The first commercial consignment comprised **one metric tonne** of **GI-tagged Rewa Sundarja Mangoes** and was exported to the **UAE on 26 June 2026** by **M/s Salt Range Foods Pvt. Ltd.**",
+          "The produce was sourced from **M/s Seondha Farmer Producer Company Limited** and farmer **Shri Sonu Gupta** of **Govindgarh, Rewa district, Madhya Pradesh**.",
+          "Grading, sorting and export-quality packaging were done at an **APEDA-facilitated pack house** of **Trisagar Farmer Producer Company, Bhadohi, Uttar Pradesh**.",
+          "After export packaging and **phytosanitary requirements**, the consignment moved to **Varanasi Airport** for onward air shipment to the **UAE**.",
+          "UPSC angle: revise **APEDA**, **Geographical Indication (GI)**, **FPOs**, agri-export infrastructure, quality standards, post-harvest management and export diversification."
+        ]
+      },
+      {
+        heading: "4. Farmer income, GI branding and value-chain integration",
+        points: [
+          "PIB states that local market prices of **Rewa Sundarja Mangoes** were about **Rs 100-110 per kg**, while the exporter procured them at **Rs 150 per kg**.",
+          "The export therefore gave farmers a premium of about **Rs 40-50 per kg**, showing how market linkage and quality compliance can improve farm-gate returns.",
+          "**GI registration** gives region-specific products a distinct identity, helps premium positioning and supports protection of local reputation in export markets.",
+          "**Rewa Sundarja Mango** is described as known for exceptional sweetness, rich aroma, fibreless pulp and distinctive flavour, giving it export potential.",
+          "The release positions **Madhya Pradesh** as an emerging hub for premium mango exports and shows how non-traditional export regions can enter global value chains.",
+          "Implementation issues for mains: certification integrity, traceability, cold-chain capacity, pack-house access, small farmer aggregation, buyer continuity and phytosanitary compliance."
+        ]
+      },
+      {
+        heading: "5. Exam synthesis: how to use today's releases",
+        points: [
+          "For prelims, revise **Seychelles**, **Vision MAHASAGAR**, **Global South**, **50 years of India-Seychelles diplomatic relations**, **National Assembly of Seychelles**, **APEDA**, **GI tag**, **Rewa Sundarja Mango**, **FPOs**, **Bhadohi**, **Varanasi Airport** and **UAE**.",
+          "For mains, the common thread is external engagement: maritime diplomacy strengthens security in the **Indian Ocean Region**, while agri-export diplomacy expands market access for Indian producers.",
+          "Use the Seychelles release for answers on India's neighbourhood policy, IOR strategy, small-island states, diaspora diplomacy and democratic partnerships.",
+          "Use the mango export release for answers on doubling farmers' income, value addition, export-oriented agriculture, **GI-based rural development** and supply-chain governance.",
+          "A balanced mains answer should note that both maritime partnerships and GI exports need sustained institutions, not one-time events.",
+          "The releases are narrow in number but high-value for UPSC because they connect places, institutions, diplomatic milestones, exports, farmers and exam-worthy numbers."
+        ]
+      }
+    ],
+    prelims: [
+      "Prime Minister's State Visit to Seychelles: 27-29 June 2026",
+      "Seychelles National Day Golden Jubilee: Indian Prime Minister invited as Guest of Honour",
+      "India-Seychelles ties: 50th anniversary of diplomatic relations in 2026",
+      "Vision MAHASAGAR: PIB links Seychelles with India's maritime-neighbourhood and Global South approach",
+      "National Assembly of Seychelles: PM to become the first Indian Prime Minister to address it",
+      "APEDA: Agricultural and Processed Food Products Export Development Authority under Ministry of Commerce and Industry",
+      "First commercial export: GI-tagged Rewa Sundarja Mangoes from Madhya Pradesh to UAE",
+      "Consignment size and date: one metric tonne exported to UAE on 26 June 2026",
+      "Exporter: M/s Salt Range Foods Pvt. Ltd.",
+      "Source area: Govindgarh, Rewa district, Madhya Pradesh; linked with Seondha Farmer Producer Company Limited",
+      "Pack house: APEDA-facilitated Trisagar Farmer Producer Company pack house, Bhadohi, Uttar Pradesh",
+      "Shipment route: transported to Varanasi Airport for onward air shipment to UAE",
+      "Farmer price benefit: local price about Rs 100-110/kg; export procurement at Rs 150/kg; premium Rs 40-50/kg",
+      "GI value: creates distinct identity for region-specific products in global markets",
+      "Rewa Sundarja Mango: known for sweetness, aroma, fibreless pulp and distinctive flavour"
+    ],
+    mains: [
+      "India-Seychelles relations illustrate how maritime neighbourhood policy combines security, prosperity, democratic values and people-to-people links.",
+      "Vision MAHASAGAR can be used to discuss India's Indian Ocean outreach, especially with small island developing states and Global South partners.",
+      "Parliamentary diplomacy, such as addressing the National Assembly of Seychelles, can deepen trust beyond executive-level agreements.",
+      "Diaspora communities act as soft-power bridges by sustaining cultural, economic and political linkages with partner countries.",
+      "The Rewa Sundarja mango export shows how GI branding can convert local identity into higher-value market access.",
+      "APEDA's role demonstrates the importance of export infrastructure, pack houses, quality standards, phytosanitary compliance and buyer linkages.",
+      "FPO participation helps aggregate small producers, but sustained gains need cold chains, traceability, certification integrity and stable overseas demand.",
+      "Export premiums can improve farmer income when value chains pass gains to growers rather than only to intermediaries.",
+      "GI-led agriculture can support rural development, but it needs branding, quality control, legal protection and scale.",
+      "Today's releases together show India using diplomacy for both strategic maritime interests and market access for domestic producers."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 27 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "PM departure statement for Seychelles visit",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278337",
+        note: "State Visit, Vision MAHASAGAR, India-Seychelles diplomatic milestone"
+      },
+      {
+        label: "APEDA export of GI-tagged Rewa Sundarja mangoes",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278340",
+        note: "GI-tagged agri-export, FPOs, farmer premium and UAE shipment"
+      }
+    ]
+  },
+  {
     date: "2026-06-26",
     label: "26 June 2026",
     title: "Comprehensive PIB Notes: 26 June 2026",
@@ -1595,6 +1704,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-27": [
+    {
+      question: "The Prime Minister's 27-29 June 2026 State Visit is to which Indian Ocean country?",
+      options: ["Seychelles", "Mauritius", "Maldives", "Madagascar"],
+      answer: 0,
+      explanation: "PIB says the Prime Minister will undertake a State Visit to Seychelles from 27-29 June 2026."
+    },
+    {
+      question: "PIB links Seychelles with India's maritime outreach under which vision?",
+      options: ["Vision MAHASAGAR", "Operation Flood", "PM Gati Shakti only", "Project Mausam only"],
+      answer: 0,
+      explanation: "The departure statement describes Seychelles as a key partner in India's Vision MAHASAGAR."
+    },
+    {
+      question: "Rewa Sundarja Mangoes mentioned in the PIB release are GI-tagged products from:",
+      options: ["Madhya Pradesh", "Kerala", "Nagaland", "Punjab"],
+      answer: 0,
+      explanation: "APEDA facilitated export of GI-tagged Rewa Sundarja Mangoes from Madhya Pradesh."
+    },
+    {
+      question: "The first commercial export consignment of Rewa Sundarja Mangoes to UAE comprised:",
+      options: ["One metric tonne", "4.3 tonnes", "100 metric tonnes", "50 kilograms"],
+      answer: 0,
+      explanation: "PIB states that the first commercial consignment comprised one metric tonne."
+    },
+    {
+      question: "APEDA is under which Union Ministry?",
+      options: ["Ministry of Commerce and Industry", "Ministry of Defence", "Ministry of Power", "Ministry of Culture"],
+      answer: 0,
+      explanation: "APEDA functions under the Ministry of Commerce and Industry and facilitates agricultural exports."
+    }
+  ],
   "2026-06-26": [
     {
       question: "The Raja Ramanna Lecture 2026 highlighted which clean-energy theme?",
