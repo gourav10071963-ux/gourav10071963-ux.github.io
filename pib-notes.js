@@ -1,5 +1,192 @@
 const dailySummaries = [
   {
+    date: "2026-06-29",
+    label: "29 June 2026",
+    title: "Comprehensive PIB Notes: 29 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **digital health DPI**, **Centre-State health governance**, **industrial statistics**, **SDG monitoring**, **defence R&D delegation**, **consumer protection**, **water federalism**, **agri-advisory platforms**, **medical-device manufacturing** and **research-to-market innovation**.",
+    blocks: [
+      {
+        heading: "1. Health governance: 16th CCHFW and Viksit Bharat 2047",
+        points: [
+          "The **16th Conference of the Central Council of Health and Family Welfare (CCHFW)** was chaired by the Union Health Minister on **29 June 2026**.",
+          "PIB frames health as the foundation of **Viksit Bharat 2047**, with States treated as equal partners in national health outcomes.",
+          "The conference reviewed national health programmes, emerging public-health priorities and Centre-State collaboration for affordable, equitable and quality healthcare.",
+          "**National Health Policy 2017** was highlighted for shifting India from a mainly curative approach to a holistic system covering **preventive, promotive, curative, palliative and rehabilitative care**.",
+          "The Health Ministry also released the **Anemia Mukt Bharat Abhiyaan Operational Guidelines**, moving from supplementation-only logic to testing, treatment, diet, tracking and community mobilisation.",
+          "UPSC angle: use CCHFW for cooperative federalism in health, public-health capacity, universal health coverage, preventive health and implementation gaps across States."
+        ]
+      },
+      {
+        heading: "2. Digital health DPI: Aarogya Setu 2.0, UHI and ABDM",
+        points: [
+          "The Health Minister launched **Aarogya Setu 2.0** and other digital health initiatives to strengthen India's **Digital Public Infrastructure for Health**.",
+          "PIB states that India has over **90 crore ABHA accounts** and more than **100 crore linked health records**, making **ABDM** a major prelims and mains anchor.",
+          "**Aarogya Setu 2.0** has been repurposed from a COVID-era contact tracing app into a **Personal Health Record (PHR)** and citizen-facing national health app.",
+          "The release notes a captive user base of nearly **20 crore downloads**, which can help mainstream ABDM services such as **ABHA** creation and health-record management.",
+          "**Unified Health Interface (UHI)** is the service layer of **ABDM**; it uses open protocols so patients and providers can discover and transact across different digital platforms.",
+          "UHI uses **ABHA**, **Healthcare Professionals Registry (HPR)**, **Health Facility Registry (HFR)** and consent-based health information exchange, making it comparable to an open-network approach in digital health."
+        ]
+      },
+      {
+        heading: "3. Health service delivery: eSushrut, Ayushman Sarathi, NAS and SUMAN",
+        points: [
+          "**eSushrut@Clinic** is a light **ABDM-enabled HMIS** developed by **C-DAC** for small outpatient clinics, government **PHCs**, **HWCs**, sub-centres and private clinics.",
+          "PIB says **800+ health facilities** are already onboarded on eSushrut@Clinic; C-DAC is also implementing eSushrut in more than **15 AIIMS** and several State hospitals.",
+          "**Ayushman Sarathi** is a **PM-JAY WhatsApp Chatbot**, bringing Ayushman Bharat services closer to citizens through a familiar communication channel.",
+          "The **Drug Registry** aims to standardise medicine-related information across the healthcare ecosystem, supporting safer prescriptions, claims, procurement and interoperability.",
+          "**National Ambulance Services (NAS), 2026** guidelines seek uniform national standards for emergency medical transport, including **AIS-125** compliance, **GPS-enabled tracking**, triage and integrated command-dispatch systems.",
+          "**SUMAN Roadmap 2030** targets maternal and newborn health through differentiated, evidence-based interventions aligned with **SDG** targets and the **RMNCHA+N** continuum of care."
+        ]
+      },
+      {
+        heading: "4. Anemia Mukt Bharat Abhiyaan and nutrition-linked public health",
+        points: [
+          "**Anemia Mukt Bharat** has transitioned to **Anemia Mukt Bharat Abhiyaan**, broadening the programme beyond prophylactic supplementation.",
+          "The revised approach adopts the **T4 strategy - Test, Treat, Talk and Track** to strengthen screening, therapeutic management, follow-up and continuity of care.",
+          "The earlier **6x6x6 strategy** has expanded into a **7x7x7 framework**, with **low birth weight babies (0-6 months)** added as a new beneficiary group.",
+          "A unified **Anemia Mukt Bharat Abhiyaan Portal** will support digital tracking, analysis and planning of anemia services.",
+          "The guidelines emphasise **Jan Chetna**, eating right, community participation and institutional mechanisms, not only iron-folic acid supply.",
+          "UPSC angle: connect anemia with malnutrition, maternal-child health, learning outcomes, productivity, behavioural change, testing capacity and convergence with **Poshan** and primary healthcare."
+        ]
+      },
+      {
+        heading: "5. Industrial statistics and SDG monitoring",
+        points: [
+          "**IIP** recorded **5.1 percent** year-on-year growth in **May 2026**, with **Manufacturing** growing **5.5 percent** and **Electricity and Gas Supply** growing **9.9 percent**.",
+          "The new IIP series uses **base year 2022-23**; MoSPI has adopted **Output Producer Price Index (Output PPI)** as deflator instead of **WPI** for value-based item groups.",
+          "This affects **234 of 463 item groups** in the IIP basket, representing **36.02 percent** of total index weight.",
+          "**Output PPI** is considered more granular for producer-level prices and is aligned with international best practices and **Technical Advisory Committee (TAC)** recommendations.",
+          "On the **20th Statistics Day**, **MoSPI** released SDG publications including the **SDG National Indicator Framework Progress Report 2026**, data snapshot, metadata and a people-dimension achievements publication.",
+          "UPSC angle: revise **MoSPI**, **IIP**, **PPI**, **WPI**, **SDG National Indicator Framework**, evidence-based policymaking and data quality in social-sector monitoring."
+        ]
+      },
+      {
+        heading: "6. Defence, border roads and research commercialisation",
+        points: [
+          "The Defence Ministry release on **Delegation of Financial Powers to DRDO 2026** is important for defence R&D governance, faster procurement, accountability and timely execution of strategic research projects.",
+          "Use it with **Aatmanirbhar Bharat**, defence innovation, laboratory autonomy, acquisition delays, project management and civil-military technology transfer.",
+          "**Project BRAHMANK** of the **Border Roads Organisation (BRO)** marked its **16th Raising Day**, making it useful for border infrastructure and strategic connectivity.",
+          "The **Office of the Principal Scientific Adviser (OPSA)** launched the **TRL Compass Platform** with the **Data Security Council of India (DSCI)** to standardise **Technology Readiness Level (TRL)** assessments.",
+          "TRL Compass adapts the globally accepted **nine-level TRL scale** for India's research ecosystem and supports **ANRF** and the **Research, Development and Innovation (RDI) Fund**.",
+          "UPSC angle: connect DRDO delegation, BRO infrastructure and TRL Compass through strategic autonomy, last-mile execution, public funding discipline and converting research into deployable technologies."
+        ]
+      },
+      {
+        heading: "7. Consumer protection, water federalism and sectoral manufacturing",
+        points: [
+          "The Consumer Affairs Ministry introduced an **Improvement Notice Mechanism** under the **Legal Metrology Act**, shifting some enforcement toward corrective compliance before punitive action.",
+          "This is useful for mains on ease of doing business, proportional regulation, consumer rights, standard weights and measures, and trust in markets.",
+          "Rajasthan and Haryana signed an agreement for the **Yamuna Water Project**, described by PIB as resolving a nearly **three-decade-old** water-related issue.",
+          "The project is intended to supply drinking water to **Sikar**, **Churu** and **Jhunjhunu** in Rajasthan, and **Bhiwani** and **Fatehabad** areas in Haryana, while storing rainwater and recharging groundwater.",
+          "The Department of Pharmaceuticals invited applications under **Scheme for Strengthening of Medical Device Industry (SMDI)** for import dependence reduction and clinical-study support.",
+          "Under SMDI, eligible applicants can receive one-time capital subsidy up to **Rs 10 crore** for manufacturing key components or devices, and up to **Rs 5 crore** for clinical investigations, performance evaluation, post-market follow-up or animal studies."
+        ]
+      },
+      {
+        heading: "8. Agriculture advisory, local governance and exam synthesis",
+        points: [
+          "**Kisan Sarathi**, launched in **July 2021**, is described as India's largest integrated digital agro-advisory platform for timely, authentic and multilingual farmer advisories.",
+          "It is a joint initiative of **MeitY** and the **Ministry of Agriculture and Farmers Welfare**, implemented by **IASRI** and **Digital India Corporation**.",
+          "The platform uses **Interactive Information Dissemination System (IIDS)** and links farmers with **730+ KVKs**, **100+ ICAR institutes** and **65+ agricultural universities**.",
+          "Integrated platforms include **Kisan Call Centre**, **Common Service Centres**, **India Meteorological Department**, **MyScheme** and **BHASHINI**, with access through call centres, CSCs, web portal, WhatsApp and mobile app.",
+          "The Panchayati Raj release flagged a forthcoming national study on **low participation in Gram Sabha**, relevant for local democracy, social audit, decentralisation and citizen engagement.",
+          "For mains, today's releases share one governance theme: India is using digital platforms, standards, delegated powers and federal agreements to reduce friction in service delivery, but success depends on data quality, last-mile capacity, privacy, accountability and State-level implementation."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 29 June 2026: 31 releases; page updated 29 Jun 2026 18:15 IST",
+      "16th CCHFW: Central Council of Health and Family Welfare chaired by Union Health Minister",
+      "National Health Policy 2017: holistic care covering preventive, promotive, curative, palliative and rehabilitative dimensions",
+      "Aarogya Setu 2.0: revamped as Personal Health Record and citizen-facing national health app",
+      "ABDM scale cited by PIB: over 90 crore ABHA accounts and more than 100 crore health records linked",
+      "Unified Health Interface: ABDM service layer using open protocols, ABHA, HPR, HFR and consent-based exchange",
+      "eSushrut@Clinic: light ABDM-enabled HMIS developed by C-DAC for small clinics",
+      "eSushrut@Clinic scale: 800+ health facilities onboarded; eSushrut being installed at more than 15 AIIMS",
+      "Anemia Mukt Bharat Abhiyaan: T4 strategy - Test, Treat, Talk and Track; 7x7x7 framework",
+      "National Ambulance Services 2026: AIS-125 compliance, GPS tracking and integrated command-dispatch systems",
+      "SUMAN Roadmap 2030: maternal and newborn health, SDG targets and RMNCHA+N continuum",
+      "IIP May 2026 growth: 5.1 percent; Manufacturing 5.5 percent; Electricity and Gas Supply 9.9 percent",
+      "IIP base year: 2022-23; Output PPI replaces WPI for 234 of 463 item groups with 36.02 percent weight",
+      "20th Statistics Day: MoSPI released SDG National Indicator Framework Progress Report 2026 and related publications",
+      "TRL Compass: OPSA-DSCI platform using nine-level Technology Readiness Level scale; supports ANRF and RDI Fund",
+      "SMDI: capital subsidy up to Rs 10 crore; clinical-study support up to Rs 5 crore; proposal deadline 23 July 2026",
+      "Kisan Sarathi: launched July 2021; 730+ KVKs, 100+ ICAR institutes and 65+ agricultural universities",
+      "Yamuna Water Project: Rajasthan-Haryana agreement for Sikar, Churu, Jhunjhunu, Bhiwani and Fatehabad areas"
+    ],
+    mains: [
+      "CCHFW is a useful example of cooperative federalism in health because national programmes need State capacity for last-mile delivery.",
+      "Aarogya Setu 2.0 and UHI show how digital public infrastructure can move from identity and records to actual service discovery, booking and consent-based exchange.",
+      "Digital health expansion must address privacy, cybersecurity, digital literacy, exclusion risks, clinical accountability and interoperability beyond formal facilities.",
+      "Anemia Mukt Bharat Abhiyaan is a shift from commodity distribution to case-based public health management through testing, treatment, counselling and tracking.",
+      "NAS 2026 and SUMAN Roadmap 2030 show that maternal-newborn health and emergency response depend on standards, transport, referral systems and district-level execution.",
+      "The IIP move from WPI to Output PPI improves real-output estimation, but statistical transitions require transparency, continuity and user education.",
+      "SDG National Indicator Framework strengthens evidence-based policymaking, but data quality and timeliness across line ministries remain central challenges.",
+      "DRDO financial delegation and TRL Compass both address the same bottleneck: moving strategic technology from research approval to deployable outcomes.",
+      "Legal metrology improvement notices can balance consumer protection with ease of doing business if corrective compliance is monitored transparently.",
+      "The Yamuna Water Project is a federal water-governance case study because dialogue, rainwater storage and groundwater recharge are linked with drinking-water security.",
+      "SMDI can deepen medical-device value chains, but import dependence will reduce only with standards, clinical validation, procurement support and component ecosystems.",
+      "Kisan Sarathi shows how digital agriculture can integrate KVKs, ICAR, weather, schemes and language platforms, but farmer trust depends on local relevance and access."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 29 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "16th CCHFW and health policy frameworks",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279056",
+        note: "Centre-State health governance and Viksit Bharat 2047"
+      },
+      {
+        label: "Aarogya Setu 2.0 and digital health initiatives",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279006",
+        note: "ABDM scale, digital health apps and citizen services"
+      },
+      {
+        label: "Unified Health Interface",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278987",
+        note: "Interoperable ABDM service layer"
+      },
+      {
+        label: "Anemia Mukt Bharat Abhiyaan guidelines",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279050",
+        note: "T4 strategy and 7x7x7 framework"
+      },
+      {
+        label: "IIP May 2026 quick estimates",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278961",
+        note: "IIP growth, base year and Output PPI deflator"
+      },
+      {
+        label: "Statistics Day SDG publications",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279014",
+        note: "SDG National Indicator Framework publications"
+      },
+      {
+        label: "TRL Compass platform",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279062",
+        note: "Technology readiness assessment and research commercialisation"
+      },
+      {
+        label: "Yamuna Water Project agreement",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278930",
+        note: "Rajasthan-Haryana water federalism"
+      },
+      {
+        label: "Kisan Sarathi platform",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278757",
+        note: "Digital agro-advisory ecosystem"
+      },
+      {
+        label: "SMDI proposals",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2278917",
+        note: "Medical-device manufacturing and clinical-study support"
+      }
+    ]
+  },
+  {
     date: "2026-06-27",
     label: "27 June 2026",
     title: "Comprehensive PIB Notes: 27 June 2026",
@@ -1704,6 +1891,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-29": [
+    {
+      question: "Aarogya Setu 2.0 is UPSC-relevant mainly because it has been repurposed as:",
+      options: ["A Personal Health Record and citizen-facing national health app", "A defence procurement portal", "A Gram Sabha attendance app", "A new IIP deflator"],
+      answer: 0,
+      explanation: "PIB states that Aarogya Setu 2.0 now functions as a Personal Health Record and national health gateway under ABDM."
+    },
+    {
+      question: "The Unified Health Interface is best described as:",
+      options: ["The ABDM service layer for interoperable digital health services", "A legal metrology penalty code", "A BRO border-road project", "A scheme for mango exports"],
+      answer: 0,
+      explanation: "UHI is the ABDM service layer using open protocols to connect patients and providers across platforms."
+    },
+    {
+      question: "In the revised IIP series, MoSPI adopted which deflator for value-based item groups?",
+      options: ["Output Producer Price Index", "Consumer Price Index for Rural Labourers", "Wholesale Food Price Index", "GDP deflator only"],
+      answer: 0,
+      explanation: "MoSPI adopted Output PPI instead of WPI for 234 of 463 IIP item groups, representing 36.02 percent of total weight."
+    },
+    {
+      question: "The Anemia Mukt Bharat Abhiyaan operational guidelines use which T4 strategy?",
+      options: ["Test, Treat, Talk and Track", "Train, Transfer, Tax and Track", "Test, Trade, Target and Tender", "Talk, Teach, Travel and Treat"],
+      answer: 0,
+      explanation: "The revised anemia framework uses Test, Treat, Talk and Track to move toward screening, treatment and follow-up."
+    },
+    {
+      question: "TRL Compass launched by OPSA and DSCI is intended to standardise:",
+      options: ["Technology Readiness Level assessments", "National ambulance vehicle numbering", "Gram Sabha voting schedules", "Retail commodity pricing"],
+      answer: 0,
+      explanation: "TRL Compass adapts the nine-level Technology Readiness Level scale to assess research and innovation projects."
+    }
+  ],
   "2026-06-27": [
     {
       question: "The Prime Minister's 27-29 June 2026 State Visit is to which Indian Ocean country?",
