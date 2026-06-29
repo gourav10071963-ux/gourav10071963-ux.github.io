@@ -95,7 +95,7 @@ const dailySummaries = [
       }
     ],
     prelims: [
-      "Official PIB Delhi list for 29 June 2026: 31 releases; page updated 29 Jun 2026 18:15 IST",
+      "Official PIB Delhi list for 29 June 2026: 32 releases; page updated 29 Jun 2026 18:17 IST",
       "16th CCHFW: Central Council of Health and Family Welfare chaired by Union Health Minister",
       "National Health Policy 2017: holistic care covering preventive, promotive, curative, palliative and rehabilitative dimensions",
       "Aarogya Setu 2.0: revamped as Personal Health Record and citizen-facing national health app",
