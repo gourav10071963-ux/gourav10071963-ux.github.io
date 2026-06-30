@@ -1,5 +1,183 @@
 const dailySummaries = [
   {
+    date: "2026-06-30",
+    label: "30 June 2026",
+    title: "Comprehensive PIB Notes: 30 June 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **GST institutional evolution**, **taxpayer facilitation**, **FCRA and OCI digital governance**, **KVIC reform**, **critical petrochemical supply chains**, **student mental health**, **women-led development**, **Northeast connectivity**, **technical textiles**, **tribal welfare** and **inclusive urban livelihoods**.",
+    blocks: [
+      {
+        heading: "1. GST governance: anti-profiteering sunset and taxpayer services",
+        points: [
+          "PIB highlighted that the **GST anti-profiteering mechanism** will cease to accept complaints from **1 April 2025**, making it a key transition point in **GST** institutional design.",
+          "Anti-profiteering was originally meant to ensure that benefits from lower tax rates or input tax credit under **GST** were passed on to consumers through commensurate price reduction.",
+          "The release is exam-worthy because it shows how temporary transition safeguards in a tax reform can be phased out once market and compliance systems mature.",
+          "The **CBIC** also launched the **Ekal Anubandhan** project, a single unified multi-purpose bond for customs users.",
+          "**Ekal Anubandhan** reduces repeated bond execution across ports and offices, supporting trade facilitation, ease of doing business and paperless customs administration.",
+          "UPSC angle: connect anti-profiteering sunset and customs bond simplification with tax certainty, compliance cost, consumer welfare, digital governance and cooperative fiscal federalism under **GST Council** processes."
+        ]
+      },
+      {
+        heading: "2. Internal security and diaspora services: FCRA 2.0 and e-OCI",
+        points: [
+          "The Union Home Minister launched **FCRA 2.0 Portal** and **e-OCI Card**, both relevant for digital public service delivery and internal security regulation.",
+          "**FCRA** governs acceptance and utilisation of foreign contribution by associations and other eligible entities, making transparency, national security and compliance central themes.",
+          "**FCRA 2.0** should be read as part of wider digitisation of regulatory permissions, monitoring and user-facing service delivery in sensitive governance domains.",
+          "**OCI** services are important for diaspora engagement because they link overseas Indians with long-term visa, travel and residency facilitation within the legal limits of the **Overseas Citizen of India** framework.",
+          "The launch also illustrates a governance pattern: high-volume public services are increasingly being redesigned around portals, identity verification, document workflows and time-bound processing.",
+          "UPSC angle: balance ease of access for civil society and diaspora with sovereignty, security screening, data protection, procedural fairness and grievance redress."
+        ]
+      },
+      {
+        heading: "3. KVIC amendment and rural non-farm livelihoods",
+        points: [
+          "The Government approved a proposal to amend the **Khadi and Village Industries Commission Act, 1956**, which is important for rural industry, MSME governance and self-employment.",
+          "**KVIC** is a statutory institution associated with promotion and development of **Khadi** and village industries, including employment generation in rural and semi-urban areas.",
+          "For UPSC, the amendment proposal should be linked with modernising legacy institutions, improving operational flexibility and aligning rural enterprise promotion with contemporary value chains.",
+          "**Khadi** has both economic and cultural relevance: it supports local production, hand-spun/hand-woven traditions, artisan livelihoods and the larger **Vocal for Local** policy narrative.",
+          "Village industries help diversify rural income beyond agriculture and can reduce distress migration when supported by design, credit, marketing, quality standards and e-commerce access.",
+          "UPSC angle: use KVIC for answers on rural industrialisation, Gandhian economics, employment-intensive growth, women artisans, cluster development and challenges in scaling traditional industries."
+        ]
+      },
+      {
+        heading: "4. Critical petrochemicals and manufacturing supply chains",
+        points: [
+          "The Government extended **full customs duty exemption** for imports of critical petrochemical products till **15 July 2026**.",
+          "PIB frames the measure as support for downstream users and supply stability in critical petrochemical inputs.",
+          "Petrochemicals are feedstock for sectors such as plastics, packaging, textiles, automotive components, electronics, agriculture inputs and healthcare products.",
+          "The decision is useful for prelims because it links customs duty, industrial inputs and sectoral competitiveness rather than only final consumer goods.",
+          "For mains, such exemptions must be evaluated against domestic manufacturing goals, revenue implications, import dependence, supply-chain resilience and the time needed to build local capacity.",
+          "UPSC angle: connect this with **Make in India**, tariff policy, input-cost inflation, global supply disruptions, MSME competitiveness and strategic industrial policy."
+        ]
+      },
+      {
+        heading: "5. Education and mental health: National Task Force",
+        points: [
+          "The **National Task Force on Mental Health of Students** visited more than **30 higher education institutions (HEIs)** across **10 States and Union Territories**.",
+          "The release makes student mental health an exam-worthy governance issue, not merely an individual welfare concern.",
+          "Higher education mental health involves academic stress, transition to hostel life, language barriers, social isolation, discrimination, financial pressure and fear of failure.",
+          "Institutional responses need counselling systems, peer support, faculty sensitisation, early-warning mechanisms, anti-discrimination safeguards and referral pathways to professional care.",
+          "UPSC mains angle: student mental health sits at the intersection of **Right to Education** values, demographic dividend, public health, social justice and institutional accountability.",
+          "Use the PIB fact of **30+ HEIs** across **10 States/UTs** as a concrete example in answers on education governance and youth well-being."
+        ]
+      },
+      {
+        heading: "6. Women-led development, Northeast connectivity and tribal welfare",
+        points: [
+          "PIB published a backgrounder on **Nari Shakti**, framing India as moving toward **women-led development** rather than women as only beneficiaries.",
+          "Use this theme with economic participation, political representation, health, nutrition, education, safety, digital inclusion and access to credit or entrepreneurship.",
+          "A separate release highlighted **12 years of Northeast progress**, relevant for connectivity, infrastructure, border-area development, tourism, cultural integration and India's **Act East Policy**.",
+          "The Northeast angle remains important for **strategic geography**, disaster vulnerability, biodiversity, ethnic diversity, cross-border trade and inclusive regional development.",
+          "The Tribal Affairs release noted approval of **250 Pradhan Mantri Janjatiya Utkarsh Gram Abhiyan hostels**, making it useful for tribal education and residential access.",
+          "UPSC angle: combine women-led development, Northeast inclusion and tribal hostels to discuss targeted welfare, regional equity, human capital and last-mile state capacity."
+        ]
+      },
+      {
+        heading: "7. Technical textiles, informal workers and urban inclusion",
+        points: [
+          "The Textiles Ministry held a **Chintan Shivir on Technical Textiles**, highlighting a sector relevant for innovation, manufacturing and export diversification.",
+          "**Technical textiles** are performance-oriented textile products used in sectors such as agriculture, healthcare, defence, construction, transport, sports and environmental protection.",
+          "The sector is UPSC-relevant because it links R&D, standards, testing, skilling, MSMEs, public procurement and industrial competitiveness.",
+          "The Social Justice and Empowerment release stated that the flagship **PM-DAKSH** scheme completed **5 years**, relevant for skilling marginalised groups and livelihood support.",
+          "The Housing and Urban Affairs release noted **5 years of PM SVANidhi**, a major example of formal credit, digital payments and social-security linkage for street vendors.",
+          "UPSC angle: technical textiles show high-value manufacturing, while **PM-DAKSH** and **PM SVANidhi** show inclusive livelihood policy for vulnerable workers in formal and informal economies."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 30 June 2026: 22 releases; page updated 30 Jun 2026 17:20 IST",
+      "GST anti-profiteering mechanism: complaints cease from 1 April 2025",
+      "Anti-profiteering under GST: intended to pass tax-rate or input-tax-credit benefits to consumers",
+      "CBIC Ekal Anubandhan: single unified multi-purpose bond for customs processes",
+      "FCRA 2.0 Portal: digital service linked with foreign contribution regulation",
+      "e-OCI Card: digital service linked with Overseas Citizen of India facilitation",
+      "KVIC: statutory body under Khadi and Village Industries Commission Act, 1956",
+      "Critical petrochemical products: full customs duty exemption extended till 15 July 2026",
+      "National Task Force on Mental Health of Students: visited 30+ HEIs across 10 States/UTs",
+      "Nari Shakti backgrounder: women-led development framing",
+      "Northeast progress release: 12-year development and connectivity framing",
+      "Tribal Affairs: 250 PM Janjatiya Utkarsh Gram Abhiyan hostels approved",
+      "Technical textiles: functional/performance textiles for sectors like healthcare, agriculture, defence and infrastructure",
+      "PM-DAKSH: flagship skilling scheme completed 5 years",
+      "PM SVANidhi: street-vendor livelihood and credit scheme completed 5 years"
+    ],
+    mains: [
+      "The GST anti-profiteering sunset shows how transitional consumer-protection mechanisms can be phased out after a major tax reform stabilises.",
+      "Ekal Anubandhan is a trade-facilitation example because it reduces repetitive compliance while preserving customs control through a unified bond.",
+      "FCRA 2.0 illustrates the challenge of combining digital ease, civil-society access, national security and transparent regulatory oversight.",
+      "e-OCI services strengthen diaspora facilitation, but digital migration services must also protect privacy, identity integrity and grievance access.",
+      "KVIC reform can support rural non-farm employment if institutional modernisation is combined with design, credit, market access and quality assurance.",
+      "Customs duty exemptions for critical petrochemicals can ease input shortages, but they should be time-bound and aligned with domestic capacity creation.",
+      "Student mental health requires institutional design inside HEIs, not only helplines; counselling, inclusion and early-warning systems are governance issues.",
+      "Women-led development is stronger than beneficiary-centred welfare when women gain agency in education, enterprise, property, politics and technology.",
+      "Northeast development must combine connectivity and security with ecology, identity, local participation and cross-border economic opportunity.",
+      "Tribal hostels can improve access to education only when residential quality, safety, language support and learning outcomes are monitored.",
+      "Technical textiles can deepen manufacturing if India invests in standards, testing labs, R&D, skilling and demand aggregation.",
+      "PM SVANidhi and PM-DAKSH show how credit, skills and digital payments can formalise livelihoods without ignoring vulnerabilities of informal workers."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 30 June 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "GST anti-profiteering sunset",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279271",
+        note: "Complaints cease from 1 April 2025"
+      },
+      {
+        label: "Ekal Anubandhan unified customs bond",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279416",
+        note: "CBIC trade facilitation initiative"
+      },
+      {
+        label: "FCRA 2.0 Portal and e-OCI Card",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279405",
+        note: "Home Ministry digital governance services"
+      },
+      {
+        label: "KVIC Act amendment proposal",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279404",
+        note: "Khadi and village industries institutional reform"
+      },
+      {
+        label: "Critical petrochemical customs duty exemption",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279424",
+        note: "Exemption extended till 15 July 2026"
+      },
+      {
+        label: "National Task Force on student mental health",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279410",
+        note: "Visits to 30+ HEIs across 10 States/UTs"
+      },
+      {
+        label: "Nari Shakti backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279422",
+        note: "Women-led development theme"
+      },
+      {
+        label: "Northeast development backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279356",
+        note: "12 years of progress in the Northeast"
+      },
+      {
+        label: "PM Janjatiya Utkarsh Gram Abhiyan hostels",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279399",
+        note: "Approval of 250 hostels"
+      },
+      {
+        label: "Chintan Shivir on Technical Textiles",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279318",
+        note: "Technical textiles sector discussion"
+      },
+      {
+        label: "PM SVANidhi completes 5 years",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2279380",
+        note: "Street vendor credit and livelihood support"
+      }
+    ]
+  },
+  {
     date: "2026-06-29",
     label: "29 June 2026",
     title: "Comprehensive PIB Notes: 29 June 2026",
@@ -1891,6 +2069,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-06-30": [
+    {
+      question: "The GST anti-profiteering mechanism highlighted by PIB stops accepting complaints from:",
+      options: ["1 April 2025", "15 July 2026", "30 June 2026", "1 January 2027"],
+      answer: 0,
+      explanation: "PIB states that complaints under the GST anti-profiteering mechanism cease from 1 April 2025."
+    },
+    {
+      question: "Ekal Anubandhan launched by CBIC is best described as:",
+      options: ["A single unified multi-purpose customs bond", "A student mental health hostel scheme", "A women-led development index", "A technical textile testing fibre"],
+      answer: 0,
+      explanation: "Ekal Anubandhan is a CBIC initiative for a single unified multi-purpose bond to simplify customs processes."
+    },
+    {
+      question: "The FCRA 2.0 Portal is mainly associated with regulation of:",
+      options: ["Foreign contribution", "Street-vendor credit", "Technical textile exports", "GST anti-profiteering complaints"],
+      answer: 0,
+      explanation: "FCRA governs acceptance and utilisation of foreign contribution by eligible entities."
+    },
+    {
+      question: "The National Task Force on Mental Health of Students visited:",
+      options: ["30+ HEIs across 10 States/UTs", "250 tribal hostels in one State", "All GST appellate tribunals", "Only three customs ports"],
+      answer: 0,
+      explanation: "PIB notes that the task force visited more than 30 higher education institutions across 10 States and Union Territories."
+    },
+    {
+      question: "The proposal to amend the KVIC Act concerns which sectoral institution?",
+      options: ["Khadi and Village Industries Commission", "Kendriya Vidyalaya Infrastructure Corporation", "Kandla Vessel Inspection Council", "Kerala Veterinary Innovation Centre"],
+      answer: 0,
+      explanation: "KVIC stands for Khadi and Village Industries Commission, a statutory body linked with khadi and village industries."
+    }
+  ],
   "2026-06-29": [
     {
       question: "Aarogya Setu 2.0 is UPSC-relevant mainly because it has been repurposed as:",
