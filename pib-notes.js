@@ -1,5 +1,183 @@
 const dailySummaries = [
   {
+    date: "2026-07-02",
+    label: "2 July 2026",
+    title: "Comprehensive PIB Notes: 2 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **food security and PDS reform**, **coal import substitution**, **MMDR coal-block financing**, **wild rice conservation**, **maritime security in the Gulf of Aden**, **advanced cell and gene therapy regulation**, **AIS-125 ambulance standards**, **rail freight**, **Bharat Tex 2026**, **MANAS anti-drug helpline** and **child awards**.",
+    blocks: [
+      {
+        heading: "1. Food security reform: improved-quality rice under PMGKAY",
+        points: [
+          "The **Cabinet Committee on Economic Affairs (CCEA)** approved improved-quality rice supply under **Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)** and other welfare schemes.",
+          "For the first time in nearly **three decades**, rice quality specifications for the **Public Distribution System (PDS)** have been revised without reducing beneficiary entitlements.",
+          "Permissible broken grain content will fall to **10 percent** in raw rice from **25 percent**, and to **5 percent** in parboiled rice from **16 percent**.",
+          "Procurement begins immediately and phased rollout across procuring States is targeted by **Kharif Marketing Season (KMS) 2027-28**.",
+          "The reform covers more than **80 crore beneficiaries**, uses **QR-code tagging** for end-to-end traceability, and is expected to generate annual cost rationalisation of around **Rs 2,161 crore**.",
+          "UPSC angle: link **PMGKAY**, **PDS**, food subsidy, grain quality, leakage control, fiscal prudence, beneficiary dignity and supply-chain transparency."
+        ]
+      },
+      {
+        heading: "2. Coal sector: imports, captive mines and surety bonds",
+        points: [
+          "India's total **coal imports** declined from **24.27 MT** in April 2025 to **21.13 MT** in April 2026, a reduction of **3.14 MT** or about **12.95 percent**.",
+          "Coal imports by power plants fell **24.89 percent**, while imports by imported-coal-based plants fell **27.45 percent**; overall import dependence declined from **21.69 percent** to **19.68 percent**.",
+          "**Coking coal** imports rose marginally by **1.34 percent** because domestic coking-coal availability remains limited and the steel sector has resource-specific needs.",
+          "The **Coal Blocks Allocation (Amendment) Rules, 2026** allow **Insurance Surety Bonds (ISBs)** instead of **Performance Bank Guarantees (PBGs)** for coal blocks allocated under the **MMDR Act, 1957**.",
+          "The amendment was published as **G.S.R. 508(E)** dated **22 June 2026**; initially it applies to **MMDR Act** coal blocks, with extension proposed for blocks under the **Coal Mines (Special Provisions) Act, 2015**.",
+          "UPSC angle: coal policy must balance import substitution, power security, domestic production, evacuation infrastructure, ease of doing business, environmental costs and steel-sector constraints."
+        ]
+      },
+      {
+        heading: "3. Biodiversity and agriculture: wild rice conservation in Assam",
+        points: [
+          "The **National Rainfed Area Authority (NRAA)** reported a milestone in its funded project on in-situ conservation of wild rice **Oryza rufipogon** in **Sonitpur district, Assam**.",
+          "The project has been implemented since **2022** by **ICAR-National Bureau of Plant Genetic Resources (ICAR-NBPGR)** with the **Assam State Biodiversity Board**.",
+          "The **Borjuli** site in Sonitpur has been notified as a **Biodiversity Heritage Site** by the **National Biodiversity Authority**.",
+          "Wild rice is important as a genetic resource for climate-resilient, high-yielding and nutritionally superior rice varieties.",
+          "For prelims, revise **Biodiversity Heritage Sites**, **National Biodiversity Authority**, **crop wild relatives**, **NRAA**, **ICAR-NBPGR** and in-situ conservation.",
+          "UPSC angle: conserving crop wild relatives strengthens climate-resilient agriculture, food security, agro-biodiversity and community-linked conservation."
+        ]
+      },
+      {
+        heading: "4. Maritime security: INS Trikand anti-piracy response",
+        points: [
+          "**INS Trikand**, a mission-deployed Indian Navy stealth frigate, responded to a piracy attempt on **MV Golden Arsenal** in the **Gulf of Aden** on **1 July 2026**.",
+          "The incident was reported about **300 nautical miles east-northeast of Djibouti** in coordination with the **Information Fusion Centre - Indian Ocean Region (IFC-IOR)**.",
+          "The merchant vessel was carrying **21 crew members**, including **one Indian national**; the crew took shelter in the citadel and was reported safe.",
+          "On **2 July 2026**, an INS Trikand boarding team sanitised the vessel; an Indian Navy **P-8I Maritime Patrol Aircraft** supported aerial surveillance and maritime domain awareness.",
+          "The release is important for **Indian Ocean Region (IOR)** security, anti-piracy operations, merchant shipping protection and India's role as a net security provider.",
+          "UPSC angle: link Gulf of Aden piracy with sea lines of communication, **IFC-IOR**, maritime domain awareness, mission-based deployments and international maritime security."
+        ]
+      },
+      {
+        heading: "5. Health regulation and emergency care standards",
+        points: [
+          "The Centre amended the **Drugs Rules, 1945** to bring **cell or stem cell-derived products**, **gene therapeutic products** and **xenografts** under the **Centrally License Approving Authority (CLAA)** framework.",
+          "The CLAA framework already covers critical categories such as **vaccines**, large-volume parenterals over **100 ml**, and **r-DNA based medicines**.",
+          "The amendment is significant because advanced therapies such as **CAR-T cell therapies**, gene editing products and xenografts need uniform regulatory scrutiny for patient safety.",
+          "**MoRTH** proposed amendments to **AIS-125** for road ambulances, adding **Neonatal Road Ambulance**, **Multi-stretcher Road Ambulance**, mandatory rescue equipment for **Class B, C and D** ambulances, and dedicated power sources for **e-ambulances**.",
+          "PIB notes that nearly **50 percent** of road accident deaths can be averted if victims are admitted to hospitals within the first hour, making ambulance design part of emergency-care governance.",
+          "UPSC angle: combine advanced therapy regulation, clinical safety, innovation, road safety, the golden hour, **PM-RAHAT**, standards and federal regulatory coordination."
+        ]
+      },
+      {
+        heading: "6. Railways, textiles and export-linked skilling",
+        points: [
+          "**Indian Railways** loaded **142.21 MT** freight in June 2026, up **4 percent** from June 2025, and crossed **419.08 MT** freight loading in Q1 FY **2026-27**.",
+          "June 2026 commodity growth included fertilizer loading up **19.1 percent**, iron ore up **9.4 percent**, and coal supply to power plants up **7 percent**.",
+          "Passenger traffic reached **63.81 crore** in June 2026; Indian Railways reported **164 Vande Bharat** services and **72 Amrit Bharat** services.",
+          "**Bharat Tex 2026** will be held from **14-17 July 2026** at **Bharat Mandapam, New Delhi**, under the **5F Vision: Farm to Fibre to Factory to Fashion to Foreign**.",
+          "The third edition expects over **7,000 buyers**, **1.3 lakh** trade visitors, **20,000+** textile products, **1.6 million sq. ft.** exhibition area, **1,600+ exhibitors**, **100+ knowledge sessions**, around **3,500 B2B meetings** and over **20 MoUs**.",
+          "**MPEDA** trained over **2,500** seafood processing professionals through **50** value-addition programmes, showing export competitiveness through skilling, food safety and value addition."
+        ]
+      },
+      {
+        heading: "7. Social governance: MANAS and PMRBP",
+        points: [
+          "The PIB Backgrounder explained **MANAS (Madak Padarth Nishedh Asoochna Kendra)**, the National Narcotics Helpline launched on **18 July 2024** under the **NCB**, **MHA**, with **Digital India Corporation**.",
+          "**MANAS** can be accessed through helpline **1933**, the official portal, email and **UMANG**; it enables confidential reporting, counselling and rehabilitation support.",
+          "Calls seeking addiction support can be transferred to the Ministry of Social Justice and Empowerment helpline **14446**.",
+          "PIB says MANAS links citizens with **30 NCB Zonal Units** and **36 State/UT Anti-Narcotics Task Forces (ANTFs)** through digitised workflows.",
+          "The **Pradhan Mantri Rashtriya Bal Puraskar (PMRBP) 2026** nomination deadline is **31 July 2026**; children aged **5 to 18 years** can be recognised for sports, social service, science and technology, environment, art and culture, and bravery.",
+          "UPSC angle: use MANAS for internal security and social justice answers, and **PMRBP** for child rights, recognition of excellence and participatory nomination through **awards.gov.in**."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 2 July 2026: 33 releases; page updated 02 Jul 2026 18:11 IST",
+      "PMGKAY rice reform: raw rice broken grain limit 10 percent; parboiled rice limit 5 percent",
+      "PMGKAY rollout: procurement immediately; phased implementation by KMS 2027-28",
+      "PMGKAY beneficiaries: over 80 crore; estimated annual cost rationalisation around Rs 2,161 crore",
+      "Coal imports April 2026: 21.13 MT, down 12.95 percent from April 2025",
+      "Coal import dependence: 19.68 percent in April 2026 against 21.69 percent in April 2025",
+      "Coal Blocks Allocation (Amendment) Rules, 2026: Insurance Surety Bonds allowed for MMDR Act coal blocks",
+      "Wild rice conservation: Borjuli, Sonitpur, Assam notified as Biodiversity Heritage Site",
+      "INS Trikand response: Gulf of Aden piracy attempt on MV Golden Arsenal; IFC-IOR coordination; P-8I support",
+      "Advanced therapies: cell/stem cell products, gene therapeutics and xenografts brought under CLAA framework",
+      "AIS-125 ambulance amendments: neonatal ambulance, multi-stretcher ambulance, rescue equipment and e-ambulance power source",
+      "Indian Railways June 2026 freight: 142.21 MT; Q1 FY 2026-27 freight 419.08 MT",
+      "Bharat Tex 2026: 14-17 July 2026, Bharat Mandapam, New Delhi; 5F Vision",
+      "MANAS: National Narcotics Helpline 1933; launched 18 July 2024; NCB, MHA and Digital India Corporation",
+      "PMRBP 2026: nominations by 31 July 2026 for children aged 5 to 18 years"
+    ],
+    mains: [
+      "Improved-quality rice under PMGKAY shows that food security policy must also address dignity, grain quality, traceability and fiscal efficiency.",
+      "QR-code tagging in PDS can reduce leakages only if supported by procurement discipline, last-mile monitoring and grievance redress.",
+      "Coal import substitution improves energy security, but coking-coal dependence shows the limits of domestic resource availability.",
+      "Insurance Surety Bonds can release working capital for mine development while still protecting public interest through performance security.",
+      "Wild rice conservation is a practical climate-adaptation strategy because crop wild relatives preserve genes for resilience and productivity.",
+      "INS Trikand's Gulf of Aden response illustrates India's maritime security role beyond its coastline and the value of mission-based deployments.",
+      "Advanced cell and gene therapies require regulatory uniformity because innovation without safety oversight can harm patient rights and public trust.",
+      "Ambulance standards are public-health infrastructure; the golden hour needs vehicle design, equipment, dispatch systems and hospital readiness.",
+      "Rail freight growth supports logistics and core sectors, but capacity, safety, punctuality and modal share remain long-term governance issues.",
+      "Bharat Tex 2026 links textiles with exports, MSMEs, technical textiles, sustainability, PM MITRA, global sourcing and Brand India.",
+      "MANAS shows how digital public infrastructure can support internal security, counselling and citizen participation against substance abuse.",
+      "PMRBP can encourage child excellence when nominations are inclusive across regions, schools, panchayats and disadvantaged communities."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 2 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Improved-quality rice under PMGKAY",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280307",
+        note: "Rice specifications, rollout, QR traceability and cost rationalisation"
+      },
+      {
+        label: "Coal imports decline in April 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280389",
+        note: "Import substitution and power-sector coal import data"
+      },
+      {
+        label: "Insurance Surety Bonds for MMDR coal blocks",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280280",
+        note: "Coal Blocks Allocation (Amendment) Rules, 2026"
+      },
+      {
+        label: "Wild rice conservation in Assam",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280202",
+        note: "Borjuli Biodiversity Heritage Site and NRAA-funded project"
+      },
+      {
+        label: "INS Trikand anti-piracy response",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280434",
+        note: "Gulf of Aden response with IFC-IOR and P-8I support"
+      },
+      {
+        label: "Advanced cell and gene therapy regulation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280408",
+        note: "Drugs Rules, 1945 amendment and CLAA framework"
+      },
+      {
+        label: "AIS-125 ambulance safety provisions",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280342",
+        note: "Draft amendments for specialised ambulances and e-ambulances"
+      },
+      {
+        label: "Indian Railways June 2026 performance",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280305",
+        note: "Freight, passenger traffic and modern services"
+      },
+      {
+        label: "Bharat Tex 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280341",
+        note: "Textiles expo scale, dates and 5F Vision"
+      },
+      {
+        label: "MANAS anti-drug helpline backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280204",
+        note: "National Narcotics Helpline 1933 and citizen reporting"
+      },
+      {
+        label: "PMRBP 2026 nominations",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280233",
+        note: "Deadline and eligibility for child awards"
+      }
+    ]
+  },
+  {
     date: "2026-06-30",
     label: "30 June 2026",
     title: "Comprehensive PIB Notes: 30 June 2026",
@@ -2069,6 +2247,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-07-02": [
+    {
+      question: "Under the 2 July 2026 PMGKAY rice quality reform, the broken grain limit for raw rice was reduced to:",
+      options: ["10 percent", "25 percent", "5 percent", "16 percent"],
+      answer: 0,
+      explanation: "The reform reduces broken grain content in raw rice to 10 percent, compared with the earlier 25 percent specification."
+    },
+    {
+      question: "The Borjuli site notified as a Biodiversity Heritage Site is linked with conservation of:",
+      options: ["Wild rice Oryza rufipogon", "Snow leopard habitat", "Sea cucumber reefs", "Red sandalwood plantations"],
+      answer: 0,
+      explanation: "PIB links Borjuli in Sonitpur, Assam with in-situ conservation of wild rice Oryza rufipogon."
+    },
+    {
+      question: "INS Trikand responded to a piracy attempt on MV Golden Arsenal in which region?",
+      options: ["Gulf of Aden", "Gulf of Mannar", "Mozambique Channel", "South China Sea"],
+      answer: 0,
+      explanation: "The release states that INS Trikand responded to the piracy attempt in the Gulf of Aden."
+    },
+    {
+      question: "The Drugs Rules, 1945 amendment brought which products under the CLAA framework?",
+      options: ["Cell/stem cell products, gene therapeutics and xenografts", "Only generic tablets", "Only AYUSH cosmetics", "Only medical oxygen cylinders"],
+      answer: 0,
+      explanation: "The amendment covers cell or stem cell-derived products, gene therapeutic products and xenografts under CLAA."
+    },
+    {
+      question: "MANAS is associated with which helpline number?",
+      options: ["1933", "112", "14446 only", "1098"],
+      answer: 0,
+      explanation: "MANAS, the National Narcotics Helpline, is accessible through 1933, with counselling support routed where needed."
+    }
+  ],
   "2026-06-30": [
     {
       question: "The GST anti-profiteering mechanism highlighted by PIB stops accepting complaints from:",
