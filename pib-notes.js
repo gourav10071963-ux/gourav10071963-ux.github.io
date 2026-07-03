@@ -1,5 +1,184 @@
 const dailySummaries = [
   {
+    date: "2026-07-03",
+    label: "3 July 2026",
+    title: "Comprehensive PIB Notes: 3 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **defence acquisitions**, **Modified UDAN**, **semiconductor OSAT manufacturing**, **Aadhaar App services**, **One Health and zoonotic preparedness**, **National Water Awards**, **high-speed rail**, **maritime self-reliance**, **women's safety helpline**, **heritage-tree conservation** and **farmer value-chain support**.",
+    blocks: [
+      {
+        heading: "1. Defence readiness: DAC approvals worth Rs 52,000 crore",
+        points: [
+          "The **Defence Acquisition Council (DAC)**, chaired by the Raksha Mantri, accorded **Acceptance of Necessity (AoN)** for capital acquisition proposals worth about **Rs 52,000 crore**.",
+          "For the **Indian Army**, approvals include **AKASH TARANG** anti-UAV electronic warfare system, **MPATGM**, **MRSAM**, **V-SHORADS**, active protection systems for tanks and jet-based kamikaze drones.",
+          "**AKASH TARANG** is intended to strengthen anti-UAV protection; **MPATGM** improves infantry anti-armour capability; **MRSAM** addresses medium-range stand-off aerial threats.",
+          "For the **Indian Navy**, approvals include **Multi Influence Ground Mine (MIGM)**, **Naval Shipborne Unmanned Aerial System (NSUAS)** and a **Land Based Testing Facility (LBTF)** for electric propulsion systems.",
+          "For the **Indian Air Force**, approvals include **Fixed-Wing High Altitude Pseudo Satellite (FW-HAPS)** for persistent **ISR**, telecom and remote-sensing roles.",
+          "UPSC angle: map each platform with service, threat type, indigenous capability, **AoN** stage, jointness, drone warfare and defence modernisation."
+        ]
+      },
+      {
+        heading: "2. Infrastructure push: Modified UDAN, Rajasthan projects and semiconductor OSAT",
+        points: [
+          "The Prime Minister is scheduled to visit **Rajasthan** and **Gujarat** on **4 July 2026** for projects worth around **Rs 1.06 lakh crore** in Balotra and the **CG Semi OSAT** facility in Sanand.",
+          "The **Modified UDAN Scheme** will be launched in **Jodhpur** with an allocation of **Rs 28,840 crore** over **10 years** to deepen regional air connectivity.",
+          "Modified UDAN includes development of **100 aerodromes** from unserved airstrips, over **Rs 12,000 crore** for aviation infrastructure, over **Rs 2,500 crore** for O&M support, **200 modern helipads** and over **Rs 10,000 crore** in **VGF** for airlines.",
+          "The **Jodhpur Airport** terminal costs **Rs 480 crore**, spans over **23,000 sq m**, can handle up to **20 lakh passengers** annually and targets a **5-Star GRIHA** rating.",
+          "At **Pachpadra, Balotra**, India's first greenfield integrated refinery-cum-petrochemical complex has **9 MMTPA** refining capacity, **2.4 MMTPA** petrochemical capacity, investment over **Rs 79,450 crore**, **Nelson Complexity Index 17.0** and petrochemical yields above **26 percent**.",
+          "The **CG Semi OSAT** facility in **Sanand** is one of the first four approved under the **India Semiconductor Mission (ISM)**, has investment over **Rs 7,500 crore**, and can produce up to **5 billion semiconductor chips** annually after full ramp-up."
+        ]
+      },
+      {
+        heading: "3. Aadhaar and digital governance: free email update through Aadhaar App",
+        points: [
+          "The **Unique Identification Authority of India (UIDAI)** enabled people to add or update email ID in **Aadhaar** through the **Aadhaar App** without visiting an Aadhaar centre.",
+          "The service is free through the **Aadhaar App** from **1 July 2026** for **six months**.",
+          "More than **2.5 lakh** email updates were recorded in the first two days of the service.",
+          "Email linkage helps Aadhaar number holders receive real-time email notifications whenever an **Aadhaar authentication** request is executed, improving transparency and security.",
+          "The new Aadhaar App also supports mobile number and address update; PIB notes over **4 million** mobile-number updates and around **1 million** address updates through the app.",
+          "UPSC angle: connect **Digital India**, ease of living, data protection, authentication transparency, exclusion risks and grievance redress in digital identity systems."
+        ]
+      },
+      {
+        heading: "4. One Health: Pashujanya Yudh Abhyas for zoonotic preparedness",
+        points: [
+          "The **Department of Animal Husbandry and Dairying (DAHD)** conducted **Pashujanya Yudh Abhyas (PYA)**, the third national-level mock drill under the **National One Health Mission**.",
+          "The **5-day** exercise was held at **Khari village**, **Vidisha district**, **Madhya Pradesh**, from **29 June to 3 July 2026**.",
+          "The drill simulated **Influenza A (H1N1)** in animals with potential spillover to humans and wildlife.",
+          "It tested surveillance, early warning, reporting, field epidemiology, sample transport, laboratory diagnosis, risk assessment, biosecurity, containment, movement control and public communication.",
+          "Participants included **DAHD**, **ICAR**, **NCDC**, **ICMR**, **Office of the Principal Scientific Adviser**, **National BSL-3 Network**, **ICAR-NIHSAD Bhopal**, **AIIMS Bhopal**, **MoEFCC** and Madhya Pradesh state/district authorities.",
+          "UPSC angle: use PYA as an example of **One Health**, pandemic preparedness, inter-sectoral coordination, animal-health infrastructure and zoonotic disease governance."
+        ]
+      },
+      {
+        heading: "5. Water governance and climate resilience: 7th National Water Awards",
+        points: [
+          "The **Department of Water Resources, River Development and Ganga Rejuvenation** launched the **7th National Water Awards** on the **Rashtriya Puraskar portal**.",
+          "Applications are to be submitted only through **awards.gov.in**; the last date is **28 August 2026**.",
+          "Eligible applicants include **States**, **districts**, **urban local bodies**, **dam-owning agencies** and **industries** working in water conservation and management.",
+          "Award categories include **Best State**, **Best District**, **Best Urban Local Body**, **Best Implemented Project in water sector** and **Best Industry for CSR initiative in water sector**.",
+          "The 7th edition's project theme is **Dam Safety**; selection uses screening and jury committees before approval by the Minister of Jal Shakti.",
+          "UPSC angle: link awards with behavioural change, groundwater stress, dam safety, **Jal Jeevan Mission**, **Jal Sanchay Jal Bhagidari**, water-quality monitoring and cooperative federalism."
+        ]
+      },
+      {
+        heading: "6. Transport and maritime self-reliance: HSR template, MIF and Made-in-India containers",
+        points: [
+          "PIB Backgrounder said the **Mumbai-Ahmedabad High Speed Rail (MAHSR)** corridor is shaping a standardised template for future bullet-train corridors.",
+          "**MAHSR** covers about **508 km**, has **12 stations**, design speed up to **350 kmph**, operational speed **320 kmph**, and first service expected in **August 2027** on the **Surat-Vapi** section.",
+          "Future **high-speed rail corridors** covering nearly **4,000 km** are expected to attract investments around **Rs 16 lakh crore**; proposed routes include Delhi-Varanasi, Varanasi-Patna-Siliguri, Chennai-Bengaluru, Bengaluru-Hyderabad, Chennai-Hyderabad, Mumbai-Pune and Pune-Hyderabad.",
+          "**ICF** and **BEML** are designing and manufacturing indigenous **280 kmph** high-speed train sets under **Make in India** and **Aatmanirbhar Bharat**.",
+          "The **Maritime Investment Fund (MIF)** consultation by **MoPSW**, **Sagarmala Finance Corporation Ltd (SMFCL)** and **SBI Ventures Ltd** discussed patient equity capital for commercially viable maritime projects under **Maritime India Vision 2030** and **Maritime Amrit Kaal Vision 2047**.",
+          "India unveiled the first **Made-in-India EXIM shipping container** for **A.P. Moller-Maersk** at **Maersk-CONCOR ICD Dadri**; Maersk placed an order for **1,000** additional containers and **CMPS** targets annual container manufacturing capacity up to about **7.5 lakh TEUs**."
+        ]
+      },
+      {
+        heading: "7. Society, science and agriculture: NCW helpline, heritage banyan and Totapuri mango",
+        points: [
+          "The **NCW Women Helpline - 14490** is a **24x7** toll-free digital complaint registration and support mechanism linked to NCW's existing helpline **7827170170**.",
+          "Any woman or girl above **18 years** can use the helpline for complaint registration, psychological counselling, referral support and information on government schemes.",
+          "The **National Commission for Women (NCW)** is the apex statutory body for safeguarding and promoting women's rights and uses complaints to improve police, judicial and administrative response.",
+          "A **700-year-old** banyan tree in **Munger, Bihar** has been identified as the oldest accurately dated banyan, **Ficus benghalensis**, through **radiocarbon dating** using **AMS**, **IntCal20** and **OxCal**.",
+          "The research by **Birbal Sahni Institute of Palaeosciences**, an autonomous **DST** institute, offers a method to date ancient tropical heritage trees that lack clear annual growth rings.",
+          "**ICAR** will constitute a high-level expert committee to assess falling **Totapuri mango** prices in **Andhra Pradesh**, examine cultivation, processing, domestic trade, exports and recommend value-chain interventions."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB list for 3 July 2026: 33 releases; page updated 03 Jul 2026 19:53 IST",
+      "DAC approvals: AoN for capital acquisitions worth about Rs 52,000 crore",
+      "Army systems: AKASH TARANG, MPATGM, MRSAM, V-SHORADS, active protection systems and jet-based kamikaze drones",
+      "Navy systems: MIGM, NSUAS and LBTF for electric propulsion systems",
+      "IAF system: FW-HAPS for persistent ISR, telecom and remote sensing",
+      "Modified UDAN: Rs 28,840 crore over 10 years; 100 aerodromes; 200 helipads; VGF over Rs 10,000 crore",
+      "Pachpadra refinery: 9 MMTPA refining, 2.4 MMTPA petrochemicals, over Rs 79,450 crore investment",
+      "CG Semi OSAT, Sanand: over Rs 7,500 crore investment; up to 5 billion chips annually after full ramp-up",
+      "UIDAI email update: free on Aadhaar App from 1 July 2026 for six months; 2.5 lakh updates in first two days",
+      "Pashujanya Yudh Abhyas: third national mock drill under National One Health Mission at Khari, Vidisha, Madhya Pradesh",
+      "7th National Water Awards: applications till 28 August 2026; Rashtriya Puraskar portal; theme for project award is Dam Safety",
+      "MAHSR: 508 km, 12 stations, design speed 350 kmph, operational speed 320 kmph, first Surat-Vapi service expected August 2027",
+      "Future HSR corridors: nearly 4,000 km and estimated investment around Rs 16 lakh crore",
+      "Made-in-India EXIM container: unveiled at Maersk-CONCOR ICD Dadri; Maersk ordered 1,000 more containers",
+      "NCW Women Helpline: 14490, 24x7, linked with 7827170170; for women and girls above 18 years",
+      "Munger banyan: about 700 years old; dated using radiocarbon AMS, IntCal20 and OxCal",
+      "Totapuri mango committee: ICAR-led assessment for Andhra Pradesh growers and value-chain issues"
+    ],
+    mains: [
+      "Defence acquisition must be evaluated through threat perception, indigenous capability, life-cycle costs, interoperability and transparent procurement.",
+      "Modified UDAN shows that regional connectivity needs airport infrastructure, helipads, viability-gap support, indigenous aircraft and long-term O&M funding.",
+      "Semiconductor OSAT capacity can strengthen supply-chain resilience, but must be backed by skills, design capabilities, utilities and ecosystem depth.",
+      "Aadhaar App services improve ease of living when authentication alerts, privacy safeguards and offline access concerns are handled together.",
+      "One Health preparedness requires routine drills, shared surveillance, laboratories, district administration capacity and public communication.",
+      "Water awards can create incentives, but durable water governance depends on aquifer management, demand-side efficiency, dam safety and local participation.",
+      "High-speed rail standardisation can reduce costs and execution time, but financial viability, land, technology transfer and multimodal integration remain key.",
+      "Maritime self-reliance links ports, shipbuilding, container manufacturing, financing, green shipping, logistics and trade competitiveness.",
+      "Women helplines work best when complaint registration is connected with police action, counselling, legal aid, shelters and institutional accountability.",
+      "Scientific dating of heritage trees can integrate biodiversity conservation, cultural heritage, climate history and urban planning.",
+      "The Totapuri mango issue shows the need to analyse farmer distress through value chains, processing capacity, exports and price-risk management."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 3 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "DAC capital acquisition approvals",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280728",
+        note: "AoN approvals worth about Rs 52,000 crore"
+      },
+      {
+        label: "PM visit to Rajasthan and Gujarat",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280619",
+        note: "Modified UDAN, Balotra projects and Sanand OSAT facility"
+      },
+      {
+        label: "UIDAI free email update through Aadhaar App",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280645",
+        note: "Aadhaar App service, timeline and update numbers"
+      },
+      {
+        label: "Pashujanya Yudh Abhyas",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280871",
+        note: "One Health mock drill for zoonotic preparedness"
+      },
+      {
+        label: "7th National Water Awards",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280757",
+        note: "Categories, deadline and Dam Safety theme"
+      },
+      {
+        label: "High-speed rail future",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280745",
+        note: "MAHSR template and proposed HSR corridors"
+      },
+      {
+        label: "Maritime Investment Fund consultation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280864",
+        note: "Patient equity capital for maritime sector"
+      },
+      {
+        label: "Made-in-India EXIM shipping container",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280831",
+        note: "Container manufacturing and CMPS framework"
+      },
+      {
+        label: "NCW Women Helpline 14490",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280625",
+        note: "Digital complaint registration and counselling support"
+      },
+      {
+        label: "Oldest accurately dated banyan in Munger",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280710",
+        note: "Radiocarbon dating and heritage-tree conservation"
+      },
+      {
+        label: "Totapuri mango value-chain committee",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280731",
+        note: "ICAR assessment for Andhra Pradesh mango growers"
+      }
+    ]
+  },
+  {
     date: "2026-07-02",
     label: "2 July 2026",
     title: "Comprehensive PIB Notes: 2 July 2026",
@@ -2247,6 +2426,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-07-03": [
+    {
+      question: "The DAC approvals on 3 July 2026 were worth approximately:",
+      options: ["Rs 52,000 crore", "Rs 7,500 crore", "Rs 28,840 crore", "Rs 16 lakh crore"],
+      answer: 0,
+      explanation: "PIB says the Defence Acquisition Council accorded AoN for proposals worth about Rs 52,000 crore."
+    },
+    {
+      question: "Pashujanya Yudh Abhyas was conducted under which approach or mission?",
+      options: ["National One Health Mission", "National Logistics Policy", "PM-KISAN", "National Quantum Mission"],
+      answer: 0,
+      explanation: "Pashujanya Yudh Abhyas was the third national-level mock drill under the National One Health Mission."
+    },
+    {
+      question: "The Modified UDAN Scheme highlighted on 3 July 2026 has an allocation of:",
+      options: ["Rs 28,840 crore over 10 years", "Rs 2,500 crore over one year", "Rs 480 crore over 20 years", "Rs 79,450 crore over five years"],
+      answer: 0,
+      explanation: "The PMO release states that Modified UDAN has an allocation of Rs 28,840 crore over the next 10 years."
+    },
+    {
+      question: "The CG Semi facility in Sanand is associated with:",
+      options: ["Outsourced Semiconductor Assembly and Test", "Green hydrogen storage only", "High-speed rail slab tracks", "Dam-safety monitoring only"],
+      answer: 0,
+      explanation: "The Sanand facility is an OSAT facility approved under the India Semiconductor Mission."
+    },
+    {
+      question: "The oldest accurately dated banyan highlighted by PIB is located in:",
+      options: ["Munger, Bihar", "Vidisha, Madhya Pradesh", "Dadri, Uttar Pradesh", "Pachpadra, Rajasthan"],
+      answer: 0,
+      explanation: "The Science and Technology release identifies the about 700-year-old banyan in Munger, Bihar."
+    }
+  ],
   "2026-07-02": [
     {
       question: "Under the 2 July 2026 PMGKAY rice quality reform, the broken grain limit for raw rice was reduced to:",
