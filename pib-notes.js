@@ -1,5 +1,200 @@
 const dailySummaries = [
   {
+    date: "2026-07-04",
+    label: "4 July 2026",
+    title: "Comprehensive PIB Notes: 4 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **Viksit UDAN**, **regional aviation**, **Balotra infrastructure projects**, **CG Semi OSAT**, **India Semiconductor Mission**, **India-Israel BIA**, **UAPA terrorist designation**, **onion buffer procurement**, **E20 ethanol blending**, **e-Jagriti**, **Academic Bank of Credits**, **APAAR**, **LokOS**, **APEDA exports**, **toy manufacturing**, **InFLiMeN** and **Nasha Mukt Bharat Abhiyaan**.",
+    blocks: [
+      {
+        heading: "1. Regional connectivity: Viksit UDAN and Jodhpur airport terminal",
+        points: [
+          "The Prime Minister launched the next phase of **UDAN (Ude Desh ka Aam Nagrik)** as **Viksit UDAN** and inaugurated the **New Terminal Building (NTB)** at **Jodhpur Airport**.",
+          "Since launch in **October 2016**, UDAN has operationalised **669 routes**, connected **95 airports, heliports and water aerodromes**, and benefited over **1.66 crore passengers**.",
+          "The **Modified UDAN Scheme**, approved on **25 March 2026**, has an outlay of about **Rs 29,000 crore** over **10 years** for aviation-led regional development.",
+          "Key components include development of **100 aerodromes** from unserved airstrips with **Rs 12,159 crore**, **Rs 2,577 crore** for O&M support, **200 modern helipads** with **Rs 3,661 crore**, and **Rs 10,043 crore** as **Viability Gap Funding (VGF)**.",
+          "The scheme promotes indigenous platforms such as **HAL Dhruv** and **Dornier** for underserved and remote regions, linking regional aviation with **Atmanirbhar Bharat**.",
+          "The **Jodhpur Airport** terminal, developed by **Airports Authority of India (AAI)** at **Rs 480 crore**, spans **23,342 sq m**, can handle **1,500 peak-hour passengers**, **20 lakh passengers annually**, has **20 check-in counters**, **six aerobridges**, and targets **5-Star GRIHA** features."
+        ]
+      },
+      {
+        heading: "2. Infrastructure and energy: Balotra projects worth Rs 1.06 lakh crore",
+        points: [
+          "The Prime Minister dedicated, inaugurated and laid foundation stones for development projects worth around **Rs 1.06 lakh crore** in **Balotra, Rajasthan**.",
+          "The release links projects across **aviation**, **energy**, **connectivity**, tourism, employment and ease of living in western Rajasthan.",
+          "**Balotra** is significant for the integrated refinery and petrochemical ecosystem at **Pachpadra**, already highlighted by PIB as a major greenfield energy investment in Rajasthan.",
+          "The Prime Minister referred to India's energy-security response during recent global volatility and underlined balanced resource use, diplomacy and consumer-protection measures.",
+          "PIB notes that before the crisis India depended on imports for about **60 percent** of **LPG**, with about **90 percent** from the Gulf region, showing the strategic importance of diversified energy policy.",
+          "The release also mentioned Rajasthan-Haryana cooperation to carry water from **Hathnikund Barrage** through an underground pipeline to benefit **Sikar**, **Churu**, **Jhunjhunu** and the **Shekhawati** region."
+        ]
+      },
+      {
+        heading: "3. Semiconductor manufacturing: CG Semi OSAT at Sanand",
+        points: [
+          "The Prime Minister inaugurated the **CG Semi Outsourced Semiconductor Assembly and Test (OSAT)** facility at **Sanand, Gujarat**.",
+          "**OSAT** is part of the semiconductor value chain after fabrication, covering outsourced assembly, packaging and testing of chips before integration into electronic products.",
+          "PIB describes the facility as strengthening India's chip manufacturing ecosystem, technological self-reliance and position in the global semiconductor value chain.",
+          "The facility has moved into active commercial production capable of delivering **20 crore units annually**, with an ambition to scale to **500 crore units annually**.",
+          "The Prime Minister framed the roadmap as **product -> components -> semiconductor**, connecting **Make in India**, **India Semiconductor Mission**, **AI**, robotics and next-generation technology.",
+          "UPSC angle: OSAT capacity improves supply-chain resilience but must be linked with design capability, fabs, materials, skilled workforce, water/power reliability and global technology partnerships."
+        ]
+      },
+      {
+        heading: "4. Investment treaty and internal security: India-Israel BIA and UAPA designations",
+        points: [
+          "The **India-Israel Bilateral Investment Agreement (BIA)** came into force on **4 July 2026** after being signed on **8 September 2025** in **New Delhi**.",
+          "The BIA aims to strengthen bilateral economic relations, create a secure and predictable investment climate, protect investors and investments, and retain sovereign policy space for legitimate public-policy objectives.",
+          "For mains, connect modern investment treaties with investor protection, regulatory autonomy, dispute settlement, cross-border investment and India's shift from older bilateral investment treaties.",
+          "The **Ministry of Home Affairs (MHA)** designated **23 more individuals** as terrorists under the **Unlawful Activities (Prevention) Act, 1967 (UAPA)**.",
+          "Of the 23 individuals, **17 are Pakistani nationals** and **6 are Indian nationals**; PIB says they operate from **Pakistan** and **Pakistan-occupied Jammu and Kashmir (PoJK)**.",
+          "After the **2019 UAPA amendment**, individuals can be listed as terrorists under **Section 35** and the **Fourth Schedule**; PIB notes that **57 individuals** had already been designated before these 23 additions."
+        ]
+      },
+      {
+        heading: "5. Consumer and farmer welfare: onion buffer, e-Jagriti, E20 and toy standards",
+        points: [
+          "The Government increased the **onion** procurement price for the **Price Stabilisation Buffer** by **13 percent**, from **Rs 1,875** to **Rs 2,125 per quintal**.",
+          "Procurement is being done through **NAFED** and **NCCF**; the measure supports farmers while strengthening buffer stocks for price stabilisation.",
+          "The **Second Advance Estimates 2025-26** put onion production at **307.37 lakh metric tonnes (LMT)**; PIB says overall availability is not a concern, though normal seasonal price movement may occur.",
+          "The Prime Minister shared an article on **e-Jagriti**, which digitises the entire lifecycle of a consumer complaint and places consumer justice within structural digital reform.",
+          "On **E20** ethanol-blended petrol, experts said the shift followed rigorous testing on older vehicles; **Maruti Suzuki** reported no E20-related issues among more than **1.5 crore** older vehicles serviced in **FY 2025-26**.",
+          "At **Toy Biz International B2B Exhibition 2026**, the Commerce Minister assured modern testing facilities through **BIS**, **National Test House** and other laboratories; the global toy market was estimated at about **US$120 billion**, and Indian toy exports were said to have grown **239 percent**."
+        ]
+      },
+      {
+        heading: "6. Education, rural livelihoods and export promotion: ABC, APAAR, LokOS and APEDA",
+        points: [
+          "PIB Backgrounder covered the **Academic Bank of Credits (ABC)**, regulated by **UGC**, as a credit-storage and transfer mechanism for lifelong, flexible learning.",
+          "**APAAR (Automated Permanent Academic Account Registry)** is a **12-digit** student ID under **One Nation, One Student ID**, linked with **ABC**, **DigiLocker** and the **NAD-ABC** ecosystem.",
+          "PIB says **35 crore** verified **APAAR IDs** have been generated; **Common Service Centres (CSCs)** can help generate IDs in remote and underserved areas.",
+          "**LokOS** under **Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)** digitises **Self-Help Groups (SHGs)**, **Village Organisations (VOs)** and **Cluster Level Federations (CLFs)**.",
+          "LokOS records member profiles, savings, lending, repayments, livelihoods and convergence initiatives, and captures SHG financial transactions worth about **Rs 2 lakh crore per year**.",
+          "**APEDA** facilitated the first export shipment of **Areko Cherries** and **Scentrose Plums** from **Shopian** and **Pulwama** in **Jammu & Kashmir** to **Abu Dhabi** and **Dubai**, supporting horticulture exports and farmer returns."
+        ]
+      },
+      {
+        heading: "7. Health and social justice: metabolic diseases and drug demand reduction",
+        points: [
+          "At the **3rd anniversary** of the **Liver and Metabolic Disease Network (InFLiMeN)** at **Institute of Liver and Biliary Sciences (ILBS)**, the Science and Technology Minister called India's liver epidemic and Type-2 diabetes surge part of a larger metabolic nexus.",
+          "PIB highlights links between **fatty liver**, **hypertension**, **dyslipidaemia**, **insulin resistance**, diabetes and cardiovascular disease, with younger Indians increasingly affected.",
+          "**InFLiMeN** is supported by the **Department of Science and Technology (DST)** for collaborative research, innovation, early diagnosis and evidence-based policy on liver and metabolic diseases.",
+          "The **Ministry of Social Justice and Empowerment (MoSJE)**, as nodal ministry for drug demand reduction, highlighted the **National Action Plan for Drug Demand Reduction (NAPDDR)**.",
+          "**Nasha Mukt Bharat Abhiyaan (NMBA)**, launched in **2020**, uses a whole-of-government and whole-of-society approach for prevention, awareness, treatment, rehabilitation and reintegration.",
+          "PIB cited the **2019** nationwide survey on substance use, which estimated more than **7 crore** affected individuals, including nearly **1.2 crore children** and **58 lakh women**; treatment-seeking reportedly rose **294 percent** from **2.08 lakh** in 2020 to more than **8 lakh**."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB list for 4 July 2026: 24 releases; page updated 04 Jul 2026 21:40 IST",
+      "Viksit UDAN: next phase of UDAN; modified scheme outlay about Rs 29,000 crore over 10 years",
+      "UDAN since 2016: 669 routes, 95 airports/heliports/water aerodromes and over 1.66 crore passengers",
+      "Modified UDAN components: 100 aerodromes, 200 helipads, Rs 10,043 crore VGF and indigenous HAL Dhruv/Dornier focus",
+      "Jodhpur Airport NTB: Rs 480 crore, 23,342 sq m, 20 lakh annual passenger capacity, six aerobridges and 5-Star GRIHA target",
+      "Balotra projects: around Rs 1.06 lakh crore across aviation, energy and connectivity",
+      "Sanand CG Semi OSAT: active commercial production of 20 crore units annually; target 500 crore units annually",
+      "India-Israel BIA: signed 8 September 2025; came into force 4 July 2026",
+      "UAPA: 23 more individuals designated terrorists; 17 Pakistani and 6 Indian nationals; Section 35 and Fourth Schedule",
+      "Onion buffer: procurement price raised 13 percent from Rs 1,875 to Rs 2,125 per quintal; NAFED and NCCF involved",
+      "Onion production estimate 2025-26: 307.37 LMT as per Second Advance Estimates",
+      "E20: no E20-related field issues reported by Maruti Suzuki among over 1.5 crore older vehicles serviced in FY 2025-26",
+      "Toy sector: testing facilities through BIS, National Test House and labs; global toy market around US$120 billion; Indian toy exports up 239 percent",
+      "ABC and APAAR: APAAR is a 12-digit student ID; 35 crore verified IDs generated; linked with DigiLocker and NAD-ABC",
+      "LokOS: DAY-NRLM platform for SHGs, VOs and CLFs; captures about Rs 2 lakh crore annual SHG transactions",
+      "APEDA export: Areko Cherries and Scentrose Plums from Shopian and Pulwama to Abu Dhabi and Dubai",
+      "InFLiMeN: DST-supported Liver and Metabolic Disease Network at ILBS",
+      "NAPDDR and NMBA: drug demand reduction framework; NMBA launched in 2020; 2019 survey estimated over 7 crore affected by substance use disorder"
+    ],
+    mains: [
+      "Regional aviation schemes need infrastructure, affordable fares, VGF discipline, safety regulation, skilled manpower and integration with tourism and trade.",
+      "Large infrastructure packages in Rajasthan should be assessed through energy security, employment, water stress, federal coordination and local ecological impacts.",
+      "Semiconductor OSAT capacity is necessary for supply-chain resilience, but durable strategic autonomy also needs fabs, design, materials, talent and reliable utilities.",
+      "Modern investment agreements must protect investors without weakening India's sovereign policy space for public health, environment, taxation and welfare regulation.",
+      "Individual terrorist designation under UAPA can disrupt terror finance and recruitment, but must be matched with evidence standards, due process and international cooperation.",
+      "Price stabilisation buffers can protect farmers and consumers when procurement, storage, market intelligence and anti-speculation measures work together.",
+      "E20 illustrates the policy challenge of balancing energy import reduction, farmer income, vehicle compatibility, consumer trust and emissions outcomes.",
+      "Digital consumer justice, ABC-APAAR and LokOS show how digital public infrastructure can improve inclusion if privacy, consent, grievance redress and last-mile access are handled.",
+      "Horticulture export promotion in Jammu and Kashmir needs cold chains, quality standards, market access, farmer aggregation and APEDA support.",
+      "India's metabolic disease burden demands public awareness, early screening, affordable diagnostics, lifestyle intervention and evidence-based health policy.",
+      "Drug demand reduction requires prevention, treatment, rehabilitation, social reintegration and coordination across health, education, policing and community institutions."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 4 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Viksit UDAN and Jodhpur airport terminal",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281051",
+        note: "Modified UDAN and regional aviation details"
+      },
+      {
+        label: "Balotra development projects",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281080",
+        note: "Projects worth around Rs 1.06 lakh crore"
+      },
+      {
+        label: "CG Semi OSAT facility, Sanand",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281125",
+        note: "Semiconductor assembly and testing facility"
+      },
+      {
+        label: "India-Israel BIA comes into force",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280989",
+        note: "Investment treaty and sovereign policy space"
+      },
+      {
+        label: "MHA designates 23 terrorists under UAPA",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280998",
+        note: "UAPA Section 35 and Fourth Schedule designations"
+      },
+      {
+        label: "Onion procurement price for buffer",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280999",
+        note: "Price Stabilisation Buffer and procurement rate"
+      },
+      {
+        label: "E20 fuel and older vehicles",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281142",
+        note: "Ethanol-blended petrol testing and vehicle compatibility"
+      },
+      {
+        label: "e-Jagriti consumer complaint lifecycle",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281010",
+        note: "Digital consumer justice reform"
+      },
+      {
+        label: "Academic Bank of Credits and APAAR",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281148",
+        note: "Lifelong learning ecosystem and student ID"
+      },
+      {
+        label: "LokOS under DAY-NRLM",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280986",
+        note: "Digital backbone for SHGs and rural livelihoods"
+      },
+      {
+        label: "APEDA stone-fruit export from Jammu and Kashmir",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281136",
+        note: "Areko Cherries and Scentrose Plums to UAE"
+      },
+      {
+        label: "Toy manufacturing testing facilities",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281005",
+        note: "BIS, National Test House and toy export growth"
+      },
+      {
+        label: "InFLiMeN and metabolic diseases",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281062",
+        note: "Liver and metabolic disease research network"
+      },
+      {
+        label: "NAPDDR and Nasha Mukt Bharat Abhiyaan",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2281067",
+        note: "Drug demand reduction and rehabilitation"
+      }
+    ]
+  },
+  {
     date: "2026-07-03",
     label: "3 July 2026",
     title: "Comprehensive PIB Notes: 3 July 2026",
