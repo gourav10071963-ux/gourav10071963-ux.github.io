@@ -162,11 +162,15 @@ const searchInput = document.querySelector("#quizSearch");
 const monthGroups = [...document.querySelectorAll(".month-group")];
 const quizTabs = document.querySelector("#quizTabs");
 const quizForm = document.querySelector("#quizForm");
+const candidateName = document.querySelector("#candidateName");
+const quizTimer = document.querySelector("#quizTimer");
 const submitQuiz = document.querySelector("#submitQuiz");
 const resetQuiz = document.querySelector("#resetQuiz");
 const quizScore = document.querySelector("#quizScore");
 const activeSource = document.querySelector("#activeSource");
 const quizResultPanel = document.querySelector("#quizResultPanel");
+const quizCandidate = document.querySelector("#quizCandidate");
+const quizTimeTaken = document.querySelector("#quizTimeTaken");
 const quizMarks = document.querySelector("#quizMarks");
 const quizAttempted = document.querySelector("#quizAttempted");
 const quizAccuracy = document.querySelector("#quizAccuracy");
@@ -177,6 +181,8 @@ const categoryBreakdown = document.querySelector("#categoryBreakdown");
 const reviewList = document.querySelector("#reviewList");
 const retakeQuiz = document.querySelector("#retakeQuiz");
 let activeQuiz = quizData[0];
+let quizStartedAt = Date.now();
+let quizTimerId = 0;
 
 menuButton.addEventListener("click", () => {
   const nextState = menuButton.getAttribute("aria-expanded") !== "true";
@@ -199,6 +205,10 @@ searchInput.addEventListener("input", () => {
 
     group.hidden = visibleRows === 0;
   });
+});
+
+candidateName.addEventListener("input", () => {
+  candidateName.classList.remove("needs-attention");
 });
 
 function renderTabs() {
@@ -235,9 +245,36 @@ function getQuestionCategory(question) {
   return "Current Affairs";
 }
 
+function formatQuizTime(milliseconds) {
+  const totalSeconds = Math.max(0, Math.floor(milliseconds / 1000));
+  const minutes = String(Math.floor(totalSeconds / 60)).padStart(2, "0");
+  const seconds = String(totalSeconds % 60).padStart(2, "0");
+  return `${minutes}:${seconds}`;
+}
+
+function updateQuizTimer() {
+  quizTimer.textContent = formatQuizTime(Date.now() - quizStartedAt);
+}
+
+function startQuizTimer() {
+  window.clearInterval(quizTimerId);
+  quizStartedAt = Date.now();
+  updateQuizTimer();
+  quizTimerId = window.setInterval(updateQuizTimer, 1000);
+}
+
+function stopQuizTimer() {
+  window.clearInterval(quizTimerId);
+  quizTimerId = 0;
+  updateQuizTimer();
+  return quizTimer.textContent;
+}
+
 function resetResultPanel() {
   quizResultPanel.hidden = true;
   quizScore.value = "";
+  quizCandidate.textContent = "-";
+  quizTimeTaken.textContent = "00:00";
   quizMarks.textContent = "0";
   quizAttempted.textContent = "0/0";
   quizAccuracy.textContent = "0%";
@@ -251,6 +288,7 @@ function resetResultPanel() {
 function renderQuiz() {
   activeSource.href = activeQuiz.source;
   resetResultPanel();
+  startQuizTimer();
   quizForm.innerHTML = activeQuiz.questions.map((question, index) => `
     <fieldset class="question-block" data-question-index="${index}">
       <legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend>
@@ -277,6 +315,16 @@ function setActiveQuiz(quizId) {
 }
 
 function gradeQuiz() {
+  const submittedName = candidateName.value.trim();
+  if (!submittedName) {
+    candidateName.focus();
+    candidateName.classList.add("needs-attention");
+    quizScore.value = "Please enter your name before submitting.";
+    return;
+  }
+
+  candidateName.classList.remove("needs-attention");
+  const elapsedTime = stopQuizTimer();
   const result = {
     correct: 0,
     wrong: 0,
@@ -336,6 +384,8 @@ function gradeQuiz() {
   const accuracy = result.attempted ? Math.round((result.correct / result.attempted) * 100) : 0;
 
   quizScore.value = `Score: ${result.correct}/${result.total}`;
+  quizCandidate.textContent = submittedName;
+  quizTimeTaken.textContent = elapsedTime;
   quizMarks.textContent = marks.toFixed(2).replace(/\.00$/, "");
   quizAttempted.textContent = `${result.attempted}/${result.total}`;
   quizAccuracy.textContent = `${accuracy}%`;
@@ -348,7 +398,7 @@ function gradeQuiz() {
       <article class="category-row">
         <div>
           <strong>${escapeHtml(category)}</strong>
-          <span>${stats.correct}/${stats.total} correct · ${stats.attempted} attempted</span>
+          <span>${stats.correct}/${stats.total} correct &middot; ${stats.attempted} attempted</span>
         </div>
         <div class="category-meter" aria-label="${escapeHtml(category)} score ${percent}%"><span style="width: ${percent}%"></span></div>
       </article>

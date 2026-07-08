@@ -126,6 +126,16 @@
         <a class="source-link" id="activeSource" href="https://www.insightsonindia.com/2026/06/13/upsc-current-affairs-quiz-13-june-2026/" target="_blank" rel="noreferrer">View source quiz</a>
       </div>
       <div class="quiz-tabs" id="quizTabs" role="tablist" aria-label="Recent quiz dates"></div>
+      <div class="quiz-session-panel" aria-label="Quiz candidate and timer">
+        <label class="candidate-name-field" for="candidateName">
+          <span>Your name</span>
+          <input id="candidateName" type="text" autocomplete="name" placeholder="Enter name before submitting">
+        </label>
+        <div class="quiz-timer" role="timer" aria-live="polite">
+          <span>Time</span>
+          <strong id="quizTimer">00:00</strong>
+        </div>
+      </div>
       <form class="quiz-form" id="quizForm"></form>
       <div class="quiz-actions">
         <button class="primary-action" type="button" id="submitQuiz">Submit Quiz</button>
@@ -141,6 +151,16 @@
           <button class="secondary-action dark" type="button" id="retakeQuiz">Retake Quiz</button>
         </div>
         <div class="result-card-grid">
+          <article class="result-card">
+            <span>Candidate</span>
+            <strong id="quizCandidate">-</strong>
+            <small>Name entered before submission</small>
+          </article>
+          <article class="result-card">
+            <span>Time Taken</span>
+            <strong id="quizTimeTaken">00:00</strong>
+            <small>Recorded at submission</small>
+          </article>
           <article class="result-card">
             <span>Marks</span>
             <strong id="quizMarks">0</strong>
