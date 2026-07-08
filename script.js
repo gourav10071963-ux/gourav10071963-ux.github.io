@@ -166,6 +166,16 @@ const submitQuiz = document.querySelector("#submitQuiz");
 const resetQuiz = document.querySelector("#resetQuiz");
 const quizScore = document.querySelector("#quizScore");
 const activeSource = document.querySelector("#activeSource");
+const quizResultPanel = document.querySelector("#quizResultPanel");
+const quizMarks = document.querySelector("#quizMarks");
+const quizAttempted = document.querySelector("#quizAttempted");
+const quizAccuracy = document.querySelector("#quizAccuracy");
+const quizCorrect = document.querySelector("#quizCorrect");
+const quizWrong = document.querySelector("#quizWrong");
+const quizSkipped = document.querySelector("#quizSkipped");
+const categoryBreakdown = document.querySelector("#categoryBreakdown");
+const reviewList = document.querySelector("#reviewList");
+const retakeQuiz = document.querySelector("#retakeQuiz");
 let activeQuiz = quizData[0];
 
 menuButton.addEventListener("click", () => {
@@ -199,21 +209,61 @@ function renderTabs() {
   `).join("");
 }
 
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function getQuestionCategory(question) {
+  const text = `${question.prompt} ${question.explanation}`.toLowerCase();
+
+  if (text.includes("oilseed") || text.includes("agriculture") || text.includes("crop")) return "Agriculture";
+  if (text.includes("fifa") || text.includes("international") || text.includes("bilateral")) return "International Relations";
+  if (text.includes("carbon") || text.includes("wetland") || text.includes("biodiversity") || text.includes("environment") || text.includes("convention")) return "Environment";
+  if (text.includes("afspa") || text.includes("security") || text.includes("disturbed")) return "Internal Security";
+  if (text.includes("scheme") || text.includes("governance") || text.includes("beneficiary")) return "Governance";
+  if (text.includes("science") || text.includes("technology")) return "Science and Technology";
+  if (text.includes("geography") || text.includes("location") || text.includes("map")) return "Geography";
+  if (text.includes("report") || text.includes("index") || text.includes("rank")) return "Reports and Indices";
+  if (text.includes("culture") || text.includes("art form")) return "Culture";
+  if (text.includes("budget") || text.includes("economy") || text.includes("fiscal")) return "Economy";
+
+  return "Current Affairs";
+}
+
+function resetResultPanel() {
+  quizResultPanel.hidden = true;
+  quizScore.value = "";
+  quizMarks.textContent = "0";
+  quizAttempted.textContent = "0/0";
+  quizAccuracy.textContent = "0%";
+  quizCorrect.textContent = "0";
+  quizWrong.textContent = "0";
+  quizSkipped.textContent = "Skipped: 0";
+  categoryBreakdown.innerHTML = "";
+  reviewList.innerHTML = "";
+}
+
 function renderQuiz() {
   activeSource.href = activeQuiz.source;
-  quizScore.value = "";
+  resetResultPanel();
   quizForm.innerHTML = activeQuiz.questions.map((question, index) => `
     <fieldset class="question-block" data-question-index="${index}">
-      <legend><span>${index + 1}</span>${question.prompt}</legend>
+      <legend><span>${index + 1}</span>${escapeHtml(question.prompt)}</legend>
+      <p class="question-category">${escapeHtml(getQuestionCategory(question))}</p>
       <div class="options">
         ${question.options.map((option, optionIndex) => `
           <label>
             <input type="radio" name="question-${index}" value="${optionIndex}">
-            <span>${option}</span>
+            <span>${escapeHtml(option)}</span>
           </label>
         `).join("")}
       </div>
-      <p class="explanation" hidden>${question.explanation}</p>
+      <p class="explanation" hidden>${escapeHtml(question.explanation)}</p>
     </fieldset>
   `).join("");
 }
@@ -227,21 +277,99 @@ function setActiveQuiz(quizId) {
 }
 
 function gradeQuiz() {
-  let correct = 0;
+  const result = {
+    correct: 0,
+    wrong: 0,
+    skipped: 0,
+    attempted: 0,
+    total: activeQuiz.questions.length,
+    categories: new Map(),
+    reviews: []
+  };
 
   activeQuiz.questions.forEach((question, index) => {
     const fieldset = quizForm.querySelector(`[data-question-index="${index}"]`);
     const selected = quizForm.querySelector(`input[name="question-${index}"]:checked`);
     const selectedAnswer = selected ? Number(selected.value) : -1;
     const isCorrect = selectedAnswer === question.answer;
+    const isSkipped = selectedAnswer === -1;
+    const category = getQuestionCategory(question);
+    const categoryStats = result.categories.get(category) || { total: 0, correct: 0, attempted: 0 };
+
+    categoryStats.total += 1;
+    if (!isSkipped) {
+      categoryStats.attempted += 1;
+      result.attempted += 1;
+    }
+    if (isCorrect) {
+      categoryStats.correct += 1;
+      result.correct += 1;
+    } else if (isSkipped) {
+      result.skipped += 1;
+    } else {
+      result.wrong += 1;
+    }
+    result.categories.set(category, categoryStats);
 
     fieldset.classList.toggle("is-correct", isCorrect);
-    fieldset.classList.toggle("is-incorrect", !isCorrect);
+    fieldset.classList.toggle("is-incorrect", !isCorrect && !isSkipped);
+    fieldset.classList.toggle("is-skipped", isSkipped);
+    fieldset.querySelectorAll("label").forEach((label, optionIndex) => {
+      label.classList.toggle("is-selected", optionIndex === selectedAnswer);
+      label.classList.toggle("is-answer", optionIndex === question.answer);
+      label.classList.toggle("is-wrong-answer", optionIndex === selectedAnswer && !isCorrect);
+    });
     fieldset.querySelector(".explanation").hidden = false;
-    if (isCorrect) correct += 1;
+
+    result.reviews.push({
+      number: index + 1,
+      prompt: question.prompt,
+      category,
+      selected: isSkipped ? "Not attempted" : question.options[selectedAnswer],
+      answer: question.options[question.answer],
+      explanation: question.explanation,
+      status: isCorrect ? "Correct" : isSkipped ? "Skipped" : "Wrong"
+    });
   });
 
-  quizScore.value = `Score: ${correct}/${activeQuiz.questions.length}`;
+  const marks = (result.correct * 2) - (result.wrong * 0.66);
+  const accuracy = result.attempted ? Math.round((result.correct / result.attempted) * 100) : 0;
+
+  quizScore.value = `Score: ${result.correct}/${result.total}`;
+  quizMarks.textContent = marks.toFixed(2).replace(/\.00$/, "");
+  quizAttempted.textContent = `${result.attempted}/${result.total}`;
+  quizAccuracy.textContent = `${accuracy}%`;
+  quizCorrect.textContent = String(result.correct);
+  quizWrong.textContent = String(result.wrong);
+  quizSkipped.textContent = `Skipped: ${result.skipped}`;
+  categoryBreakdown.innerHTML = [...result.categories.entries()].map(([category, stats]) => {
+    const percent = stats.total ? Math.round((stats.correct / stats.total) * 100) : 0;
+    return `
+      <article class="category-row">
+        <div>
+          <strong>${escapeHtml(category)}</strong>
+          <span>${stats.correct}/${stats.total} correct · ${stats.attempted} attempted</span>
+        </div>
+        <div class="category-meter" aria-label="${escapeHtml(category)} score ${percent}%"><span style="width: ${percent}%"></span></div>
+      </article>
+    `;
+  }).join("");
+  reviewList.innerHTML = result.reviews.map((review) => `
+    <article class="review-card is-${review.status.toLowerCase()}">
+      <div class="review-card-head">
+        <strong>Q${review.number}. ${escapeHtml(review.category)}</strong>
+        <span>${escapeHtml(review.status)}</span>
+      </div>
+      <p>${escapeHtml(review.prompt)}</p>
+      <dl>
+        <div><dt>Your answer</dt><dd>${escapeHtml(review.selected)}</dd></div>
+        <div><dt>Correct answer</dt><dd>${escapeHtml(review.answer)}</dd></div>
+      </dl>
+      <small>${escapeHtml(review.explanation)}</small>
+    </article>
+  `).join("");
+  quizResultPanel.hidden = false;
+  quizResultPanel.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 quizTabs.addEventListener("click", (event) => {
@@ -256,6 +384,7 @@ document.querySelectorAll("[data-quiz-id]").forEach((link) => {
 
 submitQuiz.addEventListener("click", gradeQuiz);
 resetQuiz.addEventListener("click", renderQuiz);
+retakeQuiz.addEventListener("click", renderQuiz);
 
 renderTabs();
 renderQuiz();

@@ -132,6 +132,47 @@
         <button class="secondary-action dark" type="button" id="resetQuiz">Reset</button>
         <output class="quiz-score" id="quizScore" aria-live="polite"></output>
       </div>
+      <section class="quiz-result-panel" id="quizResultPanel" aria-live="polite" hidden>
+        <div class="result-panel-head">
+          <div>
+            <p class="eyebrow">Result Analysis</p>
+            <h3>Your Prelims Performance</h3>
+          </div>
+          <button class="secondary-action dark" type="button" id="retakeQuiz">Retake Quiz</button>
+        </div>
+        <div class="result-card-grid">
+          <article class="result-card">
+            <span>Marks</span>
+            <strong id="quizMarks">0</strong>
+            <small>+2 correct, -0.66 wrong</small>
+          </article>
+          <article class="result-card">
+            <span>Attempted</span>
+            <strong id="quizAttempted">0/0</strong>
+            <small id="quizSkipped">Skipped: 0</small>
+          </article>
+          <article class="result-card">
+            <span>Accuracy</span>
+            <strong id="quizAccuracy">0%</strong>
+            <small>Correct answers from attempted</small>
+          </article>
+          <article class="result-card">
+            <span>Correct / Wrong</span>
+            <strong><span id="quizCorrect">0</span> / <span id="quizWrong">0</span></strong>
+            <small>Review mistakes below</small>
+          </article>
+        </div>
+        <div class="result-columns">
+          <section class="category-breakdown" aria-labelledby="categoryBreakdownTitle">
+            <h4 id="categoryBreakdownTitle">Category-wise Performance</h4>
+            <div id="categoryBreakdown"></div>
+          </section>
+          <section class="review-list" aria-labelledby="reviewListTitle">
+            <h4 id="reviewListTitle">Question Review</h4>
+            <div id="reviewList"></div>
+          </section>
+        </div>
+      </section>
     </section>
 
     <div class="content-shell">

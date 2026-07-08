@@ -510,6 +510,17 @@ textarea {
   font-size: 13px;
 }
 
+.question-category {
+  display: inline-flex;
+  margin: 12px 0 0 42px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: #eef5f8;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .options {
   display: grid;
   gap: 10px;
@@ -528,6 +539,21 @@ textarea {
   background: var(--paper);
   font-weight: 400;
   cursor: pointer;
+}
+
+.options label.is-selected {
+  border-color: #d98b20;
+  background: #fff8ec;
+}
+
+.options label.is-answer {
+  border-color: rgba(31, 141, 99, 0.65);
+  background: #eef8f5;
+}
+
+.options label.is-wrong-answer {
+  border-color: rgba(190, 63, 63, 0.65);
+  background: #fff1f1;
 }
 
 .options input {
@@ -552,6 +578,10 @@ textarea {
   border-color: rgba(217, 139, 32, 0.65);
 }
 
+.question-block.is-skipped {
+  border-color: rgba(82, 107, 130, 0.35);
+}
+
 .quiz-actions {
   display: flex;
   align-items: center;
@@ -564,6 +594,162 @@ textarea {
   color: var(--navy);
   font-size: 18px;
   font-weight: 800;
+}
+
+.quiz-result-panel {
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fbfc;
+}
+
+.quiz-result-panel[hidden] {
+  display: none;
+}
+
+.result-panel-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.result-panel-head h3,
+.category-breakdown h4,
+.review-list h4 {
+  margin: 0;
+  color: var(--navy);
+}
+
+.result-card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.result-card {
+  min-height: 122px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.result-card span,
+.result-card small,
+.category-row span,
+.review-card small {
+  color: var(--muted);
+}
+
+.result-card strong {
+  display: block;
+  margin: 8px 0;
+  color: var(--navy);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.result-columns {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.85fr) minmax(0, 1.15fr);
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.category-breakdown,
+.review-list {
+  display: grid;
+  gap: 12px;
+}
+
+.category-row,
+.review-card {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.category-row div:first-child {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.category-meter {
+  height: 9px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e5edf1;
+}
+
+.category-meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--teal);
+}
+
+.review-card {
+  border-left-width: 5px;
+}
+
+.review-card.is-correct {
+  border-left-color: #1f8d63;
+}
+
+.review-card.is-wrong {
+  border-left-color: #be3f3f;
+}
+
+.review-card.is-skipped {
+  border-left-color: #8595a3;
+}
+
+.review-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.review-card-head span {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #eef5f8;
+  color: var(--navy);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.review-card p {
+  margin: 10px 0;
+}
+
+.review-card dl {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+
+.review-card dl div {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 10px;
+}
+
+.review-card dt {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.review-card dd {
+  margin: 0;
 }
 
 .daily-note-quiz {
@@ -1546,6 +1732,11 @@ footer {
     display: grid;
   }
 
+  .result-card-grid,
+  .result-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .form-grid,
   .note-card,
   .converter-controls,
@@ -1587,6 +1778,22 @@ footer {
 
   .brand small {
     display: none;
+  }
+
+  .result-panel-head,
+  .category-row div:first-child,
+  .review-card-head {
+    display: grid;
+  }
+
+  .result-card-grid,
+  .result-columns,
+  .review-card dl div {
+    grid-template-columns: 1fr;
+  }
+
+  .question-category {
+    margin-left: 0;
   }
 
   .brand {
