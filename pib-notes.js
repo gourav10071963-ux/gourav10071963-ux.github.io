@@ -1,5 +1,178 @@
 const dailySummaries = [
   {
+    date: "2026-07-08",
+    label: "8 July 2026",
+    title: "Comprehensive PIB Notes: 8 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **El Nino** and **Kharif preparedness**, **PMFBY**, **Kisan Credit Card**, **AITIGA Review**, **ASEAN-India trade**, **high-seas fisheries**, **Odisha Deep Sea Fishing Mission**, **Drugs Rules, 1945**, **FTI-TTP**, **TRIs**, **Poshan Tracker**, **Handloom Hackathon 2026**, **ASI conservation** and **Prambanan Temple Complex**.",
+    blocks: [
+      {
+        heading: "1. Agriculture and climate risk: El Nino-linked Kharif preparedness",
+        points: [
+          "The Centre reviewed **southwest monsoon** uncertainty linked to possible **El Nino** impacts and activated advance planning for the **Kharif** season.",
+          "PIB says the June rainfall deficit of **33 percent** improved in July, with the overall deficit narrowing to **24 percent** and rainfall-deficient districts reducing from **262** to **178**.",
+          "The Centre is closely monitoring **Maharashtra**, **Madhya Pradesh**, **Gujarat**, **Uttar Pradesh**, **Rajasthan**, **Karnataka**, **Bihar**, **Jharkhand**, **Telangana**, **Andhra Pradesh**, **Punjab**, **West Bengal** and **Odisha**.",
+          "Kharif sowing has been completed over **350.85 lakh hectares**, about **91.95 lakh hectares** below the corresponding period last year; soybean and cotton sowing were especially affected by delayed rainfall.",
+          "Farmers have been advised to use short-duration and low-water crops such as **maize**, **bajra** and **moong** to reduce delayed-rainfall risk.",
+          "Government preparedness includes **ICAR** contingency plans, **Khet Bachao Abhiyan** outreach through more than **1.24 lakh programmes** reaching over **80 lakh farmers**, a national seed reserve of about **1.75 lakh quintals**, intensified **Kisan Credit Card** approvals and wider **Pradhan Mantri Fasal Bima Yojana (PMFBY)** participation."
+        ]
+      },
+      {
+        heading: "2. Trade and logistics: AITIGA Review and digital logistics MoU",
+        points: [
+          "India hosted the **13th ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee** and related meetings at **Vanijya Bhawan, New Delhi**, from **6-10 July 2026**.",
+          "Three of the eight AITIGA sub-committees met on the sidelines: **Customs Procedures and Trade Facilitation (SC-CPTF)**, **National Treatment and Market Access (SC-NTMA)** and **Rules of Origin (SC-ROO)**.",
+          "The Joint Committee asked sub-committees to expedite outstanding chapters and work through time-bound deliverables, showing the importance of rules of origin, market access and trade facilitation in FTA reviews.",
+          "The meeting was co-chaired by India and **Malaysia**; all ten **ASEAN** members participated: **Brunei**, **Cambodia**, **Indonesia**, **Lao PDR**, **Malaysia**, **Myanmar**, **Philippines**, **Singapore**, **Thailand** and **Viet Nam**.",
+          "**ASEAN** accounts for around **11 percent** of India's global trade, and India-ASEAN bilateral trade reached **USD 128 billion** in **2025-26**.",
+          "The official list also records an MoU between **NICDC Logistics Data Services Ltd (NLDSL)** and the **Government of Punjab**, relevant for digital logistics, multimodal supply chains and **PM Gati Shakti**-style data integration."
+        ]
+      },
+      {
+        heading: "3. Blue Economy: high-seas fishing LoA and Odisha fisheries review",
+        points: [
+          "The **Department of Fisheries** will launch the **Letter of Authorisation (LoA)** for sustainable high-seas fisheries on **9 July 2026** in **Bhubaneswar, Odisha**.",
+          "The LoA is mandatory under the **Guidelines for Sustainable Harnessing of Fisheries in the High Seas by Indian-Flagged Fishing Vessels, 2025**; it is vessel-specific, non-transferable and integrated with the **ReALCraft Fishing Vessel Registration Portal**.",
+          "LoA holders must comply with **Regional Fisheries Management Organisations (RFMOs)**, including catch limits, gear rules, bycatch mitigation, **Fish Aggregating Device (FAD)** management and voyage reporting.",
+          "The **Odisha Deep Sea Fishing Mission (2026-2036)** aims to make Odisha a deep-sea fishing and marine export hub through modern infrastructure, value chains, scientific fisheries management and market linkages.",
+          "India has a coastline of about **11,099 km**, an **Exclusive Economic Zone (EEZ)** of about **24 lakh sq km**, marine fisheries potential of **58.6 lakh MT**, and about **50 lakh** fisher livelihoods; **Andaman and Nicobar Islands** and **Lakshadweep** together account for nearly **49 percent** of India's EEZ area.",
+          "In the Odisha review meeting, PIB highlighted **12.70 lakh MT** fish production in **2025-26**, over **16 lakh** fishers, **Rs 5,429 crore** seafood exports, and **PMMSY** projects worth over **Rs 1,301 crore** approved for the state."
+        ]
+      },
+      {
+        heading: "4. Health regulation and airport systems: drug-import port and FTI-TTP",
+        points: [
+          "The **Ministry of Health and Family Welfare** notified **Navi Mumbai Airport** as a port for import of drugs by amending **Rule 43A** of the **Drugs Rules, 1945**.",
+          "The notification was issued after consultation with the **Drugs Technical Advisory Board (DTAB)** under the **Drugs and Cosmetics Act, 1940**.",
+          "With the addition of Navi Mumbai Airport, the number of notified ports of entry for drug imports across road, rail, ship and air has reached **42**.",
+          "The Home Ministry and Civil Aviation Ministry reviewed airport passenger facilities, security and immigration systems, linking aviation capacity with internal security and service delivery.",
+          "**Automatic Tray Retrieval System (ATRS)** will be installed in a phased manner at all airports; work at **62 airports** under development or prioritised for development is to be completed within **two years**.",
+          "**Foreigners Regional Registration Office (FRRO)** offices are to be made operational at all State headquarters by **2027**, immigration check posts at **Agartala** and **Jewar** airports are to be operationalised, and **Fast Track Immigration - Trusted Travellers' Programme (FTI-TTP)** registration will be promoted through airline-linked messages."
+        ]
+      },
+      {
+        heading: "5. Nutrition governance: Poshan Tracker and Mission Poshan 2.0",
+        points: [
+          "**Poshan Tracker** is the mobile-based digital governance backbone of **POSHAN Abhiyaan** under **Saksham Anganwadi and Poshan 2.0**.",
+          "**POSHAN Abhiyaan** was launched on **8 March 2018** as the National Nutrition Mission; in **Budget 2021-22**, **Poshan Abhiyan**, **Anganwadi Services** and **Scheme for Adolescent Girls** were consolidated under **Mission Poshan 2.0**.",
+          "The tracker was launched in **March 2021** by **MoWCD** and **National e-Governance Division (NeGD)** to monitor Anganwadi infrastructure, service delivery, beneficiary coverage and growth monitoring.",
+          "Key features include **Aadhaar-based verification**, **Facial Recognition System (FRS)**, an IT-enabled home visit scheduler for **23 structured home visits**, **ECCE** content delivery, **Poshan Calculator**, **Poshan Helpline 1515**, smartphones for Anganwadi Workers and Growth Monitoring Devices.",
+          "As of **May 2026**, Poshan Tracker covered all **28 States** and **8 Union Territories**, registered over **8.93 crore beneficiaries**, and maintained a live monthly nutrition-indicator database for over **7.7 crore children**.",
+          "It enabled growth monitoring for over **6.3 crore** children aged **0-5 years**, covering nearly **94 percent** of registered beneficiaries, and tracked **stunting**, **underweight**, **wasting**, **SAM/MAM** and overweight or obesity indicators."
+        ]
+      },
+      {
+        heading: "6. Tribal research institutions: Bhubaneswar Declaration",
+        points: [
+          "The **Bhubaneswar Declaration** was adopted at the National Workshop on Strengthening **Tribal Research Institutes (TRIs)** held in **Bhubaneswar, Odisha**, on **7-8 July 2026**.",
+          "The workshop brought nearly **200 participants** from TRIs, State Tribal Welfare Departments, academia, research bodies, technology organisations, industry, development partners and civil society.",
+          "Four themes were discussed: TRIs as **Knowledge and Cultural Resource Centres**, research for tribal development, technology integration through **AI** and **GIS**, and institutional strengthening.",
+          "The declaration proposes TRIs as **Centres of Excellence**, a **TRI Innovation Network**, a **Result and Ranking Framework** through the **NTRP portal**, research dissemination tools and stronger community-level need analysis.",
+          "It also calls for **Model TRI Framework 2030**, a **National TRI Research Agenda (2027-2032)**, research standards, preservation of tribal languages and indigenous knowledge, and a shared-service model for advanced technology infrastructure.",
+          "Seven best-performing TRIs were recognised, including institutions from **Chhattisgarh**, **Odisha**, **Tripura**, **Maharashtra**, **Kerala**, **Telangana** and **Jharkhand**."
+        ]
+      },
+      {
+        heading: "7. Culture, handlooms and soft power: Prambanan and Handloom Hackathon",
+        points: [
+          "The Prime Minister visited the **UNESCO World Heritage** **Prambanan Temple Complex** in **Yogyakarta**, Indonesia, with the President of Indonesia.",
+          "The leaders unveiled a plaque marking the start of the **Archaeological Survey of India (ASI)** conservation and restoration project at Prambanan.",
+          "The **9th century** Prambanan Temple Complex is the largest temple complex in Indonesia dedicated to the **Trimurti** - Brahma, Vishnu and Shiva - and is important for India-Indonesia civilisational links.",
+          "PIB notes India's heritage-conservation record in Southeast Asia, including documentation of the **Borobudur Temple Compounds** in Indonesia.",
+          "The **Office of the Development Commissioner (Handlooms)** launched **Handloom Hackathon 2026 - Weaving Innovation** as part of **National Handloom Day 2026**.",
+          "The Grand Finale will be held on **1 August 2026** at **FITT, IIT Delhi**; online registrations are open till **20 July 2026**, with themes covering design, sustainability, circularity, digital technologies, market access, branding, supply chains, productivity and social impact."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB list for 8 July 2026: 17 releases; page updated 08 Jul 2026 17:34 IST",
+      "El Nino preparedness: June rainfall deficit 33 percent; overall deficit narrowed to 24 percent; deficient districts reduced from 262 to 178",
+      "Kharif sowing: 350.85 lakh hectares completed; 91.95 lakh hectares lower than corresponding period last year",
+      "Khet Bachao Abhiyan: more than 1.24 lakh programmes; over 80 lakh farmers reached",
+      "Seed reserve: about 1.75 lakh quintals; KCC campaign had more than 94,000 approvals out of 1.14 lakh applications by 30 June",
+      "AITIGA: 13th Joint Committee in New Delhi from 6-10 July 2026; ASEAN share around 11 percent of India's global trade; bilateral trade USD 128 billion in 2025-26",
+      "High-seas fisheries LoA: mandatory under 2025 guidelines; vessel-specific, non-transferable and linked with ReALCraft",
+      "Odisha Deep Sea Fishing Mission: 2026-2036; Blue Economy initiative for deep-sea fisheries and marine exports",
+      "India marine fisheries: coastline about 11,099 km; EEZ about 24 lakh sq km; potential 58.6 lakh MT; about 50 lakh fisher livelihoods",
+      "Odisha fisheries: 12.70 lakh MT production in 2025-26; over 16 lakh fishers; Rs 5,429 crore seafood exports; PMMSY projects over Rs 1,301 crore",
+      "Navi Mumbai Airport: added under Rule 43A of Drugs Rules, 1945; notified drug-import ports now 42",
+      "Airport systems: ATRS phased at all airports; FRRO offices at all State headquarters by 2027; Agartala and Jewar immigration check posts",
+      "Poshan Tracker: launched March 2021; covers all 28 States and 8 UTs; over 8.93 crore beneficiaries as of May 2026",
+      "Poshan Tracker features: Aadhaar verification, FRS, 23 home visits, Poshan Helpline 1515, ECCE content and Poshan Calculator",
+      "TRIs: Bhubaneswar Declaration adopted 8 July 2026; Model TRI Framework 2030 and National TRI Research Agenda 2027-2032",
+      "Prambanan Temple Complex: UNESCO World Heritage site in Yogyakarta; 9th century; ASI conservation project",
+      "Handloom Hackathon 2026: Weaving Innovation; finale at FITT, IIT Delhi on 1 August 2026; registration till 20 July 2026"
+    ],
+    mains: [
+      "Climate-risk governance in agriculture requires monsoon monitoring, contingency plans, seed reserves, crop advisories, insurance and institutional coordination with states.",
+      "Kharif preparedness should balance quick relief with long-term adaptation through crop diversification, water-use efficiency, climate-resilient seeds and reliable farm advisories.",
+      "FTA reviews such as AITIGA show that trade gains depend on rules of origin, market access, customs facilitation, logistics and domestic competitiveness.",
+      "High-seas fisheries policy must reconcile Blue Economy growth, fisher incomes, seafood exports, RFMO compliance, marine biodiversity and monitoring beyond the EEZ.",
+      "Digital portals such as ReALCraft, Poshan Tracker and NTRP can improve transparency only when data quality, privacy, field capacity and grievance redress are robust.",
+      "Drug-import port expansion improves pharmaceutical logistics but needs strong regulatory oversight under the Drugs and Cosmetics framework.",
+      "Airport modernisation must integrate passenger convenience, immigration capacity, CISF security, privacy safeguards and accessibility.",
+      "TRIs can strengthen evidence-based tribal policy if they preserve indigenous knowledge while building research standards, autonomy, skilled staff and community accountability.",
+      "India's heritage work in Southeast Asia can support cultural diplomacy when paired with conservation ethics, local partnerships and archaeological expertise.",
+      "Innovation challenges in handlooms should be linked with weaver incomes, sustainable materials, market access, design support, digital branding and protection of traditional knowledge."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 8 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "El Nino and Kharif preparedness",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282422",
+        note: "Monsoon review, Kharif sowing, seed reserve and PMFBY"
+      },
+      {
+        label: "13th AITIGA Joint Committee",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282336",
+        note: "ASEAN-India trade review and sub-committee work"
+      },
+      {
+        label: "High-seas fisheries LoA and Odisha Deep Sea Fishing Mission",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282312",
+        note: "Sustainable high-seas fishing framework"
+      },
+      {
+        label: "Odisha fisheries schemes review",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282426",
+        note: "PMMSY, fisheries exports and Odisha production data"
+      },
+      {
+        label: "Navi Mumbai Airport as drug-import port",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282329",
+        note: "Rule 43A of Drugs Rules, 1945"
+      },
+      {
+        label: "Airport facilities, security and immigration review",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282445",
+        note: "ATRS, FRRO, FTI-TTP and immigration check posts"
+      },
+      {
+        label: "Poshan Tracker backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282421",
+        note: "Nutrition monitoring platform under Mission Poshan 2.0"
+      },
+      {
+        label: "Bhubaneswar Declaration on TRIs",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282509",
+        note: "National roadmap for Tribal Research Institutes"
+      },
+      {
+        label: "Prambanan Temple Complex conservation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282394",
+        note: "ASI conservation and India-Indonesia cultural links"
+      },
+      {
+        label: "Handloom Hackathon 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282338",
+        note: "Weaving Innovation challenge and National Handloom Day"
+      }
+    ]
+  },
+  {
     date: "2026-07-04",
     label: "4 July 2026",
     title: "Comprehensive PIB Notes: 4 July 2026",
@@ -2621,6 +2794,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-07-08": [
+    {
+      question: "The 8 July 2026 Kharif preparedness release linked monsoon uncertainty mainly with which climate phenomenon?",
+      options: ["El Nino", "La Nina only", "Madden-Julian Oscillation only", "Western Disturbance only"],
+      answer: 0,
+      explanation: "PIB linked the preparedness review with uncertainty in the southwest monsoon due to possible El Nino impacts."
+    },
+    {
+      question: "The 13th AITIGA Joint Committee meeting was connected with trade between India and which grouping?",
+      options: ["ASEAN", "European Union", "GCC", "African Union"],
+      answer: 0,
+      explanation: "AITIGA is the ASEAN-India Trade in Goods Agreement; the 13th Joint Committee reviewed the AITIGA Review."
+    },
+    {
+      question: "The Letter of Authorisation for sustainable high-seas fisheries is integrated with which portal?",
+      options: ["ReALCraft Fishing Vessel Registration Portal", "Poshan Tracker", "NTRP portal", "e-Jagriti"],
+      answer: 0,
+      explanation: "PIB says the LoA is integrated with the ReALCraft Fishing Vessel Registration Portal for traceable fishing-vessel operations."
+    },
+    {
+      question: "Navi Mumbai Airport was notified as a drug-import port by amending which rule?",
+      options: ["Rule 43A of the Drugs Rules, 1945", "Rule 10 of the Aircraft Rules, 1937", "Section 35 of UAPA", "Rule 6 of the Forest Rights Rules"],
+      answer: 0,
+      explanation: "The Health Ministry release states that Rule 43A of the Drugs Rules, 1945 was amended to include Navi Mumbai Airport."
+    },
+    {
+      question: "The Bhubaneswar Declaration is associated with strengthening which institutions?",
+      options: ["Tribal Research Institutes", "Regional Fisheries Management Organisations", "Foreigners Regional Registration Offices", "National Testing Laboratories"],
+      answer: 0,
+      explanation: "The declaration was adopted at the National Workshop on Strengthening Tribal Research Institutes."
+    }
+  ],
   "2026-07-03": [
     {
       question: "The DAC approvals on 3 July 2026 were worth approximately:",
