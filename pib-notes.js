@@ -1,5 +1,382 @@
 const dailySummaries = [
   {
+    date: "2026-07-12",
+    label: "12 July 2026",
+    title: "Comprehensive PIB Notes: 12 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **India-EU economic partnership**, **India-EU FTA**, **Trade and Technology Council**, **circular economy in textiles**, **PM MITRA Parks**, **Indian Carbon Market**, **EPFO Amnesty Scheme 2026**, **ESI healthcare**, **NextGen Administrative and e-Gov Reforms**, **water resources governance**, **Dam Safety Act 2021**, **Swachh Sagar, Surakshit Sagar**, **Ek Ped Maa Ke Naam**, **APMC** and **Mannathu Padmanabhan**.",
+    blocks: [
+      {
+        heading: "1. India-EU trade, technology and investment diplomacy",
+        points: [
+          "The **Union Minister of Commerce and Industry** will lead a high-level Indian business delegation to **Spain**, **Belgium** and **Finland** from **13-17 July 2026** to deepen trade, investment, technology, innovation and sustainability partnerships.",
+          "In **Spain**, the visit will focus on bilateral trade and investment, the proposed **India-European Union Free Trade Agreement (FTA)**, and business opportunities in **automotive**, **renewable energy**, **railways**, **artificial intelligence**, **semiconductors**, food processing and tourism.",
+          "The visit coincides with the **Spain-India Dual Year 2026**, marking **70 years** of diplomatic relations, and highlights Spanish companies such as **Iberdrola**, **Acciona**, **CAF**, **Talgo**, **Gestamp** and **Indra** as well as Indian IT and engineering firms in Spain.",
+          "In **Belgium**, site visits to the **Port of Antwerp** and **Antwerp World Diamond Centre** will cover multimodal logistics, green supply chains, certification, responsible sourcing and the global diamond value chain.",
+          "The Minister will co-chair the **3rd India-EU Trade and Technology Council (TTC) Ministerial Meeting** in Brussels with the External Affairs Minister and Minister of State for Electronics and IT; the TTC is described as the highest institutional mechanism for trade, trusted technology and economic-security cooperation.",
+          "In **Finland**, engagement with **Business Finland**, **Nokia**, **VTT Research Centre**, **KONE** and **Kemppi Group** will focus on digitalisation, clean energy, advanced manufacturing, circular economy, **6G research**, smart mobility, EV charging and frontier technologies."
+        ]
+      },
+      {
+        heading: "2. Textile sustainability and circular economy",
+        points: [
+          "The PIB backgrounder on **Weaving Sustainability into India's Textile Future** frames sustainability as a competitiveness issue for the textile and apparel sector, which contributes about **2 percent** of GDP, around **11 percent** of manufacturing GVA, more than **45 million** direct jobs and about **4 percent** of global textile and apparel exports.",
+          "India manages about **7.8 million tonnes** of textile waste annually; more than **70 percent** is recovered for recycling, upcycling, downcycling or reuse, nearly **95 percent** of pre-consumer waste is collected and reused, and about **55 percent** of post-consumer waste is diverted from landfills.",
+          "The circular textile ecosystem supports nearly **40-45 lakh livelihoods**, with women from marginalised communities playing an important role in collection, sorting and redistribution.",
+          "Local recovery models include **Belapur, Navi Mumbai's Municipal Textile Recovery Facility**, which has collected **30 MT** of post-consumer waste, sorted **25.5 MT**, processed over **41,000** items and developed **400+** upcycled samples, and **Panipat** as a downstream recycling hub handling about **3,500-5,250 TPD** of waste.",
+          "Input-stage measures include **National Programme for Organic Production (NPOP)** for organic cotton, **Jute-ICARE**, **New Age Fibre Mission**, **National Fibre Scheme**, restriction of benzidine-based dyes, prohibition on handling **70 azo dyes**, and India's ratification of the **Stockholm Convention** in **2006**.",
+          "**PM MITRA Parks** have been approved at seven sites with an outlay of **Rs 4,445 crore** up to **2027-28**; MoUs with potential investments of over **Rs 27,434 crore** had been signed by December 2025, with sustainability features such as **CETPs**, wastewater recycling and shared utilities."
+        ]
+      },
+      {
+        heading: "3. Green industry, carbon market and textile waste governance",
+        points: [
+          "The textile backgrounder links **RAMP**, **MSE-GIFT** and **MSE-SPICE** with green technology adoption and circular-economy support for micro and small enterprises; **MSE-GIFT** offers **2 percent** annual interest subvention on term loans up to **Rs 2 crore** and **75 percent** credit guarantee coverage.",
+          "**MSE-SPICE** supports circular solutions through **25 percent** capital subsidy for eligible plant and machinery investments and nationwide awareness promotion.",
+          "The **Indian Carbon Market (ICM)** covers textiles under the **Carbon Credit Trading Scheme (CCTS)**, notified in **2023**, with greenhouse gas emission-intensity targets and disclosure of **Scope 1** and **Scope 2** emissions.",
+          "Under this framework, entities performing better than assigned targets can receive tradable **Carbon Credit Certificates**, creating a market incentive for reducing emissions.",
+          "The **Solid Waste Management Rules, 2026**, effective from **1 April 2026**, embed circular economy and extended producer responsibility principles; industrial units using solid fuel must raise **Refuse Derived Fuel (RDF)** use from **5 percent** to **15 percent** over six years.",
+          "**NTTM** projects on textile waste, biomass and bio-residues, **Eco-Mark Scheme 2024**, **Kasturi Cotton**, **Silk Mark**, a **2024** MoU among **Textiles Committee**, **GeM** and **SCOPE**, and **Bharat Tex 2026** are relevant for sustainable textiles, traceability, public procurement and market access."
+        ]
+      },
+      {
+        heading: "4. Labour welfare: EPFO amnesty and ESI healthcare",
+        points: [
+          "**EPFO** introduced **Amnesty Scheme 2026** as a one-time, six-month opportunity for establishments operating exempted **Provident Fund Trusts** recognised under the **Income Tax Act, 1961** but lacking formal exemption notification from the appropriate government.",
+          "The scheme was notified on **29 June 2026** and follows the **Finance Act, 2026**, which aligned the income-tax framework for recognised provident funds with the **Employees' Provident Fund and Miscellaneous Provisions Act, 1952**.",
+          "Amnesty will be granted retrospectively under **Section 17** of the EPF Act and **Section 143** of the **Code on Social Security, 2020**; benefits include trust regularisation, waiver of minimum employee headcount and corpus-size requirements, deemed satisfaction of prior compliance, and abatement of pending dues, damages and interest proceedings subject to conditions.",
+          "Employers must submit applications to the Central Government through EPFO regional offices, complete financial audits by a Chartered Accountant, and complete special or compliance audits within **3 months** of application if directed.",
+          "The Labour Ministry also announced seven **ESI healthcare projects** worth about **Rs 668 crore** to benefit around **53 lakh ESI beneficiaries** across Telangana, Assam, Tamil Nadu, Andhra Pradesh, Gujarat and Rajasthan.",
+          "The projects include the **ESIC Hospital Sanathnagar OPD Block** costing **Rs 211.13 crore**, an upgraded **200-bedded ESIC Hospital at Beltola**, a **100-bedded ESIC Hospital at Sriperumbudur**, ESIS Hospital at **Rajamahendravaram**, and dispensary/branch office facilities at **Surendranagar**, **Udyog Nagar Kota** and **Bhawani Mandi**."
+        ]
+      },
+      {
+        heading: "5. Administrative reforms and water governance",
+        points: [
+          "**DARPG** and the **Government of Meghalaya** will organise the National Conference on **NextGen Administrative and e-Gov Reforms** in **Shillong** on **13-14 July 2026**.",
+          "The conference will bring more than **300 delegates** and over **30 speakers**, including senior officials, District Collectors and governance experts, to discuss next-generation administrative reforms, digital governance and citizen-centric public service delivery.",
+          "Sessions will cover **Prime Minister's Award-winning initiatives 2023 and 2024**, **National Awards for e-Governance 2026** projects, Meghalaya best practices and **DARPG/State Collaborative Initiative** projects from the North East.",
+          "Governance themes include district development, digital public service delivery, cyber security, health, education, consumer protection, banking, urban governance, rural development, **Aspirational District Programme**, **DoNER** initiatives, **North Eastern Council**, bamboo and agarwood value chains, tourism and regional infrastructure.",
+          "The **Ministry of Jal Shakti** will convene the All-India Conference of senior-most State and UT Water Resources Secretaries on **13 July 2026** at **Sushma Swaraj Bhawan, New Delhi** to strengthen Centre-State coordination.",
+          "The eight agenda items include **M-CADWM**, special one-month **Catch the Rain** campaign, revised project appraisal guidelines, dam-reservoir **Rule Curves**, **State Water Reforms Framework**, completion of **Comprehensive Dam Safety Evaluation (CDSE)** under the **Dam Safety Act, 2021** by **December 2026**, irrigation censuses and a framework for Model State Water Awards."
+        ]
+      },
+      {
+        heading: "6. Science outreach, coastal cleanliness and urban greening",
+        points: [
+          "A high-level review meeting of science ministries prepared for the nationwide **Swachh Sagar, Surakshit Sagar** coastal cleanliness campaign from **10-19 September 2026**, linking scientific institutions, government agencies, volunteers, educational institutions and local communities.",
+          "The meeting stressed inter-ministerial coordination among **DST**, **DBT**, **DSIR**, **MoES**, **CSIR**, **ISRO**, **BARC** and other institutions so that science, public outreach and national-development priorities work as an integrated ecosystem.",
+          "Outreach plans covered **Anusandhan National Research Foundation (ANRF)**, **National Quantum Mission**, **National Mission on Interdisciplinary Cyber-Physical Systems**, **Research Development and Innovation Scheme**, **SARAL_AI**, **ESTIC-2026**, **IISF 2026** and **National Space Day 2026**.",
+          "The **Ek Ped Maa Ke Naam** release reported a mass plantation drive in the **Gandhinagar Lok Sabha constituency**, with over **1 crore** trees planted there and **50 lakh** trees in Ahmedabad city.",
+          "**Ahmedabad Municipal Corporation** inaugurated **101 Oxygen Parks** in a single day, while the Gandhinagar region's Oxygen Parks rose from **12** to **73** after **61** new parks were inaugurated.",
+          "**Sanand**, **Gandhinagar**, **Kalol** and Ahmedabad city have increased green cover by **11.23 percent** and set a target of **20 percent** by **2029**; **CAPF** personnel have planted over **7 crore** trees across India over the past seven years."
+        ]
+      },
+      {
+        heading: "7. Cooperative marketing and social reform legacy",
+        points: [
+          "The Cooperation Ministry announced inauguration of a new vegetable sub-yard during the **Amrit Mahotsav** of **APMC Dahegam** in **Gandhinagar district, Gujarat**, on **13 July 2026**.",
+          "The event is linked with **Sahkar Se Samriddhi**, agricultural marketing modernisation, farmer prosperity and strengthening of the rural economy through cooperatives and APMCs.",
+          "A commemorative publication for the **APMC** Amrit Mahotsav will be released, and the programme includes sapling plantation under **Ek Ped Maa Ke Naam**.",
+          "The Vice President unveiled a statue of **Mannathu Padmanabhan** and inaugurated the **Mannam Smrithi Mandapam** at **Mannam International Centre, Dwarka, New Delhi**, organised by **Nair Service Society (NSS), Delhi**.",
+          "**Mannathu Padmanabhan** was highlighted as a social reformer, freedom fighter, founder of **Nair Service Society**, and a figure associated with education, social reform, self-reliance, equality, compassion and national service.",
+          "**NSS Delhi** was noted as having **25 branches** across Delhi-NCR and nearly **25,000 members**, while preserving Kerala's cultural heritage through **Kalaripayattu**, **Kathakali** and **Mohiniyattam** and promoting education and social service."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 12 July 2026: 12 releases; page updated 12 Jul 2026 16:08 IST",
+      "Commerce Minister visit: Spain, Belgium and Finland from 13-17 July 2026; focus on India-EU FTA, investment, technology and sustainability",
+      "3rd India-EU Trade and Technology Council Ministerial Meeting: Brussels; TTC is the highest institutional mechanism for trade, trusted technology and economic security cooperation",
+      "Spain-India Dual Year 2026: marks 70 years of diplomatic relations",
+      "Port of Antwerp: logistics, multimodal connectivity, green logistics and resilient supply-chain relevance",
+      "Textile sector: about 2 percent of GDP, 11 percent of manufacturing GVA, over 45 million direct jobs, and about 4 percent share in global exports",
+      "Textile waste: about 7.8 million tonnes managed annually; over 70 percent recovered; nearly 95 percent pre-consumer waste reused; 55 percent post-consumer waste diverted from landfills",
+      "Circular textile livelihoods: nearly 40-45 lakh livelihoods supported",
+      "PM MITRA Parks: seven parks; outlay Rs 4,445 crore up to 2027-28; potential MoUs over Rs 27,434 crore by December 2025",
+      "MSE-GIFT: 2 percent annual interest subvention on term loans up to Rs 2 crore and 75 percent credit guarantee coverage",
+      "MSE-SPICE: 25 percent capital subsidy for circular-economy plant and machinery investments",
+      "Indian Carbon Market: CCTS notified in 2023; textiles covered for GEI targets and Scope 1/Scope 2 emission disclosure",
+      "Solid Waste Management Rules, 2026: effective 1 April 2026; RDF use to rise from 5 percent to 15 percent over six years for covered units",
+      "EPFO Amnesty Scheme 2026: notified 29 June 2026; valid for six months; regularises exempted PF trusts lacking formal exemption",
+      "EPFO legal anchors: Section 17 of EPF Act, 1952 and Section 143 of Code on Social Security, 2020",
+      "ESI projects: seven healthcare facilities worth about Rs 668 crore for around 53 lakh beneficiaries",
+      "NextGen Administrative and e-Gov Reforms Conference: Shillong, 13-14 July 2026; 300+ delegates and 30+ speakers",
+      "Water Resources Secretaries' Conference: New Delhi, 13 July 2026; agenda includes M-CADWM, Catch the Rain, Rule Curves, SWRF and CDSE under Dam Safety Act, 2021 by December 2026",
+      "Swachh Sagar, Surakshit Sagar: nationwide coastal cleanliness campaign scheduled for 10-19 September 2026",
+      "Ek Ped Maa Ke Naam in Gandhinagar: over 1 crore trees in constituency; 50 lakh in Ahmedabad; 101 Oxygen Parks in Ahmedabad; green-cover target 20 percent by 2029",
+      "Mannathu Padmanabhan: social reformer, freedom fighter and founder of Nair Service Society"
+    ],
+    mains: [
+      "India-EU economic engagement should be evaluated through strategic autonomy, resilient supply chains, technology governance, green transition, market access and FTA safeguards.",
+      "The TTC model shows how trade policy increasingly overlaps with trusted technology, cyber resilience, standards, semiconductors, AI, clean energy and economic security.",
+      "Circular textiles can improve competitiveness only when informal waste workers, MSMEs, traceability systems, certification, cleaner chemicals and export standards are integrated.",
+      "Carbon-credit markets require credible measurement, reporting, verification and sector-specific transition support to avoid compliance burden without emission reduction.",
+      "EPFO amnesty illustrates regulatory transition in social security: regularisation must protect workers' accumulated benefits while reducing legacy litigation for employers.",
+      "ESI infrastructure expansion is central to labour welfare, but outcomes depend on staffing, quality of care, claims processing, portability and coverage of industrial clusters.",
+      "Next-generation e-governance reforms must combine technology with process redesign, grievance redress, cybersecurity, inclusion and measurable improvements in service delivery.",
+      "Water governance requires Centre-State coordination on irrigation efficiency, dam safety, reservoir operations, data systems, conservation campaigns and climate-resilient project appraisal.",
+      "Coastal cleanliness campaigns need scientific monitoring, local government capacity, behaviour change, plastic-waste systems and community ownership beyond event-based mobilisation.",
+      "Urban greening drives should be assessed by survival rate, native species selection, heat-island mitigation, water availability, citizen participation and long-term maintenance.",
+      "Cooperative market yards and APMCs remain relevant when they improve farmer price discovery, logistics, grading, perishables handling and producer-market linkages.",
+      "Social reform personalities such as Mannathu Padmanabhan are useful for GS-I when linked to education, caste reform, community organisation, nationalism and social service."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 12 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Commerce Minister visit to Spain, Belgium and Finland",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283848",
+        note: "India-EU trade, TTC and investment diplomacy"
+      },
+      {
+        label: "Weaving Sustainability into India's Textile Future",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283837",
+        note: "Circular economy, textile waste, PM MITRA and carbon market"
+      },
+      {
+        label: "EPFO Amnesty Scheme 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283802",
+        note: "Provident fund trust regularisation"
+      },
+      {
+        label: "Seven ESI healthcare projects",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283801",
+        note: "Worker welfare and ESIC infrastructure"
+      },
+      {
+        label: "NextGen Administrative and e-Gov Reforms Conference",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283853",
+        note: "Digital governance and administrative reforms"
+      },
+      {
+        label: "Water Resources Secretaries' Conference",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283833",
+        note: "Water governance and dam safety agenda"
+      },
+      {
+        label: "Swachh Sagar, Surakshit Sagar campaign",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283839",
+        note: "Science outreach and coastal cleanliness"
+      },
+      {
+        label: "Mass plantation drive in Gandhinagar",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283852",
+        note: "Urban greening, Oxygen Parks and Ek Ped Maa Ke Naam"
+      },
+      {
+        label: "APMC Dahegam vegetable sub-yard",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283868",
+        note: "Cooperative agricultural marketing"
+      },
+      {
+        label: "Mannathu Padmanabhan memorial",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283841",
+        note: "Social reform and cultural heritage"
+      }
+    ]
+  },
+  {
+    date: "2026-07-11",
+    label: "11 July 2026",
+    title: "Comprehensive PIB Notes: 11 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for the **India-New Zealand Strategic Partnership**, **Roadmap to 2030**, **Indo-Pacific Oceans Initiative**, **Global Biofuels Alliance**, **INS Mahendragiri**, **Project 17A**, **SHANTI Act 2025**, **PMFME**, **eSaras**, **DAY-NRLM**, **NHM**, **BRICS Transport Ministers' Meeting**, **PM SVANidhi Street Food Hub**, **NAMASTE Scheme**, **CAQM**, **Lok Samvardhan Parv** and **PM VIKAS**.",
+    blocks: [
+      {
+        heading: "1. India-New Zealand Strategic Partnership and Roadmap to 2030",
+        points: [
+          "India and **New Zealand** elevated ties to a **Strategic Partnership** during the Prime Minister's official visit to **Auckland** on **10-11 July 2026**, described by PIB as the first Indian Prime Ministerial visit to New Zealand in **40 years**.",
+          "The **India-New Zealand Strategic Partnership: Roadmap to 2030** will guide cooperation over the next four years across political engagement, defence, security, trade, people-to-people ties, education, science, disaster management and multilateral coordination.",
+          "The outcomes include arrangements on **maritime cooperation**, **hydrography and nautical cartography**, **Mutual Logistics Support**, a **Joint Working Group on Counter-Terrorism**, disaster-risk management, animal husbandry and dairying, tourism, sport, culture and the **National Maritime Heritage Complex, Lothal**.",
+          "Both sides set an aspirational target to double two-way trade in goods and services to **NZ$7 billion** or about **Rs 35,000 crore** by **2030**, and agreed to work towards early entry into force and implementation of the **India-New Zealand FTA**.",
+          "New Zealand nominated **Maritime Security** as its priority pillar under the **Indo-Pacific Oceans Initiative (IPOI)**, with cooperation focused on issues such as **Illegal, Unreported and Unregulated (IUU) fishing**.",
+          "The visit also announced New Zealand joining the **Global Biofuels Alliance**, a **Kiwifruit Action Plan**, **two Centres of Excellence for Kiwifruit** in **Nagaland** and **Uttarakhand**, and research links involving **NCPOR Goa**, **University of Canterbury**, **NIFTEM-K** and **Massey University**."
+        ]
+      },
+      {
+        heading: "2. Defence and maritime security: INS Mahendragiri and Project 17A",
+        points: [
+          "The Indian Navy commissioned **INS Mahendragiri**, an indigenously built advanced stealth frigate, into the **Eastern Fleet** at **Visakhapatnam, Andhra Pradesh**, on **11 July 2026**.",
+          "**INS Mahendragiri** is the **sixth Project 17A** indigenous stealth frigate commissioned in about **1.5 years**; earlier ships include **INS Nilgiri**, **INS Udaygiri**, **INS Himgiri**, **INS Taragiri** and **INS Dunagiri**.",
+          "The warship was designed by the **Warship Design Bureau** and built by **Mazagon Dock Shipbuilders Limited (MDL)** with over **75 percent indigenous content** and contributions from more than **200 Indian industries**, including **MSMEs**.",
+          "Key specifications include displacement of about **6,670 tonnes**, speed up to **28 knots**, advanced stealth features, **Combined Diesel or Gas** propulsion, **Integrated Platform Management System**, network-centric combat systems and an embarked multi-role helicopter.",
+          "Its weapons and systems include **BrahMos**-capable surface-to-surface missiles, medium-range surface-to-air missiles, anti-submarine warfare systems, torpedo launchers, an **Integrated Anti-Submarine Defence System**, electronic warfare suite and close-in weapon system.",
+          "The release links the ship with **Aatmanirbhar Bharat**, **SAGAR**, **MAHASAGAR**, blue-water reach, first-responder capability in the **Indo-Pacific**, and **Operation Urja Suraksha**, under which the Navy escorted **18 merchant vessels** carrying cargo valued at over **Rs 9,000 crore**."
+        ]
+      },
+      {
+        heading: "3. Nuclear governance: SHANTI Act 2025 implementation",
+        points: [
+          "**NITI Aayog** convened a stakeholder consultation on implementation of the **SHANTI Act 2025** at **Samrasta Auditorium, Dr. Ambedkar International Centre, New Delhi**, on **10 July 2026**.",
+          "The consultation was chaired by **Prof. Abhay Karandikar**, Member, NITI Aayog, and included officials from **Ministry of Power**, **Central Electricity Authority**, **NTPC**, **Department of Atomic Energy** and **Atomic Energy Regulatory Board**.",
+          "Technical discussions were organised around three pillars: **Legislative and Regulatory Framework**, **Finance, Insurance and Public Perception**, and **Manufacturing, Operations and Capacity Building**.",
+          "The regulatory pillar covered draft rules, regulations, statutory compliance and **FDI** policy provisions while balancing foreign capital attraction with domestic safeguards.",
+          "The finance pillar discussed risk mitigation, insurance arrangements for long-term projects, public awareness and community trust for **nuclear energy** projects.",
+          "The manufacturing pillar focused on operational readiness, domestic manufacturing capability, supply-chain resilience, skilled workforce and capacity-building programmes for industrial scaling."
+        ]
+      },
+      {
+        heading: "4. Rural enterprise and food processing: PMFME and eSaras",
+        points: [
+          "The **Pradhan Mantri Formalisation of Micro Food Processing Enterprises (PMFME) Scheme** crossed more than **2 lakh** credit-linked beneficiaries, leveraging project investments of over **Rs 20,300 crore**.",
+          "Nearly **90 percent** of PMFME beneficiaries are first-generation entrepreneurs, **44 percent** are women entrepreneurs, more than **75,000** supported enterprises entered the formal economy through registrations such as **Udyam Aadhaar**, **Udyam Assist**, **FSSAI** and **GST**, and nearly **11 lakh** direct and indirect jobs were generated.",
+          "PMFME follows the **One District One Product (ODOP)** approach and supports **40 common brands** across nearly **200 products**, including **Makhana**, millets, spices and **GI-tagged** products.",
+          "The scheme has provided seed capital support to more than **4.18 lakh SHG members**, approved **80 Common Incubation Centres** across **27 States/UTs**, commissioned **32** centres, and trained more than **1.76 lakh** beneficiaries, **77 percent** of whom are women.",
+          "**eSaras**, developed by **Digital India Corporation** with **MeitY** and **MoRD**, is the official e-commerce platform under **DAY-NRLM** for women-led **SHGs**, producer collectives and **FPOs**.",
+          "The platform covers over **8.99 crore SHG members**, lists more than **1,400 products**, uses **ONDC**, **LokOS**, **BHASHINI**, **UMANG**, digital payments and logistics integration, and supports the target of **6 crore Lakhpati Didis by 2029**."
+        ]
+      },
+      {
+        heading: "5. Health systems and urban environment: NHM webinar and CAQM inspection",
+        points: [
+          "The **Ministry of Health and Family Welfare** launched a monthly webinar series on best practices under the **National Health Mission (NHM)** on **World Population Day 2026**.",
+          "The series is intended as a year-round platform for States and UTs to present scalable innovations, exchange implementation experience and improve health-system learning.",
+          "The first webinar focused on **Anemia, Child and Adolescent Health**; **Jharkhand** presented the **Anemia Mukt Bharat T4 App** and **HBNC-HBYC** home visits, **Chhattisgarh** showcased **Chirayu Day** under **RBSK**, and **Madhya Pradesh** presented an adolescent-obesity initiative.",
+          "More than **500** officials from national, State and district levels participated, and **NHSRC** will support documentation and dissemination of good practices.",
+          "The **Commission for Air Quality Management (CAQM)** inspected **17** urban road stretches in **Noida** and **Greater Noida** covering about **46.87 km** to assess compliance with its road-dust control framework.",
+          "Only **9** stretches had end-to-end paving, while **8** still lacked complete paving; the inspection also found missing pathways along **8** stretches and absent paved central verges on **5** stretches, reinforcing the importance of road-dust mitigation in **Delhi-NCR** air-quality governance."
+        ]
+      },
+      {
+        heading: "6. Sustainable transport, PM SVANidhi and sanitation workers",
+        points: [
+          "India hosted the **3rd BRICS Transport Ministers' Meeting** in **Nagpur** under India's **BRICS Chairship**, with the theme **Building for Resilience, Innovation, Cooperation and Sustainability**.",
+          "India highlighted the world's **second-largest road network**, more than **10,000 km** of **Greenfield Expressways**, **Delhi-Dehradun Economic Corridor**, **Sonamarg Tunnel**, **Hybrid Annuity Model**, near-complete broad-gauge railway electrification, **Vande Bharat**, **Mumbai-Ahmedabad High-Speed Rail Corridor**, **Pamban Bridge**, **Maritime Amrit Kaal Vision 2047**, **PM Gati Shakti**, **UDAN** and green mobility.",
+          "The BRICS agenda emphasised cooperation on infrastructure financing, congestion, emissions, road safety, last-mile connectivity, **green hydrogen**, electric mobility, alternative fuels, digital transport systems and sustainable multimodal infrastructure.",
+          "**Lakhanpur** in **Kathua district, Jammu and Kashmir**, was approved among the first towns under **PM SVANidhi Street Food Hub** plan, on the route to **Shri Mata Vaishno Devi** and during **Shri Amarnath Ji Yatra** movement.",
+          "The **Ministry of Housing and Urban Affairs** proposes up to **50 Street Food Hubs**; each approved project will receive **Rs 4 crore** in three instalments and eligible cities with notified Street Vending Plans may get **Rs 25 lakh** as incentive.",
+          "The **3rd NAMASTE Day** will be marked on **14 July 2026** in **Kolkata**, highlighting the **National Action for Mechanised Sanitation Ecosystem (NAMASTE)** Scheme's objectives of zero fatalities, elimination of direct contact with human faecal matter, safety devices, skilled sanitation work, **ERSUs**, SHGs and entrepreneurship for sanitation workers."
+        ]
+      },
+      {
+        heading: "7. Education, culture and livelihoods: NEP, Lavender Revolution and Lok Samvardhan Parv",
+        points: [
+          "The Science and Technology release connected **National Education Policy 2020** with aptitude-based learning, skill development, entrepreneurship and opportunities for youth in Tier-2 and Tier-3 towns such as **Doda**.",
+          "India's startup ecosystem was cited as having grown from nearly **350 startups in 2014** to more than **2.3 lakh**, making India the world's **third-largest startup ecosystem**, with more than half emerging from Tier-2 and Tier-3 cities.",
+          "The **Lavender Revolution** under the **CSIR Aroma Mission** was highlighted as a science-led rural entrepreneurship model for **Bhaderwah**, **Doda**, **Kashmir Valley** and other Himalayan states.",
+          "The **6th Lok Samvardhan Parv** was inaugurated at **Parade Ground, Dehradun**, from **11-15 July 2026**, marking the first edition organised in partnership with a State Government under the **PM VIKAS Scheme**.",
+          "The Dehradun edition includes more than **150** artisanal and food stalls, nearly **90 women artisans**, about **40 percent** stalls dedicated to Uttarakhand arts and crafts, and live demonstrations, buyer-seller interactions, entrepreneurship and digital marketing sessions.",
+          "Since **2024**, five earlier editions of **Lok Samvardhan Parv** have benefited more than **550 artisans**, weavers and culinary experts through market access and business-development platforms."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 11 July 2026: 28 releases; page updated 11 Jul 2026 21:03 IST",
+      "India-New Zealand Strategic Partnership: announced in Auckland; first Indian PM visit to New Zealand in 40 years",
+      "Roadmap to 2030: cooperation framework for four years; trade target NZ$7 billion or about Rs 35,000 crore by 2030",
+      "New Zealand: joined Global Biofuels Alliance and nominated Maritime Security under IPOI",
+      "India-New Zealand outcomes: maritime cooperation, hydrography, mutual logistics support, counter-terrorism JWG, NDMA-NEMA disaster management, tourism, sport, culture and NMHC Lothal cooperation",
+      "Kiwifruit Centres of Excellence: Nagaland and Uttarakhand",
+      "INS Mahendragiri: sixth Project 17A frigate; commissioned at Visakhapatnam; over 75 percent indigenous content",
+      "INS Mahendragiri specifications: about 6,670 tonnes displacement; speed up to 28 knots; built by MDL; designed by Warship Design Bureau",
+      "Operation Urja Suraksha: Navy escorted 18 merchant vessels carrying cargo worth over Rs 9,000 crore",
+      "SHANTI Act 2025 consultation: NITI Aayog, New Delhi; pillars include regulation, finance/insurance/public perception, and manufacturing/operations/capacity building",
+      "PMFME: over 2 lakh credit-linked beneficiaries; investments over Rs 20,300 crore; nearly 11 lakh jobs; 44 percent women beneficiaries",
+      "PMFME: over 4.18 lakh SHG members supported with seed capital; 80 Common Incubation Centres approved; 32 commissioned",
+      "eSaras: DAY-NRLM platform; over 8.99 crore SHG members; 1,400+ products; ONDC, LokOS, BHASHINI and UMANG integration",
+      "NHM monthly webinar: launched on World Population Day 2026; first theme Anemia, Child and Adolescent Health; 500+ officials participated",
+      "CAQM inspection: 17 Noida/Greater Noida road stretches; 46.87 km; 9 with end-to-end paving and 8 without complete paving",
+      "3rd BRICS Transport Ministers' Meeting: Nagpur; theme Building for Resilience, Innovation, Cooperation and Sustainability",
+      "PM SVANidhi Street Food Hub: Lakhanpur, Kathua; up to 50 hubs proposed; Rs 4 crore support per approved project; Rs 25 lakh incentive for notified Street Vending Plan cities",
+      "NAMASTE Day: 3rd observance on 14 July 2026 in Kolkata; scheme launched in 2023-24 for mechanised sanitation ecosystem",
+      "India startup ecosystem: over 2.3 lakh startups; world's third-largest; more than half from Tier-2 and Tier-3 cities",
+      "Lok Samvardhan Parv: 6th edition at Dehradun from 11-15 July 2026; first State partnership under PM VIKAS; 150+ stalls and nearly 90 women artisans"
+    ],
+    mains: [
+      "India-New Zealand ties show how middle-power partnerships can combine trade, diaspora, maritime security, resilient supply chains, climate action and multilateral reform.",
+      "Indo-Pacific cooperation should be assessed through maritime domain awareness, logistics access, IUU fishing control, UNCLOS compliance and disaster resilience.",
+      "Indigenous warship construction strengthens defence preparedness only when design capacity, MSME supply chains, timely trials, maintenance ecosystems and advanced technologies mature together.",
+      "Nuclear-energy expansion requires regulatory clarity, financing, insurance, public trust, safety culture, domestic manufacturing and skilled human resources.",
+      "PMFME and eSaras show that rural enterprise policy needs credit, formalisation, value addition, market access, digital literacy, logistics and women's economic agency.",
+      "Health innovation platforms under NHM can improve replication only when local evidence, documentation, state capacity and outcome measurement are credible.",
+      "Air-quality governance in NCR requires enforcement against road dust along with transport planning, construction control, mechanised sweeping and accountability of road-owning agencies.",
+      "BRICS transport cooperation can help India share green mobility and multimodal logistics experience while learning on financing, road safety, congestion and low-emission technologies.",
+      "Street Food Hubs should balance tourism and livelihood promotion with hygiene, FSSAI standards, urban design, vending rights and inclusion of informal workers.",
+      "NAMASTE is important for social justice because mechanised sanitation links worker dignity, occupational safety, urban governance and eradication of hazardous manual practices.",
+      "NEP-linked regional innovation and the Lavender Revolution illustrate how science, skills, local resources and incubation can diversify livelihoods in Himalayan regions.",
+      "Cultural livelihood platforms such as Lok Samvardhan Parv should be judged by sustained market access, artisan incomes, digital marketing capacity and preservation of traditional skills."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 11 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "India-New Zealand Strategic Partnership Roadmap to 2030",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283529",
+        note: "Strategic partnership pillars and roadmap"
+      },
+      {
+        label: "List of outcomes: PM visit to New Zealand",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283528",
+        note: "Agreements, announcements and trade target"
+      },
+      {
+        label: "India-New Zealand Joint Statement",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283527",
+        note: "Bilateral, Indo-Pacific and multilateral cooperation"
+      },
+      {
+        label: "INS Mahendragiri commissioned",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283586",
+        note: "Project 17A, indigenous content and naval capability"
+      },
+      {
+        label: "SHANTI Act 2025 consultation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283545",
+        note: "Nuclear governance implementation pillars"
+      },
+      {
+        label: "PMFME crosses two lakh credit-linked beneficiaries",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283606",
+        note: "Food processing formalisation and employment"
+      },
+      {
+        label: "eSaras under Digital India and DAY-NRLM",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283704",
+        note: "Rural livelihood digital commerce"
+      },
+      {
+        label: "NHM best practices webinar series",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283687",
+        note: "Health-system innovation and cross-learning"
+      },
+      {
+        label: "CAQM inspection in Noida and Greater Noida",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283730",
+        note: "Road-dust mitigation and urban air quality"
+      },
+      {
+        label: "3rd BRICS Transport Ministers' Meeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283599",
+        note: "Sustainable and resilient transport cooperation"
+      },
+      {
+        label: "PM SVANidhi Street Food Hub at Lakhanpur",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283682",
+        note: "Urban livelihoods, tourism and street vending"
+      },
+      {
+        label: "3rd NAMASTE Day",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283651",
+        note: "Mechanised sanitation ecosystem and worker dignity"
+      },
+      {
+        label: "NEP, Doda and Lavender Revolution",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283683",
+        note: "Regional innovation and science-led livelihoods"
+      },
+      {
+        label: "6th Lok Samvardhan Parv",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2283741",
+        note: "Artisan livelihoods under PM VIKAS"
+      }
+    ]
+  },
+  {
     date: "2026-07-08",
     label: "8 July 2026",
     title: "Comprehensive PIB Notes: 8 July 2026",
@@ -2794,6 +3171,70 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-07-12": [
+    {
+      question: "The 3rd India-EU Trade and Technology Council Ministerial Meeting is relevant because the TTC is described as:",
+      options: ["The highest institutional mechanism for trade, trusted technology and economic security cooperation", "A global textile recycling label", "An EPFO provident fund audit portal", "A dam-safety inspection committee"],
+      answer: 0,
+      explanation: "PIB describes the India-EU TTC as the highest institutional mechanism for cooperation on trade, trusted technology and economic security."
+    },
+    {
+      question: "According to the PIB textile backgrounder, approximately how much textile waste is managed annually in India?",
+      options: ["7.8 million tonnes", "668 crore tonnes", "53 lakh tonnes", "1 crore tonnes exactly"],
+      answer: 0,
+      explanation: "The backgrounder states that about 7.8 million tonnes of textile waste is managed annually, with over 70 percent recovered."
+    },
+    {
+      question: "EPFO Amnesty Scheme 2026 primarily applies to establishments operating PF Trusts that are recognised under the Income Tax Act, 1961 but:",
+      options: ["Do not possess a formal exemption notification", "Have already closed all worker accounts", "Only employ government officers", "Operate only in the textile sector"],
+      answer: 0,
+      explanation: "The scheme gives such establishments a six-month opportunity to regularise exempted PF trusts lacking formal exemption notification."
+    },
+    {
+      question: "The All-India Water Resource Department Secretaries' Conference agenda includes CDSE completion under which law?",
+      options: ["Dam Safety Act, 2021", "Environment Protection Act, 1986", "Right to Education Act, 2009", "Factories Act, 1948"],
+      answer: 0,
+      explanation: "PIB lists completion of Comprehensive Dam Safety Evaluation under the Dam Safety Act, 2021 by December 2026."
+    },
+    {
+      question: "The Swachh Sagar, Surakshit Sagar nationwide campaign is scheduled for:",
+      options: ["10-19 September 2026", "13-17 July 2026", "13-14 July 2026", "1 April 2026"],
+      answer: 0,
+      explanation: "The science ministries review prepared for the Swachh Sagar, Surakshit Sagar coastal cleanliness campaign from 10 to 19 September 2026."
+    }
+  ],
+  "2026-07-11": [
+    {
+      question: "The India-New Zealand Strategic Partnership Roadmap to 2030 sets an aspirational bilateral trade target of:",
+      options: ["NZ$7 billion or about Rs 35,000 crore by 2030", "USD 128 billion by 2026", "Rs 4 crore per project", "Rs 20,300 crore by 2027"],
+      answer: 0,
+      explanation: "PIB says India and New Zealand aim to double two-way trade in goods and services to NZ$7 billion, about Rs 35,000 crore, by 2030."
+    },
+    {
+      question: "INS Mahendragiri, commissioned on 11 July 2026, belongs to which naval project?",
+      options: ["Project 17A stealth frigates", "Project 75I submarines", "Project 15B destroyers", "Advanced Light Helicopter programme"],
+      answer: 0,
+      explanation: "INS Mahendragiri is the sixth Project 17A indigenous stealth frigate commissioned into the Indian Navy."
+    },
+    {
+      question: "The SHANTI Act 2025 consultation was convened by which institution?",
+      options: ["NITI Aayog", "Election Commission of India", "TRAI", "CAQM"],
+      answer: 0,
+      explanation: "NITI Aayog convened the stakeholder consultation on implementation of the SHANTI Act 2025 in New Delhi."
+    },
+    {
+      question: "The eSaras platform is implemented under which livelihood mission?",
+      options: ["DAY-NRLM", "PM SVANidhi", "NHM", "NAMASTE"],
+      answer: 0,
+      explanation: "eSaras is the official digital commerce platform for rural SHG products under Deendayal Antyodaya Yojana - National Rural Livelihoods Mission."
+    },
+    {
+      question: "The Lakhanpur Street Food Hub is linked with which scheme?",
+      options: ["PM SVANidhi", "PMFME", "SHANTI Act", "Digital India Bhashini"],
+      answer: 0,
+      explanation: "Lakhanpur in Kathua district was approved under the PM SVANidhi Street Food Hub initiative."
+    }
+  ],
   "2026-07-08": [
     {
       question: "The 8 July 2026 Kharif preparedness release linked monsoon uncertainty mainly with which climate phenomenon?",
