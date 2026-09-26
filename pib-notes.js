@@ -1,5 +1,360 @@
 const dailySummaries = [
   {
+    date: "2026-09-26",
+    label: "26 September 2026",
+    title: "Comprehensive PIB Notes: 26 September 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **Special Intensive Revision (SIR)**, **ECINet**, **Registration of Electors Rules, 1960**, **cooperative women empowerment**, **She-Mart**, **NCCF**, **NAFED**, **Lakhpati Didi**, **WHO Pandemic Agreement**, **PABS**, **One Earth, One Health**, **green e-methanol**, **Deendayal Port Authority**, **World Tourism Day 2026**, **National Digital Tourism Stack**, **CSIR-NIScPR**, **Swachhata Hi Seva** and **railway safety**.",
+    blocks: [
+      {
+        heading: "1. Election governance: SIR, ECINet and claims process",
+        points: [
+          "The **Election Commission of India (ECI)** meeting on **26 September 2026** issued decisions linked to the ongoing **Special Intensive Revision (SIR)** and electoral-roll management.",
+          "For persons issued notices during SIR for being unmapped or having logical discrepancies, **BLOs** will visit homes, collect documents and upload them on **ECINet** for decision by the **ERO**; such persons need not ordinarily be called to the **ERO/AERO** office.",
+          "Hearings are to be held online only in exceptional circumstances decided by the ERO, and an adult family member may be authorised by the elector to attend where required.",
+          "**DEOs** will create help desks and special camps for people living in **night shelters**, labour settlements, poor households and homeless groups, linking roll revision with inclusion of vulnerable citizens.",
+          "The release notes that the declaration attached to **Form 6** for SIR has been upheld by the **Supreme Court**, while for non-SIR periods the applicable forms under the **Registration of Electors Rules, 1960** will be used.",
+          "A committee headed by a **Senior Deputy Election Commissioner** with an independent **IIT/IIIT** expert will review **ECINet** for compliance with Acts and Rules; claims and objections were extended in **Delhi** till **30 October 2026** and in **Maharashtra** till **12 October 2026**."
+        ]
+      },
+      {
+        heading: "2. Cooperation and women-led development: She-Mart and Lakhpati Didi",
+        points: [
+          "The Union Home Minister and Minister of Cooperation launched women-empowerment and cooperation initiatives at **Kollam, Keralam**, including **Vanitham She-Mart Shops** and sale of **NCCF Janah** products.",
+          "**She-Mart** is intended to connect women **Self-Help Groups (SHGs)** and rural women entrepreneurs directly with markets and consumers, covering procurement, processing, branding, packaging and retail access.",
+          "More than **300 She-Mart** stores are planned across **Keralam**, **Tamil Nadu** and **Karnataka**, with support from institutions such as **NCCF**, **NAFED**, **Kendriya Bhandar** and **Amul**.",
+          "Keralam's cooperative ecosystem was highlighted through more than **23,000 active cooperative societies** and a long cooperative tradition across **Travancore**, **Kochi** and **Malabar**.",
+          "The release cited women-led development numbers: women's labour-force participation rising from around **23 percent** in **2017-18** to nearly **40 percent**, about **36 crore** women's bank accounts, more than **11,000** women officers in the Armed Forces and a target of **6 crore Lakhpati Didis by 2029**.",
+          "Related interventions included **Bharat Atta**, **Bharat Rice**, onions at **Rs 35/kg** through mobile vans, free urad and gram seed kits under **Mission for Aatmanirbharta in Pulses**, and **NAFED-Kalyan Scholarship Scheme** support for daughters of registered farmers."
+        ]
+      },
+      {
+        heading: "3. Global health security: WHO Pandemic Agreement and PABS",
+        points: [
+          "India reaffirmed its commitment to global pandemic preparedness at the **UN High-Level Meeting on Pandemic Prevention, Preparedness and Response** in **New York** on **25 September 2026**.",
+          "The Health Secretary called for stronger laboratory networks, emergency coordination, health workforce, stockpiles and clinical-care capacity rooted in national health systems and domestic financing.",
+          "India argued that **Digital Public Infrastructure (DPI)** should be recognised as a global public good because digital tools supported surveillance, vaccination, risk communication, supply chains and continuity of health services during **COVID-19**.",
+          "PIB cited India's pandemic assistance: **300 million vaccine doses** supplied to around **100 countries** and medical assistance to more than **150 countries**, linked with **One Earth, One Health** and support to the **Global South**.",
+          "The release emphasised the **WHO Pandemic Agreement**, adopted in **May 2025**, and the need for a fair **Pathogen Access and Benefit Sharing (PABS)** system that respects national sovereignty while ensuring timely access to vaccines, diagnostics, therapeutics and technologies.",
+          "The Health Secretary also called for **One Health** implementation in line with domestic and international law and for member-state consultation in reviewing pandemic tools, assessments and data."
+        ]
+      },
+      {
+        heading: "4. Green maritime transition: India's first port-based e-methanol facility",
+        points: [
+          "The foundation stone was laid for India's first port-based **e-methanol** production facility at **Deendayal Port Authority (DPA)** in **Kandla, Gandhidham, Gujarat**.",
+          "The **150-tonne-per-day** plant will use renewable power, water and biogenic **CO2** to produce green methanol for vessels on the **Asia-Europe International Trade Corridor**.",
+          "The project involves **Rs 2,300 crore** investment and is a joint initiative of **DPA** and **Assam Petro-Chemicals Ltd. (APCL)**, with capital contribution in a **76:24** ratio.",
+          "Phase I will add **50 tonnes/day** capacity with **Rs 1,200 crore** investment by **January 2027**, while Phase II will add another **100 tonnes/day** with **Rs 1,100 crore** investment by **March 2027**.",
+          "DPA will contribute **Rs 567.32 crore** equity, **75 acres** of land, desalinated water and green hydrogen-based renewable energy; the facility is expected to create more than **3,500** direct and indirect jobs.",
+          "PIB linked the project with **Net Zero 2070**, **Make in India**, maritime decarbonisation, plans to add **100 new ships** to India's merchant fleet in five years, and the goal of becoming one of the world's top five ship-owning nations by **2047**."
+        ]
+      },
+      {
+        heading: "5. Tourism and digital public infrastructure: World Tourism Day 2026",
+        points: [
+          "The PIB backgrounder for **World Tourism Day 2026** highlighted the theme **Digital Agenda and Artificial Intelligence to Redesign Tourism**, to be observed globally on **27 September**.",
+          "Tourism contributed **5.22 percent** to India's GDP and supported **8.46 crore** jobs in **2023-24**; **Domestic Tourist Visits** reached **428.55 crore** in **2025**, while **Foreign Tourist Visits** rose to **2.53 crore**.",
+          "Foreign exchange earnings from tourism increased to **Rs 2,76,831 crore** in **2025**, up from **Rs 63,978 crore** in **2021**.",
+          "India's **e-Visa** facility, introduced in **2014**, now covers nationals of **172 countries**, permits entry through **88 international ports**, and roughly **78 percent** of all visas are issued electronically, with about **95 percent** of e-Visa applications processed within **72 hours**.",
+          "The **Incredible India Digital Platform** offers AI-enabled personalised travel features and integration with **NIDHI+**, which listed **63,740 accommodation units**, **54 convention centres**, **215 food business operators**, **1,450 online travel aggregators** and **15,531 tourism service providers** as of **23 September 2026**.",
+          "Upcoming initiatives include the **National Digital Tourism Stack** and **Dekho Apna Desh 2.0**; tourism schemes and platforms mentioned include **Swadesh Darshan 2.0**, **PRASHAD**, **CBDD**, **SASCI**, **UDAN**, the multilingual Tourist Helpline **1800111363/1363**, and **BRICS Jaipur Declaration** priorities on AI, sustainability, skilling and seamless travel."
+        ]
+      },
+      {
+        heading: "6. Science communication, environment and rail safety",
+        points: [
+          "On the **85th Foundation Day of CSIR**, **CSIR-NIScPR** launched five popular science magazines in **Tamil**, **Telugu**, **Marathi**, **Bengali** and **Assamese** to expand science communication in Indian languages.",
+          "The magazines build on **Science Reporter**, **Vigyan Pragati** and **Science ki Duniya**, using **AI-assisted translation** followed by expert review, proofreading, fact-checking and editorial refinement.",
+          "**ICAR** institutions conducted **Swachhata Hi Seva** activities after **Ganesh Visarjan**, promoting eco-friendly clay idols, avoiding **Plaster of Paris** idols and harmful chemical colours, designated immersion sites, segregation of flowers and Puja Samagri, and composting at **ICAR-NISA Ranchi** and **ICAR-CIRCOT Mumbai**.",
+          "In **Andhra Pradesh**, the foundation stone was laid for a **Rs 108 crore**, **668-metre**, four-lane **Road Over Bridge (ROB)** between **Guntur** and **Nambur** railway stations to replace **LC Gate No. 3** on the **Guntur-Krishna Canal** section.",
+          "The ROB, fully funded by the **Ministry of Railways**, requires **2.9 acres** of land and is intended to improve train punctuality, reduce fuel wastage, remove gate detentions and enhance urban safety.",
+          "PIB also highlighted that **74 railway stations** in **Andhra Pradesh** are being modernised with about **Rs 3,500 crore** investment, useful for questions on railway safety, station redevelopment and regional infrastructure."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 26 September 2026: 26 releases",
+      "ECI meeting: held at 3 PM on 26 September 2026; decisions on SIR, ECINet, hearings, help desks and claims/objections",
+      "SIR process: BLOs to visit homes for unmapped/logical discrepancy notices and upload documents on ECINet for ERO decision",
+      "Form 6 declaration for SIR: upheld by Supreme Court; non-SIR forms governed by Registration of Electors Rules, 1960",
+      "Delhi claims and objections deadline: 30 October 2026; disposal till 30 November 2026",
+      "Maharashtra claims and objections deadline: 12 October 2026; disposal till 10 November 2026",
+      "She-Mart: more than 300 stores planned across Keralam, Tamil Nadu and Karnataka",
+      "Keralam cooperative base: more than 23,000 active cooperative societies",
+      "Women-led development figures: women's labour force participation about 40 percent; 36 crore women's bank accounts; target 6 crore Lakhpati Didis by 2029",
+      "NCCF and NAFED: onions through mobile vans at Rs 35/kg; Janah products; Bharat Atta and Bharat Rice through Vanitham She-Mart Shops",
+      "WHO Pandemic Agreement: adopted May 2025; PABS means Pathogen Access and Benefit Sharing",
+      "India pandemic assistance: 300 million vaccine doses to around 100 countries; medical assistance to over 150 countries",
+      "Kandla e-methanol plant: 150 tonnes/day; Rs 2,300 crore investment; DPA-APCL joint initiative; 76:24 capital ratio",
+      "E-methanol phases: Phase I 50 tonnes/day by January 2027; Phase II 100 tonnes/day by March 2027",
+      "DPA contribution: Rs 567.32 crore equity, 75 acres land, desalinated water and green hydrogen; 3,500+ jobs expected",
+      "World Tourism Day 2026 theme: Digital Agenda and Artificial Intelligence to Redesign Tourism",
+      "Tourism in India: 5.22 percent GDP contribution; 8.46 crore jobs in 2023-24; 428.55 crore domestic tourist visits in 2025",
+      "e-Visa: available to 172 countries; 88 international ports; roughly 78 percent visas electronic; 95 percent e-Visa applications processed within 72 hours",
+      "NIDHI+ as of 23 September 2026: 63,740 accommodation units, 54 convention centres, 215 food business operators, 1,450 OTAs and 15,531 tourism service providers",
+      "CSIR-NIScPR: five new popular science magazines in Tamil, Telugu, Marathi, Bengali and Assamese on CSIR's 85th Foundation Day",
+      "Guntur-Nambur ROB: Rs 108 crore, 668 metres, 2.9 acres, replaces LC Gate No. 3; 74 AP railway stations being modernised with Rs 3,500 crore"
+    ],
+    mains: [
+      "Electoral-roll revision must balance accuracy, inclusion, procedural fairness, privacy, digital accountability and access for vulnerable voters.",
+      "Technology platforms such as ECINet improve election administration only when statutory roles, auditability, cybersecurity and grievance pathways are clear.",
+      "Women-led cooperative initiatives can improve rural incomes when they solve market access, branding, logistics, credit, quality control and bargaining-power constraints.",
+      "Pandemic preparedness requires investment in national systems, fair global access to countermeasures, One Health surveillance and respect for sovereign decision-making.",
+      "DPI in health can support surveillance and service continuity, but needs data protection, interoperability, digital inclusion and public trust.",
+      "Green methanol for shipping links port-led development, energy transition, green hydrogen, maritime competitiveness and India's Net Zero 2070 pathway.",
+      "Tourism policy should integrate digital platforms and AI with sustainability, community livelihoods, heritage protection, safety and regional dispersal of benefits.",
+      "Science communication in Indian languages can democratise scientific temper if translation quality, local relevance and credibility are maintained.",
+      "Swachhata campaigns after festivals show how behaviour change, waste segregation, water-body protection and community participation intersect with environmental governance.",
+      "Railway ROBs/RUBs are important safety and urban-mobility interventions, but require land coordination, timely construction and integration with local traffic planning."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 26 September 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Election Commission meeting decisions",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315309",
+        note: "SIR, ECINet, Form 6 and claims/objections"
+      },
+      {
+        label: "Women empowerment and cooperation initiatives in Kollam",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315341",
+        note: "She-Mart, NCCF, NAFED and Lakhpati Didi"
+      },
+      {
+        label: "India at UN High-Level Meeting on pandemic preparedness",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315210",
+        note: "WHO Pandemic Agreement, PABS and One Earth One Health"
+      },
+      {
+        label: "India's first port-based e-methanol facility",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315327",
+        note: "Kandla green maritime fuel project"
+      },
+      {
+        label: "World Tourism Day 2026 backgrounder",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315270",
+        note: "Tourism data, AI, e-Visa, NIDHI+ and schemes"
+      },
+      {
+        label: "CSIR-NIScPR popular science magazines",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315227",
+        note: "Science communication in Indian languages"
+      },
+      {
+        label: "ICAR cleanliness and waste-management initiatives",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315336",
+        note: "Swachhata Hi Seva and Ganesh Visarjan waste management"
+      },
+      {
+        label: "Guntur-Nambur Road Over Bridge",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315288",
+        note: "Rail safety and urban mobility"
+      }
+    ]
+  },
+  {
+    date: "2026-07-15",
+    label: "15 July 2026",
+    title: "Comprehensive PIB Notes: 15 July 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **Mobile Phone Manufacturing Scheme (MPMS)**, **Semicon 2.0**, **India Semiconductor Mission**, **National Investment Policy for Urea-2026**, **PM Gati Shakti**, **Hybrid Annuity Model**, **PLFS June 2026**, **BHASHINI**, **PLI ACC Scheme**, **Biomedical Research Career Programme**, **Shipbuilding Development Scheme**, **India-UK CETA**, **Elderline 14567**, **Saushrutam 2026**, **Bharat Tex 2026** and **Atal Innovation Mission**.",
+    blocks: [
+      {
+        heading: "1. Electronics manufacturing: MPMS and Semicon 2.0",
+        points: [
+          "The Union Cabinet approved the **Mobile Phone Manufacturing Scheme (MPMS)** with a budgetary outlay of **Rs 62,500 crore** to scale production, deepen domestic value addition, strengthen supply-chain resilience, build Indian brands and support technological sovereignty in mobile manufacturing.",
+          "**MPMS** will run for **5 years**, from **FY 2026-27 to FY 2030-31**, and offers incentive support on eligible sales at **2.25 percent to 5 percent**, an additional incentive up to **1.5 percent** for domestic sourcing of key components/sub-assemblies, and **3 percent** incentive for Indian-brand design and R&D.",
+          "Expected outcomes include cumulative mobile-phone production of about **Rs 39,00,000 crore**, higher exports and around **60,000 direct jobs**; PIB also notes that India is the world's **second-largest mobile phone manufacturer by volume** and **99.2 percent** of phones used domestically are made in India.",
+          "The Cabinet also approved **Semicon 2.0** with a total outlay of **Rs 1,27,500 crore** for a long-term semiconductor design and manufacturing ecosystem, building on **Semicon 1.0** and the **India Semiconductor Mission**.",
+          "**Semicon 2.0** is organised around six pillars: **design**, **machines and materials**, **more fabs**, stronger **ATMP/OSAT** industry, **R&D** for advanced nodes, and **talent development**.",
+          "Progress under **ISM 1.0** includes **12 approved manufacturing units** with cumulative investment over **Rs 1.64 lakh crore**, including one silicon fab, one silicon-carbide fab, one integrated gallium-nitride micro-LED display fab and **9 packaging units**; **315 universities** have trained around **68,000 students** on EDA tools."
+        ]
+      },
+      {
+        heading: "2. Fertiliser security and transport infrastructure",
+        points: [
+          "The **Cabinet Committee on Economic Affairs (CCEA)** approved the **National Investment Policy for Urea-2026 (NIPU-2026)** to encourage new gas-based urea manufacturing units and reduce dependence on imported urea.",
+          "**NIPU-2026** separates fixed and variable costs for transparency, introduces a viable **Return on Equity (RoE)** band with a floor of **12 percent** and ceiling of **16 percent**, and mitigates foreign-exchange risk by converting fixed cost into INR after four years; PIB estimates savings of over **Rs 250 crore** for each plant compared with **NIP-2012**.",
+          "India currently has **33 operational urea manufacturing units** with reassessed/installed capacity of **269.42 LMT**, but domestic production-demand gaps are still met through imports.",
+          "CCEA approved two railway multitracking projects - **Paradeep-Haridaspur doubling** and **Rajkharsawan-Dangoaposi 4th line** - at an estimated cost of **Rs 3,907 crore**, to be completed up to **2030-31**.",
+          "The rail projects cover **4 districts** in **Odisha** and **Jharkhand**, add about **145 km** to the network, connect around **1,526 villages** with about **14 lakh** population, generate additional freight capacity of **44 MTPA**, and are aligned with **PM Gati Shakti National Master Plan**.",
+          "PIB estimates the railway capacity work will reduce oil imports by **6 crore litres** and lower **CO2 emissions by 29 crore kg**, equivalent to plantation of **1 crore trees**."
+        ]
+      },
+      {
+        heading: "3. Varanasi urban mobility and multimodal logistics",
+        points: [
+          "CCEA approved a **46.039 km** six-lane **Greenfield Elevated Corridor** between **NH-19** and **Varanasi Ring Road** with riverbank connectivity along the **Ganga**, under the **Hybrid Annuity Model (HAM)** at total capital cost of **Rs 14,447.64 crore**.",
+          "The corridor includes an iconic **910 m cable-stayed bridge** across the Ganga, a **1.32 km extradosed Foot Over Bridge-cum-Major Bridge** with travelators for access to **Kashi Vishwanath Temple**, loops, ramps, link roads and service roads.",
+          "It is designed for **80-100 km/h** operating speed and is expected to cut average travel time in the influence area from about **60 minutes to 20 minutes**, and NH-19 to **Kashi Railway Station** travel time from about **50 minutes to 25 minutes**.",
+          "CCEA also approved a **43.218 km** **6/4-lane elevated corridor** along the **Varuna River** connecting **NH-31** and the Varanasi Ring Road, to be developed by **NHAI** under **HAM** at total capital cost of **Rs 10,998.32 crore**.",
+          "The Varuna corridor will reduce travel time between **NH-31** and **Kashi Railway Station** from about **40 minutes to 20 minutes**, strengthen access to Varanasi Airport, railway stations, **Ramnagar Port**, **Sampurnanand Sanskrit University**, the ghats and **Chandauli** region.",
+          "Both Varanasi projects are exam-relevant for **urban decongestion**, pilgrimage-tourism infrastructure, logistics efficiency, road safety, multimodal integration and **PM Gati Shakti** planning."
+        ]
+      },
+      {
+        heading: "4. Labour statistics, multilingual DPI and battery storage",
+        points: [
+          "The **PLFS Monthly Bulletin for June 2026** reported that overall **LFPR** for persons aged **15 years and above** remained at **54.4 percent**, unchanged from May 2026 and slightly higher than **54.2 percent** in June 2025.",
+          "Overall **WPR** stayed at **51.4 percent**, while overall **Unemployment Rate (UR)** remained at **5.5 percent**; urban LFPR improved from **49.8 percent** to **50.1 percent**, urban WPR from **46.6 percent** to **46.8 percent**, rural UR eased from **5.1 percent** to **5.0 percent**, and urban UR rose from **6.4 percent** to **6.6 percent**.",
+          "Female LFPR was **32.7 percent** in June 2026, still **0.7 percentage points** above June 2025; the bulletin is based on **Current Weekly Status (CWS)** and covered **3,72,852 persons**.",
+          "**Digital India BHASHINI Division (DIBD)** and **Punjab National Bank (PNB)** signed an MoU to deploy multilingual AI for inclusive banking under **BHASHINI for Seva/Sanchalan**.",
+          "The partnership will integrate **BHASHINI Udyat**, **Mitra**, **AppMitra**, **Pravakta** and **Bhashadaan** into digital banking; PIB states BHASHINI powers **800+ government websites**, has enabled **8+ billion AI inferences**, processes **20+ million AI inferences daily**, and supports **36 Indian text languages**, **23 Indian voice languages** and **35 international languages**.",
+          "The **Ministry of Heavy Industries** invited bids for **10 GWh** giga-scale **Advanced Chemistry Cell (ACC)** manufacturing capacity for **Grid-Scale Stationary Storage** under the **PLI ACC Scheme**; the broader **National Programme on ACC Battery Storage** has an outlay of **Rs 18,100 crore** for **50 GWh**, of which **40 GWh** has already been awarded."
+        ]
+      },
+      {
+        heading: "5. Science, biotechnology and traditional medicine",
+        points: [
+          "The **Biomedical Research Career Programme (BRCP) Phase-III** was launched with a total outlay of **Rs 1,500 crore**, including **Rs 1,000 crore** from the **Department of Biotechnology (DBT)** and **Rs 500 crore** from **Wellcome Trust, UK**.",
+          "**BRCP**, jointly implemented through the **DBT-Wellcome Trust India Alliance**, supports basic scientists, clinician-researchers, public-health experts, science communicators and research managers, and aims to strengthen interdisciplinary, translational and collaborative biomedical research.",
+          "PIB notes India's bioeconomy has expanded from **USD 10 billion in 2014** to over **USD 195 billion in 2025**, is projected to reach **USD 300 billion by 2030**, and now includes nearly **12,000 biotechnology startups**.",
+          "Since its launch in **2008**, **BRCP** has supported more than **500 researchers**, strengthened biomedical research across over **200 institutions**, and trained thousands of students and early-career scientists.",
+          "The President inaugurated **Saushrutam 2026** in New Delhi, highlighting evidence-based integration of traditional wisdom with modern science in **Ayurveda** and the legacy of **Sushruta** for surgery and medical knowledge.",
+          "The **Ministry of Ayush** signed an MoU with the **University of Delhi** to advance research, innovation and sustainable utilisation of medicinal plants, linking traditional medicine with biodiversity, research ethics and evidence-based healthcare."
+        ]
+      },
+      {
+        heading: "6. Maritime capacity, skill ecosystem and social protection",
+        points: [
+          "The **Ministry of Ports, Shipping and Waterways** gave in-principle approval under the **Shipbuilding Development Scheme (SbDS)** for a greenfield shipbuilding cluster at **Porbandar, Gujarat**, and financial assistance for a **Rs 1,570 crore** ship repair facility at **Vadinar** in the **Gulf of Kutch**.",
+          "The Porbandar cluster will be developed through **NSHIP-Gujarat**, an SPV promoted by **MoPSW** and **Gujarat Maritime Board**, across nearly **2,000 acres** at **Kuchhadi**, with annual capacity of **1.2-1.5 million gross tonnage**.",
+          "The Vadinar facility, jointly developed by **Cochin Shipyard Ltd.** and **Deendayal Port Authority**, will receive **25 percent** financial assistance on eligible capital infrastructure and enable domestic repair of vessels up to **300 metres** in length.",
+          "The PIB backgrounder on **Empowering India's Skill Ecosystem** notes employability rising from **46 percent in 2020** to **56.4 percent in 2026** in the **India Skills Report 2026**, and highlights **PMKVY 4.0**, **JSS**, **NAPS**, **CTS**, **PM-SETU**, **SOAR**, **YUVA AI for ALL**, **ATLs** and **PM SHRI Schools**.",
+          "Important skilling numbers include **25,140 schools** with skill education under **Samagra Shiksha**, **35.5 lakh** students covered, **13,092 PM SHRI Schools**, **10,000+ ATLs** in **722 districts**, **85.27 lakh** enrolments in **YUVA AI for ALL**, and **28.17 lakh** candidates trained under **PMKVY 4.0**.",
+          "**Elderline 14567** is a toll-free pan-India helpline for senior citizens, dedicated on **1 October 2021**, operating **8 AM to 8 PM** across all States and UTs; over **5.36 lakh citizens** have taken the national pledge under the **Ageing with Dignity** campaign."
+        ]
+      },
+      {
+        heading: "7. Trade, textiles, youth and innovation diplomacy",
+        points: [
+          "The **India-UK Comprehensive Economic and Trade Agreement (CETA)** backgrounder states that CETA grants zero-duty access on nearly **99 percent** of India's exports, covering almost **100 percent** of trade value, and is expected to strengthen export competitiveness, investment and services mobility.",
+          "India-UK merchandise trade reached **USD 25.12 billion in 2025-26**, while services trade was **USD 35.44 billion in 2024**; India had a merchandise surplus of **USD 1.76 billion** and services surplus of **USD 7.88 billion**.",
+          "CETA is important for labour-intensive sectors such as **textiles**, **leather**, **footwear**, **gems and jewellery**, **handicrafts**, **food processing**, **auto components**, **plastics** and **organic chemicals**; Indian MSMEs could save **4-16 percent** in tariffs on duty-free exports to the UK.",
+          "For services, India secured UK commitments across all **12 major service sectors** and **137 sub-sectors**, representing over **99 percent** of India's export interests; the **Double Contribution Convention (DCC)** eliminates dual social-security contributions for assignments up to **60 months**, benefiting over **75,000 Indian professionals** and around **900 Indian companies**.",
+          "**Bharat Tex 2026** releases highlighted India's textile vision, women-led rural enterprises, **KVIC Khadi India Pavilion**, and India-EU textile collaboration through the **Bharat Tex Trade Federation-Premiere Vision Paris** partnership.",
+          "**MY Bharat** announced the nationwide **Viksit Bharat Yuva Connect Programme** on **Nasha Mukt Yuva for Viksit Bharat**, while **Atal Innovation Mission** pushed frontier innovation at **Regional AIM SUMVAAD-North East Chapter 2026**, linking youth participation, innovation ecosystems and regional inclusion."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 15 July 2026: 49 releases; page updated 15 Jul 2026 19:08 IST",
+      "MPMS: Rs 62,500 crore outlay; FY 2026-27 to FY 2030-31; incentives 2.25 percent to 5 percent on eligible sales; up to 1.5 percent for domestic sourcing; 3 percent for Indian-brand design/R&D",
+      "MPMS expected outcomes: about Rs 39,00,000 crore cumulative mobile-phone production and around 60,000 direct jobs",
+      "India mobile manufacturing: second-largest mobile phone manufacturer by volume; 99.2 percent of phones used in India manufactured domestically",
+      "Semicon 2.0: Rs 1,27,500 crore outlay; six pillars - design, machines/materials, fabs, ATMP/OSAT, R&D and talent",
+      "ISM 1.0 progress: 12 manufacturing units approved; over Rs 1.64 lakh crore cumulative investment; 315 universities and 68,000 students trained on EDA tools",
+      "NIPU-2026: RoE floor 12 percent and ceiling 16 percent; savings over Rs 250 crore per plant compared with NIP-2012; 33 operational urea units with 269.42 LMT capacity",
+      "Rail multitracking: Paradeep-Haridaspur doubling and Rajkharsawan-Dangoaposi 4th line; Rs 3,907 crore; about 145 km; 44 MTPA additional freight; 6 crore litres oil saving; 29 crore kg CO2 reduction",
+      "NH-19 to Varanasi Ring Road corridor: 46.039 km; Rs 14,447.64 crore; HAM; 910 m cable-stayed bridge; 1.32 km extradosed FoB-cum-major bridge",
+      "Varuna River corridor: 43.218 km; Rs 10,998.32 crore; NHAI; HAM; connects NH-31 and Varanasi Ring Road",
+      "PLFS June 2026: LFPR 54.4 percent, WPR 51.4 percent, UR 5.5 percent for 15+ persons under Current Weekly Status",
+      "PLFS sample: 3,72,852 persons; rural 2,12,390 and urban 1,60,462",
+      "BHASHINI-PNB MoU: multilingual AI for banking; BHASHINI supports 36 Indian text languages, 23 Indian voice languages and 35 international languages",
+      "PLI ACC tender: 10 GWh capacity for grid-scale stationary storage; National Programme on ACC Battery Storage outlay Rs 18,100 crore for 50 GWh",
+      "BRCP Phase-III: Rs 1,500 crore outlay - Rs 1,000 crore DBT and Rs 500 crore Wellcome Trust; BRCP launched in 2008; 500+ researchers and 200+ institutions supported",
+      "India bioeconomy: over USD 195 billion in 2025; projected USD 300 billion by 2030; nearly 12,000 biotechnology startups",
+      "Shipbuilding: Porbandar greenfield cluster nearly 2,000 acres; 1.2-1.5 million GT annual capacity; Vadinar ship repair facility Rs 1,570 crore and vessels up to 300 m",
+      "India Skills Report 2026: employability rose from 46 percent in 2020 to 56.4 percent in 2026",
+      "Skill ecosystem: 25,140 schools under Samagra Shiksha skill education; 13,092 PM SHRI Schools; 10,000+ ATLs; 85.27 lakh YUVA AI for ALL enrolments; 28.17 lakh PMKVY 4.0 trainees",
+      "Elderline 14567: pan-India senior-citizen helpline; dedicated 1 October 2021; runs 8 AM to 8 PM; 5.36 lakh citizens took Ageing with Dignity pledge",
+      "India-UK CETA: zero-duty access on nearly 99 percent of India's exports; DCC removes dual social-security contributions up to 60 months; benefits 75,000+ professionals and about 900 companies"
+    ],
+    mains: [
+      "Electronics incentives should be assessed through value addition, domestic component ecosystems, Indian design/IP, employment quality, export resilience and fiscal transparency.",
+      "Semiconductor policy requires long-term capital support, fab ecosystem readiness, strategic materials, skilled labour, trusted supply chains, water/power reliability and technology partnerships.",
+      "Urea self-sufficiency is important for fertiliser security, but must be balanced with nutrient-use efficiency, fiscal subsidy burden, soil health and promotion of balanced fertilisation.",
+      "PM Gati Shakti projects show the shift from isolated infrastructure construction to multimodal, node-based planning, but outcomes depend on land acquisition, urban design, environmental safeguards and execution capacity.",
+      "Varanasi decongestion projects can improve tourism and logistics, yet must be evaluated for riverfront ecology, heritage sensitivity, pedestrian access, disaster resilience and inclusive urban mobility.",
+      "PLFS monthly labour data should be read with methodology awareness: CWS indicators are useful for high-frequency trends but require sectoral, gender and rural-urban interpretation.",
+      "BHASHINI illustrates how Digital Public Infrastructure can deepen financial inclusion when language, voice access, accessibility, cybersecurity and privacy safeguards are integrated.",
+      "ACC battery manufacturing is central to grid storage, renewable integration and EV supply chains; domestic capacity must be linked with minerals strategy, recycling and safety standards.",
+      "Biomedical research partnerships can strengthen innovation if funding continuity, clinical translation, ethics, public-health priorities and affordable technologies are aligned.",
+      "Shipbuilding and repair capacity support maritime security, trade resilience and Make in India, but needs skilled workforce, ancillary industries, port connectivity and global competitiveness.",
+      "India-UK CETA should be evaluated beyond tariff cuts: services mobility, MSME access, labour standards, DCC benefits, rules of origin and safeguards for sensitive sectors matter.",
+      "Senior-citizen welfare requires convergence of helplines, legal aid, pensions, healthcare, community care, digital access and protection against abuse."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 15 July 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Cabinet approves Mobile Phone Manufacturing Scheme",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284789",
+        note: "MPMS outlay, incentives and expected outcomes"
+      },
+      {
+        label: "Cabinet approves Semicon 2.0",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284784",
+        note: "Semiconductor ecosystem and ISM 1.0 progress"
+      },
+      {
+        label: "National Investment Policy for Urea-2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284800",
+        note: "Urea self-sufficiency and investment policy"
+      },
+      {
+        label: "Rail multitracking projects in Odisha and Jharkhand",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284807",
+        note: "PM Gati Shakti, freight and emissions benefits"
+      },
+      {
+        label: "NH-19 to Varanasi Ring Road elevated corridor",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284783",
+        note: "Ganga corridor, HAM and urban decongestion"
+      },
+      {
+        label: "Varuna River elevated corridor",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284781",
+        note: "Varanasi decongestion and multimodal connectivity"
+      },
+      {
+        label: "PLFS Monthly Bulletin - June 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284814",
+        note: "LFPR, WPR and unemployment indicators"
+      },
+      {
+        label: "BHASHINI-PNB MoU",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284989",
+        note: "Multilingual AI for inclusive banking"
+      },
+      {
+        label: "PLI ACC battery storage tender",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284916",
+        note: "10 GWh grid-scale storage capacity"
+      },
+      {
+        label: "BRCP Phase-III launch",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284930",
+        note: "Biomedical research funding and bioeconomy"
+      },
+      {
+        label: "Porbandar shipbuilding cluster and Vadinar repair facility",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284805",
+        note: "Shipbuilding Development Scheme and maritime capacity"
+      },
+      {
+        label: "Empowering India's Skill Ecosystem",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284941",
+        note: "Skill ecosystem schemes and numbers"
+      },
+      {
+        label: "Elderline 14567",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284996",
+        note: "Senior-citizen helpline and Ageing with Dignity"
+      },
+      {
+        label: "India-UK CETA comes into effect",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284878",
+        note: "Trade, services mobility and DCC"
+      }
+    ]
+  },
+  {
     date: "2026-07-12",
     label: "12 July 2026",
     title: "Comprehensive PIB Notes: 12 July 2026",
@@ -3171,6 +3526,38 @@ const dailySummaries = [
 ];
 
 const dailyNoteQuizzes = {
+  "2026-09-26": [
+    {
+      question: "In the 26 September 2026 ECI release, BLOs were asked to upload collected documents on which system?",
+      options: ["ECINet", "NIDHI+", "BHASHINI", "PM Gati Shakti"],
+      answer: 0,
+      explanation: "The Election Commission release says BLOs will visit homes, collect documents and upload them on ECINet for decision by the ERO."
+    },
+    {
+      question: "She-Mart, launched from Kollam, is primarily meant to connect which group with markets and consumers?",
+      options: ["Women SHGs and rural women entrepreneurs", "Urban metro commuters", "International tourists only", "Semiconductor firms"],
+      answer: 0,
+      explanation: "PIB describes She-Mart as an initiative to directly connect women Self-Help Groups and rural women entrepreneurs with consumers."
+    },
+    {
+      question: "PABS in the WHO Pandemic Agreement context stands for:",
+      options: ["Pathogen Access and Benefit Sharing", "Public Audit and Budget System", "Port-based Alternative Bunkering Scheme", "People's Assistance for Border Security"],
+      answer: 0,
+      explanation: "The Health Ministry release refers to a fair Pathogen Access and Benefit Sharing system under the WHO Pandemic Agreement."
+    },
+    {
+      question: "India's first port-based e-methanol facility is being developed at:",
+      options: ["Deendayal Port Authority, Kandla", "Paradip Port", "Jawaharlal Nehru Port", "Cochin Port"],
+      answer: 0,
+      explanation: "PIB says the facility is at Deendayal Port Authority in Kandla, Gandhidham, Gujarat."
+    },
+    {
+      question: "The World Tourism Day 2026 backgrounder identifies the global theme as:",
+      options: ["Digital Agenda and Artificial Intelligence to Redesign Tourism", "Yoga for Healthy Ageing", "Land Restoration and Drought Resilience", "Maritime Security in the Indo-Pacific"],
+      answer: 0,
+      explanation: "The PIB backgrounder says World Tourism Day 2026 is observed under the theme Digital Agenda and Artificial Intelligence to Redesign Tourism."
+    }
+  ],
   "2026-07-12": [
     {
       question: "The 3rd India-EU Trade and Technology Council Ministerial Meeting is relevant because the TTC is described as:",
