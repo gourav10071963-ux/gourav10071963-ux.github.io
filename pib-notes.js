@@ -1,5 +1,729 @@
 const dailySummaries = [
   {
+    date: "2026-10-09",
+    label: "9 October 2026",
+    title: "Comprehensive PIB Notes: 9 October 2026",
+    lead: "Today's official PIB Delhi list has **49 releases**. UPSC relevance is highest for **National Testing Agency (NTA)** reform, **NEP 2020**, **Public Examinations (Prevention of Unfair Means) Act, 2024**, **NEET-UG**, **CBT**, **Bharat 6G Alliance**, **IMT-2030**, **AITIGA**, **ASEAN**, **Tele-MANAS**, **World Mental Health Day 2026**, **GSDP** methodology with **base year 2022-23**, **ASW-SWC Mangrol**, **Project Seabird**, **Sugamya Bharat**, cooperative governance, telecom regulation and Swachhata-linked administrative reform.",
+    blocks: [
+      {
+        heading: "1. NTA reform and examination governance",
+        points: [
+          "The **Department-related Parliamentary Standing Committee on Education, Women, Children, Youth and Sports** presented its **382nd Report** on **Reforms and Strengthening of the National Testing Agency (NTA)**.",
+          "The report is directly relevant to **NEP 2020**, examination integrity, higher-education access and federal coordination because **NTA** conducts exams such as **JEE-Mains**, **NEET-UG**, **UGC-NET** and **CUET**, with about **1.2 crore candidates** sitting annually.",
+          "Key recommendations include a parliamentary accountability framework for **NTA**, large and continuously updated question banks, secure paper-vetting, use of experts from **IITs**, **AIIMSs** and **IIMs**, and wider two-way feedback channels for students, parents and institutions.",
+          "The Committee noted **39 sanctioned positions** in **NTA**, only **23** in position and a **41 percent vacancy**; it recommended permanent domain specialists in psychometrics, examination security, digital infrastructure, data analytics and logistics.",
+          "For **NEET-UG**, it recommended phased movement to **Computer-Based Testing (CBT)** after significant investment in **government-owned CBT infrastructure**, especially in **Tier-2**, **Tier-3** and rural areas.",
+          "Exam-worthy safeguards include **1,000 secure government CBT centres**, at least **one test centre in each district**, mock CBT exams, transparent normalisation for multi-session tests, possible hybrid delivery where infrastructure is weak, and stakeholder consultations with health regulators, students and families.",
+          "The Committee also recommended a **National Registry of Blacklisted Examination Vendors**, annual **Equity Audit**, mental-health counselling, reasonable age/attempt limits for major exams, State representation in **NTA** governance, cybersecurity capacity, and an independent educational-examination audit/grievance mechanism."
+        ]
+      },
+      {
+        heading: "2. Public examination security and student welfare",
+        points: [
+          "The report links examination reform with the **Public Examinations (Prevention of Unfair Means) Act, 2024**, recommending amendments so district administrations restrict rallies, processions or large gatherings on examination days when they may disrupt candidates.",
+          "**CBT** is treated not merely as digitisation but as institutional reform: government-owned centres, cybersecurity teams, AI-based anomaly detection, secure software, prevention of remote access or virtual machines, and independently audited normalisation are all highlighted.",
+          "The Committee recommended that **NEET-UG**, **JEE (Main)** and **CUET** papers test conceptual understanding based on official school curricula rather than techniques specific to the coaching industry.",
+          "It also called for coaching-sector regulation covering fee transparency, safety standards and student mental health, making this release useful for GS-II education governance, social justice, ethics and youth mental health.",
+          "For disability inclusion, **NTA** should develop protocols covering accessible exam centres, scribes, compensatory time, accessible digital platforms and a dedicated grievance-redressal mechanism."
+        ]
+      },
+      {
+        heading: "3. 6G, IMC 2026 and digital public infrastructure",
+        points: [
+          "The **3rd International Bharat 6G Symposium 2026** concluded at **Yashobhoomi, Dwarka, New Delhi**, organised by the **Bharat 6G Alliance (B6GA)** alongside **India Mobile Congress 2026**.",
+          "The symposium focused on **IMT-2030** and beyond, global standards, indigenous telecom capabilities and international partnerships; it had over **75 speakers**, including more than **30 international experts**.",
+          "**Bharat 6G Alliance**, established in **July 2023**, is an industry-led platform of telecom service providers, industry, startups, academia and research institutions for indigenous research, intellectual property creation, global standards engagement and secure, sustainable, interoperable **6G**.",
+          "The Department of Telecommunications also highlighted **ESTIC 2026**, where DoT will lead a thematic session on **Intelligent Networks and Quantum Communication** on **28 October 2026**.",
+          "Related **India Mobile Congress 2026** releases covered **5G Use Case Labs**, **AI for Good Lab**, youth innovation, taking Indian technologies global, **MeitY** digital innovation showcases and telecom-quality assessments by **TRAI**."
+        ]
+      },
+      {
+        heading: "4. Trade, logistics and ASEAN-India goods agreement",
+        points: [
+          "The **15th Meeting of the ASEAN-India Trade in Goods Agreement (AITIGA) Joint Committee** was held during **6-9 October 2026** at the **ASEAN Secretariat, Jakarta, Indonesia** in hybrid format.",
+          "The meeting reviewed negotiations to improve the **ASEAN-India Trade in Goods Agreement**, with India represented by the Department of Commerce and participation from **Brunei**, **Cambodia**, **Indonesia**, **Lao PDR**, **Malaysia**, **Myanmar**, **Philippines**, **Singapore**, **Thailand** and **Viet Nam**.",
+          "For GS-II and GS-III, connect **AITIGA** with rules-based trade, regional economic integration, supply-chain diversification, tariff/non-tariff issues and India's **Act East** policy.",
+          "A separate Communications Ministry item records an agreement between the **Department of Posts** and **Blue Dart Express Limited** for **India Post Parcel** services across India, useful for logistics, last-mile delivery and public-private collaboration."
+        ]
+      },
+      {
+        heading: "5. Defence indigenisation and maritime security",
+        points: [
+          "The Indian Navy will commission **Mangrol**, the third **Anti-Submarine Warfare Shallow Water Craft (ASW-SWC)** built by **Cochin Shipyard Limited (CSL), Kochi**, on **12 October 2026** at **Naval Dockyard, Mumbai**.",
+          "**Mangrol** has over **80 percent indigenous content** and is named after the coastal town and fishing harbour in **Junagadh district, Gujarat**; it continues the legacy of erstwhile **INS Mangrol (M85)**, a minesweeper that served till **7 April 2004**.",
+          "Another Defence release covered **Project Seabird** infrastructure at **Karwar**, linking naval base development, maritime capability and long-term force posture.",
+          "The **SIDM Champion Awards 2026** item highlighted private-sector participation, **R&D**, defence production capacity and the wider **Aatmanirbhar Bharat** defence-manufacturing ecosystem."
+        ]
+      },
+      {
+        heading: "6. Mental health, accessibility and social justice",
+        points: [
+          "The Health Ministry will observe **World Mental Health Day 2026** on **10 October 2026** under the global theme **Lived experiences heard: real voices, real change**.",
+          "**Tele-MANAS** provides free, confidential, round-the-clock mental-health support through toll-free helpline **14416**; it has received over **47.75 lakh calls** since launch on **10 October 2022**.",
+          "PIB notes **53 Tele-MANAS Cells** across all **36 States and Union Territories**, women forming nearly **44 percent** of recorded caller profiles, mental-health services integrated into over **1.83 lakh Ayushman Arogya Mandirs**, and the **District Mental Health Programme** sanctioned for **767 districts**.",
+          "The **MANN Jaagriti** initiative is meant to strengthen community awareness, encourage early help-seeking and reduce mental-health stigma.",
+          "Social Justice releases highlighted **Sugamya Bharat** and the principle that accessibility cannot be an afterthought, along with geriatric-care training in **Dadra and Nagar Haveli and Daman and Diu**."
+        ]
+      },
+      {
+        heading: "7. Statistics, cooperatives and administrative reform",
+        points: [
+          "The **National Statistics Office (NSO)** under **MoSPI** released draft guidelines for compiling **Gross State Domestic Product (GSDP)** estimates from the expenditure side with **base year 2022-23**.",
+          "The draft covers **PFCE**, **GFCE**, **GFCF**, changes in inventories, valuables and net exports, and aims to standardise State/UT-level expenditure-side estimates; stakeholder feedback is invited till **28 October 2026**.",
+          "This complements production/income-side **GSDP** estimation and is important for fiscal federalism, State planning, comparability, statistical capacity and national accounts reform.",
+          "The **9th National Review Workshop** in **Bastar** called for State-specific action plans to accelerate cooperative transformation, useful for cooperative federalism, rural credit and local economic institutions.",
+          "**Special Campaign 6.0** items across Revenue, Information and Broadcasting, Social Justice, NITI Aayog and other institutions emphasised cleanliness, pendency reduction, record management and administrative efficiency."
+        ]
+      },
+      {
+        heading: "8. Other exam-worthy signals",
+        points: [
+          "**NHAI** will install **Retrofit Emission Control Devices** on **25 DG sets** at **Dwarka Expressway**, linking highway construction with local air-pollution mitigation.",
+          "**IMD** conducted training on cyclone and marine weather-warning services, relevant for disaster management, early warning and coastal resilience.",
+          "The **National Human Rights Commission (NHRC)** will celebrate its **33rd Foundation Day** on **12 October 2026**, useful for institutions and rights governance.",
+          "The PMO interacted with Team India representatives from the **48th WorldSkills Competition**, connecting skill development, global benchmarking and youth employability.",
+          "The **PM Mementos** release on Andhra Pradesh-linked gifts, **Khadi and Village Industries**, **World Cotton Day** at the **UN Headquarters in New York**, and food-processing opportunities can support culture, livelihoods, crafts and value-chain examples in Mains."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 9 October 2026: 49 releases",
+      "382nd Report: Department-related Parliamentary Standing Committee on Education, Women, Children, Youth and Sports on Reforms and Strengthening of NTA",
+      "NTA conducts JEE-Mains, NEET-UG, UGC-NET and CUET; about 1.2 crore candidates sit annually",
+      "NTA staffing fact: 39 sanctioned positions, 23 officers in position, 41 percent vacancy",
+      "NTA reform recommendations: question banks, government-owned CBT centres, cybersecurity team, Equity Audit, National Registry of Blacklisted Examination Vendors",
+      "CBT infrastructure recommendation: 1,000 secure government CBT centres and at least one test centre in each district",
+      "Public Examinations (Prevention of Unfair Means) Act, 2024 linked with exam-day crowd/procession restrictions",
+      "Bharat 6G Alliance: established July 2023; industry-led platform for India's 6G ecosystem",
+      "3rd International Bharat 6G Symposium 2026: Yashobhoomi, Dwarka, New Delhi; focus on IMT-2030 and beyond",
+      "ESTIC 2026 DoT theme: Intelligent Networks and Quantum Communication, scheduled for 28 October 2026",
+      "15th AITIGA Joint Committee: 6-9 October 2026, ASEAN Secretariat, Jakarta, Indonesia",
+      "ASEAN participants listed: Brunei, Cambodia, Indonesia, Lao PDR, Malaysia, Myanmar, Philippines, Singapore, Thailand and Viet Nam",
+      "Mangrol: third ASW-SWC built by Cochin Shipyard Limited; commissioning on 12 October 2026 at Naval Dockyard, Mumbai",
+      "Mangrol has over 80 percent indigenous content and is named after a coastal town in Junagadh district, Gujarat",
+      "World Mental Health Day 2026: 10 October 2026; global theme Lived experiences heard: real voices, real change",
+      "Tele-MANAS helpline: 14416; over 47.75 lakh calls since launch on 10 October 2022",
+      "Tele-MANAS network: 53 cells across all 36 States/UTs; women nearly 44 percent of recorded caller profiles",
+      "Mental-health services integrated into over 1.83 lakh Ayushman Arogya Mandirs; District Mental Health Programme sanctioned for 767 districts",
+      "NSO draft GSDP guideline: expenditure approach with base year 2022-23; feedback by 28 October 2026",
+      "GSDP expenditure components: PFCE, GFCE, GFCF, changes in inventories, valuables and net exports",
+      "NHAI emission-control item: Retrofit Emission Control Devices on 25 DG sets at Dwarka Expressway",
+      "NHRC: 33rd Foundation Day on 12 October 2026"
+    ],
+    mains: [
+      "NTA reform shows that exam integrity requires institutional capacity, cybersecurity, public accountability, transparent grievance redressal and student welfare rather than only stricter policing.",
+      "A CBT transition for NEET-UG can improve security, but it must be paired with government-owned infrastructure, digital inclusion, mock access and transparent normalisation to avoid widening inequity.",
+      "Large public examinations are a governance problem involving Union ministries, States, districts, regulators, schools, families, technology vendors and mental-health systems.",
+      "Regulating the coaching ecosystem can support equity when it addresses fees, safety, mental health and curriculum alignment without undermining legitimate academic support.",
+      "India's 6G strategy depends on standards participation, indigenous R&D, patent creation, trusted networks, startups, academia-industry collaboration and international partnerships.",
+      "AITIGA review matters because regional trade agreements must balance market access, domestic industry concerns, supply-chain resilience and rules-based economic diplomacy.",
+      "Tele-MANAS illustrates how digital and tele-counselling models can improve access to mental healthcare, but quality, referral pathways, privacy and stigma reduction remain central.",
+      "Expenditure-side GSDP estimates can strengthen fiscal federalism and State planning by improving comparability, but require reliable State-level data and statistical capacity.",
+      "Indigenous ASW craft such as Mangrol show how naval modernisation, coastal security and defence manufacturing are linked to Aatmanirbhar Bharat.",
+      "Accessibility and geriatric-care initiatives should be treated as core public-service design issues rather than welfare add-ons.",
+      "Special Campaign 6.0 can improve administrative efficiency if cleanliness, record management and pendency reduction become measurable institutional routines."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 9 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "382nd Report on NTA reforms",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321420",
+        note: "Parliamentary Standing Committee recommendations on NTA, CBT and exam security"
+      },
+      {
+        label: "15th AITIGA Joint Committee",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321209&lang=1&reg=3",
+        note: "ASEAN-India goods trade agreement negotiations"
+      },
+      {
+        label: "Bharat 6G Symposium 2026",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321533&lang=1&reg=3",
+        note: "Bharat 6G Alliance, IMT-2030 and international telecom partnerships"
+      },
+      {
+        label: "Mangrol ASW-SWC commissioning",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321516&lang=1&reg=3",
+        note: "Indigenous anti-submarine warfare shallow water craft"
+      },
+      {
+        label: "World Mental Health Day 2026 and Tele-MANAS",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321522&lang=1&reg=3",
+        note: "Mental-health delivery numbers and institutional reach"
+      },
+      {
+        label: "Draft GSDP expenditure-side guideline",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2321373&lang=1&reg=3",
+        note: "NSO/MoSPI draft guideline with base year 2022-23"
+      }
+    ]
+  },
+  {
+    date: "2026-10-02",
+    label: "2 October 2026",
+    title: "Comprehensive PIB Notes: 2 October 2026",
+    lead: "Today's official PIB Delhi list has **23 releases**. UPSC relevance is high for **WTO**, **G20 Trade Ministers' Meeting**, **forced labour and Article 23**, **RoDTEP**, **RELIEF**, **APEDA**, **Bihar Makhana**, **Buxa Tiger Reserve**, **NTCA**, **Survey of India**, **SDG Budgeting**, **State Support Mission**, **Swachh Bharat Mission-Urban**, **urban sustainability**, **e-waste management**, and **Gandhian ethics**.",
+    blocks: [
+      {
+        heading: "1. G20 trade, WTO rules and forced labour",
+        points: [
+          "At the **G20 Trade Ministers' Meeting** in **Milwaukee, United States**, India called for a **WTO-compliant**, evidence-based approach to correcting global trade distortions.",
+          "India argued that industrial capacity itself is not the problem; distortions arise when hidden subsidies, dumping or predatory pricing concentrate production and harm fair competition.",
+          "The release stresses that diversification of production and supply chains is legitimate, but should not become a pretext for unilateral trade measures outside **WTO** rules or for reducing the policy space of developing countries.",
+          "On the **Most-Favoured-Nation (MFN)** principle, India underlined transparent, non-discriminatory and rules-based trade, consensus-based **WTO** decision-making, **special and differential treatment** for developing countries and restoration of the two-tier dispute settlement system.",
+          "On forced labour, India cited **Article 23** of the Constitution, ratification of **ILO Conventions 29 and 105**, and the **July 2026 Foreign Trade Policy** amendment prohibiting import of goods produced using forced labour."
+        ]
+      },
+      {
+        heading: "2. Export support: RoDTEP, RELIEF and Bihar Makhana",
+        points: [
+          "The Government extended the **Remission of Duties and Taxes on Exported Products (RoDTEP)** Scheme up to **31 December 2026**, keeping support available for refund of embedded duties/taxes not otherwise rebated.",
+          "The **RELIEF** intervention, or **Resilience & Logistics Intervention for Export Facilitation**, was extended to support exporters facing logistics disruption linked with **West Asia**.",
+          "**APEDA** facilitated export of **1 MT** of popped or **Phool Makhana** from **Purnea, Bihar** to **Greece**, with shipment moving from **Mundra Port** to **Piraeus Port**.",
+          "India is the global leader in **Makhana** production; **Bihar** contributes about **80-85 percent** of national production and cultivation spans over **35,000 hectares** across **10 districts**.",
+          "India exported more than **7,000 MT** of makhana and value-added products worth **USD 22 million** during **FY 2025-26** to more than **20 international destinations**, making it important for agri-exports, GI-linked value chains, farmer income and food processing."
+        ]
+      },
+      {
+        heading: "3. Buxa tiger reintroduction and landscape conservation",
+        points: [
+          "A tigress was released in **Buxa Tiger Reserve, West Bengal**, beginning a phased **Tiger Reintroduction Programme** aimed at restoring a viable and self-sustaining tiger population.",
+          "**Buxa Tiger Reserve** was declared a Tiger Reserve in **1983** and forms part of a larger landscape connected with forests and protected areas of **Bhutan** and **Assam**.",
+          "The recovery project is supported by the **National Tiger Conservation Authority (NTCA)** and **Wildlife Institute of India (WII)** and has been implemented since **2018** with habitat improvement, prey-base augmentation, monitoring and protection.",
+          "More than **800 chital** have been released to supplement prey and about **380 hectares** of grassland have been restored or converted over the past eight years.",
+          "Camera traps recorded tiger movement in **2021**, **2023** and **2026**; one 2023 individual matched a tiger from **Manas Tiger Reserve**, showing landscape connectivity.",
+          "The translocated tigress came from **Valmiki Tiger Reserve, Bihar** and will be monitored through **telemetry**, camera traps and field monitoring; the programme also involves **64 Eco-Development Committees/Joint Forest Management Committees**."
+        ]
+      },
+      {
+        heading: "4. Ladakh place names and Survey of India mapping",
+        points: [
+          "The **Ministry of Home Affairs**, in consultation with the **UT of Ladakh**, identified **28 places/features** in Ladakh by standard names on the official **Survey of India (SoI)** map.",
+          "The list includes peaks, passes, glaciers, valleys, land areas, mountains, a lake, a river and water body, supporting accurate recognition and public awareness.",
+          "Exam-worthy names include **Atisha Giri**, **Kanishka Peak**, **Martand Giri**, **Parpik Glacier**, **Skamri Glacier**, **Zorawar Peak**, **Guru Rinpoche Lake**, **Yangpa River**, **Marpa Lotsava Ri**, **Shiva Ri** and **Maheshvara Ri**.",
+          "For GS-I and GS-II, the item links with **borderland geography**, official cartography, place-name standardisation, cultural memory and Union Territory administration."
+        ]
+      },
+      {
+        heading: "5. SDG Budgeting and cooperative federalism",
+        points: [
+          "**NITI Aayog**, the Government of **West Bengal** and **UNDP** organised a National Workshop on **SDG Budgeting** in **Kolkata** under the **State Support Mission (SSM)**.",
+          "The workshop focused on institutionalising **SDG budget tagging** so that planning and budget allocations can be linked with measurable development outcomes at the sub-national level.",
+          "Participants came from **32 States and Union Territories**, with institutions including **CAG**, **MoSPI**, **CGA**, **DPE**, **IICA**, **UNDP**, **UNRCO**, **FICCI**, **CII**, **SEBI**, **GIZ** and development partners.",
+          "The **Guide on Mapping State Budgets to the SDGs**, developed by **NITI Aayog**, **CAG of India** and **UNDP**, was discussed as a practical framework for aligning State budgets with SDG targets.",
+          "Important technical themes include expenditure tagging, Head of Accounts linkage, NITI Aayog's Scheme-SDG mapping, value assignment, reconciliation, quality assurance, reporting and performance audit."
+        ]
+      },
+      {
+        heading: "6. Swachh Bharat, public toilets and e-waste",
+        points: [
+          "A PIB backgrounder highlighted sanitation innovation under **Swachh Bharat Mission (SBM)**, launched on **2 October 2014**, and **Swachh Bharat Mission-Urban (SBM-U)**.",
+          "The **Toilets 2.0** initiative under **SBM-U** began in **2022** to make community and public toilets safer, cleaner and more inclusive; the **SBM Toilet Locator** on the **Swachhata app** helps citizens find facilities.",
+          "Examples include the **Sthree Toilet** at **Bengaluru's Majestic bus terminal**, built from a scrap **KSRTC** bus with toilets, sanitary napkin vending, incinerator, mother-care space and solar-powered sensor lights.",
+          "Another backgrounder on **urban transformation** links greener cities with sustainable sanitation, public services, resource efficiency and local innovation.",
+          "Several ministries began **Special Campaign 6** to institutionalise **Swachhata**, reduce pendency and promote scientific **e-waste management**, making it relevant for governance, administrative reforms and environment."
+        ]
+      },
+      {
+        heading: "7. Gandhi Jayanti, Shastri Jayanti and ethical governance",
+        points: [
+          "PIB listed several PMO and Vice-President releases on **Mahatma Gandhi**, **Lal Bahadur Shastri** and **K. Kamaraj**, making the day useful for ethics and modern history examples.",
+          "Themes include **truth**, **non-violence**, **compassion**, **service**, **Swadeshi**, simplicity, public integrity, democratic leadership and duty-conscious citizenship.",
+          "The PMO release sharing a **Sanskrit Subhashitam** on Gandhi's ideals is useful for **GS-IV Ethics** and essays connecting Indian knowledge traditions with civic values.",
+          "For prelims, candidates should avoid treating these as policy announcements; their value lies in personality-linked themes, national days and ethical vocabulary."
+        ]
+      },
+      {
+        heading: "8. Other notable releases for quick revision",
+        points: [
+          "The PM congratulated Indian archers and sailors for medals at the **Asian Games**, useful only as low-priority sports current affairs unless tied to sports governance or women in sport.",
+          "**Ministry of Education**, **Ministry of Steel**, **Department of Pharmaceuticals**, **MoEFCC** and **Law and Justice** releases on **Swachhata Shramdaan**, tree plantation and pending-matter disposal are best read under administrative reforms and environmental responsibility.",
+          "The Buxa release coincides with **Wildlife Week 2026**, strengthening links with conservation awareness, protected areas and community participation.",
+          "Today's PIB mix is policy-heavy in trade, exports, conservation and governance; candidates should prioritise these over routine commemorative or campaign-implementation releases."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 2 October 2026: 23 releases",
+      "G20 Trade Ministers' Meeting location: Milwaukee, Wisconsin, United States",
+      "Core trade terms: WTO compliance, MFN principle, special and differential treatment, two-tier dispute settlement, anti-dumping and countervailing duties",
+      "Forced labour hooks: Article 23, ILO Conventions 29 and 105, July 2026 Foreign Trade Policy amendment",
+      "RoDTEP extended up to 31 December 2026",
+      "RELIEF: Resilience & Logistics Intervention for Export Facilitation for exporters amid West Asia logistics disruptions",
+      "APEDA facilitated 1 MT Phool Makhana export from Purnea to Greece via Mundra Port and Piraeus Port",
+      "Bihar contributes around 80-85 percent of India's makhana production; cultivation spans over 35,000 hectares across 10 districts",
+      "India exported more than 7,000 MT makhana and value-added products worth USD 22 million in FY 2025-26 to more than 20 destinations",
+      "Buxa Tiger Reserve: declared in 1983; connected with Bhutan and Assam landscapes",
+      "Buxa recovery: supported by NTCA and WII since 2018; more than 800 chital released; around 380 hectares grassland restored/converted",
+      "Tigress translocated from Valmiki Tiger Reserve, Bihar to Buxa Tiger Reserve, West Bengal",
+      "Buxa community institutions: 64 Eco-Development Committees/Joint Forest Management Committees",
+      "Ladakh mapping: 28 places/features identified on Survey of India map",
+      "SDG Budgeting workshop: NITI Aayog, West Bengal and UNDP; under State Support Mission; 32 States/UTs participated",
+      "Guide on Mapping State Budgets to the SDGs: developed by NITI Aayog, CAG of India and UNDP",
+      "Swachh Bharat Mission launched on 2 October 2014; Toilets 2.0 began in 2022 under SBM-U",
+      "SBM Toilet Locator is available on the Swachhata app",
+      "Special Campaign 6 focus: Swachhata, pendency reduction and scientific e-waste management",
+      "Gandhi Jayanti and Shastri Jayanti themes: truth, non-violence, service, Swadeshi, simplicity and integrity"
+    ],
+    mains: [
+      "India's G20 trade stance shows the tension between supply-chain diversification, WTO discipline and development policy space for emerging economies.",
+      "Forced-labour-linked trade measures must balance human-rights objectives with due process, verifiable evidence and avoidance of disguised protectionism.",
+      "RoDTEP and RELIEF can help exporters, but long-term export competitiveness needs logistics resilience, standards compliance, product diversification and market intelligence.",
+      "Makhana exports show how region-specific agri-products can raise farmer incomes when APEDA support, port logistics, processing, branding and producer linkages align.",
+      "Tiger reintroduction succeeds only when habitat, prey base, scientific monitoring, local livelihoods, conflict mitigation and landscape connectivity are treated together.",
+      "Official mapping of Ladakh features is not merely technical; it intersects with border governance, cultural geography, public awareness and state capacity.",
+      "SDG budgeting can improve outcome-based governance if budget tagging is integrated with audit, reporting, scheme design and measurable indicators.",
+      "Urban sanitation innovation should be judged on inclusion, safety for women, menstrual hygiene, maintenance financing, digital discoverability and waste treatment.",
+      "Special campaigns on Swachhata and e-waste show how administrative reform must link cleanliness with scientific disposal, record management and reduced pendency.",
+      "Gandhian values remain relevant when translated into governance ethics: public service, non-violence, simplicity, sustainable consumption, Swadeshi and accountability."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 2 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list showing 23 Delhi releases"
+      },
+      {
+        label: "G20 trade ministers and WTO-compliant trade measures",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318096",
+        note: "Commerce and Industry Ministry release on G20 trade, MFN and forced labour"
+      },
+      {
+        label: "APEDA facilitates Bihar Makhana export to Greece",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318075",
+        note: "Makhana export, APEDA and Bihar production facts"
+      },
+      {
+        label: "RELIEF intervention extended for exporters",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318053",
+        note: "Export logistics support amid West Asia disruption"
+      },
+      {
+        label: "RoDTEP Scheme extended up to 31 December 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318052",
+        note: "Extension of remission support for exported products"
+      },
+      {
+        label: "Buxa Tiger Reserve reintroduction programme",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318110",
+        note: "Tiger reintroduction, NTCA, WII and landscape conservation"
+      },
+      {
+        label: "Ladakh places identified on Survey of India map",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318027",
+        note: "28 standard place and feature names in UT of Ladakh"
+      },
+      {
+        label: "National Workshop on SDG Budgeting",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318067",
+        note: "NITI Aayog State Support Mission, West Bengal and UNDP workshop"
+      },
+      {
+        label: "Dignity by Design: public toilet innovation",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318095",
+        note: "SBM-U, Toilets 2.0 and public sanitation innovation"
+      },
+      {
+        label: "Urban Transformation: greener sustainable cities",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2318081",
+        note: "Backgrounder on sustainable urban transformation"
+      }
+    ]
+  },
+  {
+    date: "2026-10-01",
+    label: "1 October 2026",
+    title: "Comprehensive PIB Notes: 1 October 2026",
+    lead: "Today's official PIB Delhi list has **3 releases**, all from the **Prime Minister's Office (PMO)**. UPSC relevance is modest but useful for **GS-IV Ethics**, essay examples, **Indian knowledge systems**, public leadership, citizen values, former constitutional offices and examples of civic courage.",
+    blocks: [
+      {
+        heading: "1. Former President Shri Ram Nath Kovind: constitutional office recall",
+        points: [
+          "The **Prime Minister's Office** release extended birthday greetings to former President **Shri Ram Nath Kovind**.",
+          "**Ram Nath Kovind** served as the **14th President of India** and is therefore relevant for quick revision of the office of the **President of India**, constitutional morality and public life.",
+          "For prelims, remember that the President is the constitutional head of the Union under **Article 52**, while executive power of the Union is vested in the President under **Article 53** and exercised in accordance with the Constitution.",
+          "The release does not announce a new scheme, mission, index, act, portal or institution; its UPSC value is mainly in constitutional-office awareness and examples for essays on public service."
+        ]
+      },
+      {
+        heading: "2. Sanskrit Subhashitam on determination and perseverance",
+        points: [
+          "The PMO shared a **Sanskrit Subhashitam** highlighting the importance of **determination** and **perseverance**.",
+          "**Subhashitam** refers to a well-spoken or wise saying in Indian literary tradition, often used to express ethical, practical and civic values in concise form.",
+          "For **GS-IV Ethics**, the theme links with perseverance, commitment to duty, patience, resilience, disciplined effort and goal-oriented public service.",
+          "For essay answers, the release can be used to connect **Indian knowledge systems** with contemporary nation-building, but it should be treated as value-oriented communication rather than a policy announcement."
+        ]
+      },
+      {
+        heading: "3. Captain Smit Machchhar: courage and saving lives",
+        points: [
+          "The PMO lauded **Captain Smit Machchhar** for immense **courage** and **valour** in saving lives.",
+          "The release is useful for ethics case studies on courage, presence of mind, duty beyond self-interest, leadership under pressure and citizen-centred action.",
+          "UPSC candidates can use it as a contemporary example where values such as **compassion**, **public spirit**, **risk-taking for others** and **moral courage** translate into action.",
+          "No new defence platform, gallantry award, policy instrument or institutional mechanism is announced in this PIB item; the exam value lies in ethical illustration and current-affairs awareness."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 1 October 2026: 3 releases",
+      "Ministry/department: Prime Minister's Office",
+      "Key personalities: former President Shri Ram Nath Kovind and Captain Smit Machchhar",
+      "Former President Ram Nath Kovind: 14th President of India",
+      "Constitutional hook: Article 52 provides for the President of India; Article 53 vests Union executive power in the President",
+      "Ethics theme: Sanskrit Subhashitam on determination and perseverance",
+      "Civic-value theme: courage and valour in saving lives",
+      "No new scheme, mission, act, index, portal, defence platform or statutory institution was announced in today's listed releases"
+    ],
+    mains: [
+      "Value-oriented public communication can enrich ethics and essay answers when linked to concrete administrative virtues such as perseverance, duty consciousness and resilience.",
+      "Examples of individual courage are useful in GS-IV case studies because they show how compassion, presence of mind and public spirit can shape decisions under risk.",
+      "Candidates should separate symbolic or commemorative PIB releases from actionable policy announcements, while still extracting relevant constitutional, ethical and civic themes.",
+      "Remembering former constitutional office holders helps connect current affairs with constitutional values, public service traditions and the dignity of institutions."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 1 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list showing three PMO releases"
+      },
+      {
+        label: "PM extends birthday greetings to former President Shri Ram Nath Kovind",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "PMO release listed on the official PIB daily page"
+      },
+      {
+        label: "PM shares Sanskrit Subhashitam on determination and perseverance",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "PMO release listed on the official PIB daily page"
+      },
+      {
+        label: "PM lauds Captain Smit Machchhar for courage and valour",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "PMO release listed on the official PIB daily page"
+      }
+    ]
+  },
+  {
+    date: "2026-09-30",
+    label: "30 September 2026",
+    title: "Comprehensive PIB Notes: 30 September 2026",
+    lead: "Today's PIB Delhi list has two releases, led by the **Ministry of Power** notification of new **Corporate Average Fuel Economy (CAFE) Norms** for passenger vehicles. UPSC relevance is high for **energy efficiency**, **transport decarbonisation**, **climate policy**, **Bureau of Energy Efficiency**, **EVs**, **hybrids**, **biofuels**, **CBG**, industrial regulation and **GS-III environment/economy**.",
+    blocks: [
+      {
+        heading: "1. New CAFE norms for passenger vehicles",
+        points: [
+          "The **Ministry of Power** notified new **Corporate Average Fuel Economy (CAFE) Norms** for passenger vehicles manufactured or imported for sale in India.",
+          "The norms will apply from **1 April 2027** to **31 March 2032**, replacing the existing CAFE norms from **1 April 2027**.",
+          "CAFE norms set fleet-average fuel-efficiency or CO2-performance obligations for manufacturers, helping reduce petroleum consumption and transport-sector emissions.",
+          "The fuel-consumption benchmark will tighten from **3.996 litres/100 km in 2027-28** to **3.3273 litres/100 km in 2031-32**, an improvement of around **16.7 percent** over five years.",
+          "The passenger vehicle segment is important because it contributes significantly to India's transport energy demand and fossil-fuel consumption."
+        ]
+      },
+      {
+        heading: "2. Flexibility, cleaner fuels and technology incentives",
+        points: [
+          "The new framework is described as **future-ready**, **technology-neutral** and flexible, giving manufacturers multiple pathways to meet fleet-average targets.",
+          "It recognises renewable and low-carbon fuels such as **ethanol-blended petrol**, **biofuels** and **Compressed Bio-Gas (CBG)** through a **Carbon Neutrality Factor (CNF)**.",
+          "Recognised fuel-conservation technologies have expanded from **4** to **12**, with a concession of **1 g CO2/km** for each eligible technology, subject to a maximum of **9.0 g CO2/km**.",
+          "Examples of fuel-saving technologies mentioned include **solar reflective paints**, **advanced glazing** and **high-efficiency air-conditioning**.",
+          "**Battery Electric Vehicles (BEVs)**, **Range-Extended Electric Vehicles (REEVs)**, **Plug-in Hybrid Electric Vehicles (PHEVs)**, **Strong Hybrid Electric Vehicles (SHEV)** and **Flex-Fuel Vehicles** will get volume derogation factors, or **super credits**, in fleet-average calculations."
+        ]
+      },
+      {
+        heading: "3. Compliance architecture and regulatory institutions",
+        points: [
+          "Manufacturers may meet obligations over specified **two-year** or **three-year compliance blocks**, giving operational flexibility during technology transition.",
+          "Manufacturers performing better than prescribed targets can generate credits and carry them forward within specified compliance blocks.",
+          "Those with compliance gaps may use eligible carry-forward provisions, exchange or trade credits with other manufacturers, or purchase credits through a buyout mechanism administered by the **Bureau of Energy Efficiency (BEE)**.",
+          "Reporting will be under both the **Modified Indian Driving Cycle (MIDC)** and **Worldwide Harmonized Light Vehicles Test Procedure (WLTP)**, supporting gradual movement towards globally harmonised vehicle testing.",
+          "Manufacturers with annual sales below **1,000 units** will remain exempt from fleet-average obligations."
+        ]
+      },
+      {
+        heading: "4. Reference weight and industry implications",
+        points: [
+          "The revised target line has been flattened to create a more balanced, weight-sensitive approach, with relatively softer targets for lighter vehicles and greater efficiency requirements for heavier vehicles.",
+          "The reference weight has increased from **1,082 kg** under existing norms to **1,229 kg** under the new framework, an increase of around **13.6 percent**.",
+          "This reflects changes in India's passenger vehicle fleet, including heavier vehicles and evolving consumer preferences.",
+          "For industry, the policy provides regulatory certainty for **2027-32**, while encouraging cleaner powertrains, fuel-saving components, efficiency-focused design and innovation.",
+          "For policy analysis, the framework links climate goals with industrial transition, energy security and consumer mobility."
+        ]
+      },
+      {
+        heading: "5. PMO release: Sanskrit Subhashitam and duties",
+        points: [
+          "The **Prime Minister's Office (PMO)** release shared a **Sanskrit Subhashitam** highlighting the importance of dedication to one's duties.",
+          "UPSC relevance is limited but useful for **GS-IV Ethics**, essay examples, **Indian knowledge systems**, civic responsibility and public leadership.",
+          "The exam takeaway is to distinguish value-oriented public communication from policy announcements; this release does not announce a new scheme, act, mission, index, portal or institution.",
+          "It can be used in Mains answers to connect classical Indian ethical literature with duty-conscious citizenship and integrity in public life."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 30 September 2026: 2 releases",
+      "Ministries/departments: Prime Minister's Office and Ministry of Power",
+      "New CAFE norms apply to new passenger vehicles manufactured or imported for sale in India",
+      "Applicability period: 1 April 2027 to 31 March 2032",
+      "Fuel-consumption benchmark: 3.996 litres/100 km in 2027-28 to 3.3273 litres/100 km in 2031-32",
+      "Overall improvement: around 16.7 percent over five years",
+      "Reference weight: 1,082 kg under existing norms to 1,229 kg under new norms, around 13.6 percent increase",
+      "Carbon Neutrality Factor covers ethanol-blended petrol, biofuels and CBG",
+      "Recognised fuel-conservation technologies expanded from 4 to 12",
+      "Eligible technology concession: 1 g CO2/km each, maximum 9.0 g CO2/km",
+      "Super credits: BEVs, REEVs, PHEVs, SHEV and Flex-Fuel Vehicles",
+      "Compliance flexibility: two-year/three-year blocks, credit carry-forward, trading/exchange and BEE-administered buyout",
+      "Testing/reporting: MIDC and WLTP",
+      "Exemption: manufacturers with annual sales below 1,000 units",
+      "PMO release theme: Sanskrit Subhashitam on dedication to one's duties"
+    ],
+    mains: [
+      "CAFE norms can reduce oil demand and emissions, but success depends on test-cycle credibility, real-world compliance, affordable technology adoption and strong BEE enforcement.",
+      "A technology-neutral framework gives industry flexibility, but policymakers must ensure that credits and derogations do not dilute actual fleet efficiency gains.",
+      "Recognising ethanol blends, biofuels and CBG links vehicle regulation with India's wider energy-security and low-carbon fuel strategy.",
+      "Super credits for EVs, hybrids and flex-fuel vehicles can accelerate cleaner mobility if charging, fuel supply chains, battery standards and consumer affordability improve together.",
+      "Dual MIDC-WLTP reporting is useful for global harmonisation, but India must manage transition costs and avoid regulatory complexity for manufacturers.",
+      "Duty-oriented public messaging can enrich ethics answers when linked to administrative responsibility, integrity and citizen-centric governance."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 30 September 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list showing two Delhi releases"
+      },
+      {
+        label: "New Corporate Average Fuel Economy norms notified",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2316792",
+        note: "Ministry of Power notification on CAFE norms for 2027-32"
+      },
+      {
+        label: "PM shares Sanskrit Subhashitam on duties",
+        url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2316801",
+        note: "PMO release listed on the official PIB daily page"
+      }
+    ]
+  },
+  {
+    date: "2026-09-29",
+    label: "29 September 2026",
+    title: "Comprehensive PIB Notes: 29 September 2026",
+    lead: "Today's PIB Delhi list has one release, from the **Prime Minister's Office**, on a **Sanskrit Subhashitam** highlighting six qualities linked with success. UPSC relevance is limited but useful for **ethics**, **Indian knowledge systems**, **value education**, public leadership and essay examples.",
+    blocks: [
+      {
+        heading: "1. PMO release: Sanskrit Subhashitam and ethical qualities",
+        points: [
+          "The official PIB list for **29 September 2026** shows **1 press release**, issued under the **Prime Minister's Office (PMO)**.",
+          "The release states that the Prime Minister shared a **Sanskrit Subhashitam** highlighting the **six qualities that invite success**.",
+          "For UPSC, the direct factual hook is not a scheme or policy decision; it is a value-oriented communication relevant to **GS-IV Ethics**, **essay writing**, **Indian culture** and examples on leadership conduct.",
+          "**Subhashitam** literally refers to a well-spoken or wise saying, and such verses are often used in Indian literary and philosophical traditions to convey practical ethical guidance.",
+          "The release can be used to connect **Indian knowledge systems**, value-based public life and citizen conduct, but it should not be overread as announcing a new government programme."
+        ]
+      },
+      {
+        heading: "2. UPSC linkage: governance values and public leadership",
+        points: [
+          "In **GS-IV**, the item can support answers on how personal qualities such as discipline, humility, restraint, effort, integrity and wisdom shape ethical decision-making.",
+          "For essays, it can be cited as an example of drawing from **classical Indian wisdom** to discuss success as a blend of character, conduct and sustained effort.",
+          "For prelims, the exam-worthy points are minimal: department is **PMO**, source is **PIB Delhi**, theme is **Sanskrit Subhashitam**, and the date is **29 September 2026**.",
+          "Candidates should distinguish between value statements and actionable policy announcements; this release does not create a new scheme, mission, index, act, portal or institutional mechanism."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 29 September 2026: 1 release",
+      "Ministry/department: Prime Minister's Office",
+      "Theme: Sanskrit Subhashitam highlighting six qualities that invite success",
+      "UPSC relevance: GS-IV Ethics, essay, Indian knowledge systems and value education",
+      "No new scheme, mission, act, index, portal or institutional mechanism was announced in this release"
+    ],
+    mains: [
+      "Classical Indian ethical literature can enrich public leadership by framing success around character, self-discipline, effort and wisdom rather than only material outcomes.",
+      "Value-oriented public messaging is useful for civic education, but policy analysis should separate symbolic communication from enforceable institutional reform.",
+      "Ethics answers can use Subhashitams as examples when they are connected to administrative conduct, integrity, empathy, restraint and accountability."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 29 September 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list showing one PMO release"
+      }
+    ]
+  },
+  {
+    date: "2026-09-27",
+    label: "27 September 2026",
+    title: "Comprehensive PIB Notes: 27 September 2026",
+    lead: "Today's PIB releases are UPSC-relevant for **Rabi Campaign 2026**, **Mission for Aatmanirbharta in Pulses**, **PM Dhan-Dhaanya Krishi Yojana**, **AgriStack**, **FTAs**, **UP International Trade Show**, **Exercise Tarang Shakti 2026**, **ADMM-Plus**, **defence indigenisation**, **SRIJAN**, **iDEX**, **AIIB**, **Livestock Insurance Portal**, **Kavach**, **WAG-12**, **nanomedicine**, **WorldSkills Shanghai 2026**, **National Digital Tourism Stack**, **Dekho Apna Desh Campaign 2.0** and **Nasha Mukt Yuva for Viksit Bharat Abhiyan**.",
+    blocks: [
+      {
+        heading: "1. Agriculture and rural risk: Rabi Campaign 2026",
+        points: [
+          "The **National Conference on Agriculture for Rabi Campaign 2026** will be held on **28-29 September 2026** at **NASC Complex, Pusa, New Delhi**, with participation from State Agriculture Ministers, senior officials, **ICAR** and other stakeholders.",
+          "The conference is designed to strengthen **Centre-State coordination** and prepare an outcome-oriented strategy for Rabi production, productivity, sustainability and farmers' incomes.",
+          "Thematic deliberations will cover **Atmanirbharta**, diversification, production growth, **climate-resilient agriculture**, digital agriculture, infrastructure, financing and risk management.",
+          "Important schemes and terms listed for deliberation include **Mission for Aatmanirbharta in Pulses**, oilseeds and oil palm, horticulture, cotton, natural farming, soil health, farm mechanisation, **FPO** financing, marketing reforms, **PM Dhan-Dhaanya Krishi Yojana**, **Kisan Credit Card**, **PM Fasal Bima Yojana**, plant protection and agricultural statistics.",
+          "The second-day agenda includes Rabi weather outlook, fertiliser availability and balanced use, **Digital Agriculture Mission**, **Farmer Registry**, **Digital Crop Survey**, **AgriStack**, **National Mission on Edible Oils**, crop/seed status, varietal adoption and Agriculture Plans through **ATMA** and **KVKs**."
+        ]
+      },
+      {
+        heading: "2. Trade, investment and state export strategy",
+        points: [
+          "At the **UP International Trade Show** in **Greater Noida**, the Commerce and Industry Minister linked **Free Trade Agreements (FTAs)** with wider global market access for **Uttar Pradesh** entrepreneurs.",
+          "PIB notes that Uttar Pradesh currently has annual exports of around **Rs 2 lakh crore** and has set a target to increase exports to **Rs 5 lakh crore by 2030**.",
+          "The release connects exports, investment and global recognition with Uttar Pradesh's goal of becoming a **USD 1 trillion economy**, highlighting expressways, modern airports, industrial parks and high-technology sectors.",
+          "Exam-relevant sectors mentioned include **defence**, **semiconductors**, electronics, robotics manufacturing and tourism, showing how state-level industrial policy intersects with national trade strategy.",
+          "For Mains, the key issue is how FTAs can help MSMEs and local producers only when backed by logistics, standards, branding, export finance, buyer-seller platforms and coordinated Centre-State support."
+        ]
+      },
+      {
+        heading: "3. Defence and strategic autonomy: Tarang Shakti and indigenisation",
+        points: [
+          "**Exercise Tarang Shakti 2026** began its operational phase at **Air Force Station Jodhpur** and is being conducted from **26 September to 12 October 2026** with the theme **Power in Partnership**.",
+          "Seven friendly foreign countries - **Australia**, **United States**, **UAE**, **France**, **Germany**, **Sri Lanka** and **Bangladesh** - are participating; aircraft include **F-35 Lightning II**, **Rafale**, **F-16**, **A400M**, **MRTT**, **C-130**, **C-130J** and **KC-30A**.",
+          "The exercise is important for interoperability, aerospace safety, joint training, mission planning, regional peace and showcasing India's indigenous aerospace and defence capabilities.",
+          "A separate Defence Conclave release highlighted strategic autonomy, counter-terrorism, national unity and India's shift from defence importer to trusted global defence supplier.",
+          "Defence exports rose from **Rs 686 crore in 2013-14** to **Rs 38,424 crore in 2025-26**, with a new target of **Rs 50,000 crore by 2029**; exports now reach more than **100 countries**.",
+          "Other important numbers: defence allocation of **Rs 7.85 lakh crore in 2026-27**, about **75 percent** of capital acquisition budget or **Rs 1.39 lakh crore** for domestic procurement, **509** items in positive indigenisation lists, **5,417** DPSU list items, **16,000+ MSMEs**, about **Rs 70,000 crore** proposals in defence corridors, **SRIJAN** identification of **33,000** imported items and around **15,700** indigenised items.",
+          "**iDEX**, **iDEX-Prime** and **ADITI** were highlighted for defence innovation; as of **March 2026**, **676** startups/innovators had been engaged through iDEX and **551 contracts** signed, while **DRDO** will transfer technologies for conventional missile systems to eligible Indian industries."
+        ]
+      },
+      {
+        heading: "4. Infrastructure, finance and livestock service delivery",
+        points: [
+          "The Finance Minister's **27-29 September 2026** official visit to **Qatar** includes the **11th Annual Meeting of the Board of Governors of the Asian Infrastructure Investment Bank (AIIB)** in **Doha** on **28 September 2026**.",
+          "India is the **second-largest shareholder** of **AIIB**, and the bank focuses on sustainable infrastructure, productive sectors and infrastructure connectivity in Asia.",
+          "The **Livestock Insurance Portal** will be launched on **28 September 2026** by **DAHD** to provide a single digital platform for livestock insurance policy issuance, claim processing, monitoring and reporting.",
+          "The portal will support services in **11 regional languages** in addition to **Hindi** and **English**, linking digital inclusion with risk protection for livestock farmers.",
+          "In **Ahmedabad**, development projects worth **Rs 1,472 crore** were inaugurated and the country's first **LNG-powered train** was flagged off from **Sabarmati Railway Station**.",
+          "Railway facts from the release include a **WAG-12 Maintenance Shed** worth **Rs 700 crore**, **Kavach** on the **Sabarmati-Kalol-Sabarmati** section at **Rs 48 crore**, a **12,000-horsepower** twin-section locomotive that can haul freight equivalent to about **600 trucks**, diesel consumption reduction from **293 crore litres in 2015-16** to **108 crore litres in 2024-25**, and railway electrification reaching **99.6 percent**."
+        ]
+      },
+      {
+        heading: "5. Science, health and future skills",
+        points: [
+          "At the **World Congress on Nanomedicine 2026** at **Vigyan Bhawan, New Delhi**, PIB highlighted nanomedicine's role in **precision medicine** and personalised healthcare.",
+          "**Nanomedicine** applies nanotechnology at the scale of one-billionth of a metre for targeted drug delivery, diagnostics, imaging, regenerative medicine, vaccine/nucleic-acid delivery, cancer nanomedicine and nanotoxicology.",
+          "The **Department of Biotechnology (DBT)** is supporting **210 nanomedicine R&D projects** with **Rs 174 crore**; examples include oral insulin nanoparticles, nanobots for breast cancer, precision nanoinjection and targeted breast cancer nanomedicine.",
+          "Regulatory and innovation anchors include **BIRAC**, **BIG**, **PACE**, **SBIRI**, **BIPP**, and nanopharmaceutical guidelines jointly developed by **DBT**, **ICMR** and **CDSCO**.",
+          "India ranked **10th** at **WorldSkills Shanghai 2026**, improving from **13th** at **WorldSkills Lyon 2024**, and won **6 Silver Medals** plus **20 Medals for Excellence**.",
+          "The **48th WorldSkills Competition** was held during **22-27 September 2026** in **Shanghai**, with over **1,400** competitors from around **70** countries/regions; India's largest-ever contingent had **70 competitors** across **63 skills**.",
+          "India debuted in **11** new/emerging skill categories, including **Dental Prosthetics**, **Digital Interactive Media Design**, **Intelligent Security Technology**, **Unmanned Aerial Systems**, **Software Testing**, **Heavy Vehicle Technology** and **Aircraft Maintenance**."
+        ]
+      },
+      {
+        heading: "6. Tourism DPI, culture and youth health",
+        points: [
+          "On **World Tourism Day 2026**, the Ministry of Tourism launched the **National Digital Tourism Stack** and **National Mission for Alternative Destinations - Dekho Apna Desh Campaign 2.0** at **Bharat Mandapam, New Delhi**.",
+          "The **National Digital Tourism Stack**, being developed with **ONDC** and support from **International Centre for DPI Innovation and Advancement (ICDIA)**, aims to make tourism offerings more discoverable, accessible and trustworthy.",
+          "Capabilities planned include verified identities and supplier credentials, search and discovery, payments, ratings and grievance redressal; implementation will be phased with a pilot planned for **January 2027**.",
+          "**Dekho Apna Desh Campaign 2.0** seeks to redistribute tourism demand towards lesser-known but tourism-ready destinations, initially focusing on hill/mountain destinations, coastal/waterfront destinations, heritage and cultural towns, and regional pilgrimage destinations.",
+          "Five non-commercial MoUs were exchanged with **Airbnb India**, **FlixBus India**, **Glance/InMobi Group**, **Eicher Group Foundation** and **MakeMyTrip** for homestays, mobility, digital content, Himalayan heritage tourism and promotion of unexplored villages/local shopping.",
+          "The **PM Mementos e-Auction 2026** highlighted **37** Rajasthan-linked artefacts, including **Pichwai**, **Phad**, **Pattachitra-style** art, **Ajmer Sharif Dargah**, **Mangarh Dham**, **Brahma Temple Pushkar**, textiles and folk-deity traditions; the **8th edition** is live till **2 October 2026**.",
+          "Under **Nasha Mukt Yuva for Viksit Bharat Abhiyan**, **Mera Swasthya, Mera Garv** activities were held at **400+ locations** with participation of over **2.5 lakh** youth and citizens, covering health check-ups, expert sessions, meditation, preventive health and the **Nasha Mukt Yuva Pledge**."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 27 September 2026: 30 releases",
+      "Rabi Campaign 2026 conference: 28-29 September 2026, NASC Complex, Pusa, New Delhi",
+      "Rabi agenda: Mission for Aatmanirbharta in Pulses, PM Dhan-Dhaanya Krishi Yojana, KCC, PM Fasal Bima Yojana, Digital Agriculture Mission, Farmer Registry, Digital Crop Survey, AgriStack, ATMA and KVKs",
+      "Uttar Pradesh export target: from around Rs 2 lakh crore annually to Rs 5 lakh crore by 2030",
+      "Exercise Tarang Shakti 2026: 26 September-12 October 2026, Air Force Station Jodhpur, theme Power in Partnership",
+      "Tarang Shakti participants: Australia, USA, UAE, France, Germany, Sri Lanka and Bangladesh; aircraft include F-35, Rafale, F-16, A400M, MRTT, C-130, C-130J and KC-30A",
+      "Defence exports: Rs 686 crore in 2013-14 to Rs 38,424 crore in 2025-26; target Rs 50,000 crore by 2029",
+      "Defence budget 2026-27: Rs 7.85 lakh crore; about 75 percent capital acquisition budget or Rs 1.39 lakh crore for domestic procurement",
+      "Indigenisation: 509 armed-forces list items; 5,417 DPSU list items; 33,000 imported items identified on SRIJAN; around 15,700 indigenised",
+      "iDEX as of March 2026: 676 startups/innovators engaged and 551 contracts signed",
+      "AIIB: 11th Annual Meeting in Doha on 28 September 2026; India is the second-largest shareholder",
+      "Livestock Insurance Portal: single digital platform for DAHD livestock insurance; available in 11 regional languages plus Hindi and English",
+      "Ahmedabad railway projects: Rs 1,472 crore; first LNG-powered train from Sabarmati; WAG-12 shed Rs 700 crore; Kavach on Sabarmati-Kalol-Sabarmati section Rs 48 crore",
+      "Railway numbers: WAG-12 has 12,000 horsepower; diesel consumption fell from 293 crore litres in 2015-16 to 108 crore litres in 2024-25; electrification at 99.6 percent",
+      "Nanomedicine: DBT support for 210 R&D projects with Rs 174 crore; guidelines by DBT, ICMR and CDSCO",
+      "WorldSkills Shanghai 2026: India ranked 10th; 6 Silver Medals; 20 Medals for Excellence; 70 competitors across 63 skills",
+      "WorldSkills event: 48th edition, Shanghai, 22-27 September 2026, over 1,400 competitors from around 70 countries/regions",
+      "National Digital Tourism Stack: with ONDC and ICDIA support; pilot planned for January 2027",
+      "Dekho Apna Desh Campaign 2.0: alternative destinations across hills/mountains, coasts/waterfronts, heritage-cultural towns and regional pilgrimage destinations",
+      "Nasha Mukt Yuva activities: Mera Swasthya, Mera Garv at 400+ locations with over 2.5 lakh youth and citizens"
+    ],
+    mains: [
+      "Rabi preparedness needs better Centre-State coordination on seeds, fertilisers, weather risks, insurance, credit, digital registries and state-specific crop planning.",
+      "Digital agriculture platforms can improve targeting and evidence-based planning only when data quality, farmer consent, interoperability and last-mile capacity are ensured.",
+      "FTAs can expand state exports, but benefits depend on logistics, product standards, certification, MSME support, branding, trade finance and market intelligence.",
+      "Defence indigenisation strengthens strategic autonomy when R&D, private manufacturing, MSMEs, startups, testing facilities and assured procurement move together.",
+      "Multilateral military exercises such as Tarang Shakti support interoperability and diplomacy, but India must balance partnerships with strategic autonomy.",
+      "AIIB engagement reflects India's interest in sustainable infrastructure finance and deeper economic diplomacy with West Asia and multilateral development banks.",
+      "Livestock insurance digitisation can protect rural livelihoods if enrolment, claim settlement, language access, veterinary verification and awareness are robust.",
+      "Railway decarbonisation through LNG, hydrogen, electrification and Kavach must be assessed with lifecycle emissions, safety, cost, interoperability and operational reliability.",
+      "Nanomedicine offers precision healthcare opportunities, but raises regulatory, ethical, affordability, clinical-validation and safety challenges.",
+      "Tourism DPI and alternative destinations can reduce overtourism and widen livelihoods if carrying capacity, local communities, heritage protection and grievance redressal are built in.",
+      "Youth de-addiction campaigns need sustained prevention, mental-health support, school/community outreach, sports participation and measurable behavioural outcomes."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 27 September 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "National Conference on Rabi Campaign 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315470",
+        note: "Rabi preparedness, digital agriculture and scheme convergence"
+      },
+      {
+        label: "Uttar Pradesh trade and export opportunities",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315523",
+        note: "FTAs, exports and UP International Trade Show"
+      },
+      {
+        label: "Exercise Tarang Shakti 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315563",
+        note: "Multilateral air exercise at Jodhpur"
+      },
+      {
+        label: "Defence indigenisation and strategic autonomy",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315516",
+        note: "Defence exports, SRIJAN, iDEX and DRDO technology transfer"
+      },
+      {
+        label: "AIIB annual meeting and Qatar visit",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315644",
+        note: "Infrastructure finance and India's AIIB role"
+      },
+      {
+        label: "Livestock Insurance Portal",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315538",
+        note: "Digital livestock insurance services"
+      },
+      {
+        label: "LNG-powered train and Ahmedabad railway projects",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315543",
+        note: "Sabarmati, WAG-12, Kavach and electrification"
+      },
+      {
+        label: "Nanomedicine and precision healthcare",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315531",
+        note: "DBT-funded nanomedicine ecosystem"
+      },
+      {
+        label: "India at WorldSkills Shanghai 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315640",
+        note: "Skills, medals and global benchmarking"
+      },
+      {
+        label: "World Tourism Day 2026 launches",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315637",
+        note: "National Digital Tourism Stack and Dekho Apna Desh 2.0"
+      },
+      {
+        label: "Nasha Mukt Yuva health activities",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2315667",
+        note: "Mera Swasthya, Mera Garv campaign activities"
+      }
+    ]
+  },
+  {
     date: "2026-09-26",
     label: "26 September 2026",
     title: "Comprehensive PIB Notes: 26 September 2026",
