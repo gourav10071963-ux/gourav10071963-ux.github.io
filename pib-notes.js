@@ -1,5 +1,70 @@
 const dailySummaries = [
   {
+    date: "2026-10-10",
+    label: "10 October 2026",
+    title: "Comprehensive PIB Notes: 10 October 2026",
+    lead: "Today's official PIB Delhi list has **2 releases**, both from the **Prime Minister's Office**. UPSC relevance is focused and limited: **Mahalaya**, **Pitru Paksha**, **Durga Puja**, cultural continuity, social harmony, North-East public life, and the passing of **Mr. Kuchi Rangkau Zeliang**.",
+    blocks: [
+      {
+        heading: "1. Mahalaya and cultural continuity",
+        points: [
+          "The Prime Minister extended greetings on the occasion of **Mahalaya**, a culturally significant observance associated with the transition from **Pitru Paksha** to **Devi Paksha** and the beginning of the festive period leading to **Durga Puja**.",
+          "For UPSC, treat **Mahalaya** as a culture keyword linked with remembrance of ancestors, invocation of **Goddess Durga**, community participation, devotional traditions and the wider intangible-cultural landscape of eastern India.",
+          "**Durga Puja** is especially associated with **West Bengal**, but the festival has pan-Indian and diaspora resonance; it can be used in Mains examples on culture, social cohesion, local economies, artisanship and community organisation.",
+          "The release is brief, but the exam hook is clear: cultural festivals are not only religious observances; they also support local livelihoods, craft traditions, tourism, urban public spaces and community networks."
+        ]
+      },
+      {
+        heading: "2. Condolence on Mr. Kuchi Rangkau Zeliang",
+        points: [
+          "The Prime Minister condoled the passing of **Mr. Kuchi Rangkau Zeliang**, noting his contribution to public life and service to people.",
+          "The name is prelims-relevant because it carries a **North-East** public-life context, especially the **Zeliang** community linkage in the Naga cultural region.",
+          "For GS-II and Essay, connect such references with recognition of regional leadership, inclusive national memory, public service, and the importance of acknowledging contributions from smaller communities and border regions.",
+          "Use cautiously: PIB's release is a condolence message, so do not overstate policy content; keep the note factual and limited to public-life significance."
+        ]
+      },
+      {
+        heading: "3. How to use today's light PIB day",
+        points: [
+          "Today's PIB list is not scheme-heavy; revision value lies in recording the official cultural date and one public-personality reference rather than forcing unrelated policy material.",
+          "For Prelims, remember the association of **Mahalaya**, **Pitru Paksha**, **Devi Paksha**, **Durga Puja**, and the eastern India cultural context.",
+          "For Mains, today's material can support short examples on culture as a source of social cohesion and on the need to recognise local and regional contributions in national public discourse."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 10 October 2026: 2 releases",
+      "Both releases are from the Prime Minister's Office",
+      "Mahalaya: associated with transition from Pitru Paksha to Devi Paksha",
+      "Mahalaya is linked with the festive period leading to Durga Puja",
+      "Durga Puja is strongly associated with West Bengal and eastern India",
+      "Mr. Kuchi Rangkau Zeliang: public-life personality whose passing was condoled by the Prime Minister",
+      "Zeliang: community linkage in the Naga cultural region"
+    ],
+    mains: [
+      "Cultural festivals such as Mahalaya and Durga Puja can strengthen social cohesion while supporting local livelihoods, artisans and community organisation.",
+      "Official recognition of regional public figures helps build inclusive national memory and acknowledges contributions from smaller communities.",
+      "Light PIB days should be revised proportionately: capture factual anchors and avoid inventing policy depth where the release is ceremonial or condolence-based."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 10 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Prime Minister extends greetings on Mahalaya",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321629",
+        note: "PMO greeting release"
+      },
+      {
+        label: "Prime Minister condoles passing of Mr. Kuchi Rangkau Zeliang",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321628",
+        note: "PMO condolence release"
+      }
+    ]
+  },
+  {
     date: "2026-10-09",
     label: "9 October 2026",
     title: "Comprehensive PIB Notes: 9 October 2026",
