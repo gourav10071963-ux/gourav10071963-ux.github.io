@@ -1,5 +1,161 @@
 const dailySummaries = [
   {
+    date: "2026-10-13",
+    label: "13 October 2026",
+    title: "Comprehensive PIB Notes: 13 October 2026",
+    lead: "Today's official PIB Delhi list has **16 releases**. UPSC relevance is highest for **CPGRAMS** grievance redressal, **Indian Railways** freight performance, **Namami Gange**, **industrial pollution abatement**, **air pollution mitigation** in Delhi, **BHASHINI** multilingual AI, **National Land Monetization Corporation (NLMC)** e-auction, statistical capacity for **Viksit Bharat @ 2047**, **Khadi and Village Industries**, and India-Czech defence-industrial cooperation.",
+    blocks: [
+      {
+        heading: "1. CPGRAMS and grievance-redress governance",
+        points: [
+          "**DARPG** released the **53rd monthly CPGRAMS report** for Central Ministries/Departments and the **50th CPGRAMS report** for States/UTs for **September 2026**.",
+          "**CPGRAMS** is a digital public-service grievance platform; for GS-II, link it with accountable administration, citizen-centric governance, service-delivery standards, pendency reduction and data-driven monitoring.",
+          "The separate Central and State/UT reports are important because grievance redressal in India depends on both Union ministries and federal field administration; compare disposal quality, timelines, appeal behaviour and recurring grievance categories rather than only disposal counts.",
+          "Mains angle: technology can improve access and dashboards, but effective grievance redress still needs reasoned replies, escalation, independent review, capacity at cutting-edge offices and feedback loops into policy design."
+        ]
+      },
+      {
+        heading: "2. Rail freight, logistics and economic activity",
+        points: [
+          "The **Ministry of Railways** reported **6.14 percent growth** in freight loading in **September 2026** over **September 2025**.",
+          "Rail freight is a useful GS-III indicator because it reflects movement of coal, minerals, cement, foodgrains, fertilisers, containers and other bulk goods that feed power, infrastructure, agriculture and manufacturing supply chains.",
+          "For prelims, remember the number **6.14 percent** and the comparison month; for Mains, use rail freight as an example of logistics efficiency, modal shift from roads to rail, lower emissions per tonne-km and the need for last-mile multimodal connectivity.",
+          "Caution: freight loading growth is not the same as broad economic growth; it should be read with commodity mix, freight earnings, port traffic, power demand and industrial-output data."
+        ]
+      },
+      {
+        heading: "3. Namami Gange and industrial pollution abatement",
+        points: [
+          "The **Ministry of Jal Shakti** release focused on **Industrial Pollution Abatement** under **Namami Gange**, emphasising sustainability through regulation.",
+          "Exam keywords: **Namami Gange**, **National Mission for Clean Ganga (NMCG)**, industrial effluent control, sewage and industrial pollution, river-basin governance, real-time monitoring, compliance and polluter-pays logic.",
+          "Industrial pollution abatement matters because river rejuvenation cannot rely only on sewage-treatment capacity; it also requires sector-specific effluent standards, inspection, credible penalties, common effluent treatment, data transparency and coordination with State pollution-control boards.",
+          "For GS-III environment answers, connect the Ganga example with water quality, public health, ecology, urbanisation, religious-cultural value of rivers and cooperative federalism across basin States."
+        ]
+      },
+      {
+        heading: "4. Delhi air pollution and hotspot management",
+        points: [
+          "The Environment Ministry item covered a review of air-pollution mitigation at the **Anand Vihar hotspot** and a visit to **DPCC's AI-enabled Integrated Command and Control Centre (ICCC)** at **Shastri Park**.",
+          "Important terms: **Delhi Pollution Control Committee (DPCC)**, **AI-enabled ICCC**, hotspot management, dust control, vehicular emissions, local source apportionment, enforcement and real-time monitoring.",
+          "For UPSC, the release illustrates the shift from city-wide averages to micro-level hotspot governance; Anand Vihar is significant because transport, road dust, construction activity and inter-state movement can combine in a small pollution geography.",
+          "Mains angle: AI dashboards help only when paired with enforceable local action, public communication, municipal coordination, clean mobility and regional airshed management across the **NCR**."
+        ]
+      },
+      {
+        heading: "5. BHASHINI and multilingual digital public infrastructure",
+        points: [
+          "The **Ministry of Electronics and IT** highlighted **BHASHINI** at the **National Centre for Good Governance (NCGG), Mussoorie**, with the theme of taking voice-first multilingual AI beyond borders.",
+          "**BHASHINI** is exam-relevant as language technology and digital public infrastructure for inclusion; it seeks to reduce language barriers in access to government services, education, skilling and digital markets.",
+          "The voice-first approach matters for India because many users are more comfortable with speech and local languages than typed English interfaces; this links with accessibility, digital inclusion, AI ethics and public-service delivery.",
+          "For Mains, balance promise with concerns: dataset quality, dialect coverage, privacy, bias, open standards, procurement, cybersecurity and safeguards against exclusion of low-resource language communities."
+        ]
+      },
+      {
+        heading: "6. NLMC e-auction and public asset monetisation",
+        points: [
+          "The Finance Ministry reported that **NLMC's** first end-to-end e-auction of **RINL** land parcels generated **Rs 366.33 crore** in successful bids on Day 1, with **150 plots sold**.",
+          "**National Land Monetization Corporation (NLMC)** is important for GS-III because it deals with monetisation of surplus public-sector land and non-core assets, aiming to unlock value while improving transparency through digital auction processes.",
+          "Prelims anchors: **RINL** is a public-sector steel enterprise associated with Visakhapatnam; the reported numbers are **Rs 366.33 crore** and **150 plots** on Day 1.",
+          "Mains angle: asset monetisation can support capital recycling and reduce idle public land, but it must address valuation, land records, public interest, local planning, environmental clearance and safeguards against distress sale."
+        ]
+      },
+      {
+        heading: "7. Statistical systems and Viksit Bharat @ 2047",
+        points: [
+          "The **Ministry of Statistics and Programme Implementation** release stressed that strong statistical systems are key to achieving **Viksit Bharat @ 2047**.",
+          "For UPSC, connect this with evidence-based policymaking, national accounts, household surveys, administrative data, SDG monitoring, fiscal transfers, State capacity and trust in official statistics.",
+          "The exam point is conceptual: a developed-economy transition needs high-quality, timely and interoperable statistics for targeting, evaluation, productivity analysis, poverty measurement, employment policy and climate-risk planning.",
+          "Use in Mains to argue that statistical independence, methodology transparency, data quality audits and State-level capacity are governance infrastructure, not just technical back-office functions."
+        ]
+      },
+      {
+        heading: "8. Khadi, village industries and rural enterprise",
+        points: [
+          "The PIB Backgrounder **Khadi & Village Industries: From Tradition to Enterprise** links **Khadi**, village industries and rural entrepreneurship with **Vocal for Local** and **Atmanirbhar Bharat**.",
+          "Key institutions and schemes: **Khadi and Village Industries Commission (KVIC)**, **Khadi Vikas Yojana (KVY)**, **Gramodyog Vikas Yojana (GVY)** and **Prime Minister's Employment Generation Programme (PMEGP)**.",
+          "The release notes **Khadi Mahotsav** from **2 October to 31 October**, with a focus on youth awareness and local products; this is useful for culture, livelihoods, MSMEs, women artisans, rural non-farm employment and value addition.",
+          "Mains angle: Khadi has moved from a freedom-movement symbol to a rural enterprise ecosystem; policy support should combine finance, design, branding, e-commerce, quality certification, cluster development and market access."
+        ]
+      },
+      {
+        heading: "9. Defence diplomacy, North-East and culture signals",
+        points: [
+          "The Defence release covered the Raksha Mantri's bilateral talks with the **1st Deputy Prime Minister and Minister of Industry and Trade of the Czech Republic**, relevant to defence-industrial cooperation, technology partnerships and strategic engagement with Europe.",
+          "A DoNER release covered interaction with students at **Mizoram University**, useful for examples on youth engagement, North-East development, higher education and national integration in border States.",
+          "The Culture release on the **8th edition of PM Mementos e-Auction** highlighted **Uttarakhand's spiritual heritage**, connecting public mementos, cultural diplomacy, pilgrimage traditions and heritage awareness.",
+          "PMO releases on the **Bloomberg New Economy Forum**, **Navratri**, **Maa Chandraghanta** and a Sanskrit **Subhashitam** are light for policy but useful for culture, soft power, language and values-based public communication."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 13 October 2026: 16 releases",
+      "CPGRAMS: Centralized Public Grievance Redress and Monitoring System",
+      "DARPG released the 53rd monthly CPGRAMS report for Central Ministries/Departments for September 2026",
+      "DARPG released the 50th CPGRAMS report for States/UTs for September 2026",
+      "Indian Railways freight loading grew 6.14 percent in September 2026 over September 2025",
+      "Namami Gange: industrial pollution abatement and regulation linked with river rejuvenation",
+      "DPCC: Delhi Pollution Control Committee; AI-enabled ICCC reviewed at Shastri Park",
+      "Anand Vihar: Delhi air-pollution hotspot mentioned in Environment Ministry review",
+      "BHASHINI: voice-first multilingual AI and language-technology DPI highlighted at NCGG Mussoorie",
+      "NCGG: National Centre for Good Governance, Mussoorie",
+      "NLMC e-auction of RINL land parcels: Rs 366.33 crore successful bids on Day 1; 150 plots sold",
+      "NLMC: National Land Monetization Corporation; RINL is linked with the public-sector steel ecosystem",
+      "Viksit Bharat @ 2047: strong statistical systems highlighted by MoSPI",
+      "KVIC: Khadi and Village Industries Commission",
+      "Khadi Mahotsav: 2 October to 31 October",
+      "Key Khadi/village industry schemes: Khadi Vikas Yojana, Gramodyog Vikas Yojana and PMEGP",
+      "Czech Republic defence talks: defence-industrial and technology cooperation context",
+      "Mizoram University: DoNER student interaction and North-East development context",
+      "Maa Chandraghanta: third form of Goddess Durga worshipped during Navratri"
+    ],
+    mains: [
+      "Digital grievance platforms such as CPGRAMS improve transparency only when disposal quality, appeal systems and administrative accountability are strengthened alongside dashboards.",
+      "Industrial pollution abatement under Namami Gange shows why river rejuvenation needs enforceable regulation, State capacity and basin-level coordination, not only infrastructure spending.",
+      "Air-pollution hotspot management in Delhi illustrates the need to combine AI-enabled monitoring with municipal enforcement, transport reform, dust control and regional airshed governance.",
+      "BHASHINI can deepen digital inclusion by making public services voice-first and multilingual, but must handle privacy, bias, dialect diversity and low-resource language coverage.",
+      "Public asset monetisation through NLMC can unlock idle value, but legitimacy depends on transparent valuation, land-record clarity, environmental safeguards and local planning.",
+      "Strong statistical systems are essential governance infrastructure for Viksit Bharat @ 2047 because policy design, evaluation and fiscal federalism depend on trusted data.",
+      "Khadi and village industries show how cultural heritage can be converted into rural non-farm livelihoods through finance, technology, design, branding and market access.",
+      "Rail freight growth can support logistics efficiency and lower emissions, but it should be interpreted with commodity composition and broader economic indicators."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 13 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Indian Railways freight loading in September 2026",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322704",
+        note: "Rail freight growth release"
+      },
+      {
+        label: "Industrial Pollution Abatement under Namami Gange",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322666",
+        note: "Jal Shakti environment-governance release"
+      },
+      {
+        label: "BHASHINI at NCGG Mussoorie",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322621",
+        note: "Multilingual AI and digital inclusion release"
+      },
+      {
+        label: "CPGRAMS monthly report for Central Ministries/Departments",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322665",
+        note: "Public grievance redressal report"
+      },
+      {
+        label: "NLMC e-auction of RINL land parcels",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2322696",
+        note: "Asset monetisation release"
+      },
+      {
+        label: "Khadi & Village Industries backgrounder",
+        url: "https://www.pib.gov.in/FeaturesDeatils.aspx?ModuleId=2&NoteId=160438&lang=1&reg=3",
+        note: "PIB Backgrounder on rural enterprise"
+      }
+    ]
+  },  {
     date: "2026-10-10",
     label: "10 October 2026",
     title: "Comprehensive PIB Notes: 10 October 2026",
