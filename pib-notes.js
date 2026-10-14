@@ -1,5 +1,162 @@
 const dailySummaries = [
   {
+    date: "2026-10-14",
+    label: "14 October 2026",
+    title: "Comprehensive PIB Notes: 14 October 2026",
+    lead: "Today's official PIB Delhi list has **35 releases**. UPSC relevance is highest for **National Social Assistance Programme (NSAP)** continuation, **IDBI Bank** strategic restructuring, **Wholesale Price Index (WPI)** and new **PPI** series, **Multi-State Co-operative Societies (Auditor's Report) Order, 2026**, **Ladakh** infrastructure, **Southern Indian Ocean Fisheries Agreement (SIOFA)** accession, **YETI** heavy-lift UAV support, **ASEAN-India** defence dialogue, and rural/tribal livelihood initiatives.",
+    blocks: [
+      {
+        heading: "1. NSAP continuation and social-security architecture",
+        points: [
+          "The **Union Cabinet** approved continuation of the **National Social Assistance Programme (NSAP)** for five years from **2026-27 to 2030-31** with a total outlay of **Rs 53,428 crore**.",
+          "The scheme will be renamed **Pradhan Mantri Samajik Sahayata Yojana**; sub-schemes will be renamed for old age pension, widow pension, disability pension and family benefit, while retaining the core social-assistance structure.",
+          "Disability pension support changes are exam-worthy: assistance of **Rs 375** for ages **0-79 years**, **Rs 625** for **80 years and above**, benchmark disability lowered from **80 percent to 40 percent**, and minimum age criterion from **birth**.",
+          "The approval is expected to benefit **3.20 crore beneficiaries** across **36 States/UTs**; link it with **Article 41**, old-age income security, widow support, disability rights, direct benefit delivery and Centre-State welfare architecture."
+        ]
+      },
+      {
+        heading: "2. IDBI Bank strategic restructuring and disinvestment",
+        points: [
+          "The government approved **M/s 10955230 Canada Inc.**, parent entity **Fairfax Financial Holdings Ltd.**, as the strategic buyer for **IDBI Bank Ltd.** for **Rs 52,878.0806181 crore**.",
+          "The transaction covers acquisition of **60.72 percent** equity: **30.48 percent** held by the **Government of India** and **30.24 percent** held by **LIC**, leaving residual holdings of **15 percent** with GoI and **19 percent** with LIC.",
+          "The process used a two-stage competitive bidding route involving the **Inter-Ministerial Group (IMG)**, **Core Group of Secretaries on Disinvestment (CGD)** and **Alternative Mechanism (AM)**, with only RBI fit-and-proper and MHA-cleared bidders allowed.",
+          "Prelims anchors: **IDBI Bank** is a scheduled commercial bank regulated by **RBI**; it entered **Prompt Corrective Action (PCA)** in **2017** and restrictions were lifted in **2021**; completion would be the largest **FDI** in India's financial sector so far."
+        ]
+      },
+      {
+        heading: "3. WPI, Output PPI and trial Input PPI",
+        points: [
+          "The **DPIIT** released provisional **WPI (Base Year 2022-23)** for **September 2026**: all-India WPI inflation was **11.39 percent YoY**, up from **9.92 percent** in August; the all-commodities index stood at **112.5**.",
+          "Major-group inflation in September 2026: **Primary Articles 8.67 percent**, **Fuel and Power 25.85 percent**, and **Manufactured Products 9.76 percent**; **WPI Food Index** inflation was **8.66 percent**.",
+          "Drivers included **Mineral Oils**, **Food Articles**, **Crude Petroleum & Natural Gas**, **Coal and Lignite**, **Basic Metals**, **Chemicals**, **Textiles**, **Rubber and Plastic Products**, and **Electrical Equipment**.",
+          "The release also covered **Output Producer Price Index (Output PPI)** and **trial Input Producer Price Index (IPPI)**; trial Input PPI for manufacturing for September 2026 stood at **106.1**, useful for questions on price statistics, inflation transmission and base-year revisions."
+        ]
+      },
+      {
+        heading: "4. Cooperative audit reform: MSCARO, 2026",
+        points: [
+          "The **Ministry of Cooperation** mandated the **Multi-State Co-operative Societies (Auditor's Report) Order, 2026 (MSCARO, 2026)** to strengthen transparency, accountability, financial discipline and governance in **Multi-State Cooperative Societies (MSCS)**.",
+          "The order flows from the **Multi-State Co-operative Societies (Amendment) Act, 2023**, particularly powers under Section 73(6), and is modelled on the corporate-sector **Companies (Auditor's Report) Order (CARO)**.",
+          "**MSCARO, 2026** requires structured audit reporting on finance, administration, governance, statutory compliance, **NPAs**, overdue loans, liquidity, deposits, borrowings, related-party transactions, board composition and statutory committees.",
+          "The framework links audit data with the **CRCS Portal** for risk-based supervision, automated scrutiny, dashboards, risk scoring and possible AI analytics; initial coverage will include larger societies crossing the **Rs 1,000 crore** threshold, with a long-term aim to extend to societies crossing **Rs 50 crore**."
+        ]
+      },
+      {
+        heading: "5. Ladakh development projects and border infrastructure",
+        points: [
+          "The Prime Minister is scheduled to inaugurate/dedicate five projects worth around **Rs 3,350 crore** in **Ladakh** on **15 October 2026**, covering airport infrastructure, roads, hydropower, heritage and water security.",
+          "Key projects include the new passenger terminal at **Kushok Bakula Rimpochee Airport, Leh** worth **Rs 640 crore**, spread over **23,800 square metres**, designed for **35 lakh passengers annually** and using **geothermal energy**.",
+          "The **298-km Nimmu-Padum-Darcha Road**, constructed by **Border Roads Organisation (BRO)**, connects **Nimmu** in Leh to **Darcha** in Himachal Pradesh through **Zanskar Valley** and **Shinkun La Pass**, strengthening alternative access and military logistics.",
+          "Other projects: **9 MW Hanu Small Hydroelectric Project**, **66 kV Dah-Hanu-Khaltsi Transmission Line**, India's first **Petroglyph Conservation Park** at **Sindhu Ghat, Leh**, and **Project Him Sarovar** covering **40 water bodies** in **40 villages** in line with **Mission Amrit Sarovar**."
+        ]
+      },
+      {
+        heading: "6. Fisheries, oceans and SIOFA accession",
+        points: [
+          "The Central Government approved India's accession to the **Southern Indian Ocean Fisheries Agreement (SIOFA)**, a regional fisheries arrangement relevant to high-seas governance in the **Southern Indian Ocean**.",
+          "UPSC hooks: sustainable fishing, marine biodiversity, illegal/unreported/unregulated fishing, blue economy, international resource governance, food security and India's role in **Indian Ocean Region (IOR)** institutions.",
+          "For Mains, connect **SIOFA** with India's maritime interests, scientific stock assessment, compliance obligations, responsible distant-water fishing and balancing livelihood, conservation and strategic presence in the Indian Ocean."
+        ]
+      },
+      {
+        heading: "7. YETI UAV and deep-tech RDI support",
+        points: [
+          "The **Technology Development Board (TDB)** under **Department of Science & Technology (DST)** signed an agreement with **ideaForge Technology Ltd., Mumbai** for **Rs 151 crore** support under the **Research Development and Innovation (RDI) Fund**.",
+          "The project cost is **Rs 302 crore** and focuses on **YETI**, a heavy-lift, long-range autonomous aerial logistics vehicle, moving from **Technology Readiness Level (TRL)-4** to **TRL-9** through debt financing.",
+          "**YETI** is designed as an autonomous **VTOL fixed-wing hybrid UAV** with payload up to **200 kg**, targeted range up to **200 km**, and operating altitude up to **6,500 metres**, suited to high-altitude, desert and marine logistics.",
+          "Use this for GS-III examples on defence logistics, unmanned systems, deep-tech finance, dual-use innovation, indigenous aerospace capability and public support for strategic technologies."
+        ]
+      },
+      {
+        heading: "8. Defence diplomacy and Indo-Pacific signalling",
+        points: [
+          "At the **1st ASEAN-India Defence Think Tank Forum**, the Raksha Mantri said India seeks an **Indo-Pacific** where all countries make their own choices, protect interests and pursue development in peace.",
+          "The release is useful for **Act East Policy**, ASEAN centrality, maritime security, rules-based order, defence diplomacy, freedom of navigation, capacity building and strategic autonomy.",
+          "A separate Navy release said the **Indian Navy** will hand over command of **Combined Task Force 154 (CTF-154)**, relevant to multilateral maritime cooperation, training and operational interoperability."
+        ]
+      },
+      {
+        heading: "9. Livelihood, inclusion and campaign items",
+        points: [
+          "**India's Coir Sector** was highlighted for livelihood creation, entrepreneurship and sustainable growth; connect it with coastal economies, natural fibres, MSMEs, women workers, exports and biodegradable products.",
+          "**BHARAT TULIP** was highlighted for expanding market access for traditional artisans through digital platforms, useful for questions on tribal/artisan livelihoods, e-commerce, value chains and inclusive enterprise.",
+          "**PM Mementos** and culture/education releases are lower-policy-weight but support examples on heritage awareness, public participation, education as empowerment and social inclusion."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 14 October 2026: 35 releases",
+      "NSAP continuation approved for 2026-27 to 2030-31 with outlay of Rs 53,428 crore",
+      "NSAP renamed Pradhan Mantri Samajik Sahayata Yojana",
+      "NSAP background: launched on 15 August 1995; linked with Article 41",
+      "Divyangjan pension: Rs 375 for ages 0-79 and Rs 625 for 80 years and above",
+      "Benchmark disability under divyangjan pension lowered from 80 percent to 40 percent",
+      "NSAP continuation expected to benefit 3.20 crore beneficiaries across 36 States/UTs",
+      "IDBI strategic sale: 60.72 percent stake; GoI 30.48 percent and LIC 30.24 percent",
+      "IDBI buyer approved: M/s 10955230 Canada Inc., parent entity Fairfax Financial Holdings Ltd.",
+      "IDBI purchase consideration: Rs 52,878.0806181 crore; winning bid Rs 81 per share",
+      "WPI September 2026: 11.39 percent YoY; all-commodities index 112.5; base year 2022-23",
+      "WPI Food Index inflation for September 2026: 8.66 percent",
+      "Trial Input PPI for manufacturing sector for September 2026: 106.1",
+      "MSCARO, 2026: audit reporting framework for Multi-State Cooperative Societies",
+      "MSCARO linked with Multi-State Co-operative Societies (Amendment) Act, 2023 and CRCS Portal",
+      "Ladakh projects: Rs 3,350 crore package; Kushok Bakula Rimpochee Airport terminal; Nimmu-Padum-Darcha Road",
+      "Nimmu-Padum-Darcha Road: 298 km; constructed by BRO; passes through Zanskar Valley and Shinkun La Pass",
+      "India's first Petroglyph Conservation Park: Sindhu Ghat, Leh",
+      "Project Him Sarovar: 40 water bodies in 40 Ladakh villages; linked with Mission Amrit Sarovar",
+      "SIOFA: Southern Indian Ocean Fisheries Agreement",
+      "YETI UAV: Rs 151 crore TDB support; payload up to 200 kg; range up to 200 km; altitude up to 6,500 metres",
+      "CTF-154: Combined Task Force 154; Indian Navy command handover context"
+    ],
+    mains: [
+      "NSAP continuation shows the role of centrally supported social assistance in fulfilling Article 41, but adequacy of pensions, targeting and last-mile delivery remain core governance questions.",
+      "Strategic restructuring of IDBI Bank illustrates India's disinvestment approach, regulatory screening and the challenge of balancing fiscal value, public interest and financial-sector stability.",
+      "The new WPI/PPI framework with base year 2022-23 improves price-statistics relevance, but inflation analysis must distinguish wholesale, producer and consumer price movements.",
+      "MSCARO, 2026 can strengthen cooperative governance if risk-based audit disclosures are paired with regulatory capacity, member awareness, cybersecurity and timely corrective action.",
+      "Ladakh's project mix shows how border-region development combines connectivity, military logistics, renewable energy, heritage conservation and climate-sensitive water security.",
+      "SIOFA accession can help India align blue-economy ambitions with sustainable high-seas fisheries governance and Indian Ocean diplomacy.",
+      "YETI UAV support demonstrates how targeted public finance can help move indigenous deep-tech from prototype to operational readiness.",
+      "India's Indo-Pacific messaging combines strategic autonomy, ASEAN engagement, rules-based maritime order and capacity-building diplomacy."
+    ],
+    sources: [
+      {
+        label: "PIB all releases for 14 October 2026",
+        url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1",
+        note: "Official daily release list"
+      },
+      {
+        label: "Cabinet approves continuation of NSAP",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323264",
+        note: "Social assistance and pension reform release"
+      },
+      {
+        label: "Government approves strategic restructuring of IDBI Bank",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323318",
+        note: "Strategic disinvestment and financial-sector release"
+      },
+      {
+        label: "WPI, Output PPI and trial Input PPI for September 2026",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2323098&lang=1&reg=1",
+        note: "Inflation and producer price statistics release"
+      },
+      {
+        label: "MSCARO, 2026 for Multi-State Cooperative Societies",
+        url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323313",
+        note: "Cooperative audit-governance reform release"
+      },
+      {
+        label: "Ladakh development projects worth Rs 3,350 crore",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2323218&lang=1&reg=3",
+        note: "Border infrastructure, heritage and water-security release"
+      },
+      {
+        label: "YETI heavy-lift autonomous aerial logistics vehicle",
+        url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2323134&lang=1&reg=3",
+        note: "TDB-RDI deep-tech support release"
+      }
+    ]
+  },
+  {
     date: "2026-10-13",
     label: "13 October 2026",
     title: "Comprehensive PIB Notes: 13 October 2026",
