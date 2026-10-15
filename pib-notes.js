@@ -1,5 +1,110 @@
 const dailySummaries = [
   {
+    date: "2026-10-16",
+    label: "16 October 2026",
+    title: "Comprehensive PIB Notes: 16 October 2026",
+    lead: "Today's official PIB Delhi list has **64 releases**. UPSC relevance is highest for the **National Strategic Trade Command Centre**, **GSAT-7C** and **Varunastra** contracts, India's **Ramsar Site** tally of **103**, **PLFS** monthly statistics, **NHAI** design checking, **Jal Jeevan Mission 2.0**, **BHASHINI**, indigenous medical technology and the **NITI Aayog Frontier Tech Hub** data-centre framework.",
+    blocks: [
+      {
+        heading: "1. Strategic trade controls and export governance",
+        points: [
+          "The **Ministry of Commerce and Industry** launched the **National Strategic Trade Command Centre** at **Vanijya Bhawan**. It is relevant to administration of trade in sensitive, dual-use and strategic goods, technology and related compliance.",
+          "For prelims, connect strategic trade controls with the **Directorate General of Foreign Trade (DGFT)**, export-control licensing, non-proliferation commitments and the **SCOMET** framework (Special Chemicals, Organisms, Materials, Equipment and Technologies).",
+          "The release also reported cumulative merchandise-and-services exports of **US$476.20 billion** during **April–September 2026-27**, against **US$418.31 billion** a year earlier—estimated growth of **13.84%**. Read trade performance with imports, services exports, global demand and exchange-rate effects."
+        ]
+      },
+      {
+        heading: "2. Defence procurement, space communications and undersea warfare",
+        points: [
+          "The **Ministry of Defence** signed contracts worth **Rs 4,106 crore** for the **GSAT-7C communication satellite** and **Varunastra Heavy Weight Torpedoes**—a useful example of capability development across the space and maritime domains.",
+          "**GSAT-7C** is a defence communication-satellite platform; satellite communications matter for secure, beyond-line-of-sight connectivity, network-centric operations and interoperability. Do not confuse it with civilian navigation or remote-sensing systems.",
+          "**Varunastra** is an indigenous heavyweight torpedo associated with anti-submarine warfare. Link it with the **Indian Navy**, maritime deterrence, underwater-domain awareness, indigenisation and the defence-industrial ecosystem.",
+          "A separate release on the **14th High Level Meeting** of the **Indian Coast Guard** and **Korea Coast Guard** at **Incheon** illustrates coast-guard diplomacy: maritime safety, search and rescue, marine-pollution response and transnational maritime crime."
+        ]
+      },
+      {
+        heading: "3. Wetlands, Ramsar Convention and air-quality governance",
+        points: [
+          "With the addition of **Sukhna Wetland** in **Chandigarh** and **Sauj Jheel** in **Uttar Pradesh**, India's **Ramsar Site** tally reached **103**. The sites bring biodiversity conservation, urban wetland management and community stewardship into current affairs.",
+          "The **Ramsar Convention** is an international treaty for conservation and wise use of wetlands; remember the concept of **wise use**, not merely site listing. Wetlands support flood moderation, groundwater recharge, water purification and habitat services.",
+          "The **Commission for Air Quality Management (CAQM)** inspected road-dust management and cleaning operations in **Gurugram**. For GS-III, relate road dust to the **NCR** airshed, construction dust, municipal capacity, monitoring and enforceable source-specific action."
+        ]
+      },
+      {
+        heading: "4. Employment statistics: PLFS monthly bulletin",
+        points: [
+          "The **Ministry of Statistics and Programme Implementation (MoSPI)** issued the **Periodic Labour Force Survey (PLFS) Monthly Bulletin** for **September 2026**. It is a key official source for labour-market monitoring.",
+          "Prelims anchors: **LFPR** measures the share of the population in the labour force; **WPR** measures the share employed; **UR** measures unemployed persons as a share of the labour force. Their interpretation depends on age group, usual-status/current-status concept and rural-urban or gender disaggregation.",
+          "For Mains, employment data should be read alongside job quality, female labour-force participation, self-employment, informality, real wages, skilling and social security—not as a single headline indicator."
+        ]
+      },
+      {
+        heading: "5. Infrastructure assurance and India–Japan road cooperation",
+        points: [
+          "**NHAI** introduced independent checking of designs of major bridges and critical **National Highway** structures. Independent design review is a risk-management tool for safety, resilience, quality assurance and lifecycle-cost reduction.",
+          "The **12th India–Japan Joint Working Group (JWG)** session on roads and road transportation highlights technology exchange and cooperation on safer, efficient and sustainable transport infrastructure.",
+          "Use in GS-III answers: infrastructure expansion needs transparent procurement, independent technical scrutiny, maintenance funding, road-safety engineering and climate-resilient design—not only construction targets."
+        ]
+      },
+      {
+        heading: "6. Water governance and Jal Jeevan Mission 2.0",
+        points: [
+          "The **Department of Drinking Water and Sanitation (DDWS)** held the **13th District Collectors' Peyjal Samvad** to strengthen community ownership, source sustainability and service delivery under **Jal Jeevan Mission 2.0**.",
+          "The governance emphasis is important: rural tap-water systems require source sustainability, water-quality surveillance, village-level operation and maintenance, trained local institutions and reliable service delivery after asset creation.",
+          "For Mains, frame drinking-water policy through cooperative federalism: the Union provides mission support, while States, local bodies and village communities are central to planning, implementation and accountability."
+        ]
+      },
+      {
+        heading: "7. Digital inclusion, tribal languages and frontier technology",
+        points: [
+          "The **Digital India BHASHINI Division** and the Government of **Manipur** signed an MoU to advance multilingual AI and language technology. **BHASHINI** is relevant as language-oriented digital public infrastructure that can widen access to services and knowledge.",
+          "The first meeting of the **Working Group on Tribal Languages** under the **Ministry of Tribal Affairs** highlights protection, documentation and use of linguistic diversity. Link it with cultural rights, education, inclusion and community participation.",
+          "**NITI Aayog's Frontier Tech Hub** unveiled a **Data Centre Evaluation Framework** to help States plan sustainable growth. Data centres raise questions of electricity demand, water use, land, cooling, renewable energy, connectivity, resilience and State-level investment policy."
+        ]
+      },
+      {
+        heading: "8. Indigenous health technology, clean energy and social inclusion",
+        points: [
+          "The **Technology Development Board (TDB)** under the **Department of Science and Technology (DST)** supported development and commercialisation of an indigenous **32-slice CT scanner** by **Panacea Medical Technologies Pvt. Ltd.** This is a GS-III example of health-tech indigenisation and technology commercialisation.",
+          "Stakeholders also discussed advances in the **hydrogen value chain**. For exam answers, distinguish renewable-hydrogen production, storage, transport, end-use, standards and safety; a value-chain approach is broader than electrolysis alone.",
+          "The **National Means-cum-Merit Scholarship Scheme (NMMSS)** review workshop and initiatives for assistive devices under **Seva Sankalp Abhiyan** provide GS-II examples on educational access, disability inclusion and implementation quality."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 16 October 2026: 64 releases",
+      "National Strategic Trade Command Centre launched at Vanijya Bhawan",
+      "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+      "April–September 2026-27 cumulative exports: US$476.20 billion; estimated growth 13.84%",
+      "Defence contracts: Rs 4,106 crore for GSAT-7C and Varunastra Heavy Weight Torpedoes",
+      "India's Ramsar Site tally: 103 after Sukhna Wetland and Sauj Jheel",
+      "PLFS: Periodic Labour Force Survey; monthly bulletin released for September 2026",
+      "NHAI introduced independent design checking for major bridges and critical highway structures",
+      "13th District Collectors' Peyjal Samvad: Jal Jeevan Mission 2.0",
+      "BHASHINI Division and Manipur signed an MoU on multilingual AI and language technology",
+      "TDB supported indigenous 32-slice CT scanner development and commercialisation",
+      "NITI Aayog Frontier Tech Hub released a Data Centre Evaluation Framework"
+    ],
+    mains: [
+      "Strategic trade governance must combine export competitiveness with credible controls on dual-use technologies, institutional coordination and international non-proliferation obligations.",
+      "Indigenous defence procurement should strengthen operational capability while building predictable domestic design, testing, production and maintenance ecosystems.",
+      "Ramsar designation is a starting point; wetland protection ultimately requires catchment management, pollution control, community participation and local enforcement.",
+      "Monthly PLFS data improve policy responsiveness, but labour-market strategy must focus on job quality, participation, informality and social protection alongside headline rates.",
+      "Independent design checks can improve infrastructure safety only when joined with transparent accountability, construction supervision and long-term maintenance.",
+      "Water security under Jal Jeevan Mission requires sustainable sources and local institutions, not only household connections.",
+      "Language technology and data-centre growth should advance inclusion and innovation while addressing privacy, energy, water and regional-equity concerns."
+    ],
+    sources: [
+      { label: "PIB all releases for 16 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "National Strategic Trade Command Centre", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324013", note: "Commerce and strategic-trade release" },
+      { label: "GSAT-7C and Varunastra contracts", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323814", note: "Defence procurement release" },
+      { label: "India's Ramsar Site tally reaches 103", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324120", note: "Wetlands and Ramsar release" },
+      { label: "PLFS Monthly Bulletin, September 2026", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323828", note: "Official labour-market statistics release" },
+      { label: "NHAI independent checking of major-structure designs", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323906", note: "Road-infrastructure safety release" },
+      { label: "TDB support for indigenous 32-slice CT scanner", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323953", note: "Health technology and commercialisation release" }
+    ]
+  },
+  {
     date: "2026-10-14",
     label: "14 October 2026",
     title: "Comprehensive PIB Notes: 14 October 2026",
