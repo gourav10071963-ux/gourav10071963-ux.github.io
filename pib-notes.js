@@ -3,105 +3,101 @@ const dailySummaries = [
     date: "2026-10-16",
     label: "16 October 2026",
     title: "Comprehensive PIB Notes: 16 October 2026",
-    lead: "Today's official PIB Delhi list has **64 releases**. UPSC relevance is highest for the **National Strategic Trade Command Centre**, **GSAT-7C** and **Varunastra** contracts, India's **Ramsar Site** tally of **103**, **PLFS** monthly statistics, **NHAI** design checking, **Jal Jeevan Mission 2.0**, **BHASHINI**, indigenous medical technology and the **NITI Aayog Frontier Tech Hub** data-centre framework.",
+    lead: "Today's official PIB Delhi list has **22 releases**. UPSC relevance is highest for **INS Samarthak**, **PAIMANA** infrastructure monitoring, **PM-SETU** investment in ITI clusters, **TDB** support for quantum-secure technology, **BHASHINI** language AI, **APEDA** agricultural exports, and the PIB backgrounder on safer, smarter inland waterways.",
     blocks: [
       {
-        heading: "1. Strategic trade controls and export governance",
+        heading: "1. INS Samarthak and maritime capability",
         points: [
-          "The **Ministry of Commerce and Industry** launched the **National Strategic Trade Command Centre** at **Vanijya Bhawan**. It is relevant to administration of trade in sensitive, dual-use and strategic goods, technology and related compliance.",
-          "For prelims, connect strategic trade controls with the **Directorate General of Foreign Trade (DGFT)**, export-control licensing, non-proliferation commitments and the **SCOMET** framework (Special Chemicals, Organisms, Materials, Equipment and Technologies).",
-          "The release also reported cumulative merchandise-and-services exports of **US$476.20 billion** during **April–September 2026-27**, against **US$418.31 billion** a year earlier—estimated growth of **13.84%**. Read trade performance with imports, services exports, global demand and exchange-rate effects."
+          "The Vice-President commissioned **INS Samarthak**, described by PIB as the **Indian Navy's first indigenous multi-purpose vessel**, at **Karwar, Karnataka**. It is a useful current-affairs anchor for maritime capability, domestic shipbuilding and the western seaboard.",
+          "For prelims, distinguish a multi-purpose support vessel from combat platforms: such vessels strengthen fleet logistics, hydrographic or operational support and endurance; their exact role should be read from official naval specifications rather than inferred from the name.",
+          "For GS-III, indigenisation in naval platforms must be assessed through design capability, domestic supply chains, repair and maintenance, testing standards and lifecycle availability—not only commissioning numbers."
         ]
       },
       {
-        heading: "2. Defence procurement, space communications and undersea warfare",
+        heading: "2. PAIMANA: monitoring infrastructure performance",
         points: [
-          "The **Ministry of Defence** signed contracts worth **Rs 4,106 crore** for the **GSAT-7C communication satellite** and **Varunastra Heavy Weight Torpedoes**—a useful example of capability development across the space and maritime domains.",
-          "**GSAT-7C** is a defence communication-satellite platform; satellite communications matter for secure, beyond-line-of-sight connectivity, network-centric operations and interoperability. Do not confuse it with civilian navigation or remote-sensing systems.",
-          "**Varunastra** is an indigenous heavyweight torpedo associated with anti-submarine warfare. Link it with the **Indian Navy**, maritime deterrence, underwater-domain awareness, indigenisation and the defence-industrial ecosystem.",
-          "A separate release on the **14th High Level Meeting** of the **Indian Coast Guard** and **Korea Coast Guard** at **Incheon** illustrates coast-guard diplomacy: maritime safety, search and rescue, marine-pollution response and transnational maritime crime."
+          "The **Ministry of Statistics and Programme Implementation (MoSPI)** released the quarterly update of the **PAIMANA**—**Project Assessment, Infrastructure Monitoring & Analytics for Nation-building**—Performance Dashboard. It is a unified public interface for infrastructure monitoring and time-series analysis.",
+          "The dashboard now tracks **165 indicators**, including **54 new indicators**, across civil aviation, roads, power, ports/shipping/waterways, telecommunications and railways. Its framework uses five dimensions: **Access, Quality, Fiscal Cost & Revenue, Utilization and Affordability**.",
+          "Use in Mains: a dashboard improves transparency and evidence-based policy, but effective infrastructure governance also needs sound data quality, inter-ministerial coordination, outcome-based appraisal, maintenance planning and public accountability."
         ]
       },
       {
-        heading: "3. Wetlands, Ramsar Convention and air-quality governance",
+        heading: "3. Quantum-secure technology and TDB support",
         points: [
-          "With the addition of **Sukhna Wetland** in **Chandigarh** and **Sauj Jheel** in **Uttar Pradesh**, India's **Ramsar Site** tally reached **103**. The sites bring biodiversity conservation, urban wetland management and community stewardship into current affairs.",
-          "The **Ramsar Convention** is an international treaty for conservation and wise use of wetlands; remember the concept of **wise use**, not merely site listing. Wetlands support flood moderation, groundwater recharge, water purification and habitat services.",
-          "The **Commission for Air Quality Management (CAQM)** inspected road-dust management and cleaning operations in **Gurugram**. For GS-III, relate road dust to the **NCR** airshed, construction dust, municipal capacity, monitoring and enforceable source-specific action."
+          "The **Technology Development Board (TDB)** under the **Department of Science and Technology (DST)** signed an agreement with **QNu Labs** for **Rs 150 crore** of **research, development and innovation (RDI)** support for indigenous quantum-secure technology.",
+          "Quantum-secure communication is relevant to cybersecurity because future quantum computing can threaten some conventional cryptographic systems. Read it with quantum key distribution, post-quantum cryptography, strategic autonomy and trusted communication networks.",
+          "For Mains, public support should convert research into deployable products through standards, testing, procurement pathways, skilled manpower and safeguards for critical-information infrastructure."
         ]
       },
       {
-        heading: "4. Employment statistics: PLFS monthly bulletin",
+        heading: "4. PM-SETU and skill ecosystem",
         points: [
-          "The **Ministry of Statistics and Programme Implementation (MoSPI)** issued the **Periodic Labour Force Survey (PLFS) Monthly Bulletin** for **September 2026**. It is a key official source for labour-market monitoring.",
-          "Prelims anchors: **LFPR** measures the share of the population in the labour force; **WPR** measures the share employed; **UR** measures unemployed persons as a share of the labour force. Their interpretation depends on age group, usual-status/current-status concept and rural-urban or gender disaggregation.",
-          "For Mains, employment data should be read alongside job quality, female labour-force participation, self-employment, informality, real wages, skilling and social security—not as a single headline indicator."
+          "The **National Steering Committee** approved **Rs 1,194.92 crore** under **PM-SETU** for five **Industrial Training Institute (ITI)** clusters across **Maharashtra, Odisha and Jammu & Kashmir**.",
+          "Connect the release with the wider technical and vocational education ecosystem: ITIs need modern equipment, instructor capacity, industry partnerships, apprenticeships, local labour-market mapping and credible certification.",
+          "For GS-II/III, cluster-based skill investment can improve employability only when training remains responsive to industry demand and includes women, disadvantaged learners and workers affected by technological change."
         ]
       },
       {
-        heading: "5. Infrastructure assurance and India–Japan road cooperation",
+        heading: "5. Language technology and digital inclusion",
         points: [
-          "**NHAI** introduced independent checking of designs of major bridges and critical **National Highway** structures. Independent design review is a risk-management tool for safety, resilience, quality assurance and lifecycle-cost reduction.",
-          "The **12th India–Japan Joint Working Group (JWG)** session on roads and road transportation highlights technology exchange and cooperation on safer, efficient and sustainable transport infrastructure.",
-          "Use in GS-III answers: infrastructure expansion needs transparent procurement, independent technical scrutiny, maintenance funding, road-safety engineering and climate-resilient design—not only construction targets."
+          "**BHASHINI** and the **Indian Institute of Science (IISc), Bengaluru** released a text-to-speech model for the **Sourashtra language**. It illustrates the role of language AI in expanding access to digital services and knowledge.",
+          "Link **BHASHINI** with multilingual digital public infrastructure, accessibility and inclusion. Practical safeguards include community participation, quality evaluation for low-resource languages, consent-based data practices and avoidance of linguistic bias.",
+          "For Mains, local-language technology can deepen service delivery and cultural preservation, but it requires interoperable standards, public digital capacity and accountable deployment."
         ]
       },
       {
-        heading: "6. Water governance and Jal Jeevan Mission 2.0",
+        heading: "6. Agricultural exports and food logistics",
         points: [
-          "The **Department of Drinking Water and Sanitation (DDWS)** held the **13th District Collectors' Peyjal Samvad** to strengthen community ownership, source sustainability and service delivery under **Jal Jeevan Mission 2.0**.",
-          "The governance emphasis is important: rural tap-water systems require source sustainability, water-quality surveillance, village-level operation and maintenance, trained local institutions and reliable service delivery after asset creation.",
-          "For Mains, frame drinking-water policy through cooperative federalism: the Union provides mission support, while States, local bodies and village communities are central to planning, implementation and accountability."
+          "The **Agricultural and Processed Food Products Export Development Authority (APEDA)** facilitated export of **1.755 metric tonnes** of organic **palmyra jaggery powder** from **Tamil Nadu** to **Bulgaria**. It is a current example of value addition and niche agricultural exports.",
+          "For prelims, **APEDA** is the statutory authority for promotion of exports of scheduled agricultural and processed food products; use exact statutory details only from the relevant Act or APEDA material.",
+          "The first **Kanda Express** to **Agartala** was announced to improve onion availability in the North-East. It highlights logistics, buffer and distribution systems, regional accessibility and price-stabilisation challenges in perishable food commodities."
         ]
       },
       {
-        heading: "7. Digital inclusion, tribal languages and frontier technology",
+        heading: "7. Waterways, climate science and Martian analogues",
         points: [
-          "The **Digital India BHASHINI Division** and the Government of **Manipur** signed an MoU to advance multilingual AI and language technology. **BHASHINI** is relevant as language-oriented digital public infrastructure that can widen access to services and knowledge.",
-          "The first meeting of the **Working Group on Tribal Languages** under the **Ministry of Tribal Affairs** highlights protection, documentation and use of linguistic diversity. Link it with cultural rights, education, inclusion and community participation.",
-          "**NITI Aayog's Frontier Tech Hub** unveiled a **Data Centre Evaluation Framework** to help States plan sustainable growth. Data centres raise questions of electricity demand, water use, land, cooling, renewable energy, connectivity, resilience and State-level investment policy."
+          "The PIB backgrounder, **Navigating India's Waterways: Building a Safer, Smarter Network**, is relevant to **inland water transport**, multimodal logistics, navigation safety and sustainable mobility. Policy success depends on safe waterways, terminals, last-mile links, environmental safeguards and viable cargo demand.",
+          "Science releases on past monsoon fluctuations and **Martian analogue sites** illustrate the value of earth-system records and field analogues. In answers, explain how palaeoclimate evidence improves understanding of environmental change, while analogue research helps prepare instruments and methods for planetary exploration.",
+          "Avoid overstating individual research findings: distinguish a scientific study from a policy decision, and cite its institution, method and limits when using it in an answer."
         ]
       },
       {
-        heading: "8. Indigenous health technology, clean energy and social inclusion",
+        heading: "8. Ayush innovation and public-system housekeeping",
         points: [
-          "The **Technology Development Board (TDB)** under the **Department of Science and Technology (DST)** supported development and commercialisation of an indigenous **32-slice CT scanner** by **Panacea Medical Technologies Pvt. Ltd.** This is a GS-III example of health-tech indigenisation and technology commercialisation.",
-          "Stakeholders also discussed advances in the **hydrogen value chain**. For exam answers, distinguish renewable-hydrogen production, storage, transport, end-use, standards and safety; a value-chain approach is broader than electrolysis alone.",
-          "The **National Means-cum-Merit Scholarship Scheme (NMMSS)** review workshop and initiatives for assistive devices under **Seva Sankalp Abhiyan** provide GS-II examples on educational access, disability inclusion and implementation quality."
+          "The **Ministry of Ayush** reported an **eightfold rise in patent filings** linked to Ayush innovation. In GS-III, patents can signal formalisation and innovation, but quality, safety, evidence standards, affordability and benefit-sharing remain equally important.",
+          "Several releases under **Special Campaign 6** focused on record management, digital disposal, cleanliness and reduction of pending matters. Though less prominent for prelims, they are examples of administrative reform through process improvement and public-office efficiency.",
+          "The **National Federation of the Scheduled Castes (NFSC) Fellowship** and **NAMASTE**-linked livelihood narrative can be used carefully in GS-II answers on social justice, educational opportunity, dignified work and targeted implementation."
         ]
       }
     ],
     prelims: [
-      "Official PIB Delhi list for 16 October 2026: 64 releases",
-      "National Strategic Trade Command Centre launched at Vanijya Bhawan",
-      "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
-      "April–September 2026-27 cumulative exports: US$476.20 billion; estimated growth 13.84%",
-      "Defence contracts: Rs 4,106 crore for GSAT-7C and Varunastra Heavy Weight Torpedoes",
-      "India's Ramsar Site tally: 103 after Sukhna Wetland and Sauj Jheel",
-      "PLFS: Periodic Labour Force Survey; monthly bulletin released for September 2026",
-      "NHAI introduced independent design checking for major bridges and critical highway structures",
-      "13th District Collectors' Peyjal Samvad: Jal Jeevan Mission 2.0",
-      "BHASHINI Division and Manipur signed an MoU on multilingual AI and language technology",
-      "TDB supported indigenous 32-slice CT scanner development and commercialisation",
-      "NITI Aayog Frontier Tech Hub released a Data Centre Evaluation Framework"
+      "Official PIB Delhi list for 16 October 2026: 22 releases",
+      "INS Samarthak: Indian Navy's first indigenous multi-purpose vessel, commissioned at Karwar",
+      "PAIMANA: Project Assessment, Infrastructure Monitoring & Analytics for Nation-building",
+      "PAIMANA dashboard: 165 indicators, including 54 new indicators",
+      "PAIMANA monitoring dimensions: Access, Quality, Fiscal Cost & Revenue, Utilization and Affordability",
+      "TDB agreement with QNu Labs: Rs 150 crore RDI support for quantum-secure technology",
+      "PM-SETU: Rs 1,194.92 crore for five ITI clusters in Maharashtra, Odisha and Jammu & Kashmir",
+      "BHASHINI and IISc Bengaluru: text-to-speech model for Sourashtra language",
+      "APEDA-facilitated organic palmyra jaggery powder export: 1.755 MT from Tamil Nadu to Bulgaria",
+      "First Kanda Express announced for Agartala to strengthen onion availability in the North-East"
     ],
     mains: [
-      "Strategic trade governance must combine export competitiveness with credible controls on dual-use technologies, institutional coordination and international non-proliferation obligations.",
-      "Indigenous defence procurement should strengthen operational capability while building predictable domestic design, testing, production and maintenance ecosystems.",
-      "Ramsar designation is a starting point; wetland protection ultimately requires catchment management, pollution control, community participation and local enforcement.",
-      "Monthly PLFS data improve policy responsiveness, but labour-market strategy must focus on job quality, participation, informality and social protection alongside headline rates.",
-      "Independent design checks can improve infrastructure safety only when joined with transparent accountability, construction supervision and long-term maintenance.",
-      "Water security under Jal Jeevan Mission requires sustainable sources and local institutions, not only household connections.",
-      "Language technology and data-centre growth should advance inclusion and innovation while addressing privacy, energy, water and regional-equity concerns."
+      "Indigenous naval capability should be judged by dependable lifecycle support, domestic technology absorption and operational readiness as well as platform commissioning.",
+      "Infrastructure dashboards improve evidence-based policy only when their data are transparent, comparable, timely and linked to corrective action.",
+      "Quantum technologies need a public ecosystem that joins research support with standards, secure deployment, skills and responsible procurement.",
+      "Skill clusters can raise employability when industry partnership, apprenticeships, instructor quality and inclusion are treated as core outcomes.",
+      "Language AI should broaden access while preserving linguistic diversity, data safeguards and accountability for automated public services.",
+      "Agricultural-export promotion and food logistics both require reliable standards, cold-chain and transport systems, market intelligence and producer participation."
     ],
     sources: [
       { label: "PIB all releases for 16 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
-      { label: "National Strategic Trade Command Centre", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324013", note: "Commerce and strategic-trade release" },
-      { label: "GSAT-7C and Varunastra contracts", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323814", note: "Defence procurement release" },
-      { label: "India's Ramsar Site tally reaches 103", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324120", note: "Wetlands and Ramsar release" },
-      { label: "PLFS Monthly Bulletin, September 2026", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323828", note: "Official labour-market statistics release" },
-      { label: "NHAI independent checking of major-structure designs", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323906", note: "Road-infrastructure safety release" },
-      { label: "TDB support for indigenous 32-slice CT scanner", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2323953", note: "Health technology and commercialisation release" }
+      { label: "INS Samarthak commissioning", url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324319&lang=1&reg=3", note: "Official Vice-President Secretariat release" },
+      { label: "PAIMANA quarterly update", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285365&lang=1&reg=3", note: "Official MoSPI performance-dashboard release" },
+      { label: "TDB RDI support for QNu Labs", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official Science and Technology release listed on 16 October" },
+      { label: "PM-SETU ITI clusters", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official Skill Development release listed on 16 October" },
+      { label: "BHASHINI and IISc Sourashtra text-to-speech model", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official MeitY release listed on 16 October" },
+      { label: "PIB waterways backgrounder", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official PIB backgrounder listed on 16 October" }
     ]
   },
   {
