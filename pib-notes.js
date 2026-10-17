@@ -1,5 +1,56 @@
 const dailySummaries = [
   {
+    date: "2026-10-17",
+    label: "17 October 2026",
+    title: "Comprehensive PIB Notes: 17 October 2026",
+    lead: "The official PIB Delhi list currently carries **2 releases**: a **Ministry of Finance** clarification on the legislative and judicial context of the Government's shareholding in **IDBI Bank**, and a **Prime Minister's Office** Navratri observance. The high-yield theme is the relationship between parliamentary legislation, judicial interpretation and **strategic disinvestment**.",
+    blocks: [
+      {
+        heading: "1. IDBI Bank: legislative history and strategic disinvestment",
+        points: [
+          "The **Ministry of Finance** clarified that, during the **Union Budget 2003** discussion and the parliamentary debate on the **IDBI (Repeal) Act, 2003**, a proposed amendment to restrict dilution of the Government's stake was moved but rejected; it was therefore not part of the enacted law.",
+          "In **All India IDBI Officers' Association v. Union of India & Others** (Delhi High Court, **17 December 2018**), the Court dismissed the challenge and held that parliamentary statements made during legislative debate cannot substitute for or override the statute actually enacted.",
+          "The Court also held that the **doctrine of promissory estoppel** could not prevent the Government from reducing or divesting its stake in **IDBI Ltd.**: the **IDBI (Repeal) Act, 2003** contains no prohibition on such dilution. This is a useful illustration of statutory interpretation and limits on estoppel against governmental policy.",
+          "The release places the policy trajectory in later Budget statements: the **Union Budget 2016-17** referred to considering a Government stake below **50%**, while **Union Budget 2021-22** listed **IDBI Bank** among strategic-disinvestment transactions. Separate legislative, regulatory and transaction processes should not be conflated."
+        ]
+      },
+      {
+        heading: "2. UPSC constitutional and governance takeaways",
+        points: [
+          "For GS-II, distinguish a parliamentary debate from the law finally enacted: legislative intent may aid interpretation in limited settings, but the enacted text remains primary. A ministerial statement cannot add a restriction absent from the statute.",
+          "For GS-III, **strategic disinvestment** must be assessed beyond fiscal receipts—competition, financial stability, regulatory fitness, public interest, employee transition and transparency in valuation remain important policy questions.",
+          "The **Delhi High Court** decision is a current-affairs entry point for **promissory estoppel**. In an answer, avoid treating it as an unrestricted licence for State action; apply the doctrine with the facts, statutory framework and public-law limits of the particular case."
+        ]
+      },
+      {
+        heading: "3. Navratri cultural observance",
+        points: [
+          "The **Prime Minister's Office** reported that the Prime Minister offered prayers to **Maa Kalaratri** during **Navratri**. It is principally a cultural observance rather than a new policy announcement.",
+          "For prelims, use cultural material carefully: **Kalaratri** is traditionally associated with the seventh day of **Navratri** in the nine-form worship of **Durga**. Do not infer administrative, budgetary or legal changes from the release."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 17 October 2026: 2 releases at time of update",
+      "IDBI (Repeal) Act, 2003: proposed restriction on Government stake dilution was not enacted",
+      "All India IDBI Officers' Association v. Union of India & Others: Delhi High Court decision dated 17 December 2018",
+      "Promissory estoppel: held inapplicable to prevent Government stake dilution in IDBI on these facts",
+      "Union Budget 2016-17: Government considered reducing IDBI stake below 50 percent",
+      "Union Budget 2021-22: IDBI Bank listed among strategic-disinvestment transactions",
+      "Maa Kalaratri: traditionally associated with the seventh day of Navratri"
+    ],
+    mains: [
+      "Explain why the enacted text of a statute, rather than statements in legislative debate, ordinarily governs statutory rights and executive power.",
+      "Evaluate strategic disinvestment as a financial-sector reform: fiscal, governance, competition, stability and accountability considerations must be balanced.",
+      "Judicial treatment of promissory estoppel shows the need to distinguish legitimate expectations from an attempt to override clear statutory policy."
+    ],
+    sources: [
+      { label: "PIB all releases for 17 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "Clarification on legislative developments concerning Government's shareholding in IDBI", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2324612&lang=1&reg=3", note: "Official Ministry of Finance clarification" },
+      { label: "Prime Minister offers prayers to Maa Kalaratri during Navratri", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2324616&lang=1&reg=3", note: "Official Prime Minister's Office release" }
+    ]
+  },
+  {
     date: "2026-10-16",
     label: "16 October 2026",
     title: "Comprehensive PIB Notes: 16 October 2026",
