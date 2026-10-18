@@ -1,5 +1,60 @@
 const dailySummaries = [
   {
+    date: "2026-10-18",
+    label: "18 October 2026",
+    title: "Comprehensive PIB Notes: 18 October 2026",
+    lead: "The official PIB Delhi list carries **3 releases**: India’s representation at the **SCO Council of Heads of Government** in **Dushanbe, Tajikistan**; the **IIT (BHU)–STPI** conclave on **AI for healthcare and assistive technologies**; and a **PMO** condolence message after a mishap in **Gwalior, Madhya Pradesh**. The high-yield themes are regional economic diplomacy, inclusive technology and disaster-sensitive public communication.",
+    blocks: [
+      {
+        heading: "1. India at the SCO Council of Heads of Government",
+        points: [
+          "**Raksha Mantri Rajnath Singh** will represent India at the **Shanghai Cooperation Organisation (SCO) Council of Heads of Government (CHG)** meeting in **Dushanbe, Tajikistan**, on **19–20 October 2026**; the Prime Minister is to participate virtually. The announcement is a current-affairs anchor for India’s engagement with Central Asia.",
+          "The **CHG** is distinct from the SCO’s **Council of Heads of State**. It focuses on multilateral economic and trade cooperation and approves the organisation’s budget; do not confuse it with the annual summit of Heads of State or with the Defence Ministers’ meeting.",
+          "For prelims, the **SCO** was founded in **2001**; India became a full member in **2017**. Its membership places India in a regional forum with Central Asian states, **China**, **Pakistan**, **Russia**, **Belarus** and **Iran**—use the current membership only with an updated official source in an exam answer.",
+          "For GS-II, connect the engagement with connectivity to landlocked Central Asia, counter-terrorism, Afghanistan’s regional implications, energy and trade cooperation, and **strategic autonomy**. The forum also illustrates the practical tensions of diplomacy where India engages partners with differing interests."
+        ]
+      },
+      {
+        heading: "2. AI for health and assistive technology",
+        points: [
+          "The **Centre for Innovation, Incubation and Entrepreneurship (CIIE)** at **IIT (BHU), Varanasi**, with **Software Technology Parks of India (STPI)**, held a conclave on **AI for Healthcare and Assistive Technologies**. It brought together policymakers, academia, healthcare professionals, industry, technology experts and startups.",
+          "The focus was affordable, accessible and inclusive assistive solutions, alongside AI applications to healthcare challenges. A panel on **Empowering Citizens through AI: Health, Inclusion and Well-being** foregrounded access to essential services and the quality of life of persons with disabilities and other underserved groups.",
+          "For GS-II/III, AI-enabled health tools require clinical validation, safety and accountability, privacy and consent safeguards, representative datasets, interoperable standards, professional oversight and affordable deployment. Innovation events are enabling platforms, not substitutes for a regulated public-health system.",
+          "Institutional anchors: **STPI** is an autonomous society under the **Ministry of Electronics and Information Technology (MeitY)** that supports the technology ecosystem; **IIT (BHU)** is in **Varanasi, Uttar Pradesh**. Link the release with digital inclusion, startup ecosystems and technology for disability inclusion."
+        ]
+      },
+      {
+        heading: "3. Gwalior mishap: governance lens",
+        points: [
+          "The **Prime Minister's Office** reported the Prime Minister’s grief over loss of lives in a mishap in **Gwalior, Madhya Pradesh**. The release is principally a condolence message and does not announce a new scheme, compensation framework or regulatory change.",
+          "For Mains, use such events only as a careful entry point to discuss emergency response, accurate public communication, district administration, medical preparedness, victim support and evidence-based investigation. Do not add unverified causal details to a factual answer."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 18 October 2026: 3 releases at time of update",
+      "SCO Council of Heads of Government meeting: Dushanbe, Tajikistan, 19–20 October 2026",
+      "India’s representative at the 2026 SCO CHG meeting: Raksha Mantri Rajnath Singh; Prime Minister to participate virtually",
+      "SCO: founded in 2001; India became a full member in 2017",
+      "SCO CHG: associated with economic and trade cooperation and the organisation’s budget",
+      "CIIE, IIT (BHU), Varanasi and STPI: AI conclave on healthcare and assistive technologies",
+      "STPI: autonomous society under MeitY",
+      "Gwalior: city in Madhya Pradesh"
+    ],
+    mains: [
+      "Assess the SCO’s utility and constraints for India’s engagement with Central Asia, regional security and economic connectivity.",
+      "Why must India balance innovation in AI-enabled healthcare with safety, equity, data protection and institutional accountability?",
+      "Technology for disability inclusion succeeds only when design, affordability, accessibility and public-service delivery are addressed together.",
+      "Discuss the importance of accurate communication and institutional preparedness after mass-casualty incidents."
+    ],
+    sources: [
+      { label: "PIB all releases for 18 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "Raksha Mantri to represent India at SCO Council of Heads of Government", url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324852&lang=1&reg=3", note: "Official Ministry of Defence release" },
+      { label: "STPI Tech Conclave on AI in healthcare and assistive technologies", url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324850&lang=1&reg=3", note: "Official MeitY release" },
+      { label: "Prime Minister expresses grief over loss of lives in Gwalior mishap", url: "https://www.pib.gov.in/PressReleaseDetail.aspx?PRID=2324842&lang=1&reg=3", note: "Official Prime Minister's Office release" }
+    ]
+  },
+  {
     date: "2026-10-17",
     label: "17 October 2026",
     title: "Comprehensive PIB Notes: 17 October 2026",
