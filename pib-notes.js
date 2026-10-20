@@ -1,5 +1,82 @@
 const dailySummaries = [
   {
+    date: "2026-10-20",
+    label: "20 October 2026",
+    title: "Comprehensive PIB Notes: 20 October 2026",
+    lead: "The official PIB Delhi list carries **7 releases**. High-yield themes are India’s position at the **25th SCO Council of Heads of Government**, the ten-year review and next phase of **UDAN**, nuclear power for energy security, **Mission LiFE** and **NCAP**, and livelihood support for disadvantaged artisans through **Shilp Samagam** and **BHARAT TULIP**.",
+    blocks: [
+      {
+        heading: "1. SCO CHG: security, connectivity and practical economic cooperation",
+        points: [
+          "At the **25th Shanghai Cooperation Organisation (SCO) Council of Heads of Government (CHG)** in **Dushanbe, Tajikistan**, **Raksha Mantri Rajnath Singh** called for concerted action against the entire ecosystem of terrorism—financing, support and safe havens—and rejected double standards. The **CHG** is the SCO mechanism for economic and other practical cooperation; India has been a full member since **2017**.",
+          "India stressed **sovereign equality**, consensus and mutual respect, and stated that connectivity must rest on consultation and respect for sovereignty and territorial integrity. Link this with India’s approach to transparent, inclusive and rules-based regional connectivity.",
+          "The meeting reviewed cooperation on transport, finance, digital economy and social development. It adopted the Joint Communiqué, the **SCO budget for 2027**, and the **Multilateral Trade and Economic Cooperation Programme (PMTEC) Action Plan, 2026–2030**. New permanent bodies noted were the **Universal Centre in Tashkent** and **Anti-Drug Centre in Dushanbe**.",
+          "For Mains, connect SCO engagement with counter-terrorism, resilient supply chains, energy and food security, Central Asian outreach and strategic autonomy. India also highlighted **Digital Public Infrastructure**, the **International Solar Alliance**, **CDRI**, **Mission LiFE** and the **Global Biofuel Alliance** as development-facing global initiatives."
+        ]
+      },
+      {
+        heading: "2. UDAN at 10: regional connectivity enters a new phase",
+        points: [
+          "The **Regional Connectivity Scheme (RCS)-UDAN (Ude Desh ka Aam Nagrik)** was launched on **21 October 2016** under the **National Civil Aviation Policy, 2016**; its first operational flight was **Shimla–Delhi** in April 2017. Its policy design combines market-based route selection, fare caps, concessions and **Viability Gap Funding (VGF)**.",
+          "PIB’s ten-year review records **687** operationalised regional routes, **95** aerodromes (including **17 heliports** and **2 water aerodromes**), over **3.68 lakh flights**, and **1.72 crore passengers**. VGF disbursed stood at **Rs 5,091.23 crore** as of **15 October 2026**; remember these as release-specific current-affairs figures.",
+          "The next phase, launched on **4 July 2026**, runs from **FY 2026-27 to FY 2035-36** with a total outlay of **Rs 28,840 crore**. It focuses on State/UT partnerships, a **Challenge Mode Portal** for aerodromes, sustainable operations and indigenous civil-aircraft capacity.",
+          "Key Modified UDAN provisions: **100** airports from unserved airstrips (**Rs 12,159 crore**); about **441** aerodromes for three years of O&M support (**Rs 2,577 crore**); **200** modern helipads (**Rs 3,661 crore**); and airline VGF of **Rs 10,043 crore** over ten years. The North-East has **90** priority RCS routes operationalised; use this for balanced regional-development answers."
+        ]
+      },
+      {
+        heading: "3. Nuclear energy, AI demand and long-term climate targets",
+        points: [
+          "The **Department of Atomic Energy (DAE)** reiterated that India’s nuclear programme is for peaceful purposes, recalling **Dr Homi J. Bhabha’s** vision. Nuclear power is presented as dependable clean electricity that can complement other sources while meeting continuous demand from **AI** and data centres.",
+          "The release reiterates targets of **100 GW** nuclear capacity by **2047** and **Net Zero by 2070**. For GS-III, distinguish announced targets from installed capacity; assess nuclear energy through energy security, low-carbon baseload power, safety, waste management, finance, liability and public acceptance.",
+          "The policy signal on wider non-government participation in critical sectors is relevant to the debate on strategic technology, regulation and innovation. Responsible AI still requires human judgement, safeguards against misuse, and appropriate institutional accountability."
+        ]
+      },
+      {
+        heading: "4. Green Diwali: behaviour change as environmental governance",
+        points: [
+          "The **WWF-India Environmental Information, Awareness, Capacity Building and Livelihood Programme (EIACP)** Programme Centre–Resource Partner, supported by the **Ministry of Environment, Forest and Climate Change**, launched a nationwide **Green Diwali Campaign** from **20 October to 8 November 2026**.",
+          "The campaign promotes a cracker-free Diwali through the **Green Diwali Pledge**, diyas and energy-efficient lights, avoiding single-use plastic, waste segregation and local products. It explicitly aligns with **Mission LiFE (Lifestyle for Environment)** and focuses on the **130 cities** covered under the **National Clean Air Programme (NCAP)**.",
+          "For Mains, explain that awareness campaigns can reinforce air-quality action, but durable outcomes need emissions monitoring, municipal waste systems, enforcement, public-health communication and citizen participation."
+        ]
+      },
+      {
+        heading: "5. Artisan livelihoods and social empowerment",
+        points: [
+          "The nine-day **Shilp Samagam Mela 2026** concluded at **Mysuru, Karnataka**, providing market access for artisans and beneficiaries from **Scheduled Castes**, **Other Backward Classes** and **Safai Karamcharis**. It is supported by **NSFDC**, **NBCFDC** and **NSKFDC**, the three national corporations under the Ministry of Social Justice and Empowerment.",
+          "The Mysuru edition had **83 stalls**, including **80** for artisans and **37** women artisans, representing **12 States/UTs**. Since 2022, **13** such fairs have benefited **975 artisans**; the event supplied free stalls plus specified travel, subsistence and logistics support.",
+          "**BHARAT TULIP (Traditional Artisans’ Upliftment Livelihood Programme)** seeks to expand digital market access and branding. Link it with inclusive entrepreneurship, heritage-based livelihoods, market linkages and the limits of one-off fairs without credit, design, quality, logistics and e-commerce support."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 20 October 2026: 7 releases at time of update",
+      "25th SCO CHG: Dushanbe, Tajikistan; India has been an SCO full member since 2017",
+      "SCO CHG adopted the 2027 budget and PMTEC Action Plan for 2026-2030",
+      "UDAN launched: 21 October 2016; first RCS flight: Shimla-Delhi, April 2017",
+      "UDAN ten-year figures: 687 routes, 95 aerodromes, 3.68 lakh+ flights, 1.72 crore passengers",
+      "Modified UDAN: FY 2026-27 to FY 2035-36; Rs 28,840 crore outlay",
+      "Nuclear targets reiterated: 100 GW by 2047; Net Zero by 2070",
+      "Green Diwali campaign: 20 October-8 November 2026; Mission LiFE; focus on 130 NCAP cities",
+      "Shilp Samagam Mysuru: 83 stalls, 80 artisan stalls, 37 women artisans, 12 States/UTs",
+      "BHARAT TULIP: Traditional Artisans’ Upliftment Livelihood Programme"
+    ],
+    mains: [
+      "Examine the scope and constraints of the SCO for India’s counter-terrorism, connectivity and economic interests.",
+      "Assess whether Modified UDAN can make regional aviation both inclusive and financially sustainable.",
+      "Discuss nuclear power’s role in India’s energy transition while examining its safety, economic and governance challenges.",
+      "How can behaviour-change campaigns complement regulatory and institutional measures to improve urban environmental outcomes?",
+      "Market access programmes alone cannot secure artisan livelihoods. Discuss with reference to social inclusion and digital commerce."
+    ],
+    sources: [
+      { label: "PIB all releases for 20 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "25th SCO Council of Heads of Government Meeting", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325428&lang=1&reg=3", note: "Official Ministry of Defence release" },
+      { label: "Wings of Change: 10 years of UDAN", url: "https://www.pib.gov.in/FactsheetDetails.aspx?ModuleId=16&NoteId=151125&id=151125&lang=1&reg=6", note: "Official PIB factsheet" },
+      { label: "India's Nuclear Programme Dedicated to Peaceful Purposes", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325436&lang=1&reg=3", note: "Official Department of Atomic Energy release" },
+      { label: "Green Diwali Campaign", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325381&lang=2&reg=48", note: "Official environment ministry release" },
+      { label: "Shilp Samagam Mela 2026 concludes in Mysuru", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2325463&lang=1&reg=3", note: "Official social justice ministry release" }
+    ]
+  },
+  {
     date: "2026-10-18",
     label: "18 October 2026",
     title: "Comprehensive PIB Notes: 18 October 2026",
