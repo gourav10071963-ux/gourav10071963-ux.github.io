@@ -1,5 +1,48 @@
 const dailySummaries = [
   {
+    date: "2026-10-21",
+    label: "21 October 2026",
+    title: "Comprehensive PIB Notes: 21 October 2026",
+    lead: "The official PIB Delhi list carries **2 Prime Minister's Office releases**: tributes to police personnel on **Police Commemoration Day**, and a **Sanskrit Subhashitam** on the enduring gratitude and benevolence of noble persons. The day is primarily relevant to internal-security remembrance, policing institutions and India’s classical knowledge traditions.",
+    blocks: [
+      {
+        heading: "1. Police Commemoration Day: sacrifice, policing and internal security",
+        points: [
+          "The Prime Minister paid tribute to brave police personnel on **Police Commemoration Day**, observed annually on **21 October**. The observance commemorates the sacrifice of **10 Central Reserve Police Force (CRPF)** personnel at **Hot Springs, Ladakh**, on **21 October 1959** during an encounter with Chinese forces.",
+          "The day is an institutional remembrance for personnel of the police forces and is distinct from **Police Martyrs' Day** as a generic expression. For prelims, retain the date, the **CRPF** association and **Hot Springs in Ladakh**; avoid adding operational details not contained in an official source.",
+          "For GS-III, police personnel are frontline actors in law and order, counter-insurgency, disaster response, election security and protection of vulnerable groups. Police reform must therefore include modern equipment, forensic capacity, fair working conditions, training, community trust and accountability.",
+          "A balanced Mains answer should connect commemoration with institutional reform: improving investigation quality, reducing vacancies and excessive hours, strengthening women’s representation, using technology with safeguards, and respecting constitutional rights and rule of law."
+        ]
+      },
+      {
+        heading: "2. Sanskrit Subhashitam: classical knowledge and ethical civic values",
+        points: [
+          "The Prime Minister shared a **Sanskrit Subhashitam** highlighting the enduring gratitude and benevolence of noble individuals. A **Subhashita** is a well-said aphorism or verse, often conveying ethical, social or philosophical reflection in Sanskrit literary traditions.",
+          "For culture answers, treat such a release as an entry point to India’s classical-language heritage and transmission of values through literary forms. Do not present a social-media post as a new programme, statutory measure or institutional policy.",
+          "For GS-IV, the theme can illustrate **gratitude**, **benevolence**, integrity and public service. Use it as a brief ethical example, then anchor analysis in constitutional morality, empathy, impartiality and accountable conduct in public institutions.",
+          "Conservation of classical traditions benefits from scholarship, translations, digitisation, pedagogy and access across languages; it should be approached inclusively and without reducing cultural heritage to symbolism alone."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 21 October 2026: 2 releases at time of update",
+      "Police Commemoration Day: observed annually on 21 October",
+      "The observance commemorates the sacrifice of 10 CRPF personnel at Hot Springs, Ladakh, on 21 October 1959",
+      "CRPF: Central Reserve Police Force",
+      "Sanskrit Subhashita: a well-said aphorism or verse conveying ethical, social or philosophical reflection"
+    ],
+    mains: [
+      "Police commemoration must be accompanied by institutional reforms that improve both effectiveness and democratic accountability. Discuss.",
+      "How can police modernisation reconcile technology-enabled policing with privacy, due process and community trust?",
+      "Classical literary traditions can enrich ethical reflection in public life, but must be engaged through inclusive scholarship and education. Examine."
+    ],
+    sources: [
+      { label: "PIB all releases for 21 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "Prime Minister pays tributes to brave police personnel on Police Commemoration Day", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325655&reg=3&lang=1", note: "Official Prime Minister's Office release" },
+      { label: "Prime Minister shares a Sanskrit Subhashitam", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2325652&reg=3&lang=1", note: "Official Prime Minister's Office release" }
+    ]
+  },
+  {
     date: "2026-10-20",
     label: "20 October 2026",
     title: "Comprehensive PIB Notes: 20 October 2026",
