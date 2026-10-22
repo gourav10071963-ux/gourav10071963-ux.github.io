@@ -1,5 +1,57 @@
 const dailySummaries = [
   {
+    date: "2026-10-22",
+    label: "22 October 2026",
+    title: "Comprehensive PIB Notes: 22 October 2026",
+    lead: "The official PIB Delhi list carries **2 releases**: the proposed **Fisheries Investors & Exporters Conclave 2026** on investment, value addition and export opportunities in **inland fisheries**, and a **Sanskrit Subhashitam** on humility and continuous learning. The high-yield themes are the blue economy, fisheries value chains and ethical learning; neither release announces a new statutory scheme or target.",
+    blocks: [
+      {
+        heading: "1. Inland fisheries: investment, value addition and export orientation",
+        points: [
+          "The **Ministry of Fisheries, Animal Husbandry & Dairying** announced that the **Fisheries Investors & Exporters Conclave 2026** will focus on investment, value addition and export opportunities in **inland fisheries**. Treat it as an enabling stakeholder platform; the release title alone does not establish a new subsidy, fund, export target or legal measure.",
+          "**Inland fisheries** cover fish production from inland water bodies such as rivers, reservoirs, lakes, ponds, tanks, wetlands and aquaculture systems. For prelims, distinguish them from **marine fisheries**, which concern coastal and offshore waters; aquaculture may occur in either freshwater or brackish-water settings depending on the system.",
+          "Value addition moves the sector beyond raw landing or farm-gate sale through hygienic handling, grading, cold-chain logistics, processing, packaging, traceability and market intelligence. These links can reduce post-harvest loss, improve producer realisation and support safer products, but require infrastructure, quality standards and viable aggregation.",
+          "For GS-III, fisheries exports connect the **blue economy** with rural livelihoods, nutrition, enterprise and foreign exchange. A balanced answer should include disease surveillance, feed quality, biosecurity, environmental carrying capacity, responsible use of water and chemicals, fisher/farmer access to credit and equitable market power."
+        ]
+      },
+      {
+        heading: "2. Export competitiveness and fisheries governance",
+        points: [
+          "An export-oriented fisheries strategy must meet importing-country requirements on food safety, residue control, sanitation, cold chain and traceability. It should not be reduced to higher output alone: compliance capacity for small producers and transparent testing systems are equally important.",
+          "Map the institutional framework carefully: the **Department of Fisheries** is under the **Ministry of Fisheries, Animal Husbandry & Dairying**; **MPEDA**—the **Marine Products Export Development Authority**—is linked to export promotion of marine products. Do not assume that an inland-fisheries conclave changes either institution’s statutory mandate.",
+          "For Mains, investment can improve hatcheries, seed, feed, cages, ponds, processing and logistics, but public policy must guard against ecological stress, exclusion of small producers and fragmented cold chains. Cooperative/FPO-style aggregation, extension services and data-based monitoring can help turn investment into broad-based gains."
+        ]
+      },
+      {
+        heading: "3. Sanskrit Subhashitam: humility and continuous learning",
+        points: [
+          "The **Prime Minister's Office** release says that the Prime Minister shared a **Sanskrit Subhashitam** highlighting humility and continuous learning. A **Subhashita** is a well-said aphorism or verse that commonly conveys ethical, social or philosophical reflection in Sanskrit literary traditions.",
+          "For GS-IV, the theme can illustrate **humility**, intellectual openness and lifelong learning in public service. It is most useful as a concise ethical example; then connect it to evidence-based decision-making, respect for expertise, responsiveness to citizens and accountability.",
+          "For culture answers, India’s classical knowledge traditions are best approached through critical scholarship, manuscripts and translations, pedagogy, digitisation and broad access. Do not treat a cultural or social-media release as a new programme, policy or statutory intervention."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 22 October 2026: 2 releases at time of update",
+      "Fisheries Investors & Exporters Conclave 2026: announced focus on investment, value addition and export opportunities in inland fisheries",
+      "Inland fisheries: fisheries in inland water bodies; distinct from marine fisheries",
+      "Value addition: handling, grading, cold chain, processing, packaging, traceability and marketing",
+      "Department of Fisheries: under the Ministry of Fisheries, Animal Husbandry & Dairying",
+      "MPEDA: Marine Products Export Development Authority; linked to promotion of marine-product exports",
+      "Sanskrit Subhashita: a well-said aphorism or verse with ethical, social or philosophical reflection"
+    ],
+    mains: [
+      "Examine how investment in value chains can make inland fisheries more remunerative, resilient and environmentally sustainable.",
+      "Fisheries export growth needs more than production. Discuss the role of quality assurance, traceability, logistics and small-producer inclusion.",
+      "How can humility and continuous learning improve ethical and evidence-based public administration?"
+    ],
+    sources: [
+      { label: "PIB all releases for 22 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "Fisheries Investors & Exporters Conclave 2026", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326360&reg=3&lang=1", note: "Official Ministry of Fisheries, Animal Husbandry & Dairying release" },
+      { label: "Prime Minister shares a Sanskrit Subhashitam on humility and continuous learning", url: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2326359&reg=3&lang=1", note: "Official Prime Minister's Office release" }
+    ]
+  },
+  {
     date: "2026-10-21",
     label: "21 October 2026",
     title: "Comprehensive PIB Notes: 21 October 2026",
