@@ -1,5 +1,86 @@
 const dailySummaries = [
   {
+    date: "2026-10-24",
+    label: "24 October 2026",
+    title: "Comprehensive PIB Notes: 24 October 2026",
+    lead: "The official PIB Delhi list carries **20 releases**. The highest-yield themes are the **Digital Agriculture Mission** reaching **11 crore Farmer IDs**, the **AATAL** air-pollution laboratory under **Mission Mausam**, indigenous **Air Independent Propulsion (AIP)** for submarines, resilient digital-financial infrastructure, and cooperative action on urban mobility, clean air and regional connectivity.",
+    blocks: [
+      {
+        heading: "1. Digital agriculture: 11 crore Farmer IDs",
+        points: [
+          "The **Ministry of Agriculture & Farmers Welfare** reported creation of **11 crore Farmer IDs** by the night of **23 October 2026**, achieving the stated **31 March 2027** target five months early under the **Digital Agriculture Mission**. The Mission followed Union Cabinet approval on **2 September 2024**.",
+          "A **Farmer ID** is intended to provide a verified digital identity for delivery of schemes and services, including bank credit, the **Kisan Credit Card**, **Pradhan Mantri Fasal Bima Yojana (PMFBY)**, disaster relief and crop procurement. PIB reports that over **6 crore farmers** have already received direct benefits through Farmer ID-based delivery; treat this as a release-specific figure.",
+          "For GS-III, a verified farmer registry can reduce duplicate verification and improve targeting, monitoring and inter-departmental coordination. Its public value depends on consent, data accuracy, grievance redressal, interoperability, cyber security and inclusion of tenant farmers and actual cultivators under applicable rules.",
+          "Do not equate a digital identifier with automatic entitlement: access still depends on the eligibility and operational rules of each scheme. This is a useful example of **Digital Public Infrastructure (DPI)** and cooperative federalism in service delivery."
+        ]
+      },
+      {
+        heading: "2. AATAL: from AQI reporting to source-specific air-quality action",
+        points: [
+          "At the **Indian Institute of Tropical Meteorology (IITM) Delhi Branch**, the **Integrated Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory (AATAL)** was inaugurated for **Delhi-NCR**. The Ministry of Earth Sciences describes it as a first-of-its-kind integrated air-pollution analysis facility established under **Mission Mausam**.",
+          "AATAL combines atmospheric measurement, chemical analysis, source identification and decision support. It is designed to distinguish contributions from vehicles, industry, biomass and crop-residue burning, construction and road dust, and transported pollution—moving beyond a single **Air Quality Index (AQI)** reading to composition, source contribution and possible health implications.",
+          "The associated **AIRWISE** capability supports real-time source apportionment and forecasting. PIB states that the system can provide forecasts at **400-metre resolution** for the next **72 hours**, while the facility also supports advance information over the following days; quote these only as the release’s technical claims.",
+          "For UPSC, link scientific evidence to implementation: **CAQM**, pollution-control agencies and local governments need source-specific interventions, transparent data, enforcement, public-health communication and coordination. A laboratory supports policy; it cannot by itself substitute for emissions reduction."
+        ]
+      },
+      {
+        heading: "3. Indigenous AIP for diesel-electric submarines",
+        points: [
+          "The **Ministry of Defence** announced a key milestone—the inauguration of **Setting to Work Phase-2** activity—for an indigenous **Air Independent Propulsion (AIP)** system for the **Indian Navy’s diesel-electric submarines**. The programme is associated with **DRDO** and the **Naval Materials Research Laboratory (NMRL)**.",
+          "Unlike conventional diesel-electric submarines, an AIP-equipped submarine can remain submerged for longer periods without needing to surface or use a snorkel as frequently. The strategic relevance is greater underwater endurance and stealth, but it does not make a conventional submarine nuclear-powered.",
+          "For GS-III, this is an example of defence indigenisation in a complex maritime technology. Assess it through operational reliability, safety certification, lifecycle support, domestic supply chains, technology absorption and the Navy’s wider undersea-deterrence requirements—not merely as a manufacturing headline."
+        ]
+      },
+      {
+        heading: "4. Varanasi–Bhubaneswar programme: manufacturing, jointness and financial resilience",
+        points: [
+          "The **Prime Minister’s Office** announced a **25 October 2026** visit to **Uttar Pradesh** and **Odisha**. In **Varanasi**, the scheduled programme includes inauguration of a garment-manufacturing facility and an **Indian Air Force** aerial display at **Namo Ghat** to mark the IAF’s **94th anniversary**, themed **‘Wings over Ganges’**.",
+          "The display is to include **Tejas**, **LCH Prachand**, **Su-30MKI** and **Rafale**, alongside transport aircraft and participation by the Navy and Army. For prelims, identify the platforms correctly; for Mains, use such events cautiously as illustrations of jointness, public outreach and indigenous capability rather than as policy announcements.",
+          "In **Bhubaneswar**, the scheduled inauguration of the **Reserve Bank of India (RBI)** Data Centre and Cybersecurity Training Institute foregrounds financial-sector resilience. PIB says four data centres will host mission-critical payment and settlement systems and that the facility is certified to **Uptime Institute Tier IV**—a high-resilience data-centre standard.",
+          "Digital-finance infrastructure should be assessed through continuity of critical payments, cyber preparedness, redundancy, skills and accountable governance. The proposed training institute’s focus on **quantum computing**, **artificial intelligence** and related technologies illustrates the growing overlap of financial stability and cyber capacity."
+        ]
+      },
+      {
+        heading: "5. Urban, environmental and regional-governance signals",
+        points: [
+          "The **19th Urban Mobility India Conference and Exhibition** and the **National Urban Conclave 2026** in **Bhubaneswar, Odisha** place urban transport and city governance on the current-affairs map. PIB records participation of around **1,500 delegates and experts** at the mobility conference; use the number as release-specific, not a national outcome indicator.",
+          "The **Commission for Air Quality Management (CAQM)** reviewed paddy-stubble-management measures in **Amritsar** and **Tarn Taran**. This reinforces that seasonal air-quality management requires coordination across agriculture, state agencies, local enforcement, alternatives to residue burning and credible monitoring; it should not be reduced to a single-source narrative of Delhi-NCR pollution.",
+          "The **Ministry of Railways** reported dedication of the **Satna–Devendranagar (53 km)** and **Rewa–Churhat (65 km)** sections, with implications for connectivity in the **Vindhya** and **Bundelkhand** regions. Another release on the **8th All India Conference of GRP Chiefs** highlighted intelligence-led policing and coordination among **Government Railway Police (GRP)**, **Railway Protection Force (RPF)** and State Police—distinct institutions with complementary roles."
+        ]
+      }
+    ],
+    prelims: [
+      "Official PIB Delhi list for 24 October 2026: 20 releases at time of update",
+      "Digital Agriculture Mission: Cabinet approval on 2 September 2024",
+      "Farmer IDs created: 11 crore by 23 October 2026; stated target date was 31 March 2027",
+      "Farmer ID uses: schemes, bank credit/Kisan Credit Card, PMFBY, disaster relief and procurement; subject to applicable eligibility rules",
+      "AATAL: Integrated Atmospheric Chemistry and Aerosol Toxicity Analysis Laboratory at IITM’s Delhi Branch, under Mission Mausam",
+      "CAQM: Commission for Air Quality Management",
+      "AIP: Air Independent Propulsion; improves submerged endurance of conventional diesel-electric submarines",
+      "NMRL: Naval Materials Research Laboratory, a DRDO laboratory",
+      "IAF 94th-anniversary display: Namo Ghat, Varanasi; theme ‘Wings over Ganges’",
+      "RBI facility in Bhubaneswar: four data centres; Uptime Institute Tier IV certification stated by PIB",
+      "Satna–Devendranagar: 53 km; Rewa–Churhat: 65 km",
+      "GRP, RPF and State Police: separate institutions requiring operational coordination"
+    ],
+    mains: [
+      "How can digital farmer registries improve agricultural service delivery while protecting inclusion, privacy and accountability?",
+      "Discuss the importance and limitations of source-apportionment science in managing air pollution in Delhi-NCR.",
+      "Examine how indigenous propulsion technologies can strengthen India’s maritime security and strategic autonomy.",
+      "Critical digital infrastructure is now central to financial stability. Analyse the governance challenges involved.",
+      "Why do sustainable urban mobility, clean-air action and policing of transport networks require multi-level coordination?"
+    ],
+    sources: [
+      { label: "PIB all releases for 24 October 2026", url: "https://www.pib.gov.in/allRel.aspx?reg=3&lang=1", note: "Official daily release list" },
+      { label: "11 Crore Farmer IDs Created Five Months Ahead of Schedule", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2327905&lang=1&reg=3", note: "Official Ministry of Agriculture & Farmers Welfare release" },
+      { label: "Air Pollution Analysis facility for Delhi NCR", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2327957&lang=1&reg=3", note: "Official Ministry of Earth Sciences release" },
+      { label: "Indigenous AIP system reaches Setting to Work Phase-2", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2328040&lang=1&reg=3", note: "Official Ministry of Defence release" },
+      { label: "PM to visit Uttar Pradesh and Odisha on 25 October", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2327861&lang=1&reg=3", note: "Official Prime Minister’s Office release" },
+      { label: "CAQM reviews paddy-stubble management in Amritsar and Tarn Taran", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2328041&lang=1&reg=3", note: "Official Ministry of Environment, Forest and Climate Change release" },
+      { label: "Rail sections dedicated to the nation", url: "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2328070&lang=1&reg=3", note: "Official Ministry of Railways release" }
+    ]
+  },
+  {
     date: "2026-10-22",
     label: "22 October 2026",
     title: "Comprehensive PIB Notes: 22 October 2026",
